@@ -54,10 +54,6 @@ MECH:
 		StandSequences: repair
 		RequiresCondition: iamcapturing
 
-APC:
-	Health:
-		HP: 31000
-
 E7:
 	Valued:
 		Cost: 1500
@@ -93,12 +89,6 @@ TTNK:
 		Cost: 1600
 	Health:
 		HP: 45000
-
-4TNK:
-	Turreted:
-		TurnSpeed: 10
-	Mobile:
-		TurnSpeed: 10
 
 MIG:
 	Health:
