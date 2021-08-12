@@ -1,0 +1,117 @@
+^Husk:
+	Capturable:
+		ValidRelationships: Enemy, Neutral, Ally
+	CapturableProgressBar: 
+	TransformOnCapture:
+		ForceHealthPercentage: 15
+	InfiltrateForTransform:
+		ForceHealthPercentage: 15
+	-Interactable: 
+	Selectable: 
+	SelectionDecorations: 
+
+2TNK:
+	Valued:
+		Cost: 900
+
+JEEP:
+	Mobile:
+		Speed: 160
+	RevealsShroud:
+		Range: 7c0
+
+DOME:
+	Valued:
+		Cost: 1500
+
+STNK:
+	Cloak:
+		UncloakOn: Attack, Heal, Dock, Unload
+
+DTRK:
+	Health:
+		HP: 2800
+	Mobile:
+		Speed: 75
+
+MECH:
+	Valued:
+		Cost: 400
+	CaptureManager:
+		CapturingCondition: iamcapturing
+	Captures:
+		CaptureDelay: 400
+		ConsumedByCapture: True
+		EnterCursor: goldwrench
+	-Infiltrates:
+		Types: Husk
+		ValidRelationships: Ally
+		EnterCursor: goldwrench
+		PlayerExperience: 25
+	WithInfantryBody:
+		RequiresCondition: !iamcapturing
+	WithInfantryBody@REPAIRINGHUSK:
+		StandSequences: repair
+		RequiresCondition: iamcapturing
+
+APC:
+	Health:
+		HP: 31000
+
+E7:
+	Valued:
+		Cost: 1500
+
+^Mine:
+	Health:
+		HP: 5000
+
+MGG:
+	WithIdleOverlay@SPINNER:
+		PauseOnCondition: undeployed
+	CreatesShroud:
+		RequiresCondition: !undeployed
+	GrantConditionOnDeploy:
+		DeployedCondition: undeployed
+
+BADR:
+	Health:
+		HP: 40000
+
+BADR.Bomber:
+	Health:
+		HP: 40000
+	AmmoPool:
+		Ammo: 10
+
+AFLD:
+	AirstrikePower@parabombs:
+		SquadSize: 1
+
+TTNK:
+	Valued:
+		Cost: 1600
+	Health:
+		HP: 45000
+
+4TNK:
+	Turreted:
+		TurnSpeed: 10
+	Mobile:
+		TurnSpeed: 10
+
+MIG:
+	Health:
+		HP: 8000
+
+IRON:
+	Building:
+		Footprint: xx xx
+		Dimensions: 2,2
+		LocalCenterOffset: 0,400,0
+	GrantExternalConditionPower@IRONCURTAIN:
+		Duration: 400
+
+DOG:
+	GrantConditionOnAttack:
+		RevokeDelay: 20
