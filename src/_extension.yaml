@@ -1,3 +1,3 @@
-Rules: cb-balance-rules.yaml, cb-player-rules.yaml, cb-briefing-rules.yaml
+Rules: bi-balance-rules.yaml, bi-player-rules.yaml, bi-briefing-rules.yaml, bi-lobby-rules.yaml
 
-Weapons: cb-weapons.yaml
+Weapons: bi-weapons.yaml
