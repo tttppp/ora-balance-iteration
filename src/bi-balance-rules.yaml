@@ -90,12 +90,6 @@ AFLD:
 	AirstrikePower@parabombs:
 		SquadSize: 1
 
-TTNK:
-	Valued:
-		Cost: 1600
-	Health:
-		HP: 45000
-
 MIG:
 	Health:
 		HP: 8000
