@@ -10,6 +10,12 @@
 	Selectable: 
 	SelectionDecorations: 
 
+TRAN.Husk1:
+	-CapturableProgressBar: 
+
+TRAN.Husk2:
+	-CapturableProgressBar: 
+
 2TNK:
 	Valued:
 		Cost: 900
