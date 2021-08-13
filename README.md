@@ -18,7 +18,7 @@ ora-tool mappack \
     --overlay ~/sandbox/maps/overlay.png \
     --strip-tags \
     --rm ragl-briefing-rules.yaml lobby-rules.yaml ERCC2-rules.yaml ercc2-rules.yaml ercc2-sequences.yaml ragl-balance.yaml ragl-briefing.yaml briefing.yaml briefing-rules.yaml bain2-rules.yaml bain2-weapons.yaml ragl-actor-rules.yaml ragl-actor-sequences.yaml tox_sign.shp .DS_Store \
-    --ext maps-extensions/ercc-bcc ~/projects/ora-balance-iteration \
+    --ext maps-extensions/ercc-bcc ~/projects/ora-balance-iteration/src \
     --title '{title} [BI-XXX]' \
     --category BI-XXX \
     --out-dir /tmp/map-pack \
