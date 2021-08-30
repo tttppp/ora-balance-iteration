@@ -46,7 +46,7 @@ MECH:
 	CaptureManager:
 		CapturingCondition: iamcapturing
 	Captures:
-		CaptureDelay: 400
+		CaptureDelay: 200
 		ConsumedByCapture: True
 		EnterCursor: goldwrench
 	-Infiltrates:
