@@ -15,6 +15,8 @@ Mechanic cap time down to 8 seconds.
 
 Iron Curtain - Fix hit box and selection box.
 
+Husks - Lower selection priority to avoid them getting mixed with ore trucks.
+
 ## 3.0
 
 Initial release.

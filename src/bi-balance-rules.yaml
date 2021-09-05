@@ -1,20 +1,21 @@
 ^Husk:
 	Capturable:
 		ValidRelationships: Enemy, Neutral, Ally
-	CapturableProgressBar: 
+	CapturableProgressBar:
 	TransformOnCapture:
 		ForceHealthPercentage: 15
 	InfiltrateForTransform:
 		ForceHealthPercentage: 15
-	-Interactable: 
-	Selectable: 
-	SelectionDecorations: 
+	-Interactable:
+	Selectable:
+		Priority: 3
+	SelectionDecorations:
 
 TRAN.Husk1:
-	-CapturableProgressBar: 
+	-CapturableProgressBar:
 
 TRAN.Husk2:
-	-CapturableProgressBar: 
+	-CapturableProgressBar:
 
 2TNK:
 	Valued:
