@@ -95,10 +95,13 @@ MIG:
 		HP: 8000
 
 IRON:
+	Inherits@shape: ^2x2Shape
 	Building:
 		Footprint: xx xx
 		Dimensions: 2,2
 		LocalCenterOffset: 0,400,0
+	Selectable:
+		Bounds: 64, 64
 	GrantExternalConditionPower@IRONCURTAIN:
 		Duration: 400
 
