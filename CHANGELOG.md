@@ -8,7 +8,7 @@ comments from players to back it up.
 
 ### Mechanics (back to default)
 
-Remove mechanic and most of the husk changes (husks are still restore to 15% though). There were various views on this, but the main issue was that it allowed stealing an allied husk to gain double tech in team games.
+Remove mechanic and most of the husk changes (husks are still restored to 15% though). There were various views on this, but the main issue was that it allowed stealing an allied husk to gain double tech in team games.
 
 * .won -- 16/08/2021: Is there a way to stop the time out of a husk on cap starting? I tried to cap a husk and the timer just went to 0 so I couldn't
 * SarahSicaria -- 24/08/2021: 16 seconds would make it near impossible to capture any husk. thats way too long. even 8 seconds is a lot
