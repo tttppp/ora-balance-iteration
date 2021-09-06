@@ -18,3 +18,9 @@ DogJaw:
 Nike:
 	Projectile:
 		RangeLimit: 11c0
+
+NothingFTUR:
+	ReloadDelay: 80
+	Range: 5c0
+	Projectile: Bullet
+		Speed: 1c682

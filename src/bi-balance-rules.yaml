@@ -1,21 +1,8 @@
 ^Husk:
-	Capturable:
-		ValidRelationships: Enemy, Neutral, Ally
-	CapturableProgressBar:
 	TransformOnCapture:
 		ForceHealthPercentage: 15
 	InfiltrateForTransform:
 		ForceHealthPercentage: 15
-	-Interactable:
-	Selectable:
-		Priority: 3
-	SelectionDecorations:
-
-TRAN.Husk1:
-	-CapturableProgressBar:
-
-TRAN.Husk2:
-	-CapturableProgressBar:
 
 2TNK:
 	Valued:
@@ -40,26 +27,6 @@ DTRK:
 		HP: 2800
 	Mobile:
 		Speed: 75
-
-MECH:
-	Valued:
-		Cost: 400
-	CaptureManager:
-		CapturingCondition: iamcapturing
-	Captures:
-		CaptureDelay: 200
-		ConsumedByCapture: True
-		EnterCursor: goldwrench
-	-Infiltrates:
-		Types: Husk
-		ValidRelationships: Ally
-		EnterCursor: goldwrench
-		PlayerExperience: 25
-	WithInfantryBody:
-		RequiresCondition: !iamcapturing
-	WithInfantryBody@REPAIRINGHUSK:
-		StandSequences: repair
-		RequiresCondition: iamcapturing
 
 E7:
 	Valued:
@@ -109,3 +76,12 @@ IRON:
 DOG:
 	GrantConditionOnAttack:
 		RevokeDelay: 20
+
+FTUR:
+	Armament:
+		RequiresCondition: !build-incomplete
+	Armament@nothing:
+		Weapon: NothingFTUR
+		RequiresCondition: build-incomplete
+	AttackTurreted:
+		RequiresCondition: true

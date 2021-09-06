@@ -6,16 +6,20 @@ comments from players to back it up.
 
 ## 3.1
 
-Mechanic cap time down to 8 seconds.
+### Mechanics (back to default)
+
+Remove mechanic and husk changes. There were various views on this, but the main issue was that it allowed stealing an allied husk to gain double tech in team games.
 
 * .won -- 16/08/2021: Is there a way to stop the time out of a husk on cap starting? I tried to cap a husk and the timer just went to 0 so I couldn't
 * SarahSicaria -- 24/08/2021: 16 seconds would make it near impossible to capture any husk. thats way too long. even 8 seconds is a lot
 
+### Flame Towers can aim while being built
+
+This avoid flame towers missing with their first shot.
+
 ### Bug Fixes
 
 Iron Curtain - Fix hit box and selection box.
-
-Husks - Lower selection priority to avoid them getting mixed with ore trucks.
 
 ## 3.0
 
