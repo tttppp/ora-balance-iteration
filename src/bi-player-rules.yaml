@@ -1,6 +1,4 @@
 Player:
-	Inherits: ^BasePlayer
-	TechTree:
 	ClassicProductionQueue@Building:
 		BuildTimeSpeedReduction: 100, 86, 75, 67, 60, 55, 50
 	ClassicProductionQueue@Defense:
