@@ -17,6 +17,14 @@ Remove mechanic and most of the husk changes (husks are still restored to 15% th
 
 This avoid flame towers missing with their first shot.
 
+### GPS charge time 4 minutes (previously 8 minutes), reveals for 1 minute (previously no limit)
+
+Allies on T3 were previously incentivised to turtle for 8 minutes and then they got an almost game-breakingingly good support power. This aims to reduce the benefit of turtling, while still providing the option to deploy GPS to prepare for an attack.
+
+### Medium Tanks (back to default)
+
+By increasing the price we were pushing MTs closer to HTs. Reverting the small change to try to keep them distinct.
+
 ### Bug Fixes
 
 Iron Curtain - Fix hit box and selection box.
@@ -36,11 +44,20 @@ Mechanics were being built after husks appeared and were hardly ever used for re
 
 Slight nerf as MTs were performing slightly better than HTs.
 
+Feedback:
+
+* Maverick -- 06/09/2021: didnt notice \[the price increase\] ha. still printed them
+
 ### Demo truck health 2800 (down from 5000), speed 75 (down from 85)
 
 ### Tanya cost 1500 (up from 1200)
 
 Sniping Tanya had a very small impact because she could be rebuilt very quickly.
+
+Feedback:
+
+* happy -- 07/09/2021 from what ive played so far she already seems nerfed enough
+* .won -- 07/09/2021 although i do agree with happy i think tanya is in a pretty good spot. especially in the BI
 
 ### Mine health 5000 (down from 10000)
 
