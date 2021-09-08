@@ -4,6 +4,14 @@
 	InfiltrateForTransform:
 		ForceHealthPercentage: 15
 
+^CommandoSkull:
+	WithDecoration@COMMANDOSKULL:
+		Image: pips
+		Sequence: pip-skull
+		Palette: effect
+		Position: TopLeft
+		ValidRelationships: Ally, Enemy, Neutral
+
 JEEP:
 	Mobile:
 		Speed: 160
@@ -25,6 +33,7 @@ DTRK:
 		Speed: 75
 
 E7:
+	Inherits@COMMANDOSKULL: ^CommandoSkull
 	Valued:
 		Cost: 1500
 

@@ -27,6 +27,16 @@ Created by Pinkthoth.
 
 By increasing the price we were pushing MTs closer to HTs. Reverting the small change to try to keep them distinct.
 
+### Tanya
+
+Add skull icon to make it slightly easier to snipe Tanya.
+
+Created by Darkademic
+
+* upps -- 12/01/2021: Tanya is fine in general... A detection help like a hero symbol for everyone ingame in vision range would be helpful too.
+* Blackened -- 07/09/2021: idk if its been talked about but a commando icon would go a long way with nerfing tanya without actually nerfing her.
+* Longely -- 07/09/2021: yeah that is a great idea
+
 ### Bug Fixes
 
 Iron Curtain - Fix hit box and selection box.
