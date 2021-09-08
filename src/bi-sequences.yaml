@@ -6,20 +6,10 @@ iron:
 	idle:
 		Offset: 0,-1
 	active:
-		Length: 11
 		Offset: 0,-1
 	damaged-idle:
-		Start: 11
 		Offset: 0,-1
 	damaged-active:
-		Start: 11
-		Length: 11
 		Offset: 0,-1
 	make: ironmake
-		Length: *
 		Offset: 0,-1
-	bib: mbIRON
-		Length: *
-		Offset: 0,2
-		UseTilesetExtension: true
-	icon: ironicon
