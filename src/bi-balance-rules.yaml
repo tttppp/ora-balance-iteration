@@ -91,6 +91,7 @@ ATEK:
 		Prerequisites: gpsactive
 		StartFullyCharged: True
 	SpawnActorPower:
+		PauseOnCondition: disabled
 		Actor: powergps
 		Icon: gps
 		LifeTime: 1500

@@ -21,6 +21,8 @@ This avoid flame towers missing with their first shot.
 
 Allies on T3 were previously incentivised to turtle for 8 minutes and then they got an almost game-breakingingly good support power. This aims to reduce the benefit of turtling, while still providing the option to deploy GPS to prepare for an attack.
 
+Created by Pinkthoth.
+
 ### Medium Tanks (back to default)
 
 By increasing the price we were pushing MTs closer to HTs. Reverting the small change to try to keep them distinct.
