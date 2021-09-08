@@ -10,8 +10,8 @@ comments from players to back it up.
 
 Remove mechanic and most of the husk changes (husks are still restored to 15% though). There were various views on this, but the main issue was that it allowed stealing an allied husk to gain double tech in team games.
 
-* .won -- 16/08/2021: Is there a way to stop the time out of a husk on cap starting? I tried to cap a husk and the timer just went to 0 so I couldn't
-* SarahSicaria -- 24/08/2021: 16 seconds would make it near impossible to capture any husk. thats way too long. even 8 seconds is a lot
+* .won -- 2021/08/16: Is there a way to stop the time out of a husk on cap starting? I tried to cap a husk and the timer just went to 0 so I couldn't
+* SarahSicaria -- 2021/08/24: 16 seconds would make it near impossible to capture any husk. thats way too long. even 8 seconds is a lot
 
 ### Flame Towers can aim while being built
 
@@ -33,9 +33,9 @@ Add skull icon to make it slightly easier to snipe Tanya.
 
 Created by Darkademic
 
-* upps -- 12/01/2021: Tanya is fine in general... A detection help like a hero symbol for everyone ingame in vision range would be helpful too.
-* Blackened -- 07/09/2021: idk if its been talked about but a commando icon would go a long way with nerfing tanya without actually nerfing her.
-* Longely -- 07/09/2021: yeah that is a great idea
+* upps -- 2021/01/12: Tanya is fine in general... A detection help like a hero symbol for everyone ingame in vision range would be helpful too.
+* Blackened -- 2021/09/07: idk if its been talked about but a commando icon would go a long way with nerfing tanya without actually nerfing her.
+* Longely -- 2021/09/07: yeah that is a great idea
 
 ### Bug Fixes
 
@@ -56,10 +56,6 @@ Mechanics were being built after husks appeared and were hardly ever used for re
 
 Slight nerf as MTs were performing slightly better than HTs.
 
-Feedback:
-
-* Maverick -- 06/09/2021: didnt notice \[the price increase\] ha. still printed them
-
 ### Demo truck health 2800 (down from 5000), speed 75 (down from 85)
 
 ### Tanya cost 1500 (up from 1200)
@@ -68,8 +64,8 @@ Sniping Tanya had a very small impact because she could be rebuilt very quickly.
 
 Feedback:
 
-* happy -- 07/09/2021 from what ive played so far she already seems nerfed enough
-* .won -- 07/09/2021 although i do agree with happy i think tanya is in a pretty good spot. especially in the BI
+* happy -- 2021/09/07 from what ive played so far she already seems nerfed enough
+* .won -- 2021/09/07 although i do agree with happy i think tanya is in a pretty good spot. especially in the BI
 
 ### Mine health 5000 (down from 10000)
 
@@ -94,13 +90,13 @@ Small buff to the dog attack, although it's expected they'll still mainly be use
 
 Often missiles explode before reaching their target. By increasing the max range then players will have to be more careful not to fly near to SAM sites.
 
-* memers.club -- 21/07/2021: The SAM site is crap compared to all other options IMO
-* .won -- 21/07/2021: I also think currently the SAM is a bit shit, defs the worst of all AA options
-* poop -- 21/07/2021: i always thought sam sites fukin sucked
+* memers.club -- 2021/07/21: The SAM site is crap compared to all other options IMO
+* .won -- 2021/07/21: I also think currently the SAM is a bit shit, defs the worst of all AA options
+* poop -- 2021/07/21: i always thought sam sites fukin sucked
 
 Against:
 
-* Pun -- 21/07/2021: SAM currently is ridiculously good, it just can't handle MiGs. Like the only reason you dont build them is because flaks are mobile and sams are not
+* Pun -- 2021/07/21: SAM currently is ridiculously good, it just can't handle MiGs. Like the only reason you dont build them is because flaks are mobile and sams are not
 
 ### Iron Curtain footprint is now 2x2 (up from 2x1) and duration is 400 ticks (down from 500)
 
