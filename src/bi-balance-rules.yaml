@@ -133,3 +133,13 @@ powergps:
 		Categories: System
 	ProvidesPrerequisite@gap:
 		Prerequisite: gpsactive
+
+AFLD:
+	Exit@1:
+		RequiresCondition: !being-captured
+		ExitCell: 1,3
+	Exit@2:
+		RequiresCondition: !being-captured
+		ExitCell: 0,0
+		Facing: 256
+		MoveIntoWorld: false

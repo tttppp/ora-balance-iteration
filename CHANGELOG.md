@@ -37,6 +37,10 @@ Created by Darkademic
 * Blackened -- 2021/09/07: idk if its been talked about but a commando icon would go a long way with nerfing tanya without actually nerfing her.
 * Longely -- 2021/09/07: yeah that is a great idea
 
+### Airfield ACC 1.0
+
+Add second exit for slight improvement to left/right balance.
+
 ### Bug Fixes
 
 Iron Curtain - Fix hit box and selection box.
