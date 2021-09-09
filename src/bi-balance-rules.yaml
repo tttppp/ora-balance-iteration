@@ -80,7 +80,7 @@ IRON:
 		Footprint: xx xx
 		Dimensions: 2,2
 	Selectable:
-		Bounds: 48,48
+		Bounds: 48,50,0,-4
 		-DecorationBounds: 50,50,0,-12
 	GrantExternalConditionPower@IRONCURTAIN:
 		Duration: 400
