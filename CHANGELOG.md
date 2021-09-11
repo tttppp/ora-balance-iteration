@@ -36,6 +36,11 @@ Created by Darkademic
 * upps -- 2021/01/12: Tanya is fine in general... A detection help like a hero symbol for everyone ingame in vision range would be helpful too.
 * Blackened -- 2021/09/07: idk if its been talked about but a commando icon would go a long way with nerfing tanya without actually nerfing her.
 * Longely -- 2021/09/07: yeah that is a great idea
+* dang_shot -- 2021/09/09: tanya is still strong i think. i have several games with nerfed tanya winning game for me
+
+Against:
+
+* happy -- 2021/09/09: thats one of the two parts that made tanya good, does this blob have tanya in? and can i get a snipe off before she kills me. which was easily achieved before adding an icon to her. but now as soon as you have vision yes tanyas there run ez
 
 ### Airfield ACC 1.0
 
