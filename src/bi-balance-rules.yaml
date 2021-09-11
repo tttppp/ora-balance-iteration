@@ -68,7 +68,6 @@ AFLD:
 		RequiresCondition: !being-captured
 		ExitCell: 0,0
 		Facing: 256
-		MoveIntoWorld: false
 
 MIG:
 	Health:
