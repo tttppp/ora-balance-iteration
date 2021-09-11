@@ -2,7 +2,7 @@ ParaBomb:
 	Range: 6c0
 	Projectile:
 		Velocity: 0, 0, -50
-	Warhead@1Dam:
+	Warhead@1Dam: SpreadDamage
 		Spread: 1000
 		Versus:
 			None: 40
