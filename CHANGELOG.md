@@ -89,6 +89,8 @@ The MGG generally acted as a reverse GPS - allowing the opponent to track a blob
 They now come from a single badger (down from 3), with health 40000 (up from 30000) and 10 bombs (up from 5)
 Each bomb has range 6c0 (up from 3c0), fall speed 50 (up from 40), spread 1000 (up from 768), damage vs none 40 (up from 30) and vs wood 60 (up from 30)
 
+* Pun -- 2021/09/13 as for parabombs, I just though it would be better if there was a clear way to dodge them, this change also nerfs map edge performance. The slow bombs weren't cutting it
+
 ### Mig health 8000 (down from 10000)
 
 ### Dog chew time 20 (down from 45), jump 3c0 (up from 2c0)
