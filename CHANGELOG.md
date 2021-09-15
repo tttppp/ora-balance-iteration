@@ -4,6 +4,12 @@ The rationale behind the changes in each release is given in this file, along wi
 comments from players to back it up.
 
 
+## 3.2
+
+### Bug Fixes
+
+* Spies disguised as Tanya now have the skull icon.
+
 ## 3.1
 
 ### Mechanics (back to default)

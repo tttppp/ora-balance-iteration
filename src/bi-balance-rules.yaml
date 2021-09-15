@@ -37,6 +37,18 @@ E7:
 	Valued:
 		Cost: 1500
 
+SPY:
+	WithDecoration@COMMANDOSKULL:
+		Image: pips
+		Sequence: pip-skull
+		Palette: effect
+		Position: TopLeft
+		ValidRelationships: Ally, Enemy, Neutral
+		RequiresCondition: tanyadisguise
+	Disguise:
+		DisguisedAsConditions:
+			e7: tanyadisguise
+
 ^Mine:
 	Health:
 		HP: 5000
