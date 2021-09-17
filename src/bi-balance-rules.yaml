@@ -38,12 +38,7 @@ E7:
 		Cost: 1500
 
 SPY:
-	WithDecoration@COMMANDOSKULL:
-		Image: pips
-		Sequence: pip-skull
-		Palette: effect
-		Position: TopLeft
-		ValidRelationships: Ally, Enemy, Neutral
+	Inherits@COMMANDOSKULL: ^CommandoSkull
 		RequiresCondition: tanyadisguise
 	Disguise:
 		DisguisedAsConditions:
