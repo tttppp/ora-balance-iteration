@@ -24,6 +24,7 @@ DOME:
 
 STNK:
 	Cloak:
+		RequiresCondition: !notmobile
 		UncloakOn: Attack, Heal, Dock, Unload
 
 DTRK:

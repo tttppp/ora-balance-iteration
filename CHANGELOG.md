@@ -6,6 +6,15 @@ comments from players to back it up.
 
 ## 3.2
 
+### Phase Transport uncloak on load
+
+Phase Transport uncloaks on load as well as unload.
+
+* TTTPPP -- 2021/09/16: It would be another (small) nerf to the PT, but would hopefully make then less annoying
+* SarahSicaria -- 2021/09/16: I think its ok
+* upps -- 2021/09/16: I think thats fair, reduce the cloak time by a bit and im up for that.
+* i like men -- 2021/09/16: I'm okay with either. I do not think it will have an impact in 1vs1 but can see it being a good change for teamgames
+
 ### Bug Fixes
 
 * Spies disguised as Tanya now have the skull icon.
