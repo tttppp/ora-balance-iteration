@@ -40,6 +40,7 @@ E7:
 
 SPY:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
+	WithDecoration@COMMANDOSKULL:
 		RequiresCondition: tanyadisguise
 	Disguise:
 		DisguisedAsConditions:
