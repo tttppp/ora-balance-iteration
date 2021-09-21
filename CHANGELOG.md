@@ -128,6 +128,11 @@ Against:
 
 Previously it was possible to hide a SAM site or missile silo behind the IC. The new footprint prevents this and also matches the Chronosphere.
 
+Against:
+
+* SarahSicaria -- 2021/09/21: Not sure why this is being nerfed, the IC is in a perfect spot imo. If the IC really must be nerfed, increasing the recharge time would be better, not decreasing the effect duration
+* Major Kusanagi Motoko -- 2021/09/21 +1. this suggestion makes more sense. The effect duration is already moderately short, while the cooldown of 2 mins is rather quick.
+
 ### Modified production queue timings (except vehicles): 100, 86, 75, 67, 60, 55, 50 (rather than 100, 85, 75, 65, 60, 55, 50)
 
 ### Ranger speed 160 (down from 170), vision 7c0 (down from 8c0)
