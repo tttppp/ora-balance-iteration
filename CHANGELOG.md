@@ -52,6 +52,7 @@ Created by Darkademic
 * Blackened -- 2021/09/07: idk if its been talked about but a commando icon would go a long way with nerfing tanya without actually nerfing her.
 * Longely -- 2021/09/07: yeah that is a great idea
 * dang_shot -- 2021/09/09: tanya is still strong i think. i have several games with nerfed tanya winning game for me
+* Unano -- 20221/09/22: Skull idea sounds interesting but i dont think it goes far enough personally. The problem isnt spotting tanya, its the fact that a t1.5 - early t2 blob cant get near her to even try to kill her before she kills so much. And the fact she can be churned out so easily to go again
 
 Against:
 
@@ -127,6 +128,11 @@ Against:
 ### Iron Curtain footprint is now 2x2 (up from 2x1) and duration is 400 ticks (down from 500)
 
 Previously it was possible to hide a SAM site or missile silo behind the IC. The new footprint prevents this and also matches the Chronosphere.
+
+For:
+
+* goat -- 2021/09/22: just here to say that i think the ic change is really good
+* i like men -- 2021/09/22: I thought the IC nerf was the best change actually hehe. Was not aware some were opposed to it
 
 Against:
 
