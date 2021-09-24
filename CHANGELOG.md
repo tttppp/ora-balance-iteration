@@ -109,6 +109,10 @@ Each bomb has range 6c0 (up from 3c0), fall speed 50 (up from 40), spread 1000 (
 
 ### Mig health 8000 (down from 10000)
 
+Against:
+
+* Moods -- 2021/09/24: Migs already take more babysitting then any unit. Your nerfing health which means you gotta be even more perfect with a unit that already requires perfection for 2000 a pop lol.. its jus gunna result in even less ppl making them... its already an exlusive unit only a few ppl use
+
 ### Dog chew time 20 (down from 45), jump 3c0 (up from 2c0)
 
 Small buff to the dog attack, although it's expected they'll still mainly be used for vision.
