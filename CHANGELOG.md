@@ -27,6 +27,7 @@ Remove mechanic and most of the husk changes (husks are still restored to 15% th
 
 * .won -- 2021/08/16: Is there a way to stop the time out of a husk on cap starting? I tried to cap a husk and the timer just went to 0 so I couldn't
 * SarahSicaria -- 2021/08/24: 16 seconds would make it near impossible to capture any husk. thats way too long. even 8 seconds is a lot
+* DVoid -- 2021/10/01: but surely dealing with mechanics means destroying enemy mcv husks etc to prevent the enemy using a mechanic to bring it back. simple. 
 
 ### Flame Towers can aim while being built
 
@@ -37,6 +38,10 @@ This avoid flame towers missing with their first shot.
 Allies on T3 were previously incentivised to turtle for 8 minutes and then they got an almost game-breakingingly good support power. This aims to reduce the benefit of turtling, while still providing the option to deploy GPS to prepare for an attack.
 
 Created by Pinkthoth.
+
+Against:
+
+* DVoid -- 2021/10/01: i dont think the gps should be changed either. the enemy can try to destroy the tech centre if they dont like being watched. i use soviets so my opinion on this is unbiased and not for my benefit in fact the opposite.
 
 ### Medium Tanks (back to default)
 
