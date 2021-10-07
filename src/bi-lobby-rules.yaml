@@ -1,32 +1,32 @@
 World:
 	MapOptions:
-		TechLevelDropdownLocked: false
+		TechLevelDropdownLocked: true
 		TechLevel: unrestricted
 		ShortGameCheckboxEnabled: true
-		ShortGameCheckboxLocked: false
+		ShortGameCheckboxLocked: true
 		GameSpeedDropdownLocked: false
 		GameSpeed: default
 	CrateSpawner:
 		CheckboxEnabled: false
-		CheckboxLocked: false
+		CheckboxLocked: true
 	MapBuildRadius:
 		AllyBuildRadiusCheckboxEnabled: true
-		AllyBuildRadiusCheckboxLocked: false
+		AllyBuildRadiusCheckboxLocked: true
 		BuildRadiusCheckboxEnabled: true
-		BuildRadiusCheckboxLocked: false
+		BuildRadiusCheckboxLocked: true
 	SpawnMPUnits:
 		DropdownLocked: true
 		StartingUnitsClass: none
 	MPStartLocations:
 		SeparateTeamSpawnsCheckboxEnabled: false
-		SeparateTeamSpawnsCheckboxLocked: false
+		SeparateTeamSpawnsCheckboxLocked: true
 	TimeLimitManager:
 		TimeLimitLocked: True
 
 Player:
 	Shroud:
 		ExploredMapCheckboxEnabled: true
-		ExploredMapCheckboxLocked: false
+		ExploredMapCheckboxLocked: true
 		FogCheckboxLocked: false
 		FogCheckboxEnabled: true
 	LobbyPrerequisiteCheckbox@GLOBALBOUNTY:
@@ -37,8 +37,8 @@ Player:
 		Locked: false
 	LobbyPrerequisiteCheckbox@GLOBALFACTUNDEPLOY:
 		Enabled: true
-		Locked: false
+		Locked: true
 	PlayerResources:
 		SelectableCash: 2500, 5000, 7500, 10000
 		DefaultCash: 5000
-		DefaultCashDropdownLocked: false
+		DefaultCashDropdownLocked: true
