@@ -3,6 +3,9 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## RAGL S11
+
+Based on BI 3.2, but without changes to Migs or GPS.
 
 ## 3.2
 
