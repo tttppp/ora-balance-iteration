@@ -4,7 +4,7 @@ World:
 		TechLevel: unrestricted
 		ShortGameCheckboxEnabled: true
 		ShortGameCheckboxLocked: true
-		GameSpeedDropdownLocked: false
+		GameSpeedDropdownLocked: true
 		GameSpeed: default
 	CrateSpawner:
 		CheckboxEnabled: false
@@ -27,7 +27,7 @@ Player:
 	Shroud:
 		ExploredMapCheckboxEnabled: true
 		ExploredMapCheckboxLocked: true
-		FogCheckboxLocked: false
+		FogCheckboxLocked: true
 		FogCheckboxEnabled: true
 	LobbyPrerequisiteCheckbox@GLOBALBOUNTY:
 		Enabled: true
