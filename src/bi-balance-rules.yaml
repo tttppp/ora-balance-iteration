@@ -97,14 +97,40 @@ DOG:
 	GrantConditionOnAttack:
 		RevokeDelay: 20
 
-FTUR:
-	Armament:
-		RequiresCondition: !build-incomplete
-	Armament@nothing:
-		Weapon: NothingFTUR
-		RequiresCondition: build-incomplete
+TSLA:
+	AttackTesla:
+		RequiresCondition: true
+		PauseOnCondition: disabled || build-incomplete
+
+AGUN:
 	AttackTurreted:
 		RequiresCondition: true
+		PauseOnCondition: disabled || build-incomplete
+
+PBOX:
+	AttackGarrisoned:
+		RequiresCondition: true
+		PauseOnCondition: build-incomplete
+
+HBOX:
+	AttackGarrisoned:
+		RequiresCondition: true
+		PauseOnCondition: build-incomplete
+
+GUN:
+	AttackTurreted:
+		RequiresCondition: true
+		PauseOnCondition: build-incomplete
+
+FTUR:
+	AttackTurreted:
+		RequiresCondition: true
+		PauseOnCondition: build-incomplete
+
+SAM:
+	AttackTurreted:
+		RequiresCondition: true
+		PauseOnCondition: disabled || build-incomplete
 
 ATEK:
 	GpsPower:

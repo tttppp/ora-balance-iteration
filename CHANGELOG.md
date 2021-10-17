@@ -4,6 +4,12 @@ The rationale behind the changes in each release is given in this file, along wi
 comments from players to back it up.
 
 
+## 3.3
+
+### All defences can now aim while being build.
+
+Importing the [fix from Orb](https://github.com/OpenRA/OpenRA/pull/19731/files) which includes being able to aim the first blast from flame towers.
+
 ## 3.2
 
 ### Phase Transport uncloak on load
