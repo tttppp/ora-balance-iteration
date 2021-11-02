@@ -46,6 +46,8 @@ Allies on T3 were previously incentivised to turtle for 8 minutes and then they 
 Created by Pinkthoth.
 
 * dang_shot -- 2021/11/02: i think the gps tested in BI was good and a good compromise, but i understand punshos logic
+* ZxGanon -- 2021/11/02: I vote for the new and improved gps satelite. pretty good. makes allies interesting to play
+* Bain -- 2021/11/02: Yeah I like the idea of limiting the time for gps, but I still feel soviet late game is stronger then allies just due to the IC
 
 Against:
 
