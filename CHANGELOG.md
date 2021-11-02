@@ -45,9 +45,12 @@ Allies on T3 were previously incentivised to turtle for 8 minutes and then they 
 
 Created by Pinkthoth.
 
+* dang_shot -- 2021/11/02: i think the gps tested in BI was good and a good compromise, but i understand punshos logic
+
 Against:
 
 * DVoid -- 2021/10/01: i dont think the gps should be changed either. the enemy can try to destroy the tech centre if they dont like being watched. i use soviets so my opinion on this is unbiased and not for my benefit in fact the opposite.
+* Pun -- 2021/11/02: I don't think it's a great solution tbh, I'd rather just remove gps from the game
 
 ### Medium Tanks (back to default)
 
