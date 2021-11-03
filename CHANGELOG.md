@@ -123,6 +123,17 @@ Each bomb has range 6c0 (up from 3c0), fall speed 50 (up from 40), spread 1000 (
 
 * Pun -- 2021/09/13 as for parabombs, I just though it would be better if there was a clear way to dodge them, this change also nerfs map edge performance. The slow bombs weren't cutting it
 
+Feedback:
+
+* Pun -- 2021/11/03: we've seen really good parabombs in goat vs kav
+* ZxGanon -- 2021/11/03: parabombs in kav vs goat looked fine
+* dang_shot -- 2021/11/03: i like the change a lot
+* Duke Bones -- 2021/11/03: I don’t mind the new parabo[mb]s but a wider area would be nice even if it’s not as wide as before. Most people don’t line their buildings up in such a neat row and the wider spread could hit more. I’d be fine if it were the same damage but spread out a little wider
+
+Against:
+
+* Unano -- 2021/11/03: my opinion of the update is its far too easy to dodge
+
 ### Mig health 8000 (down from 10000)
 
 Against:
