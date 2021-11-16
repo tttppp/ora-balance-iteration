@@ -48,6 +48,8 @@ Created by Pinkthoth.
 * dang_shot -- 2021/11/02: i think the gps tested in BI was good and a good compromise, but i understand punshos logic
 * ZxGanon -- 2021/11/02: I vote for the new and improved gps satelite. pretty good. makes allies interesting to play
 * Bain -- 2021/11/02: Yeah I like the idea of limiting the time for gps, but I still feel soviet late game is stronger then allies just due to the IC
+* i like men -- 2021/11/16: overall I think \[8 min permanent GPS\] has a at least in my opinion poor impact on the game as it makes it stall out when the gps gets up and essentially functions as a permanent maphack. I think I dislike the effect it has on the gameplay, so I like the idea of a more dynamic one. I also think it's we will get to see more gps usage with this change because it's pretty rare we get to see a gps survive long enough now
+* moods -- 2021/11/16 And ill chime in on gps.. the feature is kool too not have permenant... but the timer relly shud be low. Like every 2 mins it reveals for 30 secs or sumthing. Not this 4 minute shit. Cuz thats a huge nerf compared too 8 perma. And since chrono not working properly and IC is still super OP allies need that perma gps too have some leverage lategame
 
 Against:
 
@@ -73,6 +75,7 @@ Created by Darkademic
 Against:
 
 * happy -- 2021/09/09: thats one of the two parts that made tanya good, does this blob have tanya in? and can i get a snipe off before she kills me. which was easily achieved before adding an icon to her. but now as soon as you have vision yes tanyas there run ez
+* Kaution -- 2021/11/16: I dislike the skull.icon. She gets sniped so easy back yaks or bh now
 
 ### Airfield ACC 1.0
 
