@@ -7,6 +7,12 @@ comments from players to back it up.
 
 Trying to rework the faction specials and reduce spamming of static defences.
 
+Maps: https://github.com/erratic-c-programmer/PBA
+
+Feedback:
+
+* .won -- 2021/12/29: wf first is dead if we do these changes and removing camo Pills removes anyways to deal with arty, and your buffing t2
+
 ### Advanced Chronosphere to all Allies
 
 ### Chronotank to all Allies
@@ -31,9 +37,23 @@ Trying to rework the faction specials and reduce spamming of static defences.
 
 ### Shock Troopers requires Radar Dome (rather than Tech Center and Teslacoil), $400 (from $350)
 
+Feedback:
+
+* .won -- 2021/12/29: I think shockies should go back to t3 with a buff. they are kinda a trap unit in t2
+* Unano -- 2021/12/29: yea in general shockies suck. i guess there's prob a good way to use them, but its really hard
+* Pun -- 2021/12/29: RA already has a ton of trap units, i don't thing it's a problem
+* Kaution -- 2021/12/29: i watched ganons stream. shockies were just shooting HT, tickling it
+* ZxGanon -- 2021/12/29: I liked building up shockies in my army. they didnt feel broken and I also dont wanna see ppl succeeding with shockie only spam. just adding a few in the mix can be really nice and devastating
+*  ZxGanon -- 2021/12/31: shockies might be too expensive or their heavy damage is too low. its either of those
+right now they just take up the slot of rocket soldiers
+
 ### Spy Plane requires Radar Dome (rather than Airfield)
 
 ### GPS global timer removed, global notification when launched, charge time 3 minutes (previously 4 minutes in BI 3.1), reveals for 30 seconds (previously 1 minute in BI 3.1)
+
+Feedback:
+
+* Unano -- 2021/12/31: That gps is so cool
 
 ### Infantry prone duration to 2 seconds (from 4 seconds)
 
