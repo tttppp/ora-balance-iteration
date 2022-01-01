@@ -13,7 +13,11 @@ Trying to rework the faction specials and reduce spamming of static defences.
 
 ### Phase Transport to England only
 
-### Camo Pillbox to England only (England can't build normal Pillbox)
+### Pillbox $700 (from $600), -30 power (from -20 power), reload speed 45 (from 30)
+
+### Camo Pillbox to England only (England can't build normal Pillbox), $700 (from $750), -30 power (from -20 power), reload speed 45 (from 30)
+
+### Flame Tower $700 (from $600), -30 power (from -20 power), reload delay 75 (from 65), burst delay 25 (from 20)
 
 ### British Spy is replaced by normal Spy
 
@@ -21,11 +25,17 @@ Trying to rework the faction specials and reduce spamming of static defences.
 
 ### Tank Drop to Germany, requires Radar Dome, two Medium Tanks
 
-### Mobile Gap Generator to Germany only
+### Mobile Gap Generator to Germany only, $800 (from $1000)
 
-### Flamethrower to Ukraine only, requires Radar Dome (rather than Flame Tower)
+### Flamethrower to Ukraine only, requires Radar Dome (rather than Flame Tower), $250 (from $300), health 5000 (from 4000), vision 5 cells (from 4 cells), projectile speed 250 (from 170)
 
-### Shock Troopers requires Radar Dome (rather than Tech Center and Teslacoil)
+### Shock Troopers requires Radar Dome (rather than Tech Center and Teslacoil), $400 (from $350)
+
+### Spy Plane requires Radar Dome (rather than Airfield)
+
+### GPS global timer removed, global notification when launched, charge time 3 minutes (previously 4 minutes in BI 3.1), reveals for 30 seconds (previously 1 minute in BI 3.1)
+
+### Infantry prone duration to 2 seconds (from 4 seconds)
 
 ## 3.3
 
