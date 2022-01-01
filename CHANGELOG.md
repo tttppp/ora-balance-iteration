@@ -3,6 +3,29 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## PBA (Project Balance Allies)
+
+Trying to rework the faction specials and reduce spamming of static defences.
+
+### Advanced Chronosphere to all Allies
+
+### Chronotank to all Allies
+
+### Phase Transport to England only
+
+### Camo Pillbox to England only (England can't build normal Pillbox)
+
+### British Spy is replaced by normal Spy
+
+### Parabombs to France only, requires Radar Dome (rather than Airfield)
+
+### Tank Drop to Germany, requires Radar Dome, two Medium Tanks
+
+### Mobile Gap Generator to Germany only
+
+### Flamethrower to Ukraine only, requires Radar Dome (rather than Flame Tower)
+
+### Shock Troopers requires Radar Dome (rather than Tech Center and Teslacoil)
 
 ## 3.3
 
