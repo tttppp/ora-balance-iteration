@@ -12,9 +12,9 @@ Maps and balance history: https://github.com/erratic-c-programmer/PBA
 Feedback:
 
 * Duke Bones -- 2021/12/29: The only problem I have with the Power is it kinda screws WF first up. Any lp is crippling
-* .won -- 2021/12/29: wf first is dead if we do these changes and removing camo Pills removes anyways to deal with arty, and your buffing t2
 * Kaution -- 2021/12/29: Makes a bo less viable imo which makes it less diverse and shouldn't be the case imho
 * Gacius -- 2021/12/29: I love \[the changes\]. Now every faction has identity, unit variety has been increased for all factions and Allies in late game feels awesome with MGG's, MRJ, Tanya and rest of the arsenal. Shockies and Flamers now will be seen even moree often and will be part of every soviet army
+* .won -- 2021/12/29: wf first is dead if we do these changes and removing camo Pills removes anyways to deal with arty, and your buffing t2
 
 ### Advanced Chronosphere to all Allies
 
