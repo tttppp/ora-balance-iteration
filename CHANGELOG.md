@@ -7,11 +7,14 @@ comments from players to back it up.
 
 Trying to rework the faction specials and reduce spamming of static defences.
 
-Maps: https://github.com/erratic-c-programmer/PBA
+Maps and balance history: https://github.com/erratic-c-programmer/PBA
 
 Feedback:
 
+* Duke Bones -- 2021/12/29: The only problem I have with the Power is it kinda screws WF first up. Any lp is crippling
 * .won -- 2021/12/29: wf first is dead if we do these changes and removing camo Pills removes anyways to deal with arty, and your buffing t2
+* Kaution -- 2021/12/29: Makes a bo less viable imo which makes it less diverse and shouldn't be the case imho
+* Gacius -- 2021/12/29: I love \[the changes\]. Now every faction has identity, unit variety has been increased for all factions and Allies in late game feels awesome with MGG's, MRJ, Tanya and rest of the arsenal. Shockies and Flamers now will be seen even moree often and will be part of every soviet army
 
 ### Advanced Chronosphere to all Allies
 
@@ -27,7 +30,9 @@ Feedback:
 
 ### British Spy is replaced by normal Spy
 
-### Parabombs to France only, requires Radar Dome (rather than Airfield)
+### Parabombs to France only, requires Radar Dome (rather than Airfield), 4 minute charge time (from 5 minute)
+
+* ZxGanon -- 2022/01/01 we made france bombs take only 4 minutes to charge and its on dome tech. feels much better
 
 ### Tank Drop to Germany, requires Radar Dome, two Medium Tanks
 
@@ -51,11 +56,14 @@ right now they just take up the slot of rocket soldiers
 
 ### GPS global timer removed, global notification when launched, charge time 3 minutes (previously 4 minutes in BI 3.1), reveals for 30 seconds (previously 1 minute in BI 3.1)
 
+* ZxGanon -- 2021/01/29: the gps rework was overdue anyway since the current version is just boken. the 3 min 30 sec change is btw a specific decision. 1 minute was way too long and basically foces opposiing players to sit a around and do nothing while its active. while also 4 minute charge up time felt too long
+
 Feedback:
 
 * Unano -- 2021/12/31: That gps is so cool
 
 ### Infantry prone duration to 2 seconds (from 4 seconds)
+
 
 ## 3.3
 
