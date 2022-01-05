@@ -3,7 +3,23 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
-## PBA (Project Balance Allies)
+## PBA v20220103
+
+### Shock Troopers further reduced to $300 (from $400 release/$350 v20211230), reload delay 60 (from 70), damage vs heavy 50 (from 60)
+
+### MRJ to France only
+
+### Revert Chronotank changes (back to Germany only)
+
+### Revert Flamethrower changes
+
+### Spyplane reverted to require Airfield
+
+### Paradrop reverted to require Airfield
+
+### Parabombs reverted to Ukraine only and requires Airfield
+
+## PBA (Project Balance Allies) - v20211230
 
 Trying to rework the faction specials and reduce spamming of static defences.
 
@@ -64,6 +80,9 @@ Feedback:
 
 ### Infantry prone duration to 2 seconds (from 4 seconds)
 
+Feedback:
+
+* Duke Bones -- 2022/01/04: Besides the other changes, the prone change I love. You can actually retreat from engagements without losing 1/3 of your Infabtry
 
 ## 3.3
 
