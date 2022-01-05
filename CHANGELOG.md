@@ -84,7 +84,14 @@ Feedback:
 
 * Duke Bones -- 2022/01/04: Besides the other changes, the prone change I love. You can actually retreat from engagements without losing 1/3 of your Infabtry
 
-## 3.3
+
+
+## RAGL S11
+
+Based on BI 3.2, but without changes to Migs or GPS.
+
+
+## 3.3 (Unreleased)
 
 ### All defences can now aim while being build.
 
