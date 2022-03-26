@@ -3,6 +3,25 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## 3.3 (Unreleased)
+
+Differences since [BI 3.2](#32):
+
+### All defences can now aim while being build.
+
+Importing the [fix from Orb](https://github.com/OpenRA/OpenRA/pull/19731/files) which includes being able to aim the first blast from flame towers.
+
+### Pillbox reload time 35 (up from 30)
+
+* i like men -- 07/02/2022: I believe we should also give pill box another nerf, most likely just reducing fire rate
+
+### Flame Tower reload time 70 (up from 65)
+
+### Infantry prone duration to 2 seconds (from 4 seconds)
+
+Taken from PBA.
+
+
 ## PBA v20220103
 
 ### Shock Troopers further reduced to $300 (from $400 release/$350 v20211230), reload delay 60 (from 70), damage vs heavy 50 (from 60)
@@ -85,17 +104,10 @@ Feedback:
 * Duke Bones -- 2022/01/04: Besides the other changes, the prone change I love. You can actually retreat from engagements without losing 1/3 of your Infabtry
 
 
-
 ## RAGL S11
 
 Based on BI 3.2, but without changes to Migs or GPS.
 
-
-## 3.3 (Unreleased)
-
-### All defences can now aim while being build.
-
-Importing the [fix from Orb](https://github.com/OpenRA/OpenRA/pull/19731/files) which includes being able to aim the first blast from flame towers.
 
 ## 3.2
 
@@ -120,7 +132,7 @@ Remove mechanic and most of the husk changes (husks are still restored to 15% th
 
 * .won -- 2021/08/16: Is there a way to stop the time out of a husk on cap starting? I tried to cap a husk and the timer just went to 0 so I couldn't
 * SarahSicaria -- 2021/08/24: 16 seconds would make it near impossible to capture any husk. thats way too long. even 8 seconds is a lot
-* DVoid -- 2021/10/01: but surely dealing with mechanics means destroying enemy mcv husks etc to prevent the enemy using a mechanic to bring it back. simple. 
+* DVoid -- 2021/10/01: but surely dealing with mechanics means destroying enemy mcv husks etc to prevent the enemy using a mechanic to bring it back. simple.
 
 ### Flame Towers can aim while being built
 
@@ -178,7 +190,7 @@ Initial release.
 
 ### Mechanics
 
-* Mechanics now take 16 seconds to capture husks and cost 400 (down from 500), 
+* Mechanics now take 16 seconds to capture husks and cost 400 (down from 500),
 * Husks are restored with 15% health (down from 25%)
 
 Mechanics were being built after husks appeared and were hardly ever used for repairing damaged tanks on the battlefield. The low risk for restoring husks could cause Allies to snowball. Conversely they were a risky unit to keep in a blob. More data supporting this change is given based on RAGL Season 10 data: https://forum.openra.net/viewtopic.php?p=313241#p313241

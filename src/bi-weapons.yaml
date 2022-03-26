@@ -18,3 +18,9 @@ DogJaw:
 Nike:
 	Projectile:
 		RangeLimit: 11c0
+
+Vulcan:
+	ReloadDelay: 35
+
+FireballLauncher:
+	ReloadDelay: 70
