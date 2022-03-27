@@ -21,6 +21,9 @@ Importing the [fix from Orb](https://github.com/OpenRA/OpenRA/pull/19731/files) 
 
 Taken from PBA.
 
+### GPS initial charge 3 minutes (from 4 minutes), single click use
+
+After the initial 3 minutes charge then it can be used for 1 minute and then takes 3 minutes to recharge (i.e. the same as BI 3.2).
 
 ## PBA v20220103
 
