@@ -7,7 +7,7 @@ comments from players to back it up.
 
 Differences since [BI 3.2](#32):
 
-### All defences can now aim while being build.
+### All defences can now aim while being build
 
 Importing the [fix from Orb](https://github.com/OpenRA/OpenRA/pull/19731/files) which includes being able to aim the first blast from flame towers.
 
@@ -21,9 +21,13 @@ Importing the [fix from Orb](https://github.com/OpenRA/OpenRA/pull/19731/files) 
 
 Taken from PBA.
 
-### GPS initial charge 3 minutes (from 4 minutes), single click use
+### GPS initial charge 3 minutes (from 4 minutes), single click use, global timer only during use
 
 After the initial 3 minutes charge then it can be used for 1 minute and then takes 3 minutes to recharge (i.e. the same as BI 3.2).
+The global timer for charging has been replaced by a global timer showing when the GPS is in use.
+This change allows Allied players to build a tech center in secret, although use of the GPS will still be global.
+
+Most of the work for this, including creating the audio files, was done by Pinkthoth.
 
 ## PBA v20220103
 

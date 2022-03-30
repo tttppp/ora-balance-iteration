@@ -139,14 +139,9 @@ SAM:
 ATEK:
 	GpsPower:
 		PauseOnCondition: disabled || !gpsactivated
-		Icon: gps
-		OneShot: true
 		ChargeInterval: 1
-		Description: GPS Satellite
-		LongDesc: Reveals map terrain and provides tactical\ninformation. Requires power and active radar.
 		RevealDelay: 30
-		DisplayTimerRelationships: Ally, Neutral, Enemy
-		SupportPowerPaletteOrder: 90
+		DisplayTimerRelationships: None
 		RequiresCondition: gpsactivated
 		StartFullyCharged: True
 		RequiresActiveRadar: True
@@ -163,7 +158,7 @@ ATEK:
 		SupportPowerPaletteOrder: 20
 		LaunchSpeechNotification: SatelliteInitialzed
 		IncomingSpeechNotification: SatelliteInitialzed
-		DisplayTimerRelationships: Ally, Enemy, Neutral
+		DisplayTimerRelationships: None
 		EndChargeSpeechNotification: SatelliteReady
 		Prerequisites: !gpsactiveprereq
 	ProduceActorPower@gpsactivesign:
@@ -174,11 +169,12 @@ ATEK:
 		Type: Infantry
 		ChargeInterval: 1501
 		SupportPowerPaletteOrder: 20
+		DisplayTimerRelationships: Ally, Neutral, Enemy
 		Prerequisites: gpsactiveprereq
 	GrantConditionOnPrerequisite@gpsactivation:
 		Prerequisites: gpsactiveprereq
 		Condition: gpsactivated
-	ProvidesPrerequisite@buildingname:
+	ProvidesPrerequisite@uplink:
 		Prerequisite: uplink
 	Exit@1:
 		SpawnOffset: -704,768,0
@@ -204,6 +200,7 @@ powergps:
 		Prerequisite: gpsactiveprereq
 	ActorLostNotification:
 		Notification: SatelliteTerminated
+		NotifyAll: True
 	Health:
 		HP: 1500
 	HitShape:
