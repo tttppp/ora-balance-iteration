@@ -146,7 +146,6 @@ ATEK:
 		StartFullyCharged: True
 		RequiresActiveRadar: True
 	ProduceActorPower@powergps:
-		Name: GPS Satellite
 		Description: GPS Satellite
 		LongDesc: Reveals map terrain and provides tactical\ninformation. Requires power and active radar.
 		Icon: gps
