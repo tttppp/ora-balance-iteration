@@ -5,6 +5,11 @@ comments from players to back it up.
 
 ## 3.3 (Unreleased)
 
+Feedback:
+
+* Gacius -- 2022-04-17: overall BL 3.3 is good aproach
+* Blackened -- 2022-04-17: 3.3 changes are all fine I think.
+
 Differences since [BI 3.2](#32):
 
 ### All defences can now aim while being build
@@ -13,13 +18,25 @@ Importing the [fix from Orb](https://github.com/OpenRA/OpenRA/pull/19731/files) 
 
 ### Pillbox reload time 35 (up from 30)
 
-* i like men -- 07/02/2022: I believe we should also give pill box another nerf, most likely just reducing fire rate
+* i like men -- 2022/02/07: I believe we should also give pill box another nerf, most likely just reducing fire rate
+
+Feedback:
+
+* tux -- 2022-04-01: hate the def nerf in bi 3.3 :(
+* BeTe -- 2022-04-01: I don't even notice difference.
+* Kaution -- 2022-04-17: Defenses needed a nerf so I'm for the slight nerf on it.
 
 ### Flame Tower reload time 70 (up from 65)
 
 ### Infantry prone duration to 2 seconds (from 4 seconds)
 
 Taken from PBA.
+
+Feedback:
+
+* Gacius -- 2022-04-17: it was said before that prone time from 4 to 2 seconds feels good
+* Kaution -- 2022-04-17: Prone time, feels better and more rewarding to retreat
+* Pun -- 2022-04-17: Prone time reduction has seen pretty much universal praise. It's just a good change
 
 ### GPS initial charge 3 minutes (from 4 minutes), single click use, global timer only during use
 
@@ -28,6 +45,10 @@ The global timer for charging has been replaced by a global timer showing when t
 This change allows Allied players to build a tech center in secret, although use of the GPS will still be global.
 
 Most of the work for this, including creating the audio files, was done by Pinkthoth.
+
+Feedback:
+
+* Kaution -- 2022-04-17: Satellite changes is refreshing and the adjust timers feels more right.
 
 ## PBA v20220103
 
@@ -208,6 +229,8 @@ Slight nerf as MTs were performing slightly better than HTs.
 
 ### Demo truck health 2800 (down from 5000), speed 75 (down from 85)
 
+* Blackened -- 2022-04-17: I also don't know if the demo change is actually a good change but :person_shrugging:
+
 ### Tanya cost 1500 (up from 1200)
 
 Sniping Tanya had a very small impact because she could be rebuilt very quickly.
@@ -242,6 +265,7 @@ Feedback:
 Against:
 
 * Unano -- 2021/11/03: my opinion of the update is its far too easy to dodge
+* Blackened -- 2022/04/17: It's the parabombs from previous iterations I don't like. They got overnerfed
 
 ### Mig health 8000 (down from 10000)
 
