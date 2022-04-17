@@ -9,6 +9,7 @@ Feedback:
 
 * Gacius - 2022-04-17: overall BL 3.3 is good aproach
 * Blackened - 2022-04-17: 3.3 changes are all fine I think.
+* BeTe - 2022-04-17: 3.3. definitely. It's something community is discussing for a long time... It's actually not big difference and should make game more interesting, more "active".
 
 Differences since [BI 3.2](#32):
 
