@@ -159,7 +159,7 @@ ATEK:
 		IncomingSpeechNotification: SatelliteInitialzed
 		DisplayTimerRelationships: None
 		EndChargeSpeechNotification: SatelliteReady
-		Prerequisites: !gpsactiveprereq
+		RequiresCondition: !gpsactivated
 	ProduceActorPower@gpsactivesign:
 		Description: GPS Active Timer
 		LongDesc: Displays the amount of time the satellite is still active.
@@ -169,7 +169,7 @@ ATEK:
 		ChargeInterval: 1501
 		SupportPowerPaletteOrder: 20
 		DisplayTimerRelationships: Ally, Neutral, Enemy
-		Prerequisites: gpsactiveprereq
+		RequiresCondition: gpsactivated
 	GrantConditionOnPrerequisite@gpsactivation:
 		Prerequisites: gpsactiveprereq
 		Condition: gpsactivated
