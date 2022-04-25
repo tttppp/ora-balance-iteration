@@ -3,7 +3,13 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
-## 3.3 (Unreleased)
+## 3.4
+
+### GPS crash fix
+
+Previously there was a bug that caused the game to crash if the Tech Center was killed or sold while the GPS was active.
+
+## 3.3
 
 Feedback:
 
