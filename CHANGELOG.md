@@ -68,6 +68,14 @@ Feedback:
 
 * Kaution - 2022-04-17: Satellite changes is refreshing and the adjust timers feels more right.
 * Blackened - 2022-04-17: The GPS single click is an improvement. I have no feedback on the time change.
+* Unano - 2022-05-14: I like it from what I've seen, but I don't play allies much
+* Gacius - 2022-05-14: it's actually good. not OP for being free maphack. and yet low cooldown makes it fresh. also activating it isnt that complicated, two clicks and done, gps for 30 seconds
+* Blackened - 2022-05-14: Ava isn't as sluggish as it used to be. But still very very slow
+* Widow - 2022-05-14: I think it works as intended which is great, it really makes late game more interesting and way less stale IMO, and because of its faster initial charge time it gives tier 3 an effect way faster which is cool. i also feels like alot of the people who where initially skeptic has turned after playing with it regularly. The other thing is also since B 3.3 the gps timer is hidden from opponent since it makes less sense now, that gps isnt this OP thing you absolutly must kill before the timer is done. that also makes tech rushing as alies way more viable. since you dont have this gps timer poping up telling Tier 1.5 spam opponent to come kill you asap
+
+Against:
+
+* .won - 2022-05-22: I’m not a huge fan of it. Yah it’s good for a v a but not good for a v s
 
 ## PBA v20220103
 
