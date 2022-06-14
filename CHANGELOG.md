@@ -3,6 +3,10 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## 4.0 Planning
+
+See [the pre-4.0 discussion](docs/bi-4.0-planning.md).
+
 ## 3.4
 
 ### GPS crash fix
