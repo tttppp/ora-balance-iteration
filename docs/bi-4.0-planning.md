@@ -25,6 +25,19 @@ Discussion about balance going into BI-4.0.
 * Pun - 2022-06-27: Add a significant slowdown on crushes and make crush rate 100%
 * Longley - 2022-06-27: i tested the oposite 100% dodge chance, i think something like what you suggest here should probably be tested separately since it really affects everything else
 
+### Veterancy
+
+* ZxGanon - 2022-08-09: Veterancy in Red Alert 1 feels like an afterthought right now. Reaching each stage requires ridiculous amounts of value to kill while providing almost no boni to make it worth keeping your units a live. Suggestion: Removing 1 veterancy level to only have to work with 3 (like it is in all Command and Conquers)
+* i like men - 2022-08-09: personally I am not a fan of veterancy at all especially not in RA. I don't think it really adds anything. all it does it really increase snowballing, so I think buffing it would be counterproductive
+* SarahSicaria - 2022-08-09: I think the biggest issue with increasing veterency bonuses is the snowballing factor but these changes seem very reasonable to me. The speed differences are the biggest downfall to the current veterancy system
+* Orb - 2022-08-09: I think the vet 1 on spy is more significant with infantry than vehicles
+* Pun - 2022-08-24: \[We should also consider\] reworking veterancy
+* Longley - 2022-08-24: im really against buffing veterancy for all the reason mention in the thread by ILM and others
+
+### Gems
+
+* Blackened - 2022-08-24: ok i got a radical idea actually, make gems just be double ore in everyway. Right now gem mines produce faster and have less density than ore. The next result ends up being they are worth like 1.80 ore patches
+
 
 ## Defences
 
@@ -81,6 +94,7 @@ Discussion about balance going into BI-4.0.
 
 * despro - 2022-06-02: increase hp of rangers
 * i like men - 2022-06-02: Hopefully not a [buff to] vision
+* Pun - 2022-08-24: +1 on making ranger tankyer
 
 ### Light Tank
 
@@ -149,8 +163,8 @@ Discussion about balance going into BI-4.0.
 * Blackened - 2022-07-07: chrono tanks are actually pretty decent. The just get countered pretty good by tesla tanks, and air to a certain extent. They're biggest problem is they get completely shut down by mrj. But so does any tracked missile.
 * Mees - 2022-07-07: Their ability to splash infantry is both good an fun to use
 * Moods - 2022-07-07: I think biggest issue is there light armor. Id like too see heavy armor cronotanks tht have AA capability, but a big damage nerf and cost incresse
-* Orb - 2022-07-07: Teleporting AA units not exactly the easiest to balance. Light armor grants resistance to anti-heavy damage, it's not necessarily bad
-You could always increase their health if that is the main concern
+* Orb - 2022-07-07: Teleporting AA units not exactly the easiest to balance. Light armor grants resistance to anti-heavy damage, it's not necessarily bad. You could always increase their health if that is the main concern
+* Pun - 2022-08-24: Chorno Tanks share some of the issues of Tesla Tank. They don't synergise well with army compositions. It does its job really well but regular rocket soldiers + tanks do that job just as well in most cases. The other issue is that you can't attack move them, if they target infantry all of their damage is lost. Chrono crushing as a concept isn't great.
 
 ### Mammoths
 
@@ -185,9 +199,14 @@ You could always increase their health if that is the main concern
 * Longley - 2022-06-02: isnt that kinda what makes them different? i know its super good. but.. it also sucks to have all units feel the same
 * Pun - 2022-06-02: we will have to touch tesla tank at some point. It's crushing just has to go
 * Orb - 2022-06-02: Crushing would not be an issue if IC didn't exist
+* Pun - 2022-08-24: IMO Tesla Tank has main 3 issues: They don't synergise with other unit queues. Secondly Tesla Tank damage is incredibly low. Lastly tesla tanks depend on snowballing, TT's provide so little value standalone that unless you have many of them providing value all other units just just prove more useful.
+* SarahSicaria - 2022-08-24: I think their speed and range plays a big part in making use of them too
+* Longley - 2022-08-24: Regarding TT and Chrono i dont really disagree with your analysis, those where kinda the issues i had in mind
 
 
 ## Air
+
+* Pun - 2022-08-24: we should also consider the idea of making aircraft chronoshiftable and iron curtainable
 
 ### Yaks
 
@@ -209,6 +228,11 @@ You could always increase their health if that is the main concern
 * SarahSicaria - 2022-06-28: I definitely agree about the yak is very inconsistent. Its another reason why i dont play soviets. I wouldnt mind seeing opportunity fire reintroduced with certain nerfs to stop it from being OP, maybe reduced speed + cost increase to 1500
 
 
+## Naval
+
+* Pun - 2022-08-24: [We should change this]
+
+
 ## Support Powers
 
 ### Parabombs
@@ -221,3 +245,12 @@ You could always increase their health if that is the main concern
 * i like men - 2022-06-03: it's not the worst idea, but could be I am missing something
 * Blackened - 2022-06-03: i wouldnt find that nerf to ic but that doesn't really do much. besides the 5 ic apc/tesla crush it really only take 1 tank to route an army
 * .won - 2022-06-03: the net code fix prob will solve a lot of issues
+
+### Chronoshift
+
+* Blackened - 2022-08-24: what if chronosphere allowed you to chronoshift ships onto land without killing them. imagine 5 cruisers showing up anywhere every 2 minutes
+* Pun - 2022-08-24: same would need to be allowed for chrono shifting vehicles onto water / cliffs. Although it would make chronoshift worth building it would be terrible mechanic. It's just a haha you didn't keep your units scattered at all times and now you lost them all
+* SarahSicaria - 2022-08-24: A while ago I floated the idea of making the chronosphere lock to the selected units rather than the selected tiles. And people say the IC and chrono should counter eachother, currently the IC can counter the chrono but its almost impossible to counter the IC with the chrono
+* Blackened - 2022-08-24: countering ic with chrono right now involves chronoing ic units almost immediately after they get ic'd
+* Pun - 2022-08-24: let's not forget that we still want german chrono to become allied chrono
+* SarahSicaria - 2022-08-24: Yes but fixing the chrono on a more fundamental level maybe mean that wouldnt be necessary, or if it is, could even be changed to a 3x3 square

@@ -263,6 +263,7 @@ Slight nerf as MTs were performing slightly better than HTs.
 Feedback:
 
 * Blackened - 2022-04-17: I also don't know if the demo change is actually a good change but :person_shrugging:. Either way. I'm just not a huge fan of the hp decrease. Speed change was fine.
+* Therapist - 2022-08-23: yes reduce the redius of demos. They can trade by blowing up 3 times it's initial blast radius away from itself. and kill off infantry. It's kind of ludicrous to be honest
 
 ### Tanya cost 1500 (up from 1200)
 
@@ -337,6 +338,7 @@ Against:
 * SarahSicaria - 2021-09-21: Not sure why this is being nerfed, the IC is in a perfect spot imo. If the IC really must be nerfed, increasing the recharge time would be better, not decreasing the effect duration
 * Major Kusanagi Motoko - 2021-09-21 +1. this suggestion makes more sense. The effect duration is already moderately short, while the cooldown of 2 mins is rather quick.
 * Orb - 2021-10-11 The footprints are really important for nostalgia reasons. Like we had a pretty long discussion about changing the adv powerplant footprint in TD. I think you need a strong reason to change the footprint and the stated reasons I don't think justify it enough. I've never had an issue with people "hiding" things behind the IC
+* Therapist - 2022-08-25: I think sarah is right about the ic. Lasts 500 ticks, slightly longer recharge time.
 
 ### Modified production queue timings (except vehicles): 100, 86, 75, 67, 60, 55, 50 (rather than 100, 85, 75, 65, 60, 55, 50)
 
