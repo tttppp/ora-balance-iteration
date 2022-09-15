@@ -7,6 +7,12 @@ comments from players to back it up.
 
 See [the pre-4.0 discussion](docs/bi-4.0-planning.md).
 
+## 3.5
+
+### GPS bug fix
+
+Play notification for spectators when any player uses the GPS support power.
+
 ## 3.4
 
 ### GPS crash fix

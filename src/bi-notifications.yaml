@@ -1,5 +1,5 @@
 Speech:
 	Notifications:
-		SatelliteInitialzed: satellite_initialized_delay2s
+		SatelliteInitialized: satellite_initialized_delay2s
 		SatelliteReady: satellite_ready
 		SatelliteTerminated: satellite_terminated
