@@ -211,7 +211,6 @@ gpsactivenoise:
 		Actor: powergps
 		SpawnAfterDefeat: False
 	KillsSelf:
-		RequiresCondition: !uplinkexists
 
 powergps:
 	Interactable:
