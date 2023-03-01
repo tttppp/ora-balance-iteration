@@ -7,6 +7,10 @@ comments from players to back it up.
 
 See [the pre-4.0 discussion](docs/bi-4.0-planning.md).
 
+## 3.5.1
+
+Exactly the same as BI-3.5 but for release-20230225.
+
 ## 3.5
 
 ### GPS bug fix

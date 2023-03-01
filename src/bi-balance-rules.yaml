@@ -1,9 +1,3 @@
-^Husk:
-	TransformOnCapture:
-		ForceHealthPercentage: 15
-	InfiltrateForTransform:
-		ForceHealthPercentage: 15
-
 ^CommandoSkull:
 	WithDecoration@COMMANDOSKULL:
 		Image: pips
@@ -12,35 +6,8 @@
 		Position: TopLeft
 		ValidRelationships: Ally, Enemy, Neutral
 
-^Soldier:
-	TakeCover:
-		Duration: 50
-
-JEEP:
-	Mobile:
-		Speed: 160
-	RevealsShroud:
-		Range: 7c0
-
-DOME:
-	Valued:
-		Cost: 1500
-
-STNK:
-	Cloak:
-		RequiresCondition: !notmobile
-		UncloakOn: Attack, Heal, Dock, Unload
-
-DTRK:
-	Health:
-		HP: 2800
-	Mobile:
-		Speed: 75
-
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
-	Valued:
-		Cost: 1500
 
 SPY:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
@@ -50,10 +17,6 @@ SPY:
 		DisguisedAsConditions:
 			e7: tanyadisguise
 
-^Mine:
-	Health:
-		HP: 5000
-
 MGG:
 	WithIdleOverlay@SPINNER:
 		PauseOnCondition: undeployed
@@ -62,19 +25,7 @@ MGG:
 	GrantConditionOnDeploy:
 		DeployedCondition: undeployed
 
-BADR:
-	Health:
-		HP: 40000
-
-BADR.Bomber:
-	Health:
-		HP: 40000
-	AmmoPool:
-		Ammo: 10
-
 AFLD:
-	AirstrikePower@parabombs:
-		SquadSize: 1
 	Exit@1:
 		ExitCell: 1,3
 	Exit@2:
@@ -94,47 +45,6 @@ IRON:
 	Selectable:
 		Bounds: 48,50,0,-4
 		-DecorationBounds: 50,50,0,-12
-	GrantExternalConditionPower@IRONCURTAIN:
-		Duration: 400
-
-DOG:
-	GrantConditionOnAttack:
-		RevokeDelay: 20
-
-TSLA:
-	AttackTesla:
-		RequiresCondition: true
-		PauseOnCondition: disabled || build-incomplete
-
-AGUN:
-	AttackTurreted:
-		RequiresCondition: true
-		PauseOnCondition: disabled || build-incomplete
-
-PBOX:
-	AttackGarrisoned:
-		RequiresCondition: true
-		PauseOnCondition: build-incomplete
-
-HBOX:
-	AttackGarrisoned:
-		RequiresCondition: true
-		PauseOnCondition: build-incomplete
-
-GUN:
-	AttackTurreted:
-		RequiresCondition: true
-		PauseOnCondition: build-incomplete
-
-FTUR:
-	AttackTurreted:
-		RequiresCondition: true
-		PauseOnCondition: build-incomplete
-
-SAM:
-	AttackTurreted:
-		RequiresCondition: true
-		PauseOnCondition: disabled || build-incomplete
 
 ATEK:
 	GpsPower:
@@ -146,8 +56,8 @@ ATEK:
 		StartFullyCharged: True
 		RequiresActiveRadar: True
 	ProduceActorPower@powergps:
-		Description: GPS Satellite
-		LongDesc: Reveals map terrain and provides tactical\ninformation. Requires power and active radar.
+		Name: GPS Satellite
+		Description: Reveals map terrain and provides tactical\ninformation.
 		Icon: gps
 		PauseOnCondition: disabled
 		Actors: gpsactivenoise
@@ -161,8 +71,8 @@ ATEK:
 		EndChargeSpeechNotification: SatelliteReady
 		RequiresCondition: !gpsactivated
 	ProduceActorPower@gpsactivesign:
-		Description: GPS Active Timer
-		LongDesc: Displays the amount of time the satellite is still active.
+		Name: GPS Active Timer
+		Description: Displays the amount of time the satellite is still active.
 		Icon: gpsactive
 		Actors: e1
 		Type: Infantry
