@@ -6,6 +6,10 @@
 		Position: TopLeft
 		ValidRelationships: Ally, Enemy, Neutral
 
+JEEP:
+	Mobile:
+		Speed: 164
+
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
 

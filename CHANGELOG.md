@@ -11,6 +11,8 @@ See [the pre-4.0 discussion](docs/bi-4.0-planning.md).
 
 Exactly the same as BI-3.5 but for release-20230225.
 
+The new release includes a change to the way speeds of ground units are measured, and so there is now an override for the Ranger to make it match BI-3.5 (speed 164, up from 160 in the release).
+
 ## 3.5
 
 ### GPS bug fix
