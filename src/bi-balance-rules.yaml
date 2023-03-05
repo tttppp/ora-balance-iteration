@@ -47,8 +47,8 @@ IRON:
 		Footprint: xx xx
 		Dimensions: 2,2
 	Selectable:
-		Bounds: 48,50,0,-4
-		-DecorationBounds: 50,50,0,-12
+		Bounds: 2048, 2133, 0, -170
+		-DecorationBounds: 2133, 2133, 0, -512
 
 ATEK:
 	GpsPower:
