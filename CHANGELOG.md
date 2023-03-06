@@ -7,6 +7,12 @@ comments from players to back it up.
 
 See [the pre-4.0 discussion](docs/bi-4.0-planning.md).
 
+## 3.5.2
+
+Exactly the same as BI-3.5 but for release-20230225.
+
+Includes bug fix for IC footprint (thanks milkman!)
+
 ## 3.5.1
 
 Exactly the same as BI-3.5 but for release-20230225.
