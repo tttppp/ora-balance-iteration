@@ -14,10 +14,10 @@ World:
 		AllyBuildRadiusCheckboxLocked: false
 		BuildRadiusCheckboxEnabled: true
 		BuildRadiusCheckboxLocked: false
-	SpawnMPUnits:
+	SpawnStartingUnits:
 		DropdownLocked: true
 		StartingUnitsClass: none
-	MPStartLocations:
+	MapStartingLocations:
 		SeparateTeamSpawnsCheckboxEnabled: false
 		SeparateTeamSpawnsCheckboxLocked: false
 	TimeLimitManager:

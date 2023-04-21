@@ -7,6 +7,12 @@ comments from players to back it up.
 
 See [the pre-4.0 discussion](docs/bi-4.0-planning.md).
 
+## 3.6
+
+### Parabomb wood damage 50 (down from 60)
+
+This is to prevent parabombs from taking out an Allied Tech Center in a single run.
+
 ## 3.5.2
 
 Exactly the same as BI-3.5 but for release-20230225.
