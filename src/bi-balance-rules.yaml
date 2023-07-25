@@ -34,6 +34,16 @@ JEEP:
 	Health:
 		HP: 18000
 
+2TNK:
+	Valued:
+		Cost: 900
+
+MCV:
+	Valued:
+		Cost: 1650
+	Buildable:
+		BuildDurationModifier: 60
+
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
 	Valued:

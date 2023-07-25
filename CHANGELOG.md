@@ -19,6 +19,14 @@ Import from Combined Arms - all vehicles get a 50% speed nerf when crushing.
 
 ### Ranger health 18000 (up from 15000)
 
+### Medium tank cost 900 (up from 850)
+
+This brings the cost per armour closer to the heavy tank.
+
+### MCV cost 1650 (down from 2000), build speed modifier 60 (up from 50)
+
+This keeps the MCV build time the same (40 seconds with one WF on normal) but means credits are consumed at the same rate as other units.
+
 ## 4.0 Planning
 
 See [the pre-4.0 discussion](docs/bi-4.0-planning.md).
