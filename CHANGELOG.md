@@ -17,6 +17,8 @@ Import from Combined Arms - all vehicles get a 50% speed nerf when crushing.
 
 ### Tanya cost 2000 (up from 1500)
 
+### Ranger health 18000 (up from 15000)
+
 ## 4.0 Planning
 
 See [the pre-4.0 discussion](docs/bi-4.0-planning.md).

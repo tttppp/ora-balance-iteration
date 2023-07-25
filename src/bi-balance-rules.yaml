@@ -31,6 +31,8 @@
 JEEP:
 	Mobile:
 		Speed: 164
+	Health:
+		HP: 18000
 
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
