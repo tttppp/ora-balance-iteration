@@ -34,6 +34,8 @@ JEEP:
 
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
+	Valued:
+		Cost: 2000
 
 SPY:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
@@ -83,6 +85,8 @@ MIG:
 
 IRON:
 	Inherits@shape: ^2x2Shape
+	Valued:
+		Cost: 2500
 	Building:
 		Footprint: xx xx
 		Dimensions: 2,2

@@ -13,6 +13,10 @@ Import from Combined Arms - all vehicles get a 50% speed nerf when crushing.
 
 ### Gap Generator shroud 7c0 (up from 6c0) and vision 7c0 (up from 6c0)
 
+### Iron Curtain cost 2500 (up from 1500)
+
+### Tanya cost 2000 (up from 1500)
+
 ## 4.0 Planning
 
 See [the pre-4.0 discussion](docs/bi-4.0-planning.md).
