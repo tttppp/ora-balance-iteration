@@ -48,8 +48,26 @@ MGG:
 		PauseOnCondition: undeployed
 	CreatesShroud:
 		RequiresCondition: !undeployed
+		Range: 7c0
 	GrantConditionOnDeploy:
 		DeployedCondition: undeployed
+	RevealsShroud:
+		MinRange: 5c0
+		Range: 7c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+
+GAP:
+	RevealsShroud:
+		MinRange: 5c0
+		Range: 7c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+	CreatesShroud:
+		Range: 7c0
+		RequiresCondition: !disabled
 
 AFLD:
 	Exit@1:

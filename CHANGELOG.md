@@ -7,7 +7,11 @@ comments from players to back it up.
 
 ### Slow down on crush (50% speed nerf)
 
-All vehicles get a 50% speed nerf when crushing.
+Import from Combined Arms - all vehicles get a 50% speed nerf when crushing.
+
+### MGG shroud 7c0 (up from 6c0) and vision 7c0 (up from 6c0) or 5c0 in shroud (up from 4c0)
+
+### Gap Generator shroud 7c0 (up from 6c0) and vision 7c0 (up from 6c0)
 
 ## 4.0 Planning
 
