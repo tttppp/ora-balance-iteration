@@ -3,6 +3,12 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## 4.0
+
+### Slow down on crush (50% speed nerf)
+
+All vehicles get a 50% speed nerf when crushing.
+
 ## 4.0 Planning
 
 See [the pre-4.0 discussion](docs/bi-4.0-planning.md).

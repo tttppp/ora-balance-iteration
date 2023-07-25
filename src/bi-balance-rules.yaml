@@ -1,3 +1,25 @@
+^SlowedByCrushing:
+	ExternalCondition@CRUSHATTEMPTSLOW:
+		Condition: crush-attempt-slow
+	SpeedMultiplier@CRUSHATTEMPTSLOW:
+		RequiresCondition: crush-attempt-slow && !crush-slow
+		Modifier: 75
+	ExternalCondition@CRUSHSLOW:
+		Condition: crush-slow
+	SpeedMultiplier@CRUSHSLOW:
+		RequiresCondition: crush-slow
+		Modifier: 50
+
+^Infantry:
+	GrantExternalConditionToCrusher@CRUSHATTEMPTSLOW:
+		WarnCrushCondition: crush-attempt-slow
+		WarnCrushDuration: 50
+		OnCrushCondition: crush-attempt-slow
+		OnCrushDuration: 100
+
+^Vehicle:
+	Inherits@SLOWEDBYCRUSHING: ^SlowedByCrushing
+
 ^CommandoSkull:
 	WithDecoration@COMMANDOSKULL:
 		Image: pips
