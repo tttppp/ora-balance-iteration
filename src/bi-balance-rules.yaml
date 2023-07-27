@@ -44,6 +44,12 @@ MCV:
 	Buildable:
 		BuildDurationModifier: 60
 
+TTNK:
+	RevealsShroud:
+		MinRange: 5c0
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
 	Valued:
@@ -69,6 +75,12 @@ MGG:
 		MinRange: 5c0
 		Range: 7c0
 		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+
+TSLA:
+	RevealsShroud:
+		MinRange: 5c0
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 
