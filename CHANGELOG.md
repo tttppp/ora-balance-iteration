@@ -27,6 +27,8 @@ Import from Combined Arms - all vehicles get a 50% speed nerf when crushing.
 
 This brings the cost per armour closer to the heavy tank.
 
+### Artillery turn speed 16 (up from 8), range 11 (down from 12)
+
 ### MCV cost 1650 (down from 2000), build speed modifier 60 (up from 50)
 
 This keeps the MCV build time the same (40 seconds with one WF on normal) but means credits are consumed at the same rate as other units.

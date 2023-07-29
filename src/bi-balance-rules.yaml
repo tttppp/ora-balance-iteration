@@ -38,6 +38,10 @@ JEEP:
 	Valued:
 		Cost: 900
 
+ARTY:
+	Mobile:
+		TurnSpeed: 16
+
 MCV:
 	Valued:
 		Cost: 1650
@@ -62,6 +66,19 @@ SPY:
 	Disguise:
 		DisguisedAsConditions:
 			e7: tanyadisguise
+
+SPY.England:
+	Buildable:
+		Prerequisites: ~infantry.england, fix, ~!dome, ~tent, ~techlevel.medium
+	Valued:
+		Cost: 1000
+
+SPY.EnglandRadar:
+	Inherits: SPY
+	Buildable:
+		Prerequisites: ~infantry.england, ~dome, ~tent, ~techlevel.medium
+	RenderSprites:
+		Image: spy
 
 MGG:
 	WithIdleOverlay@SPINNER:

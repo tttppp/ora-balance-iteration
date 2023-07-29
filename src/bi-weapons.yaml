@@ -2,3 +2,6 @@ ParaBomb:
 	Warhead@1Dam: SpreadDamage
 		Versus:
 			Wood: 50
+
+155mm:
+	Range: 11c0
