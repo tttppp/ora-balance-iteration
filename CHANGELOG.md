@@ -13,6 +13,10 @@ Import from Combined Arms - all vehicles get a 50% speed nerf when crushing.
 
 ### Gap Generator shroud 7c0 (up from 6c0) and vision 7c0 (up from 6c0)
 
+### Chronotank removed infantry targetting
+
+### Phase transport removed infantry targetting
+
 ### Teslacoil vision in shroud 5c0 (down from 6c0)
 
 ### Tesla Tank vision in shroud 5c0 (down from 6c0)
@@ -32,6 +36,12 @@ This brings the cost per armour closer to the heavy tank.
 ### MCV cost 1650 (down from 2000), build speed modifier 60 (up from 50)
 
 This keeps the MCV build time the same (40 seconds with one WF on normal) but means credits are consumed at the same rate as other units.
+
+### Naval units have steel armour type
+
+### Infantry, ground defences and spy plane have underwater detection
+
+### Sonar pulse available on tech center infiltration
 
 ## 4.0 Planning
 

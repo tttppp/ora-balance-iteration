@@ -1,7 +1,228 @@
+^HeavyMG:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 28
+
+^LightMG:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 28
+
+^Artillery:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 40
+
+^AntiGroundMissile:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 90
+
+^FireWeapon:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 25
+
+^Explosion:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 25
+
 ParaBomb:
 	Warhead@1Dam: SpreadDamage
 		Versus:
 			Wood: 50
+			Steel: 100
 
 155mm:
 	Range: 11c0
+
+FLAK-23-AG:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 10
+
+Vulcan:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 28
+	Warhead@4Dam_2: SpreadDamage
+		Versus:
+			Steel: 28
+	Warhead@5Dam_3: SpreadDamage
+		Versus:
+			Steel: 28
+	Warhead@7Dam_4: SpreadDamage
+		Versus:
+			Steel: 28
+	Warhead@9Dam_5: SpreadDamage
+		Versus:
+			Steel: 28
+	Warhead@11Dam_6: SpreadDamage
+		Versus:
+			Steel: 28
+
+ChainGun.Yak:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 25
+
+25mm:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 40
+
+90mm:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 77
+
+105mm:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 77
+
+120mm:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 77
+
+2Inch:
+	InvalidTargets: Submarine
+	Warhead@1Dam: SpreadDamage
+		Damage: 3500 #2500
+		Versus:
+			Steel: 105
+	Projectile: Bullet
+		Speed: 682 #426
+
+8Inch:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			None: 100 #60
+			Light: 75 #35
+			Heavy: 35 #25
+			Steel: 40
+	Warhead@4EffWater: CreateEffect
+		Explosions: large_splash
+	InvalidTargets: Submarine
+	Projectile: Bullet
+		Speed: 215 #204
+
+Grenade:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 25
+
+DepthCharge:
+	Inherits: ^Artillery
+	-Report:
+	ReloadDelay: 100 #60
+	Range: 6c0 #5c0
+	ValidTargets: Underwater, Submarine #Underwater
+	Projectile: Bullet
+		Speed: 148 #125
+		Image: BOMB
+		Inaccuracy: 1c0 #128
+	Warhead@1Dam: SpreadDamage
+		Spread: 256
+		Damage: 6000
+		ValidTargets: Submarine
+		Versus:
+			Steel: 100
+
+DDDepthCharge:
+	Inherits: DepthCharge
+	Burst: 3 #1
+	ReloadDelay: 150 #60
+
+Maverick:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 115
+
+HellfireAG:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 105
+
+Stinger:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Wood: 66 #88
+			Light: 66 #88
+			Heavy: 100 #120
+			Steel: 100
+	InvalidTargets: Submarine
+
+StingerAA:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Light: 50 #100
+
+APTusk:
+	InvalidTargets: Infantry
+
+TorpTube:
+	ReloadDelay: 100
+	Range: 9c0
+	Burst: 2
+	BurstDelays: 20
+	Projectile: Missile
+		Jammable: False
+		Speed: 145 #85
+        HorizontalRateOfTurn: 0
+	Warhead@1Dam: SpreadDamage
+		Spread: 320
+		Damage: 18000
+		Versus:
+			Wood: 35 #75
+			Light: 75
+			Heavy: 100
+			Concrete: 500
+			Steel: 65
+
+SubMissile:
+	InvalidTargets: Submarine
+    ReloadDelay: 250 #300
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			None: 80 #40
+			Wood: 50
+			Light: 48 #30
+			Heavy: 38 #30
+			Concrete: 100
+			Steel: 48
+	Projectile: Bullet
+		Speed: 215 #162
+
+SCUD:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 64
+
+Flamer:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 20
+
+PortaTesla:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 60
+
+Claw:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 10
+
+
+MandibleHeavy:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 35
+
+AntFireball:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Steel: 20

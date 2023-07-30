@@ -18,3 +18,11 @@ iron:
 
 icon:
 	gpsactive: gpssactiveicon
+
+ss:
+	idle:
+		InterpolatedFacings: 32
+
+msub:
+	idle:
+		InterpolatedFacings: 32

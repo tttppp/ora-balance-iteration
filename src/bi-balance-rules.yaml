@@ -16,9 +16,21 @@
 		WarnCrushDuration: 50
 		OnCrushCondition: crush-attempt-slow
 		OnCrushDuration: 100
+	DetectCloaked:
+		DetectionTypes: Underwater, Cloak #Cloak
+		Range: 1c0
 
 ^Vehicle:
 	Inherits@SLOWEDBYCRUSHING: ^SlowedByCrushing
+
+^Ship:
+	Mobile:
+		Locomotor: naval
+	Targetable:
+		TargetTypes: WaterActor, Ship
+	Explodes:
+		Weapon: UnitExplodeShip
+		EmptyWeapon: UnitExplodeShip
 
 ^CommandoSkull:
 	WithDecoration@COMMANDOSKULL:
@@ -100,6 +112,29 @@ TSLA:
 		MinRange: 5c0
 	RevealsShroud@GAPGEN:
 		Range: 5c0
+	DetectCloaked:
+		DetectionTypes: Cloak, Underwater #Cloak
+		Range: 6c0
+
+PBOX:
+	DetectCloaked:
+		Range: 6c0
+		DetectionTypes: Cloak, Underwater #Cloak
+
+HBOX:
+	DetectCloaked:
+		Range: 6c0
+		DetectionTypes: Cloak, Underwater #Cloak
+
+GUN:
+	DetectCloaked:
+		Range: 6c0
+		DetectionTypes: Cloak, Underwater #Cloak
+
+FTUR:
+	DetectCloaked:
+		Range: 6c0
+		DetectionTypes: Cloak, Underwater #Cloak
 
 GAP:
 	RevealsShroud:
@@ -119,6 +154,8 @@ AFLD:
 		RequiresCondition: !being-captured
 		ExitCell: 0,0
 		Facing: 256
+	AirstrikePower@spyplane:
+		Description: Reveals an area of the map and submarines.
 
 MIG:
 	Health:
@@ -134,6 +171,13 @@ IRON:
 	Selectable:
 		Bounds: 2048, 2133, 0, -170
 		-DecorationBounds: 2133, 2133, 0, -512
+
+STEK:
+	InfiltrateForSupportPower:
+		Proxy: powerproxy.sonarpulse
+		Types: SpyInfiltrate
+	Targetable:
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SpyInfiltrate
 
 ATEK:
 	GpsPower:
@@ -179,6 +223,9 @@ ATEK:
 		ExitCell: -1,2
 	Production@GPSPower:
 		Produces: GPSPower
+	InfiltrateForSupportPower:
+		Proxy: powerproxy.sonarpulse
+		Types: SpyInfiltrate
 
 gpsactivenoise:
 	Interactable:
@@ -243,3 +290,299 @@ powergps:
 	KillsSelf:
 		RequiresCondition: !uplinkexists
 
+SS:
+	Valued:
+		Cost: 950
+	Health:
+		HP: 25000
+	Armor:
+		Type: Steel
+	Mobile:
+		TurnSpeed: 20 #16
+		Speed: 78
+	RevealsShroud:
+		MinRange: 5c0
+		Range: 8c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+	Targetable:
+		TargetTypes: WaterActor, Ship, Submarine, Repair
+		RequiresCondition: !underwater
+	Targetable@UNDERWATER:
+		TargetTypes: WaterActor, Ship, Submarine, Repair #Underwater, Submarine
+		RequiresCondition: underwater
+	Cloak:
+		DetectionTypes: Underwater
+		InitialDelay: 0
+		CloakDelay: 20
+		CloakSound: subshow1.aud
+		UncloakSound: subshow1.aud
+		CloakedCondition: underwater
+		Palette: submerged
+		UncloakOn: Attack, Unload, Dock, Damage, Heal
+		PauseOnCondition: cloak-force-disabled
+	GrantConditionOnDamageState@UNCLOAK:
+		Condition: cloak-force-disabled
+		ValidDamageStates: Critical
+	Armament:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+	WithDamageOverlay:
+		MinimumDamageState: Critical
+
+MSUB:
+	Buildable:
+		Prerequisites: ~spen, dome, ~techlevel.high
+	Valued:
+		Cost: 2000
+	Health:
+		HP: 40000
+	Armor:
+		Type: Steel
+	Mobile:
+		TurnSpeed: 16 #12
+		Speed: 44
+	RevealsShroud:
+		MinRange: 5c0
+		Range: 8c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+	Targetable:
+		TargetTypes: WaterActor, Ship, Submarine, Repair
+		RequiresCondition: !underwater
+	Targetable@UNDERWATER:
+		TargetTypes: WaterActor, Ship, Submarine, Repair #Underwater, Submarine
+		RequiresCondition: underwater
+	Cloak:
+		DetectionTypes: Underwater
+		InitialDelay: 0
+		CloakDelay: 20
+		CloakSound: subshow1.aud
+		UncloakSound: subshow1.aud
+		CloakedCondition: underwater
+		Palette: submerged
+		PauseOnCondition: cloak-force-disabled
+		UncloakOn: Attack, Unload, Dock, Damage, Heal
+	GrantConditionOnDamageState@UNCLOAK:
+		Condition: cloak-force-disabled
+		ValidDamageStates: Critical
+	Armament@PRIMARY:
+		Weapon: SubMissile
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	Armament@SECONDARY:
+		Weapon: SubMissileAA
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 7c0 #4c0
+	WithDamageOverlay:
+		MinimumDamageState: Critical
+
+DD:
+	Valued:
+		Cost: 1000
+	Health:
+		HP: 40000
+	Armor:
+		Type: Steel
+	Mobile:
+		TurnSpeed: 24 #28
+		Speed: 92
+	RevealsShroud:
+		MinRange: 4c0 #5c0
+		Range: 5c0 #6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0 #5c0
+	Turreted:
+		TurnSpeed: 28
+		Offset: 469,0,128
+	Armament@PRIMARY:
+		Weapon: Stinger
+		LocalOffset: 0,-100,0, 0,100,0
+		LocalYaw: 64, -64
+	Armament@SECONDARY:
+		Weapon: DDDepthCharge
+		LocalOffset: 0,-100,0, 0,100,0
+		LocalYaw: 80, -80
+	Armament@TERTIARY:
+		Weapon: StingerAA
+		LocalOffset: 0,-100,0, 0,100,0
+		LocalYaw: 64, -64
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 3c0 #4c0
+
+CA:
+	Valued:
+		Cost: 2400
+	Health:
+		HP: 80000
+	Armor:
+		Type: Steel
+	Mobile:
+		TurnSpeed: 12
+		Speed: 44
+	RevealsShroud:
+		MinRange: 5c0
+		Range: 7c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+	Turreted@PRIMARY:
+		Turret: primary
+		Offset: -896,0,128
+		TurnSpeed: 12
+	Turreted@SECONDARY:
+		Turret: secondary
+		Offset: 768,0,128
+		TurnSpeed: 12
+	Armament@PRIMARY:
+		Turret: primary
+		Weapon: 8Inch
+		LocalOffset: 480,-100,40, 480,100,40
+		Recoil: 171
+		RecoilRecovery: 34
+		MuzzleSequence: muzzle
+	Armament@SECONDARY:
+		Name: secondary
+		Turret: secondary
+		Weapon: 8Inch
+		LocalOffset: 480,-100,40, 480,100,40
+		Recoil: 171
+		RecoilRecovery: 34
+		MuzzleSequence: muzzle
+	AttackTurreted:
+		Turrets: primary, secondary
+		TargetFrozenActors: True
+		ForceFireIgnoresActors: True
+
+LST:
+	Valued:
+		Cost: 500 #700
+	Health:
+		HP: 40000 #35000
+	Armor:
+		Type: Steel
+	Mobile:
+		Locomotor: lcraft
+		Speed: 128
+		PauseOnCondition: notmobile
+	RevealsShroud:
+		MinRange: 5c0
+		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+	WithLandingCraftAnimation:
+		OpenTerrainTypes: Clear, Rough, Road, Ore, Gems, Beach
+	Cargo:
+		Types: Infantry, Vehicle
+		MaxWeight: 10 #5
+
+PT:
+	Valued:
+		Cost: 500
+	Health:
+		HP: 20000
+	Armor:
+		Type: Steel
+	Mobile:
+		TurnSpeed: 24 #28
+		Speed: 142
+	RevealsShroud:
+		MinRange: 5c0
+		Range: 8c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+	Turreted:
+		TurnSpeed: 28
+		Offset: 512,0,0
+	Armament@PRIMARY:
+		Weapon: 2Inch
+		LocalOffset: 208,0,48
+		MuzzleSequence: muzzle
+	Armament@SECONDARY:
+		Name: secondary
+		Weapon: DepthCharge
+		MuzzleSequence: muzzle
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 6c0
+
+SPEN:
+	Valued:
+		Cost: 600 #800
+	Health:
+		HP: 75000 #100000
+	Tooltip:
+		Name: Sub Pen
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 10c0
+
+SYRD:
+	Valued:
+		Cost: 600 #1000
+	Health:
+		HP: 75000 #100000
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 10c0
+
+SYRF:
+	Valued:
+		Cost: 50 #100
+
+SPEF:
+	Valued:
+		Cost: 50 #80
+
+camera.spyplane:
+	Inherits: CAMERA
+	EditorOnlyTooltip:
+		Name: (support power proxy camera)
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 10c0
+
+powerproxy.sonarpulse:
+	AlwaysVisible:
+	SpawnActorPower:
+		Icon: sonar
+		Name: Sonar Pulse
+		Description: Reveals map and submarines in the vicinity for a \nshort time.
+		ChargeInterval: 3250
+		EndChargeSpeechNotification: SonarPulseReady
+		SelectTargetSpeechNotification: SelectTarget
+		EndChargeTextNotification: Sonar pulse ready.
+		SelectTargetTextNotification: Select target.
+		Actor: sonar
+		Terrain: Water
+		AllowUnderShroud: false
+		LifeTime: 250
+		DeploySound: sonpulse.aud
+		EffectImage: moveflsh
+		EffectPalette: moveflash
+		SupportPowerPaletteOrder: 80
+		EffectSequence: idle
+
+SONAR:
+	Inherits: camera.spyplane
+	EditorOnlyTooltip:
+		Name: (support power proxy camera)
+	RevealsShroud:
+		Range: 10c0
+		Type: CenterPosition
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 10c0
