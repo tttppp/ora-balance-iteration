@@ -37,6 +37,10 @@ This brings the cost per armour closer to the heavy tank.
 
 This keeps the MCV build time the same (40 seconds with one WF on normal) but means credits are consumed at the same rate as other units.
 
+### Silo protects refinery from infiltration, cannot be infiltrated itself
+
+This has a range of 18c0.
+
 ### Naval units have steel armour type
 
 ### Infantry, ground defences and spy plane have underwater detection

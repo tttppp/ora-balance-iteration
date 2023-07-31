@@ -147,6 +147,27 @@ GAP:
 		Range: 7c0
 		RequiresCondition: !disabled
 
+PROC:
+	Targetable:
+		TargetTypes: GroundActor, Structure, C4, DetonateAttack
+	ExternalCondition@PROTECTED:
+		Condition: protected
+	Targetable@INFILTRATE:
+		TargetTypes: ThiefInfiltrate, SpyInfiltrate
+		RequiresCondition: !protected
+
+SILO:
+	Targetable:
+		TargetTypes: GroundActor, Structure, C4, DetonateAttack
+	ProximityExternalCondition@PROTECTED:
+		Range: 18c0
+		Condition: protected
+	JamsMissiles:
+		Range: 18c0
+		DeflectionRelationships: None
+	RenderJammerCircle:
+
+
 AFLD:
 	Exit@1:
 		ExitCell: 1,3
