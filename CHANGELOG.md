@@ -17,6 +17,10 @@ Import from Combined Arms - all vehicles get a 50% speed nerf when crushing.
 
 ### Phase transport removed infantry targetting
 
+### MAD tank removed chronoshift, charge delay 192 (up from 96), spread 14c0 (up from 7c0), damage buff vs heavy and concrete
+
+A single MAD tank now takes out vehicles and structures with heavy or concrete armour.
+
 ### Teslacoil vision in shroud 5c0 (down from 6c0)
 
 ### Tesla Tank vision in shroud 5c0 (down from 6c0)

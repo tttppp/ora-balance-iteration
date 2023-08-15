@@ -66,6 +66,13 @@ TTNK:
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 
+QTNK:
+	MadTank:
+		ChargeDelay: 192
+	-Chronoshiftable:
+	WithRangeCircle:
+		Range: 14c0
+
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
 	Valued:

@@ -226,3 +226,33 @@ AntFireball:
 	Warhead@1Dam: SpreadDamage
 		Versus:
 			Steel: 20
+
+MADTankThump:
+	ValidTargets: GroundActor, WaterActor
+	InvalidTargets: MADTank, Infantry
+	Warhead@1Dam: HealthPercentageDamage
+		Spread: 14c0
+		Damage: 5
+		ValidTargets: GroundActor, WaterActor
+		InvalidTargets: MADTank, Infantry
+		Versus:
+			Light: 5
+			Wood: 15
+			Heavy: 70
+			Steel: 15
+			Concrete: 100
+
+MADTankDetonate:
+	ValidTargets: GroundActor, WaterActor
+	InvalidTargets: MADTank, Infantry
+	Warhead@1Dam: HealthPercentageDamage
+		Spread: 14c0
+		Damage: 60
+		ValidTargets: GroundActor, WaterActor
+		InvalidTargets: MADTank, Infantry
+		Versus:
+			Light: 5
+			Wood: 15
+			Heavy: 70
+			Steel: 15
+			Concrete: 100
