@@ -88,16 +88,12 @@ SPY:
 
 SPY.England:
 	Buildable:
-		Prerequisites: ~infantry.england, fix, ~!dome, ~tent, ~techlevel.medium
+		Prerequisites: ~infantry.england, fixordome, ~tent, ~techlevel.medium
 	Valued:
 		Cost: 1000
-
-SPY.EnglandRadar:
-	Inherits: SPY
-	Buildable:
-		Prerequisites: ~infantry.england, ~dome, ~tent, ~techlevel.medium
-	RenderSprites:
-		Image: spy
+	ProductionCostMultiplier:
+		Multiplier: 50
+		Prerequisites: dome
 
 MGG:
 	WithIdleOverlay@SPINNER:
@@ -174,6 +170,13 @@ SILO:
 		DeflectionRelationships: None
 	RenderJammerCircle:
 
+FIX:
+	ProvidesPrerequisite@fixordome:
+		Prerequisite: fixordome
+
+DOME:
+	ProvidesPrerequisite@fixordome:
+		Prerequisite: fixordome
 
 AFLD:
 	Exit@1:

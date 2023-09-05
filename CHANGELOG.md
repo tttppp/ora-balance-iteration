@@ -29,6 +29,10 @@ A single MAD tank now takes out vehicles and structures with heavy or concrete a
 
 ### Tanya cost 2000 (up from 1500)
 
+### British spy is available from SD with cost 1000 (up from 250 at RD)
+
+The price drops to 500 once radar is built.
+
 ### Ranger health 18000 (up from 15000)
 
 ### Medium tank cost 900 (up from 850)
