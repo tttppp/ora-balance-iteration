@@ -17,7 +17,7 @@
 		OnCrushCondition: crush-attempt-slow
 		OnCrushDuration: 100
 	DetectCloaked:
-		DetectionTypes: Underwater, Cloak #Cloak
+		DetectionTypes: Underwater, Cloak
 		Range: 1c0
 
 ^Vehicle:
@@ -116,28 +116,28 @@ TSLA:
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	DetectCloaked:
-		DetectionTypes: Cloak, Underwater #Cloak
+		DetectionTypes: Cloak, Underwater
 		Range: 6c0
 
 PBOX:
 	DetectCloaked:
 		Range: 6c0
-		DetectionTypes: Cloak, Underwater #Cloak
+		DetectionTypes: Cloak, Underwater
 
 HBOX:
 	DetectCloaked:
 		Range: 6c0
-		DetectionTypes: Cloak, Underwater #Cloak
+		DetectionTypes: Cloak, Underwater
 
 GUN:
 	DetectCloaked:
 		Range: 6c0
-		DetectionTypes: Cloak, Underwater #Cloak
+		DetectionTypes: Cloak, Underwater
 
 FTUR:
 	DetectCloaked:
 		Range: 6c0
-		DetectionTypes: Cloak, Underwater #Cloak
+		DetectionTypes: Cloak, Underwater
 
 GAP:
 	RevealsShroud:
@@ -326,14 +326,14 @@ powergps:
 
 SS:
 	Valued:
-		Cost: 950
+		Cost: 750
 	Health:
 		HP: 25000
 	Armor:
 		Type: Steel
 	Mobile:
-		TurnSpeed: 20 #16
-		Speed: 78
+		TurnSpeed: 24
+		Speed: 85
 	RevealsShroud:
 		MinRange: 5c0
 		Range: 8c0
@@ -344,7 +344,7 @@ SS:
 		TargetTypes: WaterActor, Ship, Submarine, Repair
 		RequiresCondition: !underwater
 	Targetable@UNDERWATER:
-		TargetTypes: WaterActor, Ship, Submarine, Repair #Underwater, Submarine
+		TargetTypes: WaterActor, Ship, Submarine, Repair
 		RequiresCondition: underwater
 	Cloak:
 		DetectionTypes: Underwater
@@ -379,7 +379,7 @@ MSUB:
 	Armor:
 		Type: Steel
 	Mobile:
-		TurnSpeed: 16 #12
+		TurnSpeed: 16
 		Speed: 44
 	RevealsShroud:
 		MinRange: 5c0
@@ -391,7 +391,7 @@ MSUB:
 		TargetTypes: WaterActor, Ship, Submarine, Repair
 		RequiresCondition: !underwater
 	Targetable@UNDERWATER:
-		TargetTypes: WaterActor, Ship, Submarine, Repair #Underwater, Submarine
+		TargetTypes: WaterActor, Ship, Submarine, Repair
 		RequiresCondition: underwater
 	Cloak:
 		DetectionTypes: Underwater
@@ -416,7 +416,7 @@ MSUB:
 		FireDelay: 2
 	DetectCloaked:
 		DetectionTypes: Underwater
-		Range: 7c0 #4c0
+		Range: 7c0
 	WithDamageOverlay:
 		MinimumDamageState: Critical
 
@@ -428,14 +428,14 @@ DD:
 	Armor:
 		Type: Steel
 	Mobile:
-		TurnSpeed: 24 #28
+		TurnSpeed: 24
 		Speed: 92
 	RevealsShroud:
-		MinRange: 4c0 #5c0
-		Range: 5c0 #6c0
+		MinRange: 4c0
+		Range: 5c0
 		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
-		Range: 4c0 #5c0
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 28
 		Offset: 469,0,128
@@ -453,7 +453,7 @@ DD:
 		LocalYaw: 64, -64
 	DetectCloaked:
 		DetectionTypes: Underwater
-		Range: 3c0 #4c0
+		Range: 3c0
 
 CA:
 	Valued:
@@ -501,9 +501,9 @@ CA:
 
 LST:
 	Valued:
-		Cost: 500 #700
+		Cost: 500
 	Health:
-		HP: 40000 #35000
+		HP: 40000
 	Armor:
 		Type: Steel
 	Mobile:
@@ -520,7 +520,7 @@ LST:
 		OpenTerrainTypes: Clear, Rough, Road, Ore, Gems, Beach
 	Cargo:
 		Types: Infantry, Vehicle
-		MaxWeight: 10 #5
+		MaxWeight: 10
 
 PT:
 	Valued:
@@ -530,7 +530,7 @@ PT:
 	Armor:
 		Type: Steel
 	Mobile:
-		TurnSpeed: 24 #28
+		TurnSpeed: 24
 		Speed: 142
 	RevealsShroud:
 		MinRange: 5c0
@@ -555,31 +555,35 @@ PT:
 
 SPEN:
 	Valued:
-		Cost: 600 #800
+		Cost: 600
 	Health:
-		HP: 75000 #100000
+		HP: 75000
 	Tooltip:
 		Name: Sub Pen
 	DetectCloaked:
 		DetectionTypes: Underwater
 		Range: 10c0
+	Power:
+		Amount: -20
 
 SYRD:
 	Valued:
-		Cost: 600 #1000
+		Cost: 600
 	Health:
-		HP: 75000 #100000
+		HP: 75000
 	DetectCloaked:
 		DetectionTypes: Underwater
 		Range: 10c0
+	Power:
+		Amount: -20
 
 SYRF:
 	Valued:
-		Cost: 50 #100
+		Cost: 60
 
 SPEF:
 	Valued:
-		Cost: 50 #80
+		Cost: 60
 
 camera.spyplane:
 	Inherits: CAMERA

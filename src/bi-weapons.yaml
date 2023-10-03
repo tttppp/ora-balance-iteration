@@ -90,24 +90,24 @@ ChainGun.Yak:
 2Inch:
 	InvalidTargets: Submarine
 	Warhead@1Dam: SpreadDamage
-		Damage: 3500 #2500
+		Damage: 3500
 		Versus:
 			Steel: 105
 	Projectile: Bullet
-		Speed: 682 #426
+		Speed: 682
 
 8Inch:
 	Warhead@1Dam: SpreadDamage
 		Versus:
-			None: 100 #60
-			Light: 75 #35
-			Heavy: 35 #25
+			None: 100
+			Light: 75
+			Heavy: 35
 			Steel: 40
 	Warhead@4EffWater: CreateEffect
 		Explosions: large_splash
 	InvalidTargets: Submarine
 	Projectile: Bullet
-		Speed: 215 #204
+		Speed: 215
 
 Grenade:
 	Warhead@1Dam: SpreadDamage
@@ -117,13 +117,13 @@ Grenade:
 DepthCharge:
 	Inherits: ^Artillery
 	-Report:
-	ReloadDelay: 100 #60
-	Range: 6c0 #5c0
-	ValidTargets: Underwater, Submarine #Underwater
+	ReloadDelay: 100
+	Range: 6c0
+	ValidTargets: Underwater, Submarine
 	Projectile: Bullet
-		Speed: 148 #125
+		Speed: 148
 		Image: BOMB
-		Inaccuracy: 1c0 #128
+		Inaccuracy: 1c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 256
 		Damage: 6000
@@ -133,8 +133,8 @@ DepthCharge:
 
 DDDepthCharge:
 	Inherits: DepthCharge
-	Burst: 3 #1
-	ReloadDelay: 150 #60
+	Burst: 3
+	ReloadDelay: 150
 
 Maverick:
 	Warhead@1Dam: SpreadDamage
@@ -149,17 +149,16 @@ HellfireAG:
 Stinger:
 	Warhead@1Dam: SpreadDamage
 		Versus:
-			Wood: 66 #88
-			Light: 66 #88
-			Heavy: 100 #120
+			Wood: 66
+			Light: 66
+			Heavy: 100
 			Steel: 100
 	InvalidTargets: Submarine
 
 StingerAA:
 	Warhead@1Dam: SpreadDamage
 		Versus:
-			Light: 50 #100
-
+			Light: 58
 APTusk:
 	InvalidTargets: Infantry
 
@@ -170,13 +169,13 @@ TorpTube:
 	BurstDelays: 20
 	Projectile: Missile
 		Jammable: False
-		Speed: 145 #85
-        HorizontalRateOfTurn: 0
+		Speed: 170
+		HorizontalRateOfTurn: 0
 	Warhead@1Dam: SpreadDamage
 		Spread: 320
 		Damage: 18000
 		Versus:
-			Wood: 35 #75
+			Wood: 35
 			Light: 75
 			Heavy: 100
 			Concrete: 500
@@ -184,17 +183,17 @@ TorpTube:
 
 SubMissile:
 	InvalidTargets: Submarine
-    ReloadDelay: 250 #300
+	ReloadDelay: 250
 	Warhead@1Dam: SpreadDamage
 		Versus:
-			None: 80 #40
+			None: 80
 			Wood: 50
-			Light: 48 #30
-			Heavy: 38 #30
+			Light: 48
+			Heavy: 38
 			Concrete: 100
 			Steel: 48
 	Projectile: Bullet
-		Speed: 215 #162
+		Speed: 215
 
 SCUD:
 	Warhead@1Dam: SpreadDamage

@@ -5,6 +5,8 @@ comments from players to back it up.
 
 ## 4.0
 
+Including changes from Total Naval Overhaul 1.0 (TNO 1.0).
+
 ### Slow down on crush (50% speed nerf)
 
 Import from Combined Arms - all vehicles get a 50% speed nerf when crushing.
@@ -49,11 +51,51 @@ This keeps the MCV build time the same (40 seconds with one WF on normal) but me
 
 This has a range of 18c0.
 
-### Naval units have steel armour type
+### General naval unit changes
 
-### Infantry, ground defences and spy plane have underwater detection
+Naval units have steel armour type. This is a decrease in damage taken from tanks and infantry, but an increase in damage taken from missiles and artis.
+
+Naval units only autotarget subs with torpedoes or depthcharges.
+
+Subs can be damaged while underwater and surface upon taking damage.
+
+Infantry, ground defences and spy plane have underwater detection
 
 ### Sonar pulse available on tech center infiltration
+
+Sonar pulse reveals shroud 10c0, detects subs, must be targetted on water
+
+### Subs cost 750 (down from 950), Turnspeed 24 (up from 16), Speed 85 (up from 78) Cloak delay 20 (down from 50)
+
+Torpedoes no longer seek. Speed 170 (up from 85), spread 320 (down from 426), wood damage 35 (down from 75), Steel damage 65
+
+### Missile Sub tier 2 (down from tier 3), Turnspeed 16 (up from 12), cloak delay 20 (down from 100), Detect Cloak 7c0 (up from 4c0)
+
+Missile Sub Missile reload delay 250 (down from 300), none damage 80 (up from 40), light damage 48 (up from 30), heavy damage 38 (up from 30), steel damage 48, speed 215 (up from 162)
+
+### Gunboat turnspeed 24 (down from 28)
+
+2inch damage 3500 (up from 2500), steel damage 105, speed 682 (up from 426)
+
+Gunboat Depthcharge reload delay 100 (up from 60), range 6c0 (up from 5c0), speed 148 (up from 125), inaccuracy 1c0 (up from 0c128)
+
+### Destroyer turnspeed 24 (down from 28), reveal shroud min 4co (down from 5c0), reveal shroud 5c0 (down from 6c0), detect cloack, 3c0 (down from 4co)
+
+Stinger wood damage 66 (down from 88), light damage 66 (down from 88), heavy damage 100 (down from 120) steel damage 100
+
+StingerAA light damage 58 (down from 100)
+
+DDDepthcharge burst 3 (up from 1), reload delay 150 (up from 60)
+
+8inch none damage 100 (up from 60), light damage 75 (up from 35), heavy damage 35 (up from 25), steel damage 40, speed 215 (up from 204)
+
+### Transport cost 500 (down from 700), health 40000 (up from 35000), capacity 10 (up from 5)
+
+This does not include any weight restrictions, so it's possible (but risky) to include 10 tanks in a single transport.
+
+### Sub pen/Shipyard cost 600 (down from 800/1000), health 75000 (down from 100000), Power 20 (down from 30)
+
+Corresponding changes to fake sub pen and shipyard - both now cost 60 (down from 80/100).
 
 ### GPS bug fix
 
