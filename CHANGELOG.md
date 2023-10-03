@@ -55,6 +55,10 @@ This has a range of 18c0.
 
 ### Sonar pulse available on tech center infiltration
 
+### GPS bug fix
+
+GPS no longer crashes when used alongside lua code.
+
 ## 4.0 Planning
 
 See [the pre-4.0 discussion](docs/bi-4.0-planning.md).

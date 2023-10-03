@@ -288,6 +288,9 @@ gpsactivenoise:
 		Actor: powergps
 		SpawnAfterDefeat: False
 	KillsSelf:
+	Buildable:
+		Queue: Infantry
+		Prerequisites: ~disabled
 
 powergps:
 	Interactable:

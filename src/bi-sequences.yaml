@@ -19,6 +19,9 @@ iron:
 icon:
 	gpsactive: gpssactiveicon
 
+camera:
+	icon: gpssactiveicon
+
 ss:
 	idle:
 		InterpolatedFacings: 32
