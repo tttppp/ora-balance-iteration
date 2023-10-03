@@ -291,6 +291,8 @@ gpsactivenoise:
 	Buildable:
 		Queue: Infantry
 		Prerequisites: ~disabled
+	Tooltip:
+		Name: "Actor to play GPS noises"
 
 powergps:
 	Interactable:
