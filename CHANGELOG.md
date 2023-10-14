@@ -3,6 +3,65 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## 4.1
+
+### Static ground defences
+
+Feedback:
+
+* Unano - 2023-10-13: Could flame towers be given the same range and vision as pillboxes? pills can decimate your inv without being seen, but the flame tower cant, and can easily just be dodged
+* Moods: Flames are shit compared to pills
+* .won: flames are good, the only issue with flames is they suck with micro
+* happy: That’s what I’ve noticed playing, pills are much better at pushing off some small flanks but when it’s army vs army into my base I prefer the flame towers. its odd to me that vision is atleast not matched
+* Moods: In theory it shud be offsetted by teslas being amazing... but they arent
+* tux: I do agree [teslas] are pretty bad. pillboxes are still incredibly strong. flametowers are also nice
+* .won: nah tesla are fine. they are better than turrents what more do you want
+* Margot: splash of flames are wonderful. pills are nice too
+* despro: base defences r ridiculous in openra. stop talkn bout buffin tha tshit
+* tux: increase tesla range ffs
+* despro: if u want to buff tesla thats prob the worst way to do it tux
+
+### Yaks
+
+Feedback:
+
+* happy - 2023-10-13: the yak is pretty shit also
+* despro: yak is not shit
+* .won: yaks are pretty good wtf
+* tux: yaks are great
+* happy: ill take a bh every day of the month vs a yak
+* Moods: There jus unreliable with attack move
+* Unano: Yea I think this too  - they like 90% kill a v2 then circle around for another pass instead of moving on the the next target - which basically means their suicide run failed. I prefer yaks [to blackhawks]
+* .won: to snipe stuff they are fine, if you wanna attack blobs yeah, not that good
+* anjew: tbh i like the yaks but mainly because you can make crash money. migs are too fast, heli too slow. yak is just right
+* goat: i prefer yaks [to blackhawks]
+
+### Rocket air tracking
+
+* Unano - 2023-10-13: Yak just dies no matter what since someone made a balance change that lets rockets follow them 10000miles
+* .won: Yeah I dont like that, but thats the same with BH. i think the tracking has to be reduced a bit
+* happy: the heat seeking rockets are really annoying
+* tux: if you nerf rocket tracking bh rushes just get even worse
+* anjew: [This change] introduced a change to the Nike missile, which redeye inherits. i think its an oversight
+* .won: you used to be able to out run rockets if you had a distance. now you cant out run them
+* dang_shot: i have never played with the previous tracking, i dont mind how it works now but interesting observation that i think anjew is right that it was not the intention
+* Unano: Its a huge nerf to yaks as they used to be able to get away sometimes with a bit of micro
+* happy: it is [a problem] if the rocket soldier has unknowngly been buffed to 11 cells of AA range and its not recorded anywhere
+* Pun: I just went and checked RAGL 11 to see if it contained the bug, and it did
+* anjew: yeah i just checked as well. so we've been playing with it for a very long time already
+* goat: its an oversight, but i think people are making it a bigger deal than it is (not to say it should not be changed), but it is mainly relevant the closer yak is to the rocket. i personally dont mind the added tracking but i think its justified to change it back as it was not intetional. however for those who think yak is weak i dont think you should expect this change to matter
+
+### Migs
+
+Feedback:
+
+* tux - 2023-10-13: migs are great
+* Moods: Migs are fantastic
+* Unano: Migs are great until longbows come out
+* tux: also why did they get a hp nerf lol
+* Moods: I voiced against that.. stupid pointless nerf
+* dang_shot: the mig got buffed from 7500 to 10000 hp back in 2020, but then later it proved to cause issues in specific scenarios (i think widow did a lot of talk about this) and it was changed to 8000 for competitive balance like almost 2 years ago. i think migs are fine but they do require babysitting
+
 ## 4.0
 
 Including changes from Total Naval Overhaul 1.0 (TNO 1.0).
