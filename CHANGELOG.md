@@ -20,6 +20,7 @@ Feedback:
 * despro: base defences r ridiculous in openra. stop talkn bout buffin tha tshit
 * tux: increase tesla range ffs
 * despro: if u want to buff tesla thats prob the worst way to do it tux
+* Unano - 2023-11-10: Tesla should be cheaper so that it is more viable
 
 ### Yaks
 
@@ -31,12 +32,17 @@ Feedback:
 * tux: yaks are great
 * happy: ill take a bh every day of the month vs a yak
 * Moods: There jus unreliable with attack move
-* Unano: Yea I think this too  - they like 90% kill a v2 then circle around for another pass instead of moving on the the next target - which basically means their suicide run failed. I prefer yaks [to blackhawks]
+* Unano: Yea I think this too  - they like 90% kill a v2 then circle around for another pass instead of moving on the the next target - which basically means their suicide run failed
 * .won: to snipe stuff they are fine, if you wanna attack blobs yeah, not that good
 * anjew: tbh i like the yaks but mainly because you can make crash money. migs are too fast, heli too slow. yak is just right
 * goat: i prefer yaks [to blackhawks]
+* Blackened - 2023-11-10: Reduce yak minimum range 1/2 a cell. -- this will buff yaks and also make them behave more consistent.
+* Unano: Shorter minimum range on yaks sounds like an interesting idea
+* Upps: better Yaks im a fan of this
 
 ### Rocket air tracking
+
+Feedback:
 
 * Unano - 2023-10-13: Yak just dies no matter what since someone made a balance change that lets rockets follow them 10000miles
 * .won: Yeah I dont like that, but thats the same with BH. i think the tracking has to be reduced a bit
@@ -50,6 +56,7 @@ Feedback:
 * Pun: I just went and checked RAGL 11 to see if it contained the bug, and it did
 * anjew: yeah i just checked as well. so we've been playing with it for a very long time already
 * goat: its an oversight, but i think people are making it a bigger deal than it is (not to say it should not be changed), but it is mainly relevant the closer yak is to the rocket. i personally dont mind the added tracking but i think its justified to change it back as it was not intetional. however for those who think yak is weak i dont think you should expect this change to matter
+* Upps - 2023-11-10: Shorter Rocket tracking a yes from me they yaks fall from the sky more often then needed
 
 ### Migs
 
@@ -62,6 +69,38 @@ Feedback:
 * Moods: I voiced against that.. stupid pointless nerf
 * dang_shot: the mig got buffed from 7500 to 10000 hp back in 2020, but then later it proved to cause issues in specific scenarios (i think widow did a lot of talk about this) and it was changed to 8000 for competitive balance like almost 2 years ago. i think migs are fine but they do require babysitting
 
+### Harvesters
+
+Feedback:
+
+* Blackened - 2023-11-10: reduce ore scan radius from harv/ref to 8/10 from 12/24. -- This will fix a lot of maps.
+
+### Tank Speeds
+
+Feedback:
+
+* Blackened - 2023-11-10: I think soviets are desperately in need of some increase in speed.
+* happy: I think heavies need to have a speed atleast a bit greater than inf so they stop getting stuck behind. Mediums to get a bit slower I’m also coming around too after being master flanked a couple of times
+* Upps: adjusting speed of HT and a slight cost increase of MT im okay with that
+* creo: is increasing speed of heavy tanks better than reducing it for mts? heavy tanks are disgusting if they get into ore line. i'm a little skeptical of a speedincrease
+* Pun: vehicles need buffs not nerfs
+* tux: Tbh i like tanks as they are
+* Blackened: I dont think MT needs a cost increase because I think HT needs a slight buff and I don't like the trend of making tanks cost more and more which always seems to happen.
+
+### Flak
+
+* Pun - 2023-11-10: I'd like mobile flak to be more tanky as well [as ranger]. but it's anti-air needs to be touched then as well
+* Unano: flak should be marginally faster so that it can scout better and has a better chance of trading vs air - which it is supposed to counter
+
+### Thief
+
+* Upps - 2023-11-10: cost reduction of Thiefs down to 350$
+* creo: why cost reduction of thieves? i think their design is a little questionable. their value can be insane. it's the kind of unit i would not like to touch
+* tux: Move them back to T1.5 bruh. Bring back the Early apc thief drop rush
+* Pun: thieves just need to be slightly faster and cloak quicker. [Thieves on T1.5 were] dark times. The counterplay to thieves at such an early stage was miserable
+* creo: i think this is a better change than cost decrease at least = )
+* Upps: Thiefs are not likely to catch anything atleast make them cheaper.
+
 ## 4.0
 
 Including changes from Total Naval Overhaul 1.0 (TNO 1.0).
@@ -70,13 +109,26 @@ Including changes from Total Naval Overhaul 1.0 (TNO 1.0).
 
 Import from Combined Arms - all vehicles get a 50% speed nerf when crushing.
 
+* (Not) New - 2023-11-06: pls leave crushing as it is [in BI-4.0]
+* creo - 2023-11-10: some us have already talked a bit about this on the competitive team discord, but personally i believe 50% might be a pretty noticeable nerf to heavy tanks especially. i think the main issues when it comes to crushing are light tanks and tesla tanks and we talked a bit about only doing the nerf to light vehicles which i personally would be a good idea!
+* Blackened: slowdown is just in general a nightmare nerf for vehicles. APCs/Lights are gonna die to 1/2 rockets now because they are staying in range 50% longer. Trying to retreat your harvs or mcv but infantry is in the way? too bad they're dead now. Oh your tank tried to run over  technician as you retreat? yeah its dead now too. I don't even want to imagine what a 50% slower mammoth looks like.
+* Pun: after the 50% crush speed nerf vehicles could be buffed back up by different stat changes. like making them cheaper
+
 ### MGG shroud 7c0 (up from 6c0) and vision 7c0 (up from 6c0) or 5c0 in shroud (up from 4c0)
 
 ### Gap Generator shroud 7c0 (up from 6c0) and vision 7c0 (up from 6c0)
 
-### Chronotank removed infantry targetting
+* Unano - 2023-11-06: Please take the gap gen buffs out [of BI-4.0]
+* Pun: Gap gens should definitelly get a 1 cell buff
+* creo - 2023-11-10: i don't think the shroud provides very interesting gameplay in a game where vision is already pretty limited. i think there quite a few issues with targeting and i think this change will be more annoying than fun. i don't think it will cause any real issues in 1v1, but i could see it be rather annoying in teamgames. i also think it promotes a more turtly allies play forcing opponent to engage and for soviet i think it can be rather troublesome as their snipers are only v2 and their actual vision providers in yaks will likely not have a good time as there is likely to be aa gun in the shroud
+* Blackened: Gaps can annoying to play against and feel like an unfun mechanic but people say that about vision in general tbh.
 
-### Phase transport removed infantry targetting
+### Chronotank and Phase transport removed infantry targetting
+
+* despro - 2023-10-26: the worst change in the latest balance thing is makin chrono autotarget tanks
+* Unano - 2023-11-06: and also [take out] the chrono tank [and phase] auto targetting [from BI-4.0]
+* Blackened - 2023-11-10: I'm 100% not a fan of chrono/phase tanks losing infantry targeting.
+* creo - 2023-11-10: i agree with you about not being a fan, sometimes you might want them to target infantry and i also don't think it's worth it to remove the potential target micro!
 
 ### MAD tank removed chronoshift, charge delay 192 (up from 96), spread 14c0 (up from 7c0), damage buff vs heavy and concrete
 
@@ -88,17 +140,29 @@ A single MAD tank now takes out vehicles and structures with heavy or concrete a
 
 ### Iron Curtain cost 2500 (up from 1500)
 
+* anjew - 2023-11-10: that IC difference looks to be big
+
 ### Tanya cost 2000 (up from 1500)
 
 ### British spy is available from SD with cost 1000 (up from 250 at RD)
 
 The price drops to 500 once radar is built.
 
+* Blackened - 2023-11-10: the british spy change just seems like it wouldn't be worthwhile
+
 ### Ranger health 18000 (up from 15000)
+
+Feedback:
+
+* Unano - 2023-11-10: Ranger only really dies to flak / light tank in the early game, and can easily outrun either. Is the idea to make it even easier to keep it alive and give allies a larger advantage with scouting
+* Pun: with the infantry targeting changes ranger became way too squishy. this is the compensation
+* creo: buffed ranger sounds great to me = )
 
 ### Medium tank cost 900 (up from 850)
 
 This brings the cost per armour closer to the heavy tank.
+
+* Blackened - 2023-11-10: I dont think MT needs a cost increase because I think HT needs a slight buff and I don't like the trend of making tanks cost more and more which always seems to happen.
 
 ### Artillery turn speed 16 (up from 8), range 11 (down from 12)
 
@@ -106,9 +170,15 @@ This brings the cost per armour closer to the heavy tank.
 
 This keeps the MCV build time the same (40 seconds with one WF on normal) but means credits are consumed at the same rate as other units.
 
+* Blackened - 2023-11-10: Cheaper mcv also is just kinda random if you keep the same build time. It's not like money is particularly an issue when your building an expo mcv
+
 ### Silo protects refinery from infiltration, cannot be infiltrated itself
 
 This has a range of 18c0.
+
+Feedback:
+
+* Unano - 2023-11-10: Also silo protecting refs just sounds so contrived and illogical
 
 ### General naval unit changes
 
