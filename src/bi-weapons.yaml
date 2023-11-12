@@ -148,7 +148,9 @@ HellfireAG:
 
 Stinger:
 	Warhead@1Dam: SpreadDamage
+		Damage: 2500
 		Versus:
+			None: 36
 			Wood: 66
 			Light: 66
 			Heavy: 100
@@ -157,8 +159,9 @@ Stinger:
 
 StingerAA:
 	Warhead@1Dam: SpreadDamage
+		Damage: 1450
 		Versus:
-			Light: 58
+			Light: 100 
 APTusk:
 	InvalidTargets: Infantry
 

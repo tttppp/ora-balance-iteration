@@ -564,7 +564,7 @@ SPEN:
 		Name: Sub Pen
 	DetectCloaked:
 		DetectionTypes: Underwater
-		Range: 10c0
+		Range: 6c0
 	Power:
 		Amount: -20
 
@@ -575,9 +575,13 @@ SYRD:
 		HP: 75000
 	DetectCloaked:
 		DetectionTypes: Underwater
-		Range: 10c0
+		Range: 6c0
 	Power:
 		Amount: -20
+
+ships.upgraded:
+	AlwaysVisible:
+	ProvidesPrerequisite:
 
 SYRF:
 	Valued:
@@ -598,31 +602,10 @@ camera.spyplane:
 powerproxy.sonarpulse:
 	AlwaysVisible:
 	SpawnActorPower:
-		Icon: sonar
-		Name: Sonar Pulse
-		Description: Reveals map and submarines in the vicinity for a \nshort time.
 		ChargeInterval: 3250
-		EndChargeSpeechNotification: SonarPulseReady
-		SelectTargetSpeechNotification: SelectTarget
-		EndChargeTextNotification: Sonar pulse ready.
-		SelectTargetTextNotification: Select target.
-		Actor: sonar
-		Terrain: Water
-		AllowUnderShroud: false
 		LifeTime: 250
-		DeploySound: sonpulse.aud
-		EffectImage: moveflsh
-		EffectPalette: moveflash
-		SupportPowerPaletteOrder: 80
-		EffectSequence: idle
 
 SONAR:
-	Inherits: camera.spyplane
-	EditorOnlyTooltip:
-		Name: (support power proxy camera)
 	RevealsShroud:
 		Range: 10c0
 		Type: CenterPosition
-	DetectCloaked:
-		DetectionTypes: Underwater
-		Range: 10c0

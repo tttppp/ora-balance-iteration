@@ -5,6 +5,18 @@ comments from players to back it up.
 
 ## 4.1
 
+### Naval transport increased sprite size
+
+Naval transport is carrying much more than in the release, but the visual looked funny. This should help break the immersion less.
+
+### Destroyer
+
+Readjusted stinger/aa to do proper damage (latest release changed the values).
+
+### Naval yard/Sub pen
+
+Reduced naval yard and sub pen detection because subs were getting too easily picked off. Now subs can outrange the detection so you must deliberately put your structure in danger to provide vision.
+
 ### Static ground defences
 
 Feedback:
