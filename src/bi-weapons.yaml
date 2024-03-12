@@ -34,6 +34,10 @@ ParaBomb:
 			Wood: 50
 			Steel: 100
 
+RedEye:
+	Projectile: Missile
+		RangeLimit: 9c0
+
 155mm:
 	Range: 11c0
 
@@ -63,6 +67,7 @@ Vulcan:
 			Steel: 28
 
 ChainGun.Yak:
+	MinRange: 2c512
 	Warhead@1Dam: SpreadDamage
 		Versus:
 			Steel: 25
@@ -89,7 +94,7 @@ ChainGun.Yak:
 
 2Inch:
 	InvalidTargets: Submarine
-	Warhead@1Dam: SpreadDamage
+ 	Warhead@1Dam: SpreadDamage
 		Damage: 3500
 		Versus:
 			Steel: 105
@@ -103,10 +108,8 @@ ChainGun.Yak:
 			Light: 75
 			Heavy: 35
 			Steel: 40
-	Warhead@4EffWater: CreateEffect
-		Explosions: large_splash
 	InvalidTargets: Submarine
-	Projectile: Bullet
+ 	Projectile: Bullet
 		Speed: 215
 
 Grenade:
@@ -116,7 +119,6 @@ Grenade:
 
 DepthCharge:
 	Inherits: ^Artillery
-	-Report:
 	ReloadDelay: 100
 	Range: 6c0
 	ValidTargets: Underwater, Submarine
@@ -160,16 +162,8 @@ Stinger:
 StingerAA:
 	Warhead@1Dam: SpreadDamage
 		Damage: 1450
-		Versus:
-			Light: 100 
-APTusk:
-	InvalidTargets: Infantry
 
 TorpTube:
-	ReloadDelay: 100
-	Range: 9c0
-	Burst: 2
-	BurstDelays: 20
 	Projectile: Missile
 		Jammable: False
 		Speed: 170
@@ -218,7 +212,6 @@ Claw:
 		Versus:
 			Steel: 10
 
-
 MandibleHeavy:
 	Warhead@1Dam: SpreadDamage
 		Versus:
@@ -229,32 +222,3 @@ AntFireball:
 		Versus:
 			Steel: 20
 
-MADTankThump:
-	ValidTargets: GroundActor, WaterActor
-	InvalidTargets: MADTank, Infantry
-	Warhead@1Dam: HealthPercentageDamage
-		Spread: 14c0
-		Damage: 5
-		ValidTargets: GroundActor, WaterActor
-		InvalidTargets: MADTank, Infantry
-		Versus:
-			Light: 5
-			Wood: 15
-			Heavy: 70
-			Steel: 15
-			Concrete: 100
-
-MADTankDetonate:
-	ValidTargets: GroundActor, WaterActor
-	InvalidTargets: MADTank, Infantry
-	Warhead@1Dam: HealthPercentageDamage
-		Spread: 14c0
-		Damage: 60
-		ValidTargets: GroundActor, WaterActor
-		InvalidTargets: MADTank, Infantry
-		Versus:
-			Light: 5
-			Wood: 15
-			Heavy: 70
-			Steel: 15
-			Concrete: 100

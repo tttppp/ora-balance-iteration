@@ -1,8 +1,13 @@
 pips:
-	pip-skull: pip-skull
+	Defaults:
+		Filename: pips.shp
+	pip-skull:
+		Filename: pip-skull.shp
 		Offset: -2, 0
 
 iron:
+	Defaults:
+		Filename: iron.shp
 	idle:
 		Offset: 0,-4
 	active:
@@ -11,16 +16,16 @@ iron:
 		Offset: 0,-4
 	damaged-active:
 		Offset: 0,-4
-	make: ironmake
+	make:
+		Filename: ironmake.shp
 		Offset: 0,-4
-	bib: mbIRON
+	bib:
+		Filename: mbIRON.shp
 		Offset: 0,-2
 
 icon:
-	gpsactive: gpssactiveicon
-
-camera:
-	icon: gpssactiveicon
+	gpsactive:
+		Filename: gpssactiveicon.shp
 
 ss:
 	idle:
@@ -29,3 +34,7 @@ ss:
 msub:
 	idle:
 		InterpolatedFacings: 32
+
+lst:
+	Defaults:
+		Scale: 1.25
