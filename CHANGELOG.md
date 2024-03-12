@@ -98,6 +98,15 @@ Feedback:
 * Pun: vehicles need buffs not nerfs
 * tux: Tbh i like tanks as they are
 * Blackened: I dont think MT needs a cost increase because I think HT needs a slight buff and I don't like the trend of making tanks cost more and more which always seems to happen.
+* Pun: 2023-11-20: I wanted to ask isn't it a bit overkill to increase medium tanks cost when heavy tank speed is being buffed?
+* i like men: I think from my perspective the logic is more so that currently MT has a better hp/cost than HT and I really think it would make more sense if it was the other way around given you get more medium tanks. IN my opinion the HT speed increase would not change this
+* Orb: I'd rather see medium tank lose their health buff than get a cost increase
+
+### Ranger HP increase
+
+* despro - 2023-11-20: i think ranger hp shud be buffed
+* Pun: ranger is just too squishy atm, it dies at the sight of infantry
+* i like men: the ranger buff is indeed to counteract the infantry turning
 
 ### Flak
 
@@ -153,6 +162,8 @@ A single MAD tank now takes out vehicles and structures with heavy or concrete a
 ### Iron Curtain cost 2500 (up from 1500)
 
 * anjew - 2023-11-10: that IC difference looks to be big
+* despro - 2023-11-27: was ic rly only 1500
+* Blackened: Yep I said they same thing. Chrono is too but until chrono has better misfire protection it isn't as much as a concern
 
 ### Tanya cost 2000 (up from 1500)
 
@@ -169,6 +180,11 @@ Feedback:
 * Unano - 2023-11-10: Ranger only really dies to flak / light tank in the early game, and can easily outrun either. Is the idea to make it even easier to keep it alive and give allies a larger advantage with scouting
 * Pun: with the infantry targeting changes ranger became way too squishy. this is the compensation
 * creo: buffed ranger sounds great to me = )
+* Upps: 2023-11-28: why more health for rangers, I dont get it. its a scouting unit not a combat unit. Its great in scouting and deny enemy riflescouts
+* Gacius: exactly. only nerf that it needed anyway was vision 8c to 7c
+* despro: it got nerfed a lot with the facin changes. this is a welcome buff
+* .won: i think ranger was fine as is
+
 
 ### Medium tank cost 900 (up from 850)
 
@@ -177,6 +193,14 @@ This brings the cost per armour closer to the heavy tank.
 * Blackened - 2023-11-10: I dont think MT needs a cost increase because I think HT needs a slight buff and I don't like the trend of making tanks cost more and more which always seems to happen.
 
 ### Artillery turn speed 16 (up from 8), range 11 (down from 12)
+
+* Fazzz - 2023-11-20: Also I honestly think the Arty change is a nerf
+* i like men: The arty change is Pun's change, it only reduces the range by 1 cell but increases mobility by quite a lot. Is it a nerf? Could be, but I personally think it makes them better to use
+* Orb - 2023-11-28: if we're changing the arty can we buff its none damage? At the moment it one shots standing infantry but not crawling infantry, it used to but when I nerfed it I didn't consider this. You'll probably have to adjust its AOE (more falloff) to compensate but direct hits should kill crawling infantry. The damage output is inconsistent at the moment because its actually less useful in fights when infantry start going prone
+* Pun: But does it need such a buff? One should not forget how cheap it is
+* Orb: Well, that's kind of besides the point, it could be nerfed/buffed to be rebalanced if its too strong. I think the range nerf is going to be quite significant
+* Blackened: The range nerf makes it better btw not worse. its weaker in arty base wars. But for army vs army the lower ttt is gonna make them more lethal. Coupled with more mobility I'm slight worried tbh
+* Unano: Yea I was honestly thinking these arty changes look a bit OP, but was just waiting for a chance to try them out
 
 ### MCV cost 1650 (down from 2000), build speed modifier 60 (up from 50)
 
@@ -191,6 +215,11 @@ This has a range of 18c0.
 Feedback:
 
 * Unano - 2023-11-10: Also silo protecting refs just sounds so contrived and illogical
+* Pun - 2023-11-20: The silo infiltration protection is never getting merged into main openra fwiw. It's way too gimmicky and hidden away
+* Kaution: Silo protecting from infiltration of ref seems odd. Trying to make the silo have a purpose just because
+* goat: i actually think its a cool interaction
+* Orb: seems kind of jank. also spending 100 credits or whatever to remove a game mechanic is also not that interesting. Change name to "Observation Silo" and give it a little camera with some vision. Oh I got it, and it detecs spy
+* happy: the change isnt gonna do anything 😄 spies are pretty rare, doubt anyones thinking in their mind fuck i need a silo to defend against spies
 
 ### General naval unit changes
 
