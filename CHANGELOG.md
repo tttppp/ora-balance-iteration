@@ -3,7 +3,77 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## Feedback leading to 4.2
+
+### Tesla Tanks
+
+* happy - 2024-03-13: ild like to see a drastic hp nerf to Tesla tanks while keeping their damage. Like make them a ground only mega flak. Same hp and armour as a flak just a glass cannon
+* Blackened: That would definitely cripple tt deathballs. Not that necessarily bad.  I also thought about maybe making them non turreted like chrono tanks are might make them harder to use without totally changing them.
+* .won: you could also reduce TT range. because you cant chase them, even with thier counter(flak/LT). I would want to see a combo of reduced range, reduce speed and maybe reduce HP. but slight on each
+* bete: TTs nerf is bad idea. Soviet's long term goal would be to survive early game and then try to use it's tech advantage. TTs and Shookies are easily countered by air units.
+* tux - 2024-03-14: Would buff in other ways. Nefr the crushing its quite annoying
+* goat: i dont know if i think its overpowered, but i think a rework would be nice. i agree with blackened that the main issue is probably ic though
+* despro: blacky thinks tt are strong but he doesnt think the fact that they can crush is the issue as others believe (fwiw i think the crushin is a problem)
+* .won: I would agree I dont think crushing is the issue, I think the range/kite is the issue
+* Pun (Referencing 2022-08-24): IMO [Tesla Tank] don't synergise with other unit queues. They synergise only with mobile flaks but those are also vehicles. Tesla Tank damage is incredibly low. Except that this is offset by Iron Curtain, which flips the script and carries it to victory. Removing crushing would fix this. Tesla tanks depend on snowballing. TT's provide value incredibly slowly and have no stopping power, so if you don't have many on the field all other units just prove more useful.
+* Blackened: TT really only need IC and flaks to be effective at every role. TT damage really isn't that low tbh
+
+### Chronotanks
+
+* tux - 2024-03-13: how about giving chronotanks much better turn rate
+* Blackened: ctanks don't need a buff they're solid as is
+* despro - 2024-03-14: the thing with ctanks is that sum plebs think they shud be spammed and end up spammin them in allies vs allis (like blackened against me in ragl final) and then mrj ruins them
+* Pun (Referencing 2022-08-24): [Chrono Tanks] don't synergise well with army compositions. It does its job really well but regular rocket soldiers + tanks do that job just as well in most cases. The other issue is that you can't attack move them, if they target infantry all of their damage is lost. Chrono crushing as a concept isn't great. This is extremely broken when in higher numbers and we should always keep that in mind when doing changes to CT in the future
+* Blackened: CT are kinda like artillery for heavy armor. They absolutely wreck heavy armor. CT also get completely shut down by mrj.
+
 ## 4.1
+
+BI-4.1 was produced for and used in RATL S03.
+
+### Iron Curtain cost 2000 (down from 2500 in BI-4.0, up from 1500 in release)
+
+Feedback:
+
+* Blackened - 2024-03-13: Liked
+
+### Tanya cost 1800 (down from 2000 in BI-4.0, up from 1500 in release)
+
+Feedback:
+
+* Blackened - 2024-03-13: Liked
+
+### Teslacoil power 80 (down from 100)
+
+Feedback:
+
+* Blackened - 2024-03-13: Liked
+
+### Heavy tank speed 64 (down from 60)
+
+Feedback:
+
+* Blackened - 2024-03-13: Liked
+* bete: Heavy tank has a lot HP, damage, not sure why speed them up?
+
+### Yak min range 2c512 (down from 3c0)
+
+Feedback:
+
+* Blackened - 2024-03-13: Liked
+
+### Rocket tracking 9c0 (down from 11c0)
+
+Reverting accidental change due to SAM site buff in BI-3.0.
+
+Feedback:
+
+* Blackened - 2024-03-13: Liked
+
+### Technician and Rockets can fire from Pillbox
+
+Feedback:
+
+* Blackened - 2024-03-13: Liked
 
 ### Naval transport increased sprite size
 
@@ -16,6 +86,8 @@ Readjusted stinger/aa to do proper damage (latest release changed the values).
 ### Naval yard/Sub pen
 
 Reduced naval yard and sub pen detection because subs were getting too easily picked off. Now subs can outrange the detection so you must deliberately put your structure in danger to provide vision.
+
+## Feedback leading to 4.1
 
 ### Static ground defences
 
@@ -112,6 +184,7 @@ Feedback:
 
 * Pun - 2023-11-10: I'd like mobile flak to be more tanky as well [as ranger]. but it's anti-air needs to be touched then as well
 * Unano: flak should be marginally faster so that it can scout better and has a better chance of trading vs air - which it is supposed to counter
+* bete - 2024-03-13: If you increase speed of Flak they will be able to hunt BHs too easily. Tricky.
 
 ### Thief
 
@@ -184,7 +257,8 @@ Feedback:
 * Gacius: exactly. only nerf that it needed anyway was vision 8c to 7c
 * despro: it got nerfed a lot with the facin changes. this is a welcome buff
 * .won: i think ranger was fine as is
-
+* Blackened - 2024-03-13: [RATL S03 Feedback] Didn't like
+* bete: Ranger hp increase is kinda ridiculus for me.
 
 ### Medium tank cost 900 (up from 850)
 
@@ -201,12 +275,15 @@ This brings the cost per armour closer to the heavy tank.
 * Orb: Well, that's kind of besides the point, it could be nerfed/buffed to be rebalanced if its too strong. I think the range nerf is going to be quite significant
 * Blackened: The range nerf makes it better btw not worse. its weaker in arty base wars. But for army vs army the lower ttt is gonna make them more lethal. Coupled with more mobility I'm slight worried tbh
 * Unano: Yea I was honestly thinking these arty changes look a bit OP, but was just waiting for a chance to try them out
+* Blackened - 2024-03-13: [RATL S03 feedback] Didn't like
+* bete: Arty range was op, so reduce range was fine. But they are more mobile now?
 
 ### MCV cost 1650 (down from 2000), build speed modifier 60 (up from 50)
 
 This keeps the MCV build time the same (40 seconds with one WF on normal) but means credits are consumed at the same rate as other units.
 
 * Blackened - 2023-11-10: Cheaper mcv also is just kinda random if you keep the same build time. It's not like money is particularly an issue when your building an expo mcv
+* Blackened - 2024-03-14: the mcv change just gets away from special modifiers. So it's less of change for the sake of change and more change for the sake of simplification. I dont think a 350 price change is going to have a huge impact.
 
 ### Silo protects refinery from infiltration, cannot be infiltrated itself
 
@@ -238,6 +315,11 @@ Sonar pulse reveals shroud 10c0, detects subs, must be targetted on water
 ### Subs cost 750 (down from 950), Turnspeed 24 (up from 16), Speed 85 (up from 78) Cloak delay 20 (down from 50)
 
 Torpedoes no longer seek. Speed 170 (up from 85), spread 320 (down from 426), wood damage 35 (down from 75), Steel damage 65
+
+Feedback:
+
+* Pun - 2024-03-14: Blackened would adding collision to torpedoes solve the issue of them not tracking? Currently they just pass underneath ships that weren't targeted. to me it's the most frustrating issue
+* Blackened: I think it would. I did try and play around with close enough to see if I could. Cuz yeah I agree part of the problem I think is visually the torpedo passes underneath the ship but technically thr ship is probably in the next cell. Maybe if torpedoes always explodes when they reached the cell the were fired at could help too. Would make running from subs in a straight line easier though
 
 ### Missile Sub tier 2 (down from tier 3), Turnspeed 16 (up from 12), cloak delay 20 (down from 100), Detect Cloak 7c0 (up from 4c0)
 
