@@ -26,6 +26,87 @@ comments from players to back it up.
 * Pun (Referencing 2022-08-24): [Chrono Tanks] don't synergise well with army compositions. It does its job really well but regular rocket soldiers + tanks do that job just as well in most cases. The other issue is that you can't attack move them, if they target infantry all of their damage is lost. Chrono crushing as a concept isn't great. This is extremely broken when in higher numbers and we should always keep that in mind when doing changes to CT in the future
 * Blackened: CT are kinda like artillery for heavy armor. They absolutely wreck heavy armor. CT also get completely shut down by mrj.
 
+### Arti
+
+* Blackened - 2024-03-15: [Proposed] lesser arty turn increase (just to see if doubling it was maybe too much) though, I'm fine with just no change
+* (Not) New - 2024-03-16: I don’t see what impact changing turn speed has on a unit that is heavily guarded and doesn’t depend on speed.
+* Blackened: Turn speed would help when arty get caught slightly out of position by letting them quickly retreat. But im just not sure if arty really need anything
+* Hans: Arty is cheaper than V2s if my memory doesn't go wrong? Would it work that higher the price for $50 or $100? Or increase the inaccuracy? Or lower the attack speed (slightly longer reload time)?
+* (Not) New - 2024-03-20: Cut the splash damage of artillery, it would increase the time it takes artillery to stop infantry attacks and lock down the map.
+
+### Thief
+
+* Blackened - 2024-03-15: [Proposed] thief getting an HP increase. The only thing they can really get are harvs or if they are very lucky a tank. The fact that they have less effective HP than a rifleman means they can picked off too easily. engi= 3 rifle shots, thieves=4, rifles=6. Moving to SD tech seemed a bit OP. Other options would be a speed increase and or quicker cloak?
+* Moods: i was gunna suggest making theives uncrushable.. but then i realized what horrible effects that wud have if a theif is in a cell with 4 other inf, making them also uncrushable
+* Blackened: i dont even think that'd be too op considering right now thieves fucking die so damn easily. plus since they're faster than infantry it'd be hard to actually keep them in your blob
+* (Not) New - 2024-03-16: Thieves could do with a large buff as they are currently useless. Maybe a rework of how detection works so they are able to hijack vehicles more easily. They need to be able to hijack stuff, true to their original name. At the moment they steal cash and get the odd harvester.
+* Kaution: Instead of health buffs or anything like that, wouldn't it be better to make em perma stealth. Inf will still be able to make em visible and I don't think it's too OP
+* tux: I think the issue with that is that they can just sneak around and get harvs way way too easily
+* Blackened: NN's idea of making them perma stealthed but uncloak on an attack order would be better, but still too OP imo.
+* Pun - 2024-03-18: IMO thief should be slightly faster than a medium tank. Currently he can't even catch harvesters. His speed was nerfed when he was on SD tech, but now we can unnerf part of it.
+* Unano - 2024-03-19: Something should be done to give something to soviets to make up for allies being able to revive dead mcvs. I thought the hijacker should get that power before but it wasn't very popular so maybe theres another way
+* Blackened: I think buffing thieves to just make them viable may be an asymmetrical balance to husk recovery. Allies can recover husks from eco raids, and save an mcv that got killed ... soviets can steal harvs/unprotected tanks.
+* (Not) New - 2024-03-20: Simply increasing the HP of the Thief won’t work; opponents will just send out two rifles to eliminate it.  It must also have a speed boost and a prone cut to make hijacking easier. As for cloaking, I propose allowing it to remain permanently stealthed, unless it comes within a certain distance of a vehicle, at which point it becomes uncloaked.
+* muleyyy: i dont like the idea of the thief being cloaked up to a distance, i think thats too strong, what about their view range? and cut the lead time before they cloak when stationary. so you can advance and then stop to avoid being spotted, but you are still revealed when moving
+
+### Infantry
+
+* Blackened - 2024-03-15: [Proposed] In a similar vein, infantry stealth detection is quite wonky. Needs to be increase slightly. Current range is 1 cell. But that means units that are in the back subcells cannot detect. I think making it 1.75 cells would fix this irregularity.
+* (Not) New - 2024-03-16: Infantry stealth detection changes make sense
+* Pun - 2024-03-18: I'm definitely not opposed to increasing stealth detection radius on riflemen
+
+### Demo
+
+* Blackened - 2024-03-15: [Proposed] Controversial, but I think demo needs a slight damage buff. It should be able to kill a conyard/wf on a direct hit. Right now it leaves it with like 5% hp
+* anjew: Buff demo damage is the most based thing you’ve ever said
+* .won - 2024-03-16: cmon buff demo, nah. demo isnt for targetting structures its for army
+* (Not) New: As demolition is the USP of Ukraine, is lacking, and demos are the only demolition unit. They need some series of buffs to make them and the country worth using. Stopping people sitting behind static d with 50k army shouldn’t be discouraged, at the moment 1 rifle can kill a demo
+
+### Minelayer
+
+* Blackened - 2024-03-15: [Proposed] Either give minelayer a weapon so it doesn't run in front of your units anymore or make it slowly do damage to mines to help clear mine fields. Not married to this idea at all. It's more of a QOL change than balance
+* Moods - 2024-03-16: Fwiw i like all the other ideas [other than thief]. ( the minelayer idea better be becuz of the moods vs milkman game 😉 i think thats a really good idea )
+* (Not) New: minelayer changes make sense
+
+### Grens
+
+* Blackened - 2024-03-15: [Proposed] grens cost decrease to 150. The 160 is a hold over from ra95 and it makes no sense. We've changed the price of other units I see no reason this "tradition" should be kept.
+* (Not) New - 2024-03-16: Unless the aim is to make early game gren drops easier, it seems pointless to change the cost of greens for the sake of change
+
+### Mammoth
+
+* Blackened - 2024-03-15: [Proposed] Mammoth tank speed increase ever so slightly. Same reasoning as HT Speed change. Mammoths are so bad on a big map its actually a hinderance to build them.
+* (Not) New - 2024-03-16: mammoth changes make sense
+
+### V2
+
+* Blackened - 2024-03-15: [Proposed] V2 projectile slight increase. Would help distinguish them a bit more. Arty has ROF but v2 should have precision/accuracy. This helps them hit their intended targets better.
+* tux - 2024-03-16: Maybe v2s could have more spread
+* Pun - 2024-03-18: When it comes to V2's I still think their reload delay is too long. About 2 seconds should be shaved off. And I'm not against making the unit a bit more expensive
+* Blackened: I don't see a reason to increase the price of v2 though. Just make it better.
+
+### MGG
+
+* Blackened - 2024-03-15: [Proposed] Increase mobile gap shroud. This is from 4.0 but wasn't used in 4.1 Wanted more thoughts.
+* (Not) New - 2024-03-16: Unsure about MGG
+
+### Spy
+
+* Blackened - 2024-03-15: [Proposed] 4.0 also had moved british spy to SD but cost 1000 (500 after RD). While it was interesting I'm not sure it's a good gimmick. My suggestion was to remove vet bonus from regular spies and make it a british spy only thing. I think that alone would make the UK a faction worth playing.
+* (Not) New - 2024-03-16: British spy needs an ability unique to Britain. Changing the cost doesn’t make much real difference. Removing vet bonus would be too op to make exclusive to Britain though
+* Blackened: I think nerfing 2 of the 3 allied factions is a good thing when people say allies are better and it would actually give reason to picking sub factions for allies
+* (Not) New - 2024-03-20: I’m not a fan of veterancy, it gives a big boost, akin to a super soldier serum, and there’s no way to reverse it. So I think increasing it is the wrong way to go. For British spies, I suggest maintaining their current veterancy boost while reducing it for other Allied countries. Additionally, British spies should gain the ability to take control of defenses/disable them within a certain range and drive away construction yards. This would help counter defense spam and prevent bases from becoming impregnable. Similar mechanics are already present in missions, so it wouldn’t introduce a new element to the game.
+
+### GPS
+
+* (Not) New - 2024-03-20: As for GPS, I propose that for France and Germany, it reveals only half of the map and/or it’s duration is cut.
+
+### Light Tanks
+
+* .won - 2024-03-19: i think LT should add back in husks
+* Blackened: LT husks would probably help with their mass crushing. Could also give them zero vision like that had a long time ago.
+* tux: Idt lt hp shld be nerfed more lol. They are already terrible. Their only roles are rifletanking sub min5 and cheese
+
 ## 4.1
 
 BI-4.1 was produced for and used in RATL S03.
