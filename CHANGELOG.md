@@ -33,6 +33,7 @@ comments from players to back it up.
 * Blackened: Turn speed would help when arty get caught slightly out of position by letting them quickly retreat. But im just not sure if arty really need anything
 * Hans: Arty is cheaper than V2s if my memory doesn't go wrong? Would it work that higher the price for $50 or $100? Or increase the inaccuracy? Or lower the attack speed (slightly longer reload time)?
 * (Not) New - 2024-03-20: Cut the splash damage of artillery, it would increase the time it takes artillery to stop infantry attacks and lock down the map.
+* Blackened: ftr, what you're describing sounds very similar to TD arty and I think those things are more hated there than here.
 
 ### Thief
 
@@ -48,6 +49,8 @@ comments from players to back it up.
 * Blackened: I think buffing thieves to just make them viable may be an asymmetrical balance to husk recovery. Allies can recover husks from eco raids, and save an mcv that got killed ... soviets can steal harvs/unprotected tanks.
 * (Not) New - 2024-03-20: Simply increasing the HP of the Thief won’t work; opponents will just send out two rifles to eliminate it.  It must also have a speed boost and a prone cut to make hijacking easier. As for cloaking, I propose allowing it to remain permanently stealthed, unless it comes within a certain distance of a vehicle, at which point it becomes uncloaked.
 * muleyyy: i dont like the idea of the thief being cloaked up to a distance, i think thats too strong, what about their view range? and cut the lead time before they cloak when stationary. so you can advance and then stop to avoid being spotted, but you are still revealed when moving
+* Blackened: I'm thinking increasing the thief hp to 8000 (Which gives it 2 extra rifle shots) and making its speed 85 again is a good start
+* goat - 2024-03-21: i think stealth is just a wonky and poor mechanic in openra, i certainly dont think it should be buffed
 
 ### Infantry
 
@@ -96,6 +99,9 @@ comments from players to back it up.
 * (Not) New - 2024-03-16: British spy needs an ability unique to Britain. Changing the cost doesn’t make much real difference. Removing vet bonus would be too op to make exclusive to Britain though
 * Blackened: I think nerfing 2 of the 3 allied factions is a good thing when people say allies are better and it would actually give reason to picking sub factions for allies
 * (Not) New - 2024-03-20: I’m not a fan of veterancy, it gives a big boost, akin to a super soldier serum, and there’s no way to reverse it. So I think increasing it is the wrong way to go. For British spies, I suggest maintaining their current veterancy boost while reducing it for other Allied countries. Additionally, British spies should gain the ability to take control of defenses/disable them within a certain range and drive away construction yards. This would help counter defense spam and prevent bases from becoming impregnable. Similar mechanics are already present in missions, so it wouldn’t introduce a new element to the game.
+* Blackened: I'm not really a fan of any of those other changes.
+* Pun: I disagree with making spy even more niche. I definitely am against making a subfaction unit. in the OG when a spy was next to a production structure it showed what it is producing
+* (Not) New: Veterancy has little to no impact afaik, so is a real difference being made?
 
 ### GPS
 
@@ -106,6 +112,10 @@ comments from players to back it up.
 * .won - 2024-03-19: i think LT should add back in husks
 * Blackened: LT husks would probably help with their mass crushing. Could also give them zero vision like that had a long time ago.
 * tux: Idt lt hp shld be nerfed more lol. They are already terrible. Their only roles are rifletanking sub min5 and cheese
+
+### Phase Transport
+
+* tux - 2024-03-21: One thing id like for phasetrans is to revert the weapon. Give it damange back. So it'll have half the dps of a ctank. Then itll be pretty good at harv raiding
 
 ## 4.1
 
@@ -129,7 +139,7 @@ Feedback:
 
 * Blackened - 2024-03-13: Liked
 
-### Heavy tank speed 64 (down from 60)
+### Heavy tank speed 64 (up from 60)
 
 Feedback:
 
