@@ -3,6 +3,53 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## 4.2
+
+### Infantry detection 1c512 (up from 1c0)
+
+### British spy cost 500 (up from 250), Veterancy infiltrations removed from French and German spies
+
+This provides more of a reason to pick England.
+
+### Submarine has turreted attack
+
+Still no tracking on missiles (as in BI 4.1).
+
+### Naval transport speed 115 (down from 128)
+
+### Arti changes reverted
+
+Now matches release.
+
+### Harvester scanning to 8 from ref, 7 from harv (down from 15 from ref, 8 from harv)
+
+### Thief health 8000 (up from 5000), speed 72 (up from 68)
+
+### Tesla tank turn speed 35 (up from 20), removed turreted attack, gap gen vision 5c0 (down from 6c0)
+
+### Grenadier cost 150 (down from 160)
+
+### Mammoth speed 50 (up from 43)
+
+### MGG creates shroud 7c0 (up from 6c0)
+
+### Demo truck wood damage 40 then 55 (up from 25 then 50)
+
+Demo trucks can now kill a WF or conyard if close enough.
+
+### Rifle damage against steel 10 (down from 28)
+
+### Light tank damage against steel 30 (down from 40)
+
+### Gunboat speed 128 (down from 142), range 5c0 (up from 4c768)
+
+### Destroyer non-AA range 8c0 (up from 7c512)
+
+AA-range remains unchanged.
+
+### V2 reload delay 215 (down from 240)
+
+
 ## Feedback leading to 4.2
 
 ### Tesla Tanks

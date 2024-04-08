@@ -1,7 +1,7 @@
 ^Infantry:
 	DetectCloaked:
 		DetectionTypes: Underwater, Cloak
-		Range: 1c0
+		Range: 1c512
 
 ^Ship:
 	Mobile:
@@ -88,6 +88,10 @@ AFLD:
 		Facing: 256
 	AirstrikePower@spyplane:
 		Description: Reveals an area of the map and submarines.
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: SPY.England.Infiltrate
 
 MIG:
 	Health:
@@ -249,6 +253,12 @@ SS:
 	DetectCloaked:
 		DetectionTypes: Underwater
 		Range: 4c0
+	AttackTurreted:
+	Turreted:
+		TurnSpeed: 512
+		LocalOffset: 0,-171,0, 0,171,0
+	-AttackFrontal:
+		FacingTolerance: 0
 
 MSUB:
 	Buildable:
@@ -305,12 +315,15 @@ LST:
 	Cargo:
 		Types: Infantry, Vehicle
 		MaxWeight: 10
+	Mobile:
+		Speed: 115
 
 PT:
 	Armor:
 		Type: Steel
 	Mobile:
 		TurnSpeed: 24
+		Speed: 128
 
 SPEN:
 	Valued:
@@ -322,10 +335,11 @@ SPEN:
 		Range: 6c0
 	InfiltrateForSupportPower:
 		Proxy: powerproxy.sonarpulse
-		Types: SpyInfiltrate
+		Types: SpyInfiltrate, SPY.England.Infiltrate
 	Power:
 		Amount: -20
-
+	Targetable:
+		TargetTypes: SPY.England.Infiltrate, SpyInfiltrate
 SYRD:
 	Valued:
 		Cost: 600
@@ -336,10 +350,11 @@ SYRD:
 		Range: 6c0
 	InfiltrateForSupportPower:
 		Proxy: powerproxy.sonarpulse
-		Types: SpyInfiltrate
+		Types: SpyInfiltrate, SPY.England.Infiltrate
 	Power:
 		Amount: -20
-
+	Targetable:
+		TargetTypes: SPY.England.Infiltrate, SpyInfiltrate
 ships.upgraded:
 	AlwaysVisible:
 	ProvidesPrerequisite:
@@ -392,10 +407,79 @@ E3:
 		Name: garrisoned
 		Weapon: Dragon
 
-ARTY:
-	Mobile:
-		TurnSpeed: 16
-
 3TNK:
 	Mobile:
 		Speed: 64
+
+HARV:
+	Harvester:
+		SearchFromProcRadius: 8
+		SearchFromHarvesterRadius: 7
+
+THF:
+	Health:
+		HP: 8000
+	Mobile:
+		Speed: 72
+
+TTNK:
+	Mobile:
+		TurnSpeed: 35
+	-AttackTurreted:
+	-Turreted:
+	AttackFrontal:
+		FacingTolerance: 0
+	RevealsShroud:
+		MinRange: 5c0
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+
+E2:
+	Valued:
+		Cost: 150
+
+4TNK:
+	Mobile:
+		Speed: 50
+
+MGG:
+	CreatesShroud:
+		Range: 7c0
+
+SPY.England:
+	Valued:
+		Cost: 500
+	Infiltrates:
+		Types: SPY.England.Infiltrate, SpyInfiltrate
+	Targetable:
+		Types: SPY.England.Infiltrate
+
+WEAP:
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: SPY.England.Infiltrate
+
+HPAD:
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: SPY.England.Infiltrate
+
+AFLD.Ukraine:
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: SPY.England.Infiltrate
+
+BARR:
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: SPY.England.Infiltrate
+
+TENT:
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: SPY.England.Infiltrate
