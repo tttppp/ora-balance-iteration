@@ -7,47 +7,113 @@ comments from players to back it up.
 
 ### Infantry detection 1c512 (up from 1c0)
 
+Infantry detection is very wonky. Furthest subcells cannot detect a unit in the next direct cell.
+
+* Orb - 2024-04-10: Infantry detection changed without changing phase tanks :P Now tbf no one uses them to crush anyway, but I ran a lot of tests with phase tanks when making that change.
+
 ### British spy cost 500 (up from 250), Veterancy infiltrations removed from French and German spies
 
-This provides more of a reason to pick England.
+This provides more of a reason to pick England and nerfs an otherwise incredible value unit (even if people don't use it often enough.)
+
+* Orb - 2024-04-10: I actually quite like the spy change, but in the original game spies could infiltrate all buildings - I think that should remain if possible. Perhaps infiltrating a structure type also reveals all structures on that type on the map (is that even possible?) just a thought.
+* Blackened: Making spies do something like the OG or give them vision of just where those production facilities are at was something I'd considered. But if that's even possible it's beyond my yaml capabilities.
 
 ### Submarine has turreted attack
 
-Still no tracking on missiles (as in BI 4.1).
+Allies no longer have the ability to dictate when a fight happens as they can constantly move around while subs have to stop to shoot. This makes it so surprise attacks are extremely effective but both sides microing becomes very hard to get kills in small battles. Still no tracking on Torpedoes(as in BI 4.1).
+
+* Pun - 2024-04-10: submarines being turreted is definitely weird. Could some facing tolerance be added instead? As well as opportunity fire?
+* Orb: You could do like a 45 degree arc in front right or something?
+* Blackened: Subs being turreted definitely is wonky. But the reasoning I think makes sense. Allies can just move their ships constantly and since they are turreted the don't have to ever stop. Facing tolerances really don't help.
 
 ### Naval transport speed 115 (down from 128)
 
+Help make torpedoes less avoidable.
+
 ### Arti changes reverted
 
-Now matches release.
+The buffs were unwarranted. Now matches release.
 
 ### Harvester scanning to 8 from ref, 7 from harv (down from 15 from ref, 8 from harv)
 
+Harvs are known to jump off mines when they really shouldn't. Will allow map makers to have tighter ore field layouts which also helps with non 3 ref builds.
+
 ### Thief health 8000 (up from 5000), speed 72 (up from 68)
+
+Lets thieves chase retreating tanks easier without dying, lone rifles now have a shorter window to kill thieves.
 
 ### Tesla tank turn speed 35 (up from 20), removed turreted attack, gap gen vision 5c0 (down from 6c0)
 
+Makes them more like Ctanks without completely nerfing their other stats. Kiting is still possible but now requires stutter stepping micro. Vision under gap is reduced to equalize them with other units.
+
 ### Grenadier cost 150 (down from 160)
+
+Standardized cost. Now let's you build a little faster and without stalling in early game.
+
+* Orb - 2024-04-10: Grenadier change is unnecessary. That's the original price, and I don't think the logic justifies changing it
+* Blackened: gren's also being 160 is unnecessary. it goes both ways.
 
 ### Mammoth speed 50 (up from 43)
 
+Now only slightly slower than infantry. Allows for quicker retreats/traversing between points.
+
+* Unano - 2024-04-10: Mammy buf might make them a bit OP. As a prolific mammy spammer I think they are in a good place already personally
+* despro: mammoths seem fine to me as well
+* ZxGanno - 2024-04-11: stat changes are hard to judge. just play them. faster mammoths sounds neat
+* .won: yeah not sold on that mammoths are already pretty damn good
+* Blackened: Mammoths are good in tight quarters. But can easily fail when you need to rotate with them. Mammoths on big maps are a liability. You're better off just going with more ht
+* Mint: I thought mammoths were in a decent spot tbh. But if they are still slower than inf it might not be a huge buff for them.
+* Moods: I think the turret speed needs a slight increase maybe not speed i donno thats my opinion
+
 ### MGG creates shroud 7c0 (up from 6c0)
+
+Greater blanket protection.
 
 ### Demo truck wood damage 40 then 55 (up from 25 then 50)
 
-Demo trucks can now kill a WF or conyard if close enough.
+Demo trucks can now kill a WF or conyard if close enough. Does not affect damage to other armor types.
+
+* .won - 2024-04-11: I don’t like the demo trucks
+* ZxGanon: well blackened is just buffing the demo truck. always felt weird that a nuke cannot blow up a base
 
 ### Rifle damage against steel 10 (down from 28)
 
+Rifles were unintentionally doing a lot of damage to steel.
+
 ### Light tank damage against steel 30 (down from 40)
+
+Same as rifles.
 
 ### Gunboat speed 128 (down from 142), range 5c0 (up from 4c768)
 
+Speed reduced to make destroyers/torpedoes better against them.
+
 ### Destroyer non-AA range 8c0 (up from 7c512)
 
-AA-range remains unchanged.
+To help deal with gunboats while kiting and also shoreline harassment. AA-range remains unchanged.
+
+* Pun - 2024-04-10: won't destroyer now outrange teslacoils in addition to turrets? btw what about making the destroyer depth charge count match the OG?
+* Blackened: DD already outranged turrets and tesla coils. This does make it easier though. Making DD have 1 less depth charge makes them the same value as gunboats with less speed/vision/detection.
 
 ### V2 reload delay 215 (down from 240)
+
+To help lower the gap between v2's and artillery. Artillery now only shoots 2.5x faster than v2. Makes missed v2 shots slightly less of a concern.
+
+### Silo added build radius
+
+Gives minor utility to silos as a defense tab build radius provider, can help smooth out mistakes in building placement.
+
+* bete - 2024-04-10: Silo change ❤️ 😄
+* despro: silo change cud be weird
+* Blackened: also silo change helps with wf rushes/wf first builds if ore patches are really far
+* anjew: as long we get normal sell value, silo looks good
+* Moods: U dont think silo build radius is gunna be abused a little ? ... Well i guess we will see. I like the change.. i will also be someone who abuses it/utilizes it
+* .won: It does nothing. Not saying it’s g good or bad but it’s just a change to make a change
+* Pun: 1. It's widely used in ore maps 2. It's used by lower skill players by it's intended westwood purpose 3. There's a whole notification signaling you to build them. Adding buildradius is probably fine though
+
+### GPS notification fixes
+
+Makes it so specs can hear when gps is activated/terminated again.
 
 
 ## Feedback leading to 4.2
@@ -117,6 +183,10 @@ AA-range remains unchanged.
 * Blackened - 2024-03-15: [Proposed] Either give minelayer a weapon so it doesn't run in front of your units anymore or make it slowly do damage to mines to help clear mine fields. Not married to this idea at all. It's more of a QOL change than balance
 * Moods - 2024-03-16: Fwiw i like all the other ideas [other than thief]. ( the minelayer idea better be becuz of the moods vs milkman game 😉 i think thats a really good idea )
 * (Not) New: minelayer changes make sense
+* bete - 2024-04-11: This is nerfing Minelayer isn't it? You take risk to make minelayer instead tank and then you make it easier to counter... not sure
+* Blackened: I dont see it having s big effect on 1v1s but more on 3v3+ when minefields can get super big.
+* Yara: Would it be technically possible to create/configure certain tanks to (1) detect mines and (2) to ignore them aka they can drive over them without loosing health points? ...  I just thought it could be a nice ability to give certain tanks , maybe mammoth, the ability to ignore them, as mammoths are not that great currently. But the mine layer is also not that great and should perhaps not be weakened any further.
+* (Not) New: Currently one minelayer can make a 30 min minefield obsolete. Maybe requiring more micro to make mines harder to detect eg you have to move minelayer to a spot and then press f /shift que it to see if there are mines there?
 
 ### Grens
 
@@ -383,6 +453,11 @@ A single MAD tank now takes out vehicles and structures with heavy or concrete a
 The price drops to 500 once radar is built.
 
 * Blackened - 2023-11-10: the british spy change just seems like it wouldn't be worthwhile
+* (Not) New - 2024-04-11: It seems like a forced sell for any veterancy structure near your opponents blob else your opponent has veterancy from the beginning of the mid game.
+* Blackened: I really don't expect people to suddenly start making 1000$ spies in droves
+* Unano: Seems ok - don't think its a game changer tho
+* .won: I think spies on sd are fine tbh but I wouldn’t mind a bit more detection
+* ZxGanon: spys on sd seems like an aidband fix rather than a proper justification to implement game changing designs. thats boring and lame
 
 ### Ranger health 18000 (up from 15000)
 

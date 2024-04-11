@@ -218,6 +218,13 @@ powergps:
 	ActorLostNotification:
 		Notification: SatelliteTerminated
 		NotifyAll: True
+	VoiceAnnouncement:
+		RequiresCondition: uplinkexists
+		Voice: Build
+	DeathSounds:
+		Voice: Die
+	Voiced:
+		VoiceSet: GPSVoice
 	Health:
 		HP: 1499
 	HitShape:
@@ -340,6 +347,7 @@ SPEN:
 		Amount: -20
 	Targetable:
 		TargetTypes: SPY.England.Infiltrate, SpyInfiltrate
+
 SYRD:
 	Valued:
 		Cost: 600
@@ -483,3 +491,7 @@ TENT:
 		Types: SPY.England.Infiltrate
 	Targetable:
 		TargetTypes: SPY.England.Infiltrate
+
+SILO:
+	GivesBuildableArea:
+		AreaTypes: building, fake

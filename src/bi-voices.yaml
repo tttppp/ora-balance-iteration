@@ -1,0 +1,11 @@
+GPSVoice:
+	Voices:
+		Select: yo1,yes1,yeah1
+		Move: onit1,cmon1,rokroll1
+		Action: tuffguy1,bombit1
+		Die: satellite_terminated
+		Burned: tandeth1
+		Zapped: tandeth1
+		Build: satellite_initialized_delay2s
+		Kill: gotit1,lefty1
+		Demolish: keepem1,tuffguy1
