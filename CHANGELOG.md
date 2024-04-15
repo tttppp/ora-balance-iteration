@@ -84,6 +84,21 @@ Rifles were unintentionally doing a lot of damage to steel.
 
 Same as rifles.
 
+* .won - 2024-04-14: I think it needs more of a nerf. Maybe husk and reduce crushing rate( if possible). Think that wouldn’t change their main role, hunting tt, hunting falks and arty but it would prob reduce LT spam
+* Blackened: I think returning husk would just reintroduce the reason it was removed before. I would lean more towards stripping it's HP buff or a speed nerf since crushes are only half the problem.
+* .won: The only thing I don’t like about a speed nerf is it affects other things. Same with hp
+* anjew: Dodge % is a joke anyway. You can have 99% dodge rate but if infantry are in the process of dodging, it’s 100% crush rate
+* Blackened: 1) Scouting against them is harder than most other rushes/BO's. 2) Crushing swings battles. 3) Unlike apc crushes, LT have decent heavy/wood damage so you aren't just relying on rockets to kill material. 1 is certainly not an easy fix just due to the nature of the game. 2/3 are very connected and act like a multiplier. So my proposed solution would either to: 1) nerf their health/speed slightly. This makes them still good building harassers but makes crushing a bit harder to pull off. 2) Nerf their speed and their wood/heavy damage. This more or less does the same thing
+* .won: I agree with blackened, I think my problems are a bit clearer but I like his solutions
+* Pun: heavy damage is only a problem in overwhelming numbers. For a single LT it takes a century to kill anything that isn't light armour. I'm not sure if a damage nerf is a good idea
+* despro: increase cost
+* happy: cost icnrease to [the price of] APC could work
+* Blackened: LT do a little bit more than half the damage a MT does to heavy when you factor in heavy damage+ROF. For wood damage LT are actually a fraction of a second faster at killing buildings (than MT)
+* (Not) New: A new trait could be introduced for Light tanks so that instead of being crushed outright, the infantry unit  is rolled over and injured. The prone time would be reduced, allowing the infantry to recover and return to firing more quickly.
+* Moods: I still think the issue with trip ref is the inf not so much the lt .. but i guess speed nerf cud be kinda good  it shud be slightly slower the flak imo. Trip ref with apc is also insanely strong
+* Pun: I think it's fine that mass light tanks can crush infantry blobs. What the issue here is, is that this move is so decisive that it can very quickly lead to a win, and that it's difficult to scout
+* (Not) New: i think nerfing health and speed is right way to go
+
 ### Gunboat speed 128 (down from 142), range 5c0 (up from 4c768)
 
 Speed reduced to make destroyers/torpedoes better against them.
@@ -233,6 +248,20 @@ Makes it so specs can hear when gps is activated/terminated again.
 ### Phase Transport
 
 * tux - 2024-03-21: One thing id like for phasetrans is to revert the weapon. Give it damange back. So it'll have half the dps of a ctank. Then itll be pretty good at harv raiding
+
+### APC
+
+* happy - 2024-04-14: apc needs a cost reduction with an equivilant hp nerf to fit into double ref standard. would be a subtle buff to drop cheese
+* Kaution: Yeah fair. Usually flak just feels better in terms of build
+
+### Crushing
+
+* Pun - 2024-04-14: One nerf to crushing could be adding a speed penalty for vehicles when in critical health. Ofc not go fully vanilla which also adds a penalty for <50%
+* Blackened: this could work but god I hate having to deal with unit speed differences from veterancy already.
+* Pun: Lets change veterancy as part of the same package
+* (Not) New: i think this is a great idea, solves the problem and mirrors the real world
+* Blackened: I feel like veterancy rework almost needs to be an exclusive fix because its not like it's a few units you're tweaking with but involves pretty much everything.
+
 
 ## 4.1
 
