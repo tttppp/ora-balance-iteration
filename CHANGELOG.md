@@ -261,6 +261,42 @@ Makes it so specs can hear when gps is activated/terminated again.
 * Pun: Lets change veterancy as part of the same package
 * (Not) New: i think this is a great idea, solves the problem and mirrors the real world
 * Blackened: I feel like veterancy rework almost needs to be an exclusive fix because its not like it's a few units you're tweaking with but involves pretty much everything.
+* .won: And what about air, do they slow down on damage too?
+* Pun: I have played with this feature, and it felt fine. Though you definitelly don't get the dopamine rush of escaping with 0 health as often
+* ZxGanon: if vehicle crushing is an issue to some degree. rather than adding this slow upon crushing mechanic from CA (which is retarded btw). rather add critical hp slow down
+* Blackened: biggest cons to slow on critical imo is you're gonna get even more snowbally games. since retreating is naturally going to cost more.
+
+### Veterancy
+
+* ZxGanon - 2024-04-14: veterancy rework for ra1 is necessary. it will only make RA more fun to play
+* (Not) New: veterancy is a pointless mechanic in ra
+* Blackened: its certainly not pointless. but the current version makes it unwieldly
+* ZxGanon: [Veterancy could have a meaningful impact] by giving vet1: bonus damage, vet2: durability, vet3: selfheal and a new heroic weapon. could also add bonus movement speed to heroic units to make them more microable
+* Pun: Only the damage buff in infatry matters
+* ZxGanon: ora ra1 is such a weird game that infantry is so important here. also btw a fact for ppl that dont know if there are units with too many different speed stats on the field does harm game performance. so if you limit movementspeed buffs only to heroic you can circumvent that issue
+* Pun: One of the issues with current veterancy is that it's too hard to get and you aren't that rewarded for getting them vetted
+* Blackened: the first choice of a rework is 100% going to be reducing elite from 4 promotions to 3
+* (Not) New: is temporary veterancy eg it wears off after a while, an option to reduce snowball impact? veterancy decay was the one i meant, units lose it if they arent actively engaged in combat for a while as in company of heroes
+* Unano: The game is so snowbally already tho. Buffing vets will just make that more
+* Pun: I've seen people take up strong stances that they want to keep veterancy this rare. That it makes max rank units a much more special occasion
+* Mint: fwiw I like the veterancy idea, a little evolution would make this game interesting
+* Moods - 2024-04-15: Interesting vet mechanics will never shine becuz infantry always are doing the killing or dealing the final blow. So you wont see a highly vetted tank
+* despro: idk mates i think vet is pretty shitty in a game like openra. theres just too much spam that dies way too fast
+* dang_shot: i also think unano is right that buffing veterancy should in theory also increase snowballing which i dont think is ideal
+* .won: Yeah despro is right units die too quickly. Like cool general rifle, 1 shot from yak it’s done
+
+### War Factory
+
+* Upps - 2024-04-15: Making vehicle better, cheaper, better scaleable (max production speed on 3 WF). Finally use the Armor class concrete for defences for bunker breaker roles (Tanks, Arty/V2) etc.
+* ZxGanon: 3 wf scaling sounds neat but Id argue that vehicles need a speed buff across the board they are way too slow compared to infantry
+* tux: that'd make crushing really good though
+* Upps: idk about a massive tanks speed buff because thiefs need to catch up, that would make harvester stealing maybe to powerful. dont forget its also easier/cheaper to scale to max production of infantry 7x500=3500$ compared to 4x2000=8000$
+* Moods: You never ever see 4 wfs.. There cud definately be a better balance between infs/vehichles then there is now
+* happy: as upps said, the investment of 4 wf makes it not worthwhile. infact i rarely go above 2 unless sim leading purely cause i used 2nd wf to bypass the time loss of tanks going to the frontline. its much better macro to go 7 rax or open the air queue. i think the 3wf total idea might be good
+* dang_shot: i think a lot of the "newer" players actually often get to 4 wf [in the late game], kav, creo, fazzar and so on
+* Moods: The only time 4wf is worth it is for mammoths.. everything else is like a -1 second reduction so even if they do do it, it doesnt make it worth it
+* dang_shot: i dont think thats true
+* Blackened: nah 4wf is always worth it
 
 
 ## 4.1
@@ -291,6 +327,9 @@ Feedback:
 
 * Blackened - 2024-03-13: Liked
 * bete: Heavy tank has a lot HP, damage, not sure why speed them up?
+* tux - 2024-04-15: one thing i do think would be good tho is increase heavy tank speed a little. mediums are 72
+* ZxGanon: ez. ht 70 med 85
+* Upps: HT good buffed in speed in RATL
 
 ### Yak min range 2c512 (down from 3c0)
 
