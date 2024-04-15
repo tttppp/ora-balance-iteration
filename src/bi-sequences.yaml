@@ -27,6 +27,10 @@ icon:
 	gpsactive:
 		Filename: gpssactiveicon.shp
 
+camera:
+	icon:
+		Filename: camicon.shp
+
 ss:
 	idle:
 		InterpolatedFacings: 32
