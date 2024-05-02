@@ -179,6 +179,7 @@ Makes it so specs can hear when gps is activated/terminated again.
 * muleyyy: i dont like the idea of the thief being cloaked up to a distance, i think thats too strong, what about their view range? and cut the lead time before they cloak when stationary. so you can advance and then stop to avoid being spotted, but you are still revealed when moving
 * Blackened: I'm thinking increasing the thief hp to 8000 (Which gives it 2 extra rifle shots) and making its speed 85 again is a good start
 * goat - 2024-03-21: i think stealth is just a wonky and poor mechanic in openra, i certainly dont think it should be buffed
+* Unano - 2024-04-20: make hijackers able to revive husks
 
 ### Infantry
 
@@ -202,6 +203,8 @@ Makes it so specs can hear when gps is activated/terminated again.
 * Blackened: I dont see it having s big effect on 1v1s but more on 3v3+ when minefields can get super big.
 * Yara: Would it be technically possible to create/configure certain tanks to (1) detect mines and (2) to ignore them aka they can drive over them without loosing health points? ...  I just thought it could be a nice ability to give certain tanks , maybe mammoth, the ability to ignore them, as mammoths are not that great currently. But the mine layer is also not that great and should perhaps not be weakened any further.
 * (Not) New: Currently one minelayer can make a 30 min minefield obsolete. Maybe requiring more micro to make mines harder to detect eg you have to move minelayer to a spot and then press f /shift que it to see if there are mines there?
+* mrtbsc - 2024-04-28: bit late on this one but how bout giving rangers and flaktruck the ability to detect mines then?
+* Orb: I think that could work
 
 ### Grens
 
@@ -297,6 +300,22 @@ Makes it so specs can hear when gps is activated/terminated again.
 * Moods: The only time 4wf is worth it is for mammoths.. everything else is like a -1 second reduction so even if they do do it, it doesnt make it worth it
 * dang_shot: i dont think thats true
 * Blackened: nah 4wf is always worth it
+* tux - 2024-04-16: i honestly find that infantry kind of become much less relevant in the hyperlategame by that time 4wf is quite likely anyways
+
+### Defences
+
+* Upps - 2024-04-16: What do you guys think about using concrete armor class for defences? Make tanks better against them V2 arty also.  MiG and longbow, too. Reduce rocketman damage against concrete compared to heavy armor. reduce BH and Yak damage against concrete (because AA can get overrun otherwise). Buff turret against heavy armor to stop Mammoths in late game ( check projectile speed)
+* ZxGanon: sounds interesting
+* (Not) New: As much as I dislike static defences shutting down flanks. It’s hard enough as it is to stop trip ref/mcv skip to tanks, with defences, eg blackened vs happy game 1 last ragl.
+* Pun: And also prevent aircraft from sniping aa guns in teamgames. Tbh I always found it weird that anti-tank defences get absolutely obliterated by tanks
+* Blackened: Concrete armor defenses would be a huge buff to soviets and make Allies vs allies very hard to break through defensive lines.
+* Upps: Depends on the stats we should ignore the anti concrete stats which are current only in use for walls complelty. I wouldnt change the Tesla vs Turret/Turret vs Tesla  counterplay we have
+* Blackened: Mt does 1.15x4000=4600 damage value to heavy armor. Ht =9200 Mammoths are 1.2x4000x2=9600. Rockets do 5000. So I don't think giving soviets even more of an edge in base defense clearing is gonna help.
+
+### Tanya
+
+* Unano - 2024-04-20: I think we should put tanya in both factions
+* ZxGanon: funny in og ra1 tanya was available for both sides. which is boring
 
 
 ## 4.1
