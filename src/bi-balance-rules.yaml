@@ -3,12 +3,6 @@
 		DetectionTypes: Underwater, Cloak
 		Range: 1c512
 
-^Ship:
-	Mobile:
-		Locomotor: naval
-	Targetable:
-		TargetTypes: WaterActor, Ship
-
 ^CommandoSkull:
 	WithDecoration@COMMANDOSKULL:
 		Image: pips
@@ -91,7 +85,7 @@ AFLD:
 	InfiltrateForSupportPower:
 		Types: SPY.England.Infiltrate
 	Targetable:
-		TargetTypes: SPY.England.Infiltrate
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
 
 MIG:
 	Health:
@@ -346,7 +340,7 @@ SPEN:
 	Power:
 		Amount: -20
 	Targetable:
-		TargetTypes: SPY.England.Infiltrate, SpyInfiltrate
+		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
 
 SYRD:
 	Valued:
@@ -362,7 +356,7 @@ SYRD:
 	Power:
 		Amount: -20
 	Targetable:
-		TargetTypes: SPY.England.Infiltrate, SpyInfiltrate
+		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
 ships.upgraded:
 	AlwaysVisible:
 	ProvidesPrerequisite:
@@ -459,38 +453,36 @@ SPY.England:
 		Cost: 500
 	Infiltrates:
 		Types: SPY.England.Infiltrate, SpyInfiltrate
-	Targetable:
-		Types: SPY.England.Infiltrate
 
 WEAP:
 	InfiltrateForSupportPower:
 		Types: SPY.England.Infiltrate
 	Targetable:
-		TargetTypes: SPY.England.Infiltrate
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
 
 HPAD:
 	InfiltrateForSupportPower:
 		Types: SPY.England.Infiltrate
 	Targetable:
-		TargetTypes: SPY.England.Infiltrate
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
 
 AFLD.Ukraine:
 	InfiltrateForSupportPower:
 		Types: SPY.England.Infiltrate
 	Targetable:
-		TargetTypes: SPY.England.Infiltrate
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
 
 BARR:
 	InfiltrateForSupportPower:
 		Types: SPY.England.Infiltrate
 	Targetable:
-		TargetTypes: SPY.England.Infiltrate
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
 
 TENT:
 	InfiltrateForSupportPower:
 		Types: SPY.England.Infiltrate
 	Targetable:
-		TargetTypes: SPY.England.Infiltrate
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
 
 SILO:
 	GivesBuildableArea:
