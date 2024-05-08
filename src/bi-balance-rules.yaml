@@ -257,9 +257,9 @@ SS:
 	AttackTurreted:
 	Turreted:
 		TurnSpeed: 512
-		LocalOffset: 0,-171,0, 0,171,0
 	-AttackFrontal:
-		FacingTolerance: 0
+	Armament:
+		LocalOffset: 0,-171,0, 0,171,0
 
 MSUB:
 	Buildable:
