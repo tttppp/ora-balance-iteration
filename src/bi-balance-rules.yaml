@@ -409,6 +409,12 @@ E3:
 		Name: garrisoned
 		Weapon: Dragon
 
+1TNK:
+	Health:
+		HP: 23000
+	Mobile:
+		Speed: 103
+
 3TNK:
 	Mobile:
 		Speed: 64

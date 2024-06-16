@@ -3,6 +3,29 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## 4.3
+
+###  Light tank health 23000 (down from 26000), speed 103 (down from 113)
+
+This was meant to be in 4.2, but got missed out.
+
+## Feedback leading to 4.3
+
+### Missile Silo
+
+* Unano - 2024-05-29: any thoughts on reducing nuke timer as you don't see many nukes these days? And maybe allow multiple nukes per player?
+* tux: [In reply to the idea of multiple nukes] NO. Thats the worst balance take i have ever heard unano
+* TTTPPP: Nuke is built very rarely (in 1v1) and then usually doesn't get fired. I don't think it's the worst balance take tux. Main issue with multiple nukes is that it becomes impossible to stop them by killing one. I wonder if we could allow multiple nukes per player, speed up the timer when a player has multiple nukes, and reset the timer if any of the nukes are lost
+* Upps: Thats bs a nuke is a investment that force the enemy to take the initiative. The opposite site has to prepare careful strategies to provent the launch on a minimum on losses. You need the time the timer give you for Chrono/IC operations... The only thing which could get change is the damage a nuke deals.
+* TTTPPP: I just did some stats on it, and I don't think there are any surprises: https://forum.openra.net/viewtopic.php?p=315566#p315566
+* .won - 2024-05-30: yeah i dont think the nuke needs to be changed at all
+* J MegaTank: maybe a 30 second time reduction it takes ages to come out
+* Pun: 1 minute reduction + add 100 extra power consumption
+* .won: yeah nuke does take ages to come out but then again its a nuke if we just popped them off every 2 mins gonna be lame
+* Mint: Just lower timer and radius for nuke by a bit. Make it a bit more tactical.
+* TTTPPP - 2024-05-31: Another post with links to all the missile silo plays from RAGL S15: https://forum.openra.net/viewtopic.php?p=315569#p315569
+
+
 ## 4.2
 
 ### Infantry detection 1c512 (up from 1c0)
@@ -25,6 +48,9 @@ Allies no longer have the ability to dictate when a fight happens as they can co
 * Pun - 2024-04-10: submarines being turreted is definitely weird. Could some facing tolerance be added instead? As well as opportunity fire?
 * Orb: You could do like a 45 degree arc in front right or something?
 * Blackened: Subs being turreted definitely is wonky. But the reasoning I think makes sense. Allies can just move their ships constantly and since they are turreted the don't have to ever stop. Facing tolerances really don't help.
+* .won - 2024-06-13: i just saw the lucky lukje and bia game. that torpedo speed might be too much
+* Blackened: torps need to be fast (and they really aren't that fast) because they don't track. So if allies or sovs find idle navy they get free hits but if you're actually microing them its much harder and becomes a postion/numbers game.
+* .won: Yeah I understand but I feel like Torp are super fast. Haven’t played against them yet so can’t say for sure
 
 ### Naval transport speed 115 (down from 128)
 
@@ -37,6 +63,12 @@ The buffs were unwarranted. Now matches release.
 ### Harvester scanning to 8 from ref, 7 from harv (down from 15 from ref, 8 from harv)
 
 Harvs are known to jump off mines when they really shouldn't. Will allow map makers to have tighter ore field layouts which also helps with non 3 ref builds.
+
+* TTTPPP - 2024-06-13: I've had one complaint that harvs no longer go to ore when they come out of the WF. I assume this is based on where the WF is placed
+* Blackened: Yeah wf must have been pretty far away from any source of ore.
+* Unano: Yea they seem to do this a lot. Easiest solution is to set the war factory rally
+* anjew: How about look at ur wf when it says ‘unit ready’? There is almost always nothing going on during optimal times
+* tux: I always rally wf for harvs
 
 ### Thief health 8000 (up from 5000), speed 72 (up from 68)
 
@@ -153,6 +185,9 @@ Makes it so specs can hear when gps is activated/terminated again.
 * despro - 2024-03-14: the thing with ctanks is that sum plebs think they shud be spammed and end up spammin them in allies vs allis (like blackened against me in ragl final) and then mrj ruins them
 * Pun (Referencing 2022-08-24): [Chrono Tanks] don't synergise well with army compositions. It does its job really well but regular rocket soldiers + tanks do that job just as well in most cases. The other issue is that you can't attack move them, if they target infantry all of their damage is lost. Chrono crushing as a concept isn't great. This is extremely broken when in higher numbers and we should always keep that in mind when doing changes to CT in the future
 * Blackened: CT are kinda like artillery for heavy armor. They absolutely wreck heavy armor. CT also get completely shut down by mrj.
+* tux - 2024-05-09: how about giving ctanks heavy armour (and maybe reducing hp). i would build them to eco raid but they can just get cleaned up by air
+* despro: great idea mate, make it so nothing counters em. [I use them] mainly to tanya snipe or if opponent has a lot of tanks. i like to use a few if opponent has mammoths. can also always send a couple to harass
+* .won: chrono tanks actually counter mammoths pretty well. pair them with a radar jammer and a little bit of inf and
 
 ### Arti
 
