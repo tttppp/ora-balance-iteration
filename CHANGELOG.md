@@ -9,6 +9,10 @@ comments from players to back it up.
 
 This was meant to be in 4.2, but got missed out.
 
+* Pun - 2024-06-17: LT speed should remain the same, instead relative speeds of other units like flak should be buffed. Vehicles are already too slow... I did a mistake in nerfing flak speed, I should have buffed black hawk speed instead
+* anjew: This also includes the damage decrease. So it’s more fragile, slower and does less damage. That’s what u get for crushin perfectly good infantry
+* .won: [In reply to Pun] no. nerfing or buffing other things causes more issues. buff flak speed now they chase down air better causes other issue. LT nerf is a direct result of the 3 Ref LT spawn opener. I suggested other nerfs( no husk, small HP decrease)
+
 ## Feedback leading to 4.3
 
 ### Missile Silo
