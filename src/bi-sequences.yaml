@@ -1,13 +1,9 @@
 pips:
-	Defaults:
-		Filename: pips.shp
 	pip-skull:
 		Filename: pip-skull.shp
 		Offset: -2, 0
 
 iron:
-	Defaults:
-		Filename: iron.shp
 	idle:
 		Offset: 0,-4
 	active:
@@ -17,7 +13,6 @@ iron:
 	damaged-active:
 		Offset: 0,-4
 	make:
-		Filename: ironmake.shp
 		Offset: 0,-4
 	bib:
 		Filename: mbIRON.shp
@@ -30,14 +25,6 @@ icon:
 camera:
 	icon:
 		Filename: camicon.shp
-
-ss:
-	idle:
-		InterpolatedFacings: 32
-
-msub:
-	idle:
-		InterpolatedFacings: 32
 
 lst:
 	Defaults:

@@ -11,10 +11,6 @@
 		Position: TopLeft
 		ValidRelationships: Ally, Enemy, Neutral
 
-JEEP:
-	Mobile:
-		Speed: 164
-
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
 	Valued:
@@ -39,18 +35,13 @@ MGG:
 TSLA:
 	DetectCloaked:
 		DetectionTypes: Cloak, Underwater
-		Range: 6c0
 	Power:
 		Amount: -80
 
 PBOX:
 	DetectCloaked:
-		Range: 6c0
 		DetectionTypes: Cloak, Underwater
 	Cargo:
-		Types: Infantry
-		MaxWeight: 1
-		InitialUnits: e1
 		PassengerConditions:
 			e3: RocketSoldier
 	WithRangeCircle@ROCKETSOLDIER:
@@ -60,12 +51,10 @@ PBOX:
 
 HBOX:
 	DetectCloaked:
-		Range: 6c0
 		DetectionTypes: Cloak, Underwater
 
 GUN:
 	DetectCloaked:
-		Range: 6c0
 		DetectionTypes: Cloak, Underwater
 
 FTUR:
@@ -86,10 +75,6 @@ AFLD:
 		Types: SPY.England.Infiltrate
 	Targetable:
 		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
-
-MIG:
-	Health:
-		HP: 8000
 
 IRON:
 	Inherits@shape: ^2x2Shape
@@ -247,19 +232,14 @@ SS:
 		TargetTypes: WaterActor, Ship, Submarine, Repair
 		RequiresCondition: underwater
 	Cloak:
-		DetectionTypes: Underwater
-		InitialDelay: 0
 		CloakDelay: 20
 		UncloakOn: Attack, Unload, Dock, Damage, Heal
 	DetectCloaked:
-		DetectionTypes: Underwater
 		Range: 4c0
 	AttackTurreted:
 	Turreted:
 		TurnSpeed: 512
 	-AttackFrontal:
-	Armament:
-		LocalOffset: 0,-171,0, 0,171,0
 
 MSUB:
 	Buildable:
@@ -268,7 +248,6 @@ MSUB:
 		Type: Steel
 	Mobile:
 		TurnSpeed: 16
-		Speed: 44
 	Targetable:
 		TargetTypes: WaterActor, Ship, Submarine, Repair
 		RequiresCondition: !underwater
@@ -276,12 +255,9 @@ MSUB:
 		TargetTypes: WaterActor, Ship, Submarine, Repair
 		RequiresCondition: underwater
 	Cloak:
-		DetectionTypes: Underwater
-		InitialDelay: 0
 		CloakDelay: 20
 		UncloakOn: Attack, Unload, Dock, Damage, Heal
 	DetectCloaked:
-		DetectionTypes: Underwater
 		Range: 7c0
 
 DD:
@@ -289,17 +265,11 @@ DD:
 		Type: Steel
 	Mobile:
 		TurnSpeed: 24
-		Speed: 92
-	RevealsShroud:
-		MinRange: 4c0
-		Range: 5c0
-		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 4c0
 	Armament@SECONDARY:
 		Weapon: DDDepthCharge
 	DetectCloaked:
-		DetectionTypes: Underwater
 		Range: 3c0
 
 CA:
@@ -332,7 +302,6 @@ SPEN:
 	Health:
 		HP: 75000
 	DetectCloaked:
-		DetectionTypes: Underwater
 		Range: 6c0
 	InfiltrateForSupportPower:
 		Proxy: powerproxy.sonarpulse
@@ -348,7 +317,6 @@ SYRD:
 	Health:
 		HP: 75000
 	DetectCloaked:
-		DetectionTypes: Underwater
 		Range: 6c0
 	InfiltrateForSupportPower:
 		Proxy: powerproxy.sonarpulse
@@ -357,6 +325,7 @@ SYRD:
 		Amount: -20
 	Targetable:
 		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
+
 ships.upgraded:
 	AlwaysVisible:
 	ProvidesPrerequisite:

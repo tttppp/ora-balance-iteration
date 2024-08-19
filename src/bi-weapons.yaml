@@ -95,8 +95,6 @@ ChainGun.Yak:
 		Damage: 3500
 		Versus:
 			Steel: 105
-	Projectile: Bullet
-		Speed: 682
 	Range: 5c0
 
 8Inch:
@@ -107,7 +105,7 @@ ChainGun.Yak:
 			Heavy: 35
 			Steel: 40
 	InvalidTargets: Submarine
- 	Projectile: Bullet
+	Projectile: Bullet
 		Speed: 215
 
 Grenade:
@@ -150,7 +148,6 @@ Stinger:
 	Warhead@1Dam: SpreadDamage
 		Damage: 2500
 		Versus:
-			None: 36
 			Wood: 66
 			Light: 66
 			Heavy: 100
@@ -170,12 +167,8 @@ TorpTube:
 		HorizontalRateOfTurn: 0
 	Warhead@1Dam: SpreadDamage
 		Spread: 320
-		Damage: 18000
 		Versus:
 			Wood: 35
-			Light: 75
-			Heavy: 100
-			Concrete: 500
 			Steel: 65
 
 SubMissile:
@@ -183,14 +176,8 @@ SubMissile:
 	ReloadDelay: 250
 	Warhead@1Dam: SpreadDamage
 		Versus:
-			None: 80
-			Wood: 50
-			Light: 48
 			Heavy: 38
-			Concrete: 100
 			Steel: 48
-	Projectile: Bullet
-		Speed: 215
 
 SCUD:
 	ReloadDelay: 215
