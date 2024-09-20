@@ -396,8 +396,8 @@ E3:
 
 HARV:
 	Harvester:
-		SearchFromProcRadius: 8
-		SearchFromHarvesterRadius: 7
+		SearchFromProcRadius: 9
+		SearchFromHarvesterRadius: 8
 
 THF:
 	Health:

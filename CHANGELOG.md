@@ -7,6 +7,10 @@ comments from players to back it up.
 
 ### Missile Silo charge 7 minutes (down from 9 minutes), power 200 (up from 150)
 
+### Harvester scanning to 9 from ref, 8 from harv (down from 15 from ref, 8 from harv)
+
+This is an increase from BI-4.2/BI-4.3 in which the stats were 8 from ref, 7 from harv.
+
 ## Feedback leading to 4.4
 
 ### Missile Sub
