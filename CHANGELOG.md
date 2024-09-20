@@ -3,6 +3,18 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## 4.4
+
+### Missile Silo charge 7 minutes (down from 9 minutes), power 200 (up from 150)
+
+## Feedback leading to 4.4
+
+### Missile Sub
+
+* KAlION - 2024-08-31: Also it would reasonable to have missile subs anti air like a Sam site. i.e not submerging every time to reload. Also give it a higher reload rate similar to destroyers at least
+* Blackened: I'm not opposed to making msub aa more robust. [...] Just a quicker reload and less damage with maybe a turrted aa could do wonders.
+* .won: faster reload on missle subs would be good
+
 ## 4.3
 
 ###  Light tank health 23000 (down from 26000), speed 103 (down from 113)
@@ -28,6 +40,7 @@ This was meant to be in 4.2, but got missed out.
 * .won: yeah nuke does take ages to come out but then again its a nuke if we just popped them off every 2 mins gonna be lame
 * Mint: Just lower timer and radius for nuke by a bit. Make it a bit more tactical.
 * TTTPPP - 2024-05-31: Another post with links to all the missile silo plays from RAGL S15: https://forum.openra.net/viewtopic.php?p=315569#p315569
+* (Not) New - 2024-08-25: Balance Idea for ragl: Shorten the nuke timer from 7 to 5 minutes, reduce the nuke's area of effect, and increase its power requirement by 100%. Reasoning: Games often become stale in the late-game when both sides amass 50k armies, making flanking nearly impossible. Often the Soviet side IC camps. This change would see more nuke use, and raise the skill ceiling on army management, as players would need to predict nuke strikes and adapt their strategies. It would also make harassment more powerful as power plants would now be a viable target.
 
 
 ## 4.2
@@ -55,6 +68,14 @@ Allies no longer have the ability to dictate when a fight happens as they can co
 * .won - 2024-06-13: i just saw the lucky lukje and bia game. that torpedo speed might be too much
 * Blackened: torps need to be fast (and they really aren't that fast) because they don't track. So if allies or sovs find idle navy they get free hits but if you're actually microing them its much harder and becomes a postion/numbers game.
 * .won: Yeah I understand but I feel like Torp are super fast. Haven’t played against them yet so can’t say for sure
+* J MegaTank - 2024-06-19: apparently playing on BI-4.3 balance on Europe map Soviets are OP. Subs are to strong. it's ok in 1v1's but on Europe ffa sucks
+* Blackened: Aren't soviets op on euro anyways though?
+* .won: nah those torps are just stupid. that needs to be reverted for sure
+* tux: no. its ridiculous. now you cant even mrj them. and the nerfs you did to destroyers, idk why but now they dont auto shoot subs when they surface
+* KAlION - 2024-08-30: Soviet Navy is so bad. That is not playable. Like I had 20 subs against 4 gunboats and none of the torpedoes hit
+* tux: You gta micro it lmao. Also use yaks. For the record, allied navy dont auto target unsubmerged subs now
+* Blackened: the last i heard was the untracked torpedoes were actually OP
+* .won: soviet navy is for defense really. which is kinda dumb
 
 ### Naval transport speed 115 (down from 128)
 
@@ -100,6 +121,7 @@ Now only slightly slower than infantry. Allows for quicker retreats/traversing b
 * Blackened: Mammoths are good in tight quarters. But can easily fail when you need to rotate with them. Mammoths on big maps are a liability. You're better off just going with more ht
 * Mint: I thought mammoths were in a decent spot tbh. But if they are still slower than inf it might not be a huge buff for them.
 * Moods: I think the turret speed needs a slight increase maybe not speed i donno thats my opinion
+* tux - 2024-07-30: very slight [speed buff] but makes them easier to use, you can feel it
 
 ### MGG creates shroud 7c0 (up from 6c0)
 

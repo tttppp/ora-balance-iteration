@@ -217,6 +217,12 @@ powergps:
 	KillsSelf:
 		RequiresCondition: !uplinkexists
 
+MSLO:
+	NukePower:
+		ChargeInterval: 10500
+	Power:
+		Amount: -200
+
 SS:
 	Valued:
 		Cost: 750
