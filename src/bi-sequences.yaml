@@ -1,5 +1,6 @@
 pips:
-	pip-skull: pip-skull
+	pip-skull:
+		Filename: pip-skull.shp
 		Offset: -2, 0
 
 iron:
@@ -11,10 +12,20 @@ iron:
 		Offset: 0,-4
 	damaged-active:
 		Offset: 0,-4
-	make: ironmake
+	make:
 		Offset: 0,-4
-	bib: mbIRON
+	bib:
+		Filename: mbIRON.shp
 		Offset: 0,-2
 
 icon:
-	gpsactive: gpssactiveicon
+	gpsactive:
+		Filename: gpssactiveicon.shp
+
+camera:
+	icon:
+		Filename: camicon.shp
+
+lst:
+	Defaults:
+		Scale: 1.25

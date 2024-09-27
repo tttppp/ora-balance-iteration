@@ -1,3 +1,8 @@
+^Infantry:
+	DetectCloaked:
+		DetectionTypes: Underwater, Cloak
+		Range: 1c512
+
 ^CommandoSkull:
 	WithDecoration@COMMANDOSKULL:
 		Image: pips
@@ -6,12 +11,10 @@
 		Position: TopLeft
 		ValidRelationships: Ally, Enemy, Neutral
 
-JEEP:
-	Mobile:
-		Speed: 164
-
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
+	Valued:
+		Cost: 1800
 
 SPY:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
@@ -29,6 +32,36 @@ MGG:
 	GrantConditionOnDeploy:
 		DeployedCondition: undeployed
 
+TSLA:
+	DetectCloaked:
+		DetectionTypes: Cloak, Underwater
+	Power:
+		Amount: -80
+
+PBOX:
+	DetectCloaked:
+		DetectionTypes: Cloak, Underwater
+	Cargo:
+		PassengerConditions:
+			e3: RocketSoldier
+	WithRangeCircle@ROCKETSOLDIER:
+		Color: FFFF0080
+		Range: 5c0
+		RequiresCondition: RocketSoldier
+
+HBOX:
+	DetectCloaked:
+		DetectionTypes: Cloak, Underwater
+
+GUN:
+	DetectCloaked:
+		DetectionTypes: Cloak, Underwater
+
+FTUR:
+	DetectCloaked:
+		Range: 5c0
+		DetectionTypes: Cloak, Underwater
+
 AFLD:
 	Exit@1:
 		ExitCell: 1,3
@@ -36,19 +69,30 @@ AFLD:
 		RequiresCondition: !being-captured
 		ExitCell: 0,0
 		Facing: 256
-
-MIG:
-	Health:
-		HP: 8000
+	AirstrikePower@spyplane:
+		Description: Reveals an area of the map and submarines.
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
 
 IRON:
 	Inherits@shape: ^2x2Shape
+	Valued:
+		Cost: 2000
 	Building:
 		Footprint: xx xx
 		Dimensions: 2,2
 	Selectable:
 		Bounds: 2048, 2133, 0, -170
 		-DecorationBounds: 2133, 2133, 0, -512
+
+STEK:
+	InfiltrateForSupportPower:
+		Proxy: powerproxy.sonarpulse
+		Types: SpyInfiltrate
+	Targetable:
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SpyInfiltrate
 
 ATEK:
 	GpsPower:
@@ -94,6 +138,9 @@ ATEK:
 		ExitCell: -1,2
 	Production@GPSPower:
 		Produces: GPSPower
+	InfiltrateForSupportPower:
+		Proxy: powerproxy.sonarpulse
+		Types: SpyInfiltrate
 
 gpsactivenoise:
 	Interactable:
@@ -125,6 +172,11 @@ gpsactivenoise:
 		Actor: powergps
 		SpawnAfterDefeat: False
 	KillsSelf:
+	Buildable:
+		Queue: Infantry
+		Prerequisites: ~disabled
+	Tooltip:
+		Name: "Actor to play GPS noises"
 
 powergps:
 	Interactable:
@@ -145,6 +197,13 @@ powergps:
 	ActorLostNotification:
 		Notification: SatelliteTerminated
 		NotifyAll: True
+	VoiceAnnouncement:
+		RequiresCondition: uplinkexists
+		Voice: Build
+	DeathSounds:
+		Voice: Die
+	Voiced:
+		VoiceSet: GPSVoice
 	Health:
 		HP: 1499
 	HitShape:
@@ -158,3 +217,254 @@ powergps:
 	KillsSelf:
 		RequiresCondition: !uplinkexists
 
+MSLO:
+	NukePower:
+		ChargeInterval: 10500
+	Power:
+		Amount: -200
+
+SS:
+	Valued:
+		Cost: 750
+	Armor:
+		Type: Steel
+	Mobile:
+		TurnSpeed: 24
+		Speed: 85
+	Targetable:
+		TargetTypes: WaterActor, Ship, Submarine, Repair
+		RequiresCondition: !underwater
+	Targetable@UNDERWATER:
+		TargetTypes: WaterActor, Ship, Submarine, Repair
+		RequiresCondition: underwater
+	Cloak:
+		CloakDelay: 20
+		UncloakOn: Attack, Unload, Dock, Damage, Heal
+	DetectCloaked:
+		Range: 4c0
+	AttackTurreted:
+	Turreted:
+		TurnSpeed: 512
+	-AttackFrontal:
+
+MSUB:
+	Buildable:
+		Prerequisites: ~spen, dome, ~techlevel.high
+	Armor:
+		Type: Steel
+	Mobile:
+		TurnSpeed: 16
+	Targetable:
+		TargetTypes: WaterActor, Ship, Submarine, Repair
+		RequiresCondition: !underwater
+	Targetable@UNDERWATER:
+		TargetTypes: WaterActor, Ship, Submarine, Repair
+		RequiresCondition: underwater
+	Cloak:
+		CloakDelay: 20
+		UncloakOn: Attack, Unload, Dock, Damage, Heal
+	DetectCloaked:
+		Range: 7c0
+
+DD:
+	Armor:
+		Type: Steel
+	Mobile:
+		TurnSpeed: 24
+	RevealsShroud@GAPGEN:
+		Range: 4c0
+	Armament@SECONDARY:
+		Weapon: DDDepthCharge
+	DetectCloaked:
+		Range: 3c0
+
+CA:
+	Armor:
+		Type: Steel
+
+LST:
+	Valued:
+		Cost: 500
+	Health:
+		HP: 40000
+	Armor:
+		Type: Steel
+	Cargo:
+		Types: Infantry, Vehicle
+		MaxWeight: 10
+	Mobile:
+		Speed: 115
+
+PT:
+	Armor:
+		Type: Steel
+	Mobile:
+		TurnSpeed: 24
+		Speed: 128
+
+SPEN:
+	Valued:
+		Cost: 600
+	Health:
+		HP: 75000
+	DetectCloaked:
+		Range: 6c0
+	InfiltrateForSupportPower:
+		Proxy: powerproxy.sonarpulse
+		Types: SpyInfiltrate, SPY.England.Infiltrate
+	Power:
+		Amount: -20
+	Targetable:
+		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
+
+SYRD:
+	Valued:
+		Cost: 600
+	Health:
+		HP: 75000
+	DetectCloaked:
+		Range: 6c0
+	InfiltrateForSupportPower:
+		Proxy: powerproxy.sonarpulse
+		Types: SpyInfiltrate, SPY.England.Infiltrate
+	Power:
+		Amount: -20
+	Targetable:
+		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
+
+ships.upgraded:
+	AlwaysVisible:
+	ProvidesPrerequisite:
+
+SYRF:
+	Valued:
+		Cost: 60
+
+SPEF:
+	Valued:
+		Cost: 60
+
+camera.spyplane:
+	Inherits: CAMERA
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 10c0
+
+powerproxy.sonarpulse:
+	AlwaysVisible:
+	SpawnActorPower:
+		ChargeInterval: 3250
+		LifeTime: 250
+
+SONAR:
+	Inherits: camera.spyplane
+	RevealsShroud:
+		Range: 10c0
+		Type: CenterPosition
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 10c0
+
+^ArmedCivilian:
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	Armament:
+		Weapon: Pistol
+	Armament@GARRISONED:
+		Name: garrisoned
+		Weapon: Pistol
+	AttackFrontal:
+		FacingTolerance: 0
+	WithInfantryBody:
+
+E3:
+	Armament@GARRISONED:
+		Name: garrisoned
+		Weapon: RedEye
+	Armament@GARRISONEDSECONDARY:
+		Name: garrisoned
+		Weapon: Dragon
+
+1TNK:
+	Health:
+		HP: 23000
+	Mobile:
+		Speed: 103
+
+3TNK:
+	Mobile:
+		Speed: 64
+
+HARV:
+	Harvester:
+		SearchFromProcRadius: 9
+		SearchFromHarvesterRadius: 8
+
+THF:
+	Health:
+		HP: 8000
+	Mobile:
+		Speed: 72
+
+TTNK:
+	Mobile:
+		TurnSpeed: 35
+	-AttackTurreted:
+	-Turreted:
+	AttackFrontal:
+		FacingTolerance: 0
+	RevealsShroud:
+		MinRange: 5c0
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+
+E2:
+	Valued:
+		Cost: 150
+
+4TNK:
+	Mobile:
+		Speed: 50
+
+MGG:
+	CreatesShroud:
+		Range: 7c0
+
+SPY.England:
+	Valued:
+		Cost: 500
+	Infiltrates:
+		Types: SPY.England.Infiltrate, SpyInfiltrate
+
+WEAP:
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
+
+HPAD:
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
+
+AFLD.Ukraine:
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
+
+BARR:
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
+
+TENT:
+	InfiltrateForSupportPower:
+		Types: SPY.England.Infiltrate
+	Targetable:
+		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
+
+SILO:
+	GivesBuildableArea:
+		AreaTypes: building, fake
