@@ -1,7 +1,6 @@
 ^Infantry:
 	DetectCloaked:
 		DetectionTypes: Underwater, Cloak
-		Range: 1c512
 
 ^CommandoSkull:
 	WithDecoration@COMMANDOSKULL:
@@ -13,8 +12,6 @@
 
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
-	Valued:
-		Cost: 1800
 
 SPY:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
@@ -35,19 +32,10 @@ MGG:
 TSLA:
 	DetectCloaked:
 		DetectionTypes: Cloak, Underwater
-	Power:
-		Amount: -80
 
 PBOX:
 	DetectCloaked:
 		DetectionTypes: Cloak, Underwater
-	Cargo:
-		PassengerConditions:
-			e3: RocketSoldier
-	WithRangeCircle@ROCKETSOLDIER:
-		Color: FFFF0080
-		Range: 5c0
-		RequiresCondition: RocketSoldier
 
 HBOX:
 	DetectCloaked:
@@ -59,7 +47,6 @@ GUN:
 
 FTUR:
 	DetectCloaked:
-		Range: 5c0
 		DetectionTypes: Cloak, Underwater
 
 AFLD:
@@ -75,17 +62,6 @@ AFLD:
 		Types: SPY.England.Infiltrate
 	Targetable:
 		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
-
-IRON:
-	Inherits@shape: ^2x2Shape
-	Valued:
-		Cost: 2000
-	Building:
-		Footprint: xx xx
-		Dimensions: 2,2
-	Selectable:
-		Bounds: 2048, 2133, 0, -170
-		-DecorationBounds: 2133, 2133, 0, -512
 
 STEK:
 	InfiltrateForSupportPower:
@@ -283,17 +259,11 @@ CA:
 		Type: Steel
 
 LST:
-	Valued:
-		Cost: 500
-	Health:
-		HP: 40000
 	Armor:
 		Type: Steel
 	Cargo:
 		Types: Infantry, Vehicle
 		MaxWeight: 10
-	Mobile:
-		Speed: 115
 
 PT:
 	Armor:
@@ -312,8 +282,6 @@ SPEN:
 	InfiltrateForSupportPower:
 		Proxy: powerproxy.sonarpulse
 		Types: SpyInfiltrate, SPY.England.Infiltrate
-	Power:
-		Amount: -20
 	Targetable:
 		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
 
@@ -327,8 +295,6 @@ SYRD:
 	InfiltrateForSupportPower:
 		Proxy: powerproxy.sonarpulse
 		Types: SpyInfiltrate, SPY.England.Infiltrate
-	Power:
-		Amount: -20
 	Targetable:
 		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
 
@@ -354,7 +320,6 @@ powerproxy.sonarpulse:
 	AlwaysVisible:
 	SpawnActorPower:
 		ChargeInterval: 3250
-		LifeTime: 250
 
 SONAR:
 	Inherits: camera.spyplane
@@ -376,34 +341,13 @@ SONAR:
 		FacingTolerance: 0
 	WithInfantryBody:
 
-E3:
-	Armament@GARRISONED:
-		Name: garrisoned
-		Weapon: RedEye
-	Armament@GARRISONEDSECONDARY:
-		Name: garrisoned
-		Weapon: Dragon
-
 1TNK:
-	Health:
-		HP: 23000
 	Mobile:
 		Speed: 103
-
-3TNK:
-	Mobile:
-		Speed: 64
 
 HARV:
 	Harvester:
 		SearchFromProcRadius: 9
-		SearchFromHarvesterRadius: 8
-
-THF:
-	Health:
-		HP: 8000
-	Mobile:
-		Speed: 72
 
 TTNK:
 	Mobile:
@@ -417,17 +361,9 @@ TTNK:
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 
-E2:
-	Valued:
-		Cost: 150
-
 4TNK:
 	Mobile:
 		Speed: 50
-
-MGG:
-	CreatesShroud:
-		Range: 7c0
 
 SPY.England:
 	Valued:

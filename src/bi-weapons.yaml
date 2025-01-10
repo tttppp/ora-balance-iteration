@@ -34,10 +34,6 @@ ParaBomb:
 			Wood: 50
 			Steel: 100
 
-RedEye:
-	Projectile: Missile
-		RangeLimit: 9c0
-
 FLAK-23-AG:
 	Warhead@1Dam: SpreadDamage
 		Versus:
@@ -64,7 +60,6 @@ Vulcan:
 			Steel: 28
 
 ChainGun.Yak:
-	MinRange: 2c512
 	Warhead@1Dam: SpreadDamage
 		Versus:
 			Steel: 25
@@ -180,7 +175,6 @@ SubMissile:
 			Steel: 48
 
 SCUD:
-	ReloadDelay: 215
 	Warhead@1Dam: SpreadDamage
 		Versus:
 			Steel: 64
@@ -209,11 +203,3 @@ AntFireball:
 	Warhead@1Dam: SpreadDamage
 		Versus:
 			Steel: 20
-
-MiniNuke:
-	Warhead@1Dam_impact: SpreadDamage
-		Versus:
-			Wood: 40
-	Warhead@4Dam_areanuke1: SpreadDamage
-		Versus:
-			Wood: 55
