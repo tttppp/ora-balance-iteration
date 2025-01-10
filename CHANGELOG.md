@@ -3,6 +3,11 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## 4.4.1
+
+Exactly the same as 4.4, but for the playtest.
+
+
 ## 4.4
 
 ### Missile Silo charge 7 minutes (down from 9 minutes), power 200 (up from 150)
