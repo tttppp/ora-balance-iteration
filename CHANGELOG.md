@@ -3,6 +3,92 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## Feedback leading to 4.5
+
+### Production bonus
+
+* bete - 2024-11-15: for example, 2nd factory around 75%, 3rd 50% 4th 25%. Ik scouting is hard in ORA but I guess this would force more active early game, more variation and adaptation to opponent's BOs, more light vehicles re-produced
+* MlemandPurrs: this is very imbalanced
+
+### Starting cash
+
+* bete - 2024-11-15: Add starting money to $7-10k [to make more build order variations]
+* .won: I think upping the money would result in more ALL-Ins. I dont think that is a postive outcome
+* Mint: I think 6k starting money might be a little interesting if you want a larger early game, and possibly make wf first slightly more viable.
+* .won: the money thing is a thought although i think i would encourage more turtle play
+* anjew - 2024-11-16: Early on it might be but you still need expansions with the maps we play
+* MlemandPurrs: it should by all means be 10k
+* Pun: In CnC games the standard is 10k. If you go there prices will need adjustment
+* anjew - 2024-11-17: I don’t think more money will contribute positively. I don’t think it did in TD when 7.5k was made ‘standard’
+* dang_shot - 2024-12-30: starting eco to 10k we have tried before, it doesnt really add much in ra especially with how the economy works now, it just adds more spam early gmae. i do think an eco increase can help with some builds, but i dont think increasing it to 10k has ever been proven to really add anything interesting to ra with how it currently plays
+
+### Harvester cost
+
+* Mint - 2024-11-15: If you want more LV action early game wf first needs to be more viable. One way to do this would make harvesters slightly cheaper/faster to produce and/or refs more expensive, because a typical wf first build has you building 2 refs + 3 harvs vs 3 refs + 2 harvs. A typical wf first build takes about 6-7 minutes to catch an equivalent double ref build in army value, so I think the eco shift described above might help bring that time down.
+* dang_shot - 2024-12-30: the increase to refinery and harvester [proposed in bete's GO2025] is a doubleedged sword, because it is going to increase snowballing (harder/slower to recover from losing refinery and/or harvester) especially since ra does not feature multiqueue (so it works better in td and so on)
+
+### Rifle damage
+
+* Orb - 2024-11-15: nerfing infantry is tricky. Functionally their effective DPS has gone up, so I'd probably look into nerfing that. Rifle DPS vs light armor would be a relatively harmless one that would help a ton
+* bete: isn't my change of starting cash + wf production bonus kinda what you want? Theoretically, idk how realistic, you can go wf 1st into 2 WF and kill opponent with vehicles?
+* Orb: Light vehicles don't trade with infantry well anymore, so it doesn't matter if you buff WF. At best you'll just get people spamming light tanks and crushing. Oh also I would buff ranger range a little bit
+* Pun: ranger did get a health buff
+
+### Radar changes
+
+* dang_shot - 2025-01-04: i have been thinking about this idea but not sure if it is even possible. but what if we did so radar increased vision of infantry? that way we can keep early vision play with dogs and so on that people like, but then reduce it a bit later plus also give a radar bonus. what it will do is a) reduce vision starvation, b) in fights where armor dies off dps is not reduced which can be a big factor and c) it will also buff rifle scouts which for passive scouting may or may not be ideal with big resolutions
+* bete: Just to share that we had some chat recently and when someone suggested increase vision of infantry, someone else complained that it's kinda buff to infantry which is already dominant. (I don't say I am against that just sharing discussions)
+* .won: The radar idea isn’t bad tbh. Could lead to earlier radar because you would have an advantage with a smaller blob
+
+### Tesla tanks
+
+* dang_shot - 2024-12-11: shockies (64% win) and tesla tanks (71% win) still have a very strong record compared to russia win ratio, so i really think its player preferences at play here (which could definitely be caused by the tesla tank nerf)
+* Unano - 2024-12-12: Yea tesla tanks are useless now
+* dang_shot: yes the use is really low and i have seen a lot finding them to be pretty irrelevant, so i think we should explore a different change than the removing the turret
+* Fazzz: Yh you literally never even see them in TGs anymore, let alone 1v1s. I don't think they were that OP before, maybe I'm wrong tho
+* .won: they were op before I would agree, but only in mass. I think they are useless now so there should be somewhere in between
+* Blackened: Sure I'm down to explore other changes/suggestions but I feel like we're very limited with alternatives. Especially if the point is to keep them unique
+* Mint: I think their range should be balanced with making them a slower or less agile unit. Which you kinda did but I’d go more so like .1 said.  Less speed, turn radius, etc. maybe a bit lower hp to make easier to kill
+* Blackened: They do quite well because they are faster than a MT. Reducing their speed makes them an anti soviet vehicle only.
+Ukraine doesn't need to be bullied anymore and allies don't need more indirect buffs
+* Fazzz: A bunch of players still think the Ttank is actually bugged because of how it currently is 😅 That just can't be right
+* tux 2024-12-13: Again Just remove opp fire on teslas By giving them 360degree facing tolerance So u still have to stutterstep them
+* Blackened: if i remember right facing tolerance only works for tracking weapons
+* bete: I will never understand issue with TTs. But last few times I massed them (5-10 in 1v1) i was wiped out by air units and was left without actaul armor. I actually never saw example of them being OP in 1v1s...
+* bete - 2024-12-14: Out of all games where TTs were used for Masters matches, in last 3 seasons. I found 3 matches where opponents were similar skills: [Blackened beat creo with TT rush. Mint beat anjew because anjew had the wrong composition. creo beat Mint but he already had way more assets]
+* tux - 2024-12-15: One idea ive seen before is remove crushing + remove inf targeting
+* .won: Nah. Lame. Reduce hp, reduce speed
+* Unano: Only attacking one unit type is clunky. Tanya is bad enough for that imo
+
+### Migs
+
+* dang_shot - 2024-12-11: i see migs use increased a bit and has a 88% win ratio. i think it might be affected a lot by some players like i think inno used them a lot and he won most of his games, but still a really high win ratio
+* bete - 2024-12-12: In one of [Inno's] games, he has made 3 Migs, killed like 1-2 Harvs and 1 Tanks. Or something like that. If we consider damage dealt and received in cash, it wasn't worth. Ofc, I am aware that it's not always about money - sometimes you cause damage by forcing opponent to build something that he doesn't want or to move army out of position, etc. Also, not only that trades were not good, but I think he also spends a loooot APM on babbysitting them, so other parts of gameplay suffered. So, I don't think i ever saw them used and traded well when opponents are equally skilled and in  time of game when none of players has advantage.
+* .won: MiGs are high risk high reward. I don’t think inno used them well, but also I think most ppl know not to build them. Unless you are far ahead
+* dang_shot: inno used them well overall actually. yes in some of the games they did not end up trading that well, but then in another game he had like 3 vetted migs. overall he definitely traded up with them in ragl, but there were some games where they did not accomplish anything. they are risky. also for what it is worth in my opinion trading a mig for a harvester isnt the worst trade, you need to take mining time + rebuild into account too. still not a great trade though
+* Mint: Migs take awhile to pay off since your probably want 2 for harv hunting. One can be good in engagements though especially if army values are getting small
+* .won: migs arent the worse unit in the game but definitely near the top
+* TTTPPP - 2024-12-13: I rewatched some of my games with migs in. I think it was a mistake every time I built them - I didn't have the skill to use them well
+
+### Parabombs
+
+* .won - 2024-12-12: i think parabombs are kinda weak at this point however, they used to be a great value( prob too good)
+* Sigil: they used to be insane, I think they're fine now
+* (Not) New 2024-12-13: demo trucks and parabombs need a buff, ukraine the faction of demolition, never does any demolition
+
+### Demo truck
+
+* (Not) New - 2024-12-13: demo trucks and parabombs need a buff, ukraine the faction of demolition, never does any demolition
+* tux: Demo is good currently
+* anjew: you saw the winrate, demo sucks, buff that fucker [...] make it speedier
+
+### MCV
+
+* inno - 2024-12-27: this is probably based on very limited knowledge, but if i were to make a suggestion for ra it would be to remove requirement for mcv. ive started to use 2nd and even 3rd mcv a little, but i think if u want to go fast radar u have a little down period where u need to expand and stop building queue, i think being allowed to build an expansion mcv while doing this would help this build flow considerably better. could just be me messing up, but at least that is what has turned me off from the fast tech builds a little
+* bete: Yeah, down period+risk to lose mcv forever. Remove SD as prerequisite for MCV was what Ganon suggested as well.
+* dang_shot - 2024-12-30: removal of sd is worth testing and has been suggested a lot of times. the cost increase im not really sure about, you dont want to turn it into a td or sp mcv. not new referred to inno and fazzar and they were in favour of using multiple mcvs, but just removing the requirement, but if you also increase the cost (and especially the increase the wf production time), players will just skip it. does not solve the issues raised.
+
+
 ## 4.4.1
 
 Exactly the same as 4.4, but for the playtest.
