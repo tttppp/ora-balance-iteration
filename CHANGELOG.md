@@ -23,6 +23,8 @@ This is an increase from BI-4.2/BI-4.3 in which the stats were 8 from ref, 7 fro
 * KAlION - 2024-08-31: Also it would reasonable to have missile subs anti air like a Sam site. i.e not submerging every time to reload. Also give it a higher reload rate similar to destroyers at least
 * Blackened: I'm not opposed to making msub aa more robust. [...] Just a quicker reload and less damage with maybe a turrted aa could do wonders.
 * .won: faster reload on missle subs would be good
+* .won - 2025-03-14: they time to dive on mis subs is broken on bi 4.4. with micro they  cant be killed with yaks
+* Blackened: If its bi force fire should be able to hit and reveal subs
 
 ## 4.3
 
@@ -85,6 +87,7 @@ Allies no longer have the ability to dictate when a fight happens as they can co
 * tux: You gta micro it lmao. Also use yaks. For the record, allied navy dont auto target unsubmerged subs now
 * Blackened: the last i heard was the untracked torpedoes were actually OP
 * .won: soviet navy is for defense really. which is kinda dumb
+* Therapist - 2024-03-20: in BI-4.4 soviets have the slight advantage in naval battles. I think if torpedoes were slightly nerfed. A slight decrease to damage dealt or make them slightly slower. This one subtle change would make it pretty close in balance again imo
 
 ### Naval transport speed 115 (down from 128)
 
