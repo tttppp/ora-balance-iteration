@@ -3,7 +3,65 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+
+## 4.5
+
+### Tesla tanks Facing tolerance 512 (up from 0)
+
+This allows tesla tanks to zap targets without facing at, but still requires them to be stopped to fire.
+
+### Submarine Torpedos speed 140 (down from 170)
+
+Fairly consistent feedback that torpedos had been buffed too far and needed a speed nerf. They were originally speed 85 and tracking, then they were changed in 4.4 to speed 170 without tracking.
+
+### Mig HP 10000 (up from 8000)
+
+Migs have generally traded down recently in RAGL. Reverting the change from BI-3.0 to give more chance of preserving them. The previous concern was that one or two players were skillful enough to make Migs OP.
+
+### Veterancy Overhaul
+
+Taken from Redux balance changes. Aiming to make unit preservation more attractive and to avoid vetted units charging ahead to their death.
+
+Old:
+* +5% (200) Speed/DmgReduction/Damage/Firerate
+* +10% (400) Speed/DmgReduction/Damage/Firerate
+* +15% (800) Speed/DmgReduction/Damage/Firerate
+* +20% (1600) Speed/DmgReduction/Damage/Firerate, healing out of combat
+
+New:
+* Vet 1 (200): 10% Health, 10% Dmg
+* Vet 2 (400): 20% Health, 20% Dmg
+* Vet 3 (800): 50% Health, 20% Dmg, 100% firerate, healing in combat
+
+### MCV doesn't require SD
+
+Taken from RAEL 1. Aiming to make early radar dome more practical.
+
+
+## RAEL 1
+
+### Queue limits (structures: 2; vehicles/air/naval: 5; infantry: 30 - all down from 999)
+
+### Starting cash $7.5k (up from $5k)
+
+### Static defences price increase (+20%)
+
+### MCV doesn't require SD
+
+
 ## Feedback leading to 4.5
+
+### Making Silo more useful
+
+* bete - 2025-02-28: Would it make sense to change how Silo works so you need to build Silo if you want to bank more then like $1500 or $2000? And for every $500 or $1000 you need new one.... That way they'd more usefull
+* penev92: That is exactly how they work. You just want to reduce the capacity of refineries?
+* bete: What I said is to disable floating more then $1000-1500  without Silos. So according to your above message, it means reduce Ref store to $0 or something small, like $500. So managing eco becomes more complex/dynamic
+* penev92: indeed it would. but I very much doubt people would appreciate that
+* pchote: we tried something similar to that in TD a very long time ago, it sucked
+* tux: Ppl will just spam silos
+* Orb - 2025-03-01: Silos make more sense in TD where you can spend cash quickly with some builds. If I wanted to make silos useful in RA I think I'd allow building structures off them , that's how they're used in vanilla RA
+* SirCake: Make the silos give 10% interest per minute on stored ore
+* bete: Silo gives additional build radius in newest release or BI balance in ORA
 
 ### Production bonus
 
@@ -59,6 +117,7 @@ Ukraine doesn't need to be bullied anymore and allies don't need more indirect b
 * tux - 2024-12-15: One idea ive seen before is remove crushing + remove inf targeting
 * .won: Nah. Lame. Reduce hp, reduce speed
 * Unano: Only attacking one unit type is clunky. Tanya is bad enough for that imo
+* Orb - 2025-02-13: I used them. They suck
 
 ### Migs
 
@@ -89,6 +148,94 @@ Ukraine doesn't need to be bullied anymore and allies don't need more indirect b
 * dang_shot - 2024-12-30: removal of sd is worth testing and has been suggested a lot of times. the cost increase im not really sure about, you dont want to turn it into a td or sp mcv. not new referred to inno and fazzar and they were in favour of using multiple mcvs, but just removing the requirement, but if you also increase the cost (and especially the increase the wf production time), players will just skip it. does not solve the issues raised.
 
 
+## Redux 2
+
+# Gren Removed buff against heavy, lowered damage against light to +40%
+
+Previously was +20% against heavy and +60% against light in Redux 1.
+
+# Flamethrower lowered buff against none to +10%
+
+Previously was +15% in Redux 1.
+
+# Harvesting rate (delay) 5 (up from 4)
+
+This is an increase in delay, and so a decrease in harvesting speed.
+
+* bete - 2025-03-01: Also what you say so far for harv. capacity change? Eco is weird now... You can go mcv with 4 harvs... And at some point you float and few secs. later you are broke. Or it's about players, which must be case... It's good you can make more light veh. so I guess that was goal actually....
+* Orb: I mean if you do the exact same builds then yes, you'll have more money. But I'm still tweaking it. also running out of money is partially a map design problem as well. though I do think too many maps are too cookie cutter with starting eco, there was a greater variety in the past
+
+# V2 damage against None 100 (up from 90)
+
+# Tesla Tank Health 35000 (up from 40000)
+
+* Orb - 2025-03-01: I will note I made the balance change to tesla tanks without considering the turreted aspect.
+* bete: yeah remove that imho. People already complain about TT nerf.
+
+
+## Redux 1
+
+The aim of the balance changes was to improve build order variety, and in particular to buff war factory first build.
+
+* Pun - 2025-01-21: Overall seems like fun changes. Addressees many of the key weirdnesses
+* TTTPPP - 2025-01-23: Shifting the balance from 2ref to more WF first builds would be good
+* bete - 2025-01-24: wf 1st is definitely more viable, it looks like you can go even with 2 Rangers and to not be broken
+
+### Harvester Cost 1100 -> 1000, +50% Capacity
+
+Also made corresponding cost change to refinery.
+
+* SirCake - 2025-01-22: The harvester change sounds insane^^ Float city.  As if econ wasn't easy enough already. (In theory; didn't play).
+* bete - 2025-01-24: I watched some 1v1 replays but it's hard to spot things for me... Just notice People made so many Harvs despite knowing they are buffed significantly and kinda floated like 10k mid game. you can expand with 4 harvs (from wf 1st opener). you need to be more proactive with eco slides late game as patches mine out faster. ref position is less critical. bigger capacity have bigger jumps from being broke up to "floating" comparing to the current balance, it's "weird", but I don't think it's wrong. It's about our habits which shouldn't be limiting factor in my opinion.
+
+### Rifle Damage against light 30 (down from 40)
+
+### Rocket Reload Delay 55 (up from 50)
+
+### All Cannons +33% Projectile Speed
+
+### Thief Moved to Tech Center, +20% Movement, 8000 health
+
+* Pun - 2025-01-21: Thief moved to TC feels incredibly shuehorned
+* Orb: I didn't think it was that shoehorned
+* TTTPPP - 2025-01-23: From the change log my suggestion is that the thief change will result in even fewer of them (they're rare in RAGL at +6% Movement, 8000 health on radar)
+* Orb: Thiefs used to be OP at this speed, but on SD tech without the health boost. Speed is a compounding advantage for thiefs, so its an extremely strong buff. But won't know until we test.
+
+### Grenadier One shot infantry, +20% damage against Heavy, +60% damage against Light, 1/2 Inaccuracy
+
+### Flamethrower +15% damage against None
+
+* TTTPPP - 2025-01-23: the flamethrower change looks very strong (some players are already spamming them). This is the flamethrower post I did following RAGL: https://forum.openra.net/viewtopic.php?p=315891&sid=b0f5a69dbd859a6484aa106859fc8918#p315891
+* Orb: They still don't one volley rifleman (made sure of that), so I don't think they'll be OP. People might be building them just to spice things up, as you can see in your data some players don't even build them
+
+### Kennel Cost 100 (down from 200)
+
+### Medic/Mechanic Vision 4 (up from 3), +0.75 Range, +25% repair
+
+This unifies the vision of medics and mechanics with most other infantry
+
+### V2 Reload 220 (down from 240), Damage against Heavy 50 (up from 40)
+
+### Arti Damage against None 65 (up from 60), Damage against Heavy 30 (up from 25)
+
+### Mammoth Tusks Range 7 (up from 6.5)
+
+### Chronosphere Power -150 (down from -200)
+
+### Veterancy Overhaul
+
+Old:
+* +5% (200) Speed/DmgReduction/Damage/Firerate
+* +10% (400) Speed/DmgReduction/Damage/Firerate
+* +15% (800) Speed/DmgReduction/Damage/Firerate
+* +20% (1600) Speed/DmgReduction/Damage/Firerate, healing out of combat
+
+New:
+* Vet 1 (200): 10% Health, 10% Dmg
+* Vet 2 (400): 20% Health, 20% Dmg
+* Vet 3 (800): 50% Health, 20% Dmg, 100% firerate, healing in combat
+
+
 ## 4.4.1
 
 Exactly the same as 4.4, but for the playtest.
@@ -111,6 +258,7 @@ This is an increase from BI-4.2/BI-4.3 in which the stats were 8 from ref, 7 fro
 * .won: faster reload on missle subs would be good
 * .won - 2025-03-14: they time to dive on mis subs is broken on bi 4.4. with micro they  cant be killed with yaks
 * Blackened: If its bi force fire should be able to hit and reveal subs
+
 
 ## 4.3
 

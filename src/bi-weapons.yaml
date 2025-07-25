@@ -158,7 +158,7 @@ StingerAA:
 TorpTube:
 	Projectile: Missile
 		Jammable: False
-		Speed: 170
+		Speed: 140
 		HorizontalRateOfTurn: 0
 	Warhead@1Dam: SpreadDamage
 		Spread: 320

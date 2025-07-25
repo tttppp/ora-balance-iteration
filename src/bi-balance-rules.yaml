@@ -2,6 +2,40 @@
 	DetectCloaked:
 		DetectionTypes: Underwater, Cloak
 
+^GainsExperience:
+	GrantCondition@RANK-ELITE:
+		RequiresCondition: rank-veteran >= 3
+	DamageMultiplier@RANK-1:
+		Modifier: 91
+	DamageMultiplier@RANK-2:
+		Modifier: 83
+	-DamageMultiplier@RANK-3:
+	DamageMultiplier@RANK-ELITE:
+		Modifier: 67
+	FirepowerMultiplier@RANK-1:
+		Modifier: 110
+	FirepowerMultiplier@RANK-2:
+		Modifier: 120
+	-FirepowerMultiplier@RANK-3:
+	FirepowerMultiplier@RANK-ELITE:
+		Modifier: 120
+	-SpeedMultiplier@RANK-1:
+	-SpeedMultiplier@RANK-2:
+	-SpeedMultiplier@RANK-3:
+	-SpeedMultiplier@RANK-ELITE:
+	-ReloadDelayMultiplier@RANK-1:
+	-ReloadDelayMultiplier@RANK-2:
+	-ReloadDelayMultiplier@RANK-3:
+	ReloadDelayMultiplier@RANK-ELITE:
+		Modifier: 50
+	ChangesHealth@ELITE:
+		Delay: 75
+		DamageCooldown: 0
+	-WithDecoration@RANK-3:
+
+^InfantryExperienceHospitalOverrides:
+	-WithDecoration@RANK-3:
+
 ^CommandoSkull:
 	WithDecoration@COMMANDOSKULL:
 		Image: pips
@@ -21,6 +55,10 @@ SPY:
 		DisguisedAsConditions:
 			e7: tanyadisguise
 
+MCV:
+	Buildable:
+		Prerequisites: ~techlevel.low
+
 MGG:
 	WithIdleOverlay@SPINNER:
 		PauseOnCondition: undeployed
@@ -28,6 +66,10 @@ MGG:
 		RequiresCondition: !undeployed
 	GrantConditionOnDeploy:
 		DeployedCondition: undeployed
+
+MIG:
+	Health:
+		HP: 10000
 
 TSLA:
 	DetectCloaked:
@@ -355,7 +397,7 @@ TTNK:
 	-AttackTurreted:
 	-Turreted:
 	AttackFrontal:
-		FacingTolerance: 0
+		FacingTolerance: 512
 	RevealsShroud:
 		MinRange: 5c0
 	RevealsShroud@GAPGEN:
