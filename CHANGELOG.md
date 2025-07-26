@@ -3,6 +3,13 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## Discussions leading to 4.6
+
+### Queue Limits
+
+* (Not) New - 2025-07-26: QL are popular among masters level players, and ragl is one of the few chances to gather balance feedback from high-level matches. There is less input from minions, but their feedback is that the game felt too rushed, likely because of betes low cap of 30, or they were indifferent. A conservative cap like 100 would be a good compromise as to not rock the boat. I think there’s a debate for what the cap should be at, but not many reasons to keep it at 999.
+* goat: Regarding limits I agree with what creo said actually, even if you dont want limits to impact too much there is simply no reason not to at least have some limit to prevent queueing 999 at the beginning of the game
+
 
 ## 4.5
 
@@ -33,6 +40,21 @@ New:
 * Vet 2 (400): 20% Health, 20% Dmg
 * Vet 3 (800): 50% Health, 20% Dmg, 100% firerate, healing in combat
 
+* goat - 2025-07-26: i think the vet system is a huge mistake. never was a fan of it at all to be honest, but especially in openra its bad. units die do fast its difficult to play around, but what will instead happen is that snowballing will become so much worse as in winning an engagement gives a much bigger bonus with these changes. I would highly encourage you to not implement that, there are some who really likes to push the vet system but its simply not going to work
+* dang_shot: i agree, stop trying to make veterancy a thing
+* Pun: I wish OpenRA would finally embrace veterancy and make it powerful, instead of nerfing (or keeping) it to a background mechanic. It looks like BI finally agrees. huge 👍 from me
+* creo: i'm going to agree with some of the others, not a fan of the veterancy change at all, i don't think the system works with infantry for the current gameplay. infantry isn't really microable, you have a ton that die really fast, i don't think you can align these. in fact i'd go as far as say that this is actually going to promote ... first engagement deciding games
+* (Not) New: I’d rather not have a massive snowball mechanic
+* Amelza:  I agree on the fact that veterancy shouldn’t be buffed. It is a good gameplay element in missions which is what og RA was made for, but ORA isn’t! As a player it just adds one extra micromanagement thing to consider which isn’t my cup of tea. veterancy in itself is a nice little gimmick, so I wouldn’t like to see it completely removed
+* .won: if you spy a structure now you get all vet 1. thats basically gg
+* Pun: maybe specifically this new veterancy system does make it matter too much on infantry, in that case a system that better rewards vehicles would be gooder. spy infiltration is still one linchpin that's ruining veterancy
+* creo - 2025-07-27: besides the other points already brought up, please do also note that this is a massive buff to tanya
+* Mint: Veterancy could be made more nonlinear [bigger reward jump for later promotions]. I really like being rewarded for micro, but I dont really play anymore so there's that.
+* anjew - 2025-07-28: I feel like the iconic part of CnC veterancy was how it altered the units visually and allowed some to do things they normally wouldn’t
+* (Not) New: I’d remove veterancy from most units, keeping it only for one/two-shot units to make them better at what they’re used for and so reward micro. Rangers would get quicker to be better scouts, MiGs closer/being able to  one-shot harvs, and V2s/artillery larger aoe. Spies, being the exception, I’d either revert the current change, as it’s a bit OP, or tweak it so that the veterancy they grant is stronger but wears off.
+* Kalion - 2025-07-29: how abt spying production facilities only gives like 2 mins of veteran production
+* Amelza: idk if 2mins is enough, that’s like 10k assets… so if we consider that units get 20% stronger with vet (that’s an approximation ofc) u gain only 2k value, maybe not worth the micro
+
 ### MCV doesn't require SD
 
 Taken from RAEL 1. Aiming to make early radar dome more practical.
@@ -42,11 +64,50 @@ Taken from RAEL 1. Aiming to make early radar dome more practical.
 
 ### Queue limits (structures: 2; vehicles/air/naval: 5; infantry: 30 - all down from 999)
 
+* tttppp - 2025-07-19: During the course of the three matches of this season I don't feel I got used to the queue limits. This resulted in matches that I feel were worse to spectate.
+* fiwo: agree not enough matches to get used to. but something to consider moving forward with more data, maybe. infantry build was always at Zero constantly had to re check, the other Q limits seemed fine for me, limited games played albeit...
+* Sigil: not a fan, very artificial attention tax. Also coming from someone who's most familiar with starcraft 2 that has a lot of this
+* Duke Bones - 2025-07-20: Infantry queue felt really rough cause if you didn’t constantly check it you just lost pretty much
+* Unano: I found them more fun than I expected. The game did feel a bit faster and more dynamic but it feels like a bit of a shitty way to win when the opponent forgot to queue
+* creo: i really would have liked to play some more with this, but i stand by my earlier statements - to me this makes the game considerably more fun. I think it keeps the tempo higher and makes it feel more intense and i like the idea you can force mistakes. I certainly get the argument that players don't want it to be a chore, but i do think there is a middleground to be had.
+* Yara - 2025-07-22: I don't like it too much. But if others want to try it out to raise the "skill ceiling", I would be ok with it.
+* milkman - 2025-07-26: While i see the reasonable arguments for middle ground, from the few games I've played, my personal feeling remains: nothing gained by adding these limits or any in-between, just annoying to the point where I'd probably never started playing openra in the first place
+* dang_shot: when you have multiple things to do, it can become harder and mistakes are more likely to happen when pressured. i think the skill ceiling argument is very real in my opinion
+* goat: openra already has one of the lowest barriers of rts games, its not really going to change much in that regard and all the biggest rts honestly have a pretty high barrier (too high I think fwiw)
+* (Not) New: I’m broadly in favor of queue limits in theory, but you make a point about the existence of a skill ceiling. Top players aren’t playing in QL games despite supporting the idea, and as such, we only have anecdotal evidence and little game data that there is one.
+
 ### Starting cash $7.5k (up from $5k)
+
+* tttppp - 2025-07-19: The extra cash was pretty much always invested into extra rifles. Potentially it made WF first slightly more tempting as it reduced the relative army disadvantage against 2ref in the early game
+* fiwo: extra cash made early game more intersting and variable i think, but also, yes feel wasted on infantry and eco/ref was pretty much as usual to compensate for the spam. sometimes late tanks and early light vehicles sometimes multple WF early for tanks. more data needed
+* Sigil: I thought this was an interesting change, it has the potential to make builds a bit more one dimensional in that you can invest that further down a path of an all in or greed where it could force more early game scouting
+* Duke Bones - 2025-07-20: Definitely noticed I basically used it for more rifles and occasionally some grens or a rocket drop which was nice
+* Unano: Seemed ok. It gives a little more flexibility in the early game. Right now I feel it favours allies as you can spend the extra on medics and be invincible vs soviets, but that might be different when its figured out
+* creo: i can see the concern that it can just increase the spam a little, but it did feel refreshing to me, but would've liked to play some more with it, but initial impression is that it can lead to some more action early
+* Yara - 2025-07-22: I liked this one because it creates more action early game without being forced to play the 2ref build order.
+* milkman - 2025-07-26: I'm in favour of at least trying this again in some tournament format without the q limits mixed in
 
 ### Static defences price increase (+20%)
 
+* tttppp - 2025-07-19: I didn't notice this change. Due to the queue limits I was frequently floating, and so constantly building static d was mandatory
+* fiwo: built static defense as usual, no noticbl e difference really
+* Sigil: it had no effect because I couldn't tell [the price had increased]
+* Duke Bones - 2025-07-20: I agree the queue limit did more damage to what felt like my ability to defend rather than nerfed defenses. Since I was not always producing then it’s hard to say if the need really affected then
+* Unano: Didn't notice at all
+* creo: it's a little difficult to determine it's exact effects, but overall i felt less limited by base defences in the games i played. they are still strong  even with this nerf, but i think the fact that you were focused on other stuff with this balance also probably made some players a little less spammy with them, which i think is good
+* Yara - 2025-07-22: I am always in favor of nerfing defenses structures because I prefer more "mobile play"
+* milkman - 2025-07-26: Should be ok but i could not tell a difference in the few games
+
 ### MCV doesn't require SD
+
+* tttppp - 2025-07-19: This was fun. The SD still seemed mandatory to pump out tanks, but it gave a potential for build divergence. In theory it might help with come backs if all con yards and the SD is wiped out
+* fiwo: auto MCV made things interesting i think. but delayed SD for tank on some games, playing different BO. more games needed
+* Sigil: need more games on it, added build diversity was nice but it could be fake and we'd just converge on a new meta opening
+* DukeBones - 2025-07-20: I liked this change felt like you could delay SD for a bit
+* Unano: I felt by the end of the few games I played, that going SD early was still important for tanks, so I don't know if this really has much impact on the meta
+* creo: i actually think this is a helpful change, even though it's not one i use a lot. i'm not a big tech rusher or light vehicle spammer, i kind of prefer my tanks, but i think it's helpful to those who are. I also do like the idea that you can rebuild your mcv even without sd
+* Yara - 2025-07-22: While this seems to favor allies a bit more, because they still have a tank if they skip the SD entirely, I still liked it just to spice things up a bit. If long-term this turns out to be a bad idea, we can always change it back.
+* milkman - 2025-07-26: I'm in favour of at least trying this again in some tournament format without the q limits mixed in
 
 
 ## Feedback leading to 4.5
@@ -368,6 +429,8 @@ Now only slightly slower than infantry. Allows for quicker retreats/traversing b
 * Mint: I thought mammoths were in a decent spot tbh. But if they are still slower than inf it might not be a huge buff for them.
 * Moods: I think the turret speed needs a slight increase maybe not speed i donno thats my opinion
 * tux - 2024-07-30: very slight [speed buff] but makes them easier to use, you can feel it
+* (Not) New - 2025-07-25: The Mammoth speed buff from a while ago could be reverted. Feedback before the change was mostly against it, and in my own experience, they’re hard to catch over short distances, especially with them having the ability to self-heal.
+* dang_shot - 2025-07-26: the feedback before the change is not as relevant as the feedback after the change and i havent heard much of it here at least. they dont seem to be overperforming based on what i can see but i dont play
 
 ### MGG creates shroud 7c0 (up from 6c0)
 
