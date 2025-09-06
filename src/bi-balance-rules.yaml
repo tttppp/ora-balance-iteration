@@ -33,6 +33,26 @@
 		DamageCooldown: 0
 	-WithDecoration@RANK-3:
 
+^GainsExperienceInfantry:
+	Inherits@GainsExperience: ^GainsExperience
+	DamageMultiplier@RANK-1:
+		Modifier: 95
+	DamageMultiplier@RANK-2:
+		Modifier: 91
+	DamageMultiplier@RANK-ELITE:
+		Modifier: 87
+	FirepowerMultiplier@RANK-1:
+		Modifier: 105
+	FirepowerMultiplier@RANK-2:
+		Modifier: 110
+	FirepowerMultiplier@RANK-ELITE:
+		Modifier: 115
+	-ReloadDelayMultiplier@RANK-ELITE:
+	-ChangesHealth@ELITE:
+
+^Infantry:
+	Inherits@2: ^GainsExperienceInfantry
+
 ^InfantryExperienceHospitalOverrides:
 	-WithDecoration@RANK-3:
 
@@ -54,10 +74,6 @@ SPY:
 	Disguise:
 		DisguisedAsConditions:
 			e7: tanyadisguise
-
-MCV:
-	Buildable:
-		Prerequisites: ~techlevel.low
 
 MGG:
 	WithIdleOverlay@SPINNER:
@@ -386,6 +402,21 @@ SONAR:
 1TNK:
 	Mobile:
 		Speed: 103
+	SpawnActorOnDeath:
+		Actor: 1TNK.Husk
+
+1TNK.Husk:
+	Inherits: ^Husk
+	Tooltip:
+		Name: Husk (Light Tank)
+	ThrowsParticle@turret:
+		Anim: turret
+	TransformOnCapture:
+		IntoActor: 1tnk
+	InfiltrateForTransform:
+		IntoActor: 1tnk
+	RenderSprites:
+		Image: 1tnk.destroyed
 
 HARV:
 	Harvester:

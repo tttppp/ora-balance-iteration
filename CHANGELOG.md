@@ -3,13 +3,52 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## 4.6
+
+### Veterancy Overhaul for Infantry
+
+Reset veterancy for infantry to be much more in line with release. This is to address concerns around this being a buff to infantry and in particular Tanya. Veterancy for all other units remains as in BI-4.5.
+
+Release:
+* +5% (200) Speed/DmgReduction/Damage/Firerate
+* +10% (400) Speed/DmgReduction/Damage/Firerate
+* +15% (800) Speed/DmgReduction/Damage/Firerate
+* +20% (1600) Speed/DmgReduction/Damage/Firerate, healing out of combat
+
+BI-4.5:
+* Vet 1 (200): 10% Health, 10% Dmg
+* Vet 2 (400): 20% Health, 20% Dmg
+* Vet 3 (800): 50% Health, 20% Dmg, 100% firerate, healing in combat
+
+BI-4.6 - Infantry:
+* Vet 1 (200): 5% Health, 5% Dmg
+* Vet 2 (400): 10% Health, 10% Dmg
+* Vet 3 (800): 15% Health, 15% Dmg
+
+### Revert change to MCV requirements
+
+This got mixed feedback, but doesn't seem ready for RAGL. More testing needed.
+
+### Restore Light Tank husk
+
+Nerf to light tank crushing.
+
+### Queue Limits
+
+Generally players were in favour of lowering the queue limits from 999 of each item (though this wasn't unanimous). The limits from RAEL seemed too strict so the proposal for BI-4.6 is conservative. Additionally change to use ItemLimit rather than QueueLimit so that priority queueing is more forgiving.
+
+* Buildings/Defences: 5
+* Infantry: 50
+* Vehicles/Air/Naval: 10
+
+
 ## Discussions leading to 4.6
 
 ### Queue Limits
 
 * (Not) New - 2025-07-26: QL are popular among masters level players, and ragl is one of the few chances to gather balance feedback from high-level matches. There is less input from minions, but their feedback is that the game felt too rushed, likely because of betes low cap of 30, or they were indifferent. A conservative cap like 100 would be a good compromise as to not rock the boat. I think there’s a debate for what the cap should be at, but not many reasons to keep it at 999.
 * goat: Regarding limits I agree with what creo said actually, even if you dont want limits to impact too much there is simply no reason not to at least have some limit to prevent queueing 999 at the beginning of the game
-
+* (Not) New - 2025-08-25: Queue limits I would be favour in favour of adding, as its a mechanical thing that just requires getting used to
 
 ## 4.5
 
@@ -108,6 +147,8 @@ Taken from RAEL 1. Aiming to make early radar dome more practical.
 * creo: i actually think this is a helpful change, even though it's not one i use a lot. i'm not a big tech rusher or light vehicle spammer, i kind of prefer my tanks, but i think it's helpful to those who are. I also do like the idea that you can rebuild your mcv even without sd
 * Yara - 2025-07-22: While this seems to favor allies a bit more, because they still have a tank if they skip the SD entirely, I still liked it just to spice things up a bit. If long-term this turns out to be a bad idea, we can always change it back.
 * milkman - 2025-07-26: I'm in favour of at least trying this again in some tournament format without the q limits mixed in
+* (Not) New - 2025-08-02: I’m not in favor of changing mcv requirements for RAGL unless it’s supported by significantly more gameplay data. I prefer entering tournaments with a well practiced build order, and the current meta is experimental, mostly because 4.5 isn’t being actively played and high level matches are scarce. While I’m open to testing it, RAGL is just two months away, and that’s not enough time to adapt meaningfully. On top of that, there’s also the issue of already difficult to counter builds, like triple ref, BH rush in AvA, and Tesla rush, being buffed by this change.
+* greengiant - 2025-09-06: BI 4.5 is shit, you can build MCV without service depot
 
 
 ## Feedback leading to 4.5
