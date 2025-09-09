@@ -1,0 +1,13 @@
+Player:
+	ClassicProductionQueue@Building:
+		ItemLimit: 5
+	ClassicProductionQueue@Defense:
+		ItemLimit: 5
+	ClassicProductionQueue@Infantry:
+		ItemLimit: 100
+	ClassicProductionQueue@Vehicle:
+		ItemLimit: 20
+	ClassicProductionQueue@Ship:
+		ItemLimit: 20
+	ClassicProductionQueue@Aircraft:
+		ItemLimit: 20

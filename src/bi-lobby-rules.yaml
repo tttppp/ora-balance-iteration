@@ -42,15 +42,3 @@ Player:
 		SelectableCash: 2500, 5000, 7500, 10000
 		DefaultCash: 5000
 		DefaultCashDropdownLocked: false
-	ClassicProductionQueue@Building:
-		ItemLimit: 5
-	ClassicProductionQueue@Defense:
-		ItemLimit: 5
-	ClassicProductionQueue@Infantry:
-		ItemLimit: 50
-	ClassicProductionQueue@Vehicle:
-		ItemLimit: 10
-	ClassicProductionQueue@Ship:
-		ItemLimit: 10
-	ClassicProductionQueue@Aircraft:
-		ItemLimit: 10

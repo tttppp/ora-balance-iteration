@@ -25,6 +25,8 @@ BI-4.6 - Infantry:
 * Vet 2 (400): 10% Health, 10% Dmg
 * Vet 3 (800): 15% Health, 15% Dmg
 
+* gg - 2025-09-07: I feel like veterancy shouldn't be changed, except maybe healing if full veterancy (which hardly ever happens on infantry units).
+
 ### Revert change to MCV requirements
 
 This got mixed feedback, but doesn't seem ready for RAGL. More testing needed.
@@ -38,8 +40,20 @@ Nerf to light tank crushing.
 Generally players were in favour of lowering the queue limits from 999 of each item (though this wasn't unanimous). The limits from RAEL seemed too strict so the proposal for BI-4.6 is conservative. Additionally change to use ItemLimit rather than QueueLimit so that priority queueing is more forgiving.
 
 * Buildings/Defences: 5
-* Infantry: 50
-* Vehicles/Air/Naval: 10
+* Infantry: 100
+* Vehicles/Air/Naval: 20
+
+Feedback:
+
+* TTTPPP - 2025-09-06: [Original BI-4.6 proposal] Buildings/Defences: 5. Infantry: 50. Vehicles/Air/Naval: 10
+* .won: I think a good balance is being able to set up your q at the start but not totally forget it. I think 50 inf is too little. i think 100 inf total is good. maybe like 30 veh
+* gg - 2025-09-07: Queue limit, I'm not a big fan of that, many others had their doubts also, for me personally the buildings limit is an issue, if you forget it, it messes with your entire build (and your game is over), also, I don't know if casual players are all that interested in these kind of big changes, it diverts alot from  how it always used to be. I mean for Queue limits, 10 (buildings)/50(inf)/20 (vehicles) would probably be fine, if you want to limit it, wouldn't be that bothersome, I feel like you shouldn't queue more anyway, except for buildings
+* dang_shot: it was just tested and most competitive players liked it.
+* Pun: I can just say that queues shouldn't be limited, there's no reason to limit them. The 999 limit exists and it's basically the same as infinite. Adding a limit is just a straight downgrade for the game. It feels extremely elitist. It doesn't bring any more interesting choices, nor dilemmas. The proper solution to addressing people queueing hundreds of units would be to add more build diversity. Make it so you can't just build a few units and win
+* GARG: there are way better ways to make the game harder, but queue limits just feel like a handicap.
+when I played RAEL it honestly felt more annoying than anything—APM should go to real gameplay, not dealing with extra hassle.
+* anjew: I fail to see how any of the solutions will make it not worthwhile to queue up 100’s of infantry. I’m against the current limits. But I’m pro limits. 300 is too much and with the way infantry currently is, 100 ‘could’ be too little
+* dang_shot: i dont disagree with [adding more build diversity being a better solution], but we havent managed to do this yet and like anjew said i just dont see how
 
 
 ## Discussions leading to 4.6
