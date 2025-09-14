@@ -163,6 +163,7 @@ Taken from RAEL 1. Aiming to make early radar dome more practical.
 * milkman - 2025-07-26: I'm in favour of at least trying this again in some tournament format without the q limits mixed in
 * (Not) New - 2025-08-02: I’m not in favor of changing mcv requirements for RAGL unless it’s supported by significantly more gameplay data. I prefer entering tournaments with a well practiced build order, and the current meta is experimental, mostly because 4.5 isn’t being actively played and high level matches are scarce. While I’m open to testing it, RAGL is just two months away, and that’s not enough time to adapt meaningfully. On top of that, there’s also the issue of already difficult to counter builds, like triple ref, BH rush in AvA, and Tesla rush, being buffed by this change.
 * greengiant - 2025-09-06: BI 4.5 is shit, you can build MCV without service depot
+* Therapist - 2025-09-12: it's not shit. How does that drastically change anything? Your builds will mostly be the same. But now you can expand quicker with a second mcv if you'd like, but its not like it doesn't come with a cost.
 
 
 ## Feedback leading to 4.5
