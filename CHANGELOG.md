@@ -107,6 +107,8 @@ New:
 * (Not) New: I’d remove veterancy from most units, keeping it only for one/two-shot units to make them better at what they’re used for and so reward micro. Rangers would get quicker to be better scouts, MiGs closer/being able to  one-shot harvs, and V2s/artillery larger aoe. Spies, being the exception, I’d either revert the current change, as it’s a bit OP, or tweak it so that the veterancy they grant is stronger but wears off.
 * Kalion - 2025-07-29: how abt spying production facilities only gives like 2 mins of veteran production
 * Amelza: idk if 2mins is enough, that’s like 10k assets… so if we consider that units get 20% stronger with vet (that’s an approximation ofc) u gain only 2k value, maybe not worth the micro
+* Amelza - 2025-08-21: after thoughts, I realize this vet system only rewards combat stats, which isn't ideal
+former vet would give buffs that were more or less interesting depending on the unit, and as it buffed every stat then every unit gained something. In the case of ranger/Mig for example, a speed boost is particularly interesting for scouting and dodging rockets
 
 ### MCV doesn't require SD
 
