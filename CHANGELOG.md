@@ -3,6 +3,363 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## 4.6
+
+### Veterancy Overhaul for Infantry
+
+Reset veterancy for infantry to be much more in line with release. This is to address concerns around this being a buff to infantry and in particular Tanya. Veterancy for all other units remains as in BI-4.5.
+
+Release:
+* +5% (200) Speed/DmgReduction/Damage/Firerate
+* +10% (400) Speed/DmgReduction/Damage/Firerate
+* +15% (800) Speed/DmgReduction/Damage/Firerate
+* +20% (1600) Speed/DmgReduction/Damage/Firerate, healing out of combat
+
+BI-4.5:
+* Vet 1 (200): 10% Health, 10% Dmg
+* Vet 2 (400): 20% Health, 20% Dmg
+* Vet 3 (800): 50% Health, 20% Dmg, 100% firerate, healing in combat
+
+BI-4.6 - Infantry:
+* Vet 1 (200): 5% Health, 5% Dmg
+* Vet 2 (400): 10% Health, 10% Dmg
+* Vet 3 (800): 15% Health, 15% Dmg
+
+* gg - 2025-09-07: I feel like veterancy shouldn't be changed, except maybe healing if full veterancy (which hardly ever happens on infantry units).
+
+### Revert change to MCV requirements
+
+This got mixed feedback, but doesn't seem ready for RAGL. More testing needed.
+
+### Restore Light Tank husk
+
+Nerf to light tank crushing.
+
+### Queue Limits
+
+Generally players were in favour of lowering the queue limits from 999 of each item (though this wasn't unanimous). The limits from RAEL seemed too strict so the proposal for BI-4.6 is conservative. Additionally change to use ItemLimit rather than QueueLimit so that priority queueing is more forgiving.
+
+* Buildings/Defences: 5
+* Infantry: 100
+* Vehicles/Air/Naval: 20
+
+Feedback:
+
+* TTTPPP - 2025-09-06: [Original BI-4.6 proposal] Buildings/Defences: 5. Infantry: 50. Vehicles/Air/Naval: 10
+* .won: I think a good balance is being able to set up your q at the start but not totally forget it. I think 50 inf is too little. i think 100 inf total is good. maybe like 30 veh
+* gg - 2025-09-07: Queue limit, I'm not a big fan of that, many others had their doubts also, for me personally the buildings limit is an issue, if you forget it, it messes with your entire build (and your game is over), also, I don't know if casual players are all that interested in these kind of big changes, it diverts alot from  how it always used to be. I mean for Queue limits, 10 (buildings)/50(inf)/20 (vehicles) would probably be fine, if you want to limit it, wouldn't be that bothersome, I feel like you shouldn't queue more anyway, except for buildings
+* dang_shot: it was just tested and most competitive players liked it.
+* Pun: I can just say that queues shouldn't be limited, there's no reason to limit them. The 999 limit exists and it's basically the same as infinite. Adding a limit is just a straight downgrade for the game. It feels extremely elitist. It doesn't bring any more interesting choices, nor dilemmas. The proper solution to addressing people queueing hundreds of units would be to add more build diversity. Make it so you can't just build a few units and win
+* GARG: there are way better ways to make the game harder, but queue limits just feel like a handicap.
+when I played RAEL it honestly felt more annoying than anything—APM should go to real gameplay, not dealing with extra hassle.
+* anjew: I fail to see how any of the solutions will make it not worthwhile to queue up 100’s of infantry. I’m against the current limits. But I’m pro limits. 300 is too much and with the way infantry currently is, 100 ‘could’ be too little
+* dang_shot: i dont disagree with [adding more build diversity being a better solution], but we havent managed to do this yet and like anjew said i just dont see how
+
+
+## Discussions leading to 4.6
+
+### Queue Limits
+
+* (Not) New - 2025-07-26: QL are popular among masters level players, and ragl is one of the few chances to gather balance feedback from high-level matches. There is less input from minions, but their feedback is that the game felt too rushed, likely because of betes low cap of 30, or they were indifferent. A conservative cap like 100 would be a good compromise as to not rock the boat. I think there’s a debate for what the cap should be at, but not many reasons to keep it at 999.
+* goat: Regarding limits I agree with what creo said actually, even if you dont want limits to impact too much there is simply no reason not to at least have some limit to prevent queueing 999 at the beginning of the game
+* (Not) New - 2025-08-25: Queue limits I would be favour in favour of adding, as its a mechanical thing that just requires getting used to
+
+## 4.5
+
+### Tesla tanks Facing tolerance 512 (up from 0)
+
+This allows tesla tanks to zap targets without facing at, but still requires them to be stopped to fire.
+
+### Submarine Torpedos speed 140 (down from 170)
+
+Fairly consistent feedback that torpedos had been buffed too far and needed a speed nerf. They were originally speed 85 and tracking, then they were changed in 4.4 to speed 170 without tracking.
+
+### Mig HP 10000 (up from 8000)
+
+Migs have generally traded down recently in RAGL. Reverting the change from BI-3.0 to give more chance of preserving them. The previous concern was that one or two players were skillful enough to make Migs OP.
+
+### Veterancy Overhaul
+
+Taken from Redux balance changes. Aiming to make unit preservation more attractive and to avoid vetted units charging ahead to their death.
+
+Old:
+* +5% (200) Speed/DmgReduction/Damage/Firerate
+* +10% (400) Speed/DmgReduction/Damage/Firerate
+* +15% (800) Speed/DmgReduction/Damage/Firerate
+* +20% (1600) Speed/DmgReduction/Damage/Firerate, healing out of combat
+
+New:
+* Vet 1 (200): 10% Health, 10% Dmg
+* Vet 2 (400): 20% Health, 20% Dmg
+* Vet 3 (800): 50% Health, 20% Dmg, 100% firerate, healing in combat
+
+* goat - 2025-07-26: i think the vet system is a huge mistake. never was a fan of it at all to be honest, but especially in openra its bad. units die do fast its difficult to play around, but what will instead happen is that snowballing will become so much worse as in winning an engagement gives a much bigger bonus with these changes. I would highly encourage you to not implement that, there are some who really likes to push the vet system but its simply not going to work
+* dang_shot: i agree, stop trying to make veterancy a thing
+* Pun: I wish OpenRA would finally embrace veterancy and make it powerful, instead of nerfing (or keeping) it to a background mechanic. It looks like BI finally agrees. huge 👍 from me
+* creo: i'm going to agree with some of the others, not a fan of the veterancy change at all, i don't think the system works with infantry for the current gameplay. infantry isn't really microable, you have a ton that die really fast, i don't think you can align these. in fact i'd go as far as say that this is actually going to promote ... first engagement deciding games
+* (Not) New: I’d rather not have a massive snowball mechanic
+* Amelza:  I agree on the fact that veterancy shouldn’t be buffed. It is a good gameplay element in missions which is what og RA was made for, but ORA isn’t! As a player it just adds one extra micromanagement thing to consider which isn’t my cup of tea. veterancy in itself is a nice little gimmick, so I wouldn’t like to see it completely removed
+* .won: if you spy a structure now you get all vet 1. thats basically gg
+* Pun: maybe specifically this new veterancy system does make it matter too much on infantry, in that case a system that better rewards vehicles would be gooder. spy infiltration is still one linchpin that's ruining veterancy
+* creo - 2025-07-27: besides the other points already brought up, please do also note that this is a massive buff to tanya
+* Mint: Veterancy could be made more nonlinear [bigger reward jump for later promotions]. I really like being rewarded for micro, but I dont really play anymore so there's that.
+* anjew - 2025-07-28: I feel like the iconic part of CnC veterancy was how it altered the units visually and allowed some to do things they normally wouldn’t
+* (Not) New: I’d remove veterancy from most units, keeping it only for one/two-shot units to make them better at what they’re used for and so reward micro. Rangers would get quicker to be better scouts, MiGs closer/being able to  one-shot harvs, and V2s/artillery larger aoe. Spies, being the exception, I’d either revert the current change, as it’s a bit OP, or tweak it so that the veterancy they grant is stronger but wears off.
+* Kalion - 2025-07-29: how abt spying production facilities only gives like 2 mins of veteran production
+* Amelza: idk if 2mins is enough, that’s like 10k assets… so if we consider that units get 20% stronger with vet (that’s an approximation ofc) u gain only 2k value, maybe not worth the micro
+* Amelza - 2025-08-21: after thoughts, I realize this vet system only rewards combat stats, which isn't ideal
+former vet would give buffs that were more or less interesting depending on the unit, and as it buffed every stat then every unit gained something. In the case of ranger/Mig for example, a speed boost is particularly interesting for scouting and dodging rockets
+
+### MCV doesn't require SD
+
+Taken from RAEL 1. Aiming to make early radar dome more practical.
+
+
+## RAEL 1
+
+### Queue limits (structures: 2; vehicles/air/naval: 5; infantry: 30 - all down from 999)
+
+* tttppp - 2025-07-19: During the course of the three matches of this season I don't feel I got used to the queue limits. This resulted in matches that I feel were worse to spectate.
+* fiwo: agree not enough matches to get used to. but something to consider moving forward with more data, maybe. infantry build was always at Zero constantly had to re check, the other Q limits seemed fine for me, limited games played albeit...
+* Sigil: not a fan, very artificial attention tax. Also coming from someone who's most familiar with starcraft 2 that has a lot of this
+* Duke Bones - 2025-07-20: Infantry queue felt really rough cause if you didn’t constantly check it you just lost pretty much
+* Unano: I found them more fun than I expected. The game did feel a bit faster and more dynamic but it feels like a bit of a shitty way to win when the opponent forgot to queue
+* creo: i really would have liked to play some more with this, but i stand by my earlier statements - to me this makes the game considerably more fun. I think it keeps the tempo higher and makes it feel more intense and i like the idea you can force mistakes. I certainly get the argument that players don't want it to be a chore, but i do think there is a middleground to be had.
+* Yara - 2025-07-22: I don't like it too much. But if others want to try it out to raise the "skill ceiling", I would be ok with it.
+* milkman - 2025-07-26: While i see the reasonable arguments for middle ground, from the few games I've played, my personal feeling remains: nothing gained by adding these limits or any in-between, just annoying to the point where I'd probably never started playing openra in the first place
+* dang_shot: when you have multiple things to do, it can become harder and mistakes are more likely to happen when pressured. i think the skill ceiling argument is very real in my opinion
+* goat: openra already has one of the lowest barriers of rts games, its not really going to change much in that regard and all the biggest rts honestly have a pretty high barrier (too high I think fwiw)
+* (Not) New: I’m broadly in favor of queue limits in theory, but you make a point about the existence of a skill ceiling. Top players aren’t playing in QL games despite supporting the idea, and as such, we only have anecdotal evidence and little game data that there is one.
+
+### Starting cash $7.5k (up from $5k)
+
+* tttppp - 2025-07-19: The extra cash was pretty much always invested into extra rifles. Potentially it made WF first slightly more tempting as it reduced the relative army disadvantage against 2ref in the early game
+* fiwo: extra cash made early game more intersting and variable i think, but also, yes feel wasted on infantry and eco/ref was pretty much as usual to compensate for the spam. sometimes late tanks and early light vehicles sometimes multple WF early for tanks. more data needed
+* Sigil: I thought this was an interesting change, it has the potential to make builds a bit more one dimensional in that you can invest that further down a path of an all in or greed where it could force more early game scouting
+* Duke Bones - 2025-07-20: Definitely noticed I basically used it for more rifles and occasionally some grens or a rocket drop which was nice
+* Unano: Seemed ok. It gives a little more flexibility in the early game. Right now I feel it favours allies as you can spend the extra on medics and be invincible vs soviets, but that might be different when its figured out
+* creo: i can see the concern that it can just increase the spam a little, but it did feel refreshing to me, but would've liked to play some more with it, but initial impression is that it can lead to some more action early
+* Yara - 2025-07-22: I liked this one because it creates more action early game without being forced to play the 2ref build order.
+* milkman - 2025-07-26: I'm in favour of at least trying this again in some tournament format without the q limits mixed in
+
+### Static defences price increase (+20%)
+
+* tttppp - 2025-07-19: I didn't notice this change. Due to the queue limits I was frequently floating, and so constantly building static d was mandatory
+* fiwo: built static defense as usual, no noticbl e difference really
+* Sigil: it had no effect because I couldn't tell [the price had increased]
+* Duke Bones - 2025-07-20: I agree the queue limit did more damage to what felt like my ability to defend rather than nerfed defenses. Since I was not always producing then it’s hard to say if the need really affected then
+* Unano: Didn't notice at all
+* creo: it's a little difficult to determine it's exact effects, but overall i felt less limited by base defences in the games i played. they are still strong  even with this nerf, but i think the fact that you were focused on other stuff with this balance also probably made some players a little less spammy with them, which i think is good
+* Yara - 2025-07-22: I am always in favor of nerfing defenses structures because I prefer more "mobile play"
+* milkman - 2025-07-26: Should be ok but i could not tell a difference in the few games
+
+### MCV doesn't require SD
+
+* tttppp - 2025-07-19: This was fun. The SD still seemed mandatory to pump out tanks, but it gave a potential for build divergence. In theory it might help with come backs if all con yards and the SD is wiped out
+* fiwo: auto MCV made things interesting i think. but delayed SD for tank on some games, playing different BO. more games needed
+* Sigil: need more games on it, added build diversity was nice but it could be fake and we'd just converge on a new meta opening
+* DukeBones - 2025-07-20: I liked this change felt like you could delay SD for a bit
+* Unano: I felt by the end of the few games I played, that going SD early was still important for tanks, so I don't know if this really has much impact on the meta
+* creo: i actually think this is a helpful change, even though it's not one i use a lot. i'm not a big tech rusher or light vehicle spammer, i kind of prefer my tanks, but i think it's helpful to those who are. I also do like the idea that you can rebuild your mcv even without sd
+* Yara - 2025-07-22: While this seems to favor allies a bit more, because they still have a tank if they skip the SD entirely, I still liked it just to spice things up a bit. If long-term this turns out to be a bad idea, we can always change it back.
+* milkman - 2025-07-26: I'm in favour of at least trying this again in some tournament format without the q limits mixed in
+* (Not) New - 2025-08-02: I’m not in favor of changing mcv requirements for RAGL unless it’s supported by significantly more gameplay data. I prefer entering tournaments with a well practiced build order, and the current meta is experimental, mostly because 4.5 isn’t being actively played and high level matches are scarce. While I’m open to testing it, RAGL is just two months away, and that’s not enough time to adapt meaningfully. On top of that, there’s also the issue of already difficult to counter builds, like triple ref, BH rush in AvA, and Tesla rush, being buffed by this change.
+* greengiant - 2025-09-06: BI 4.5 is shit, you can build MCV without service depot
+* Therapist - 2025-09-12: it's not shit. How does that drastically change anything? Your builds will mostly be the same. But now you can expand quicker with a second mcv if you'd like, but its not like it doesn't come with a cost.
+
+
+## Feedback leading to 4.5
+
+### Making Silo more useful
+
+* bete - 2025-02-28: Would it make sense to change how Silo works so you need to build Silo if you want to bank more then like $1500 or $2000? And for every $500 or $1000 you need new one.... That way they'd more usefull
+* penev92: That is exactly how they work. You just want to reduce the capacity of refineries?
+* bete: What I said is to disable floating more then $1000-1500  without Silos. So according to your above message, it means reduce Ref store to $0 or something small, like $500. So managing eco becomes more complex/dynamic
+* penev92: indeed it would. but I very much doubt people would appreciate that
+* pchote: we tried something similar to that in TD a very long time ago, it sucked
+* tux: Ppl will just spam silos
+* Orb - 2025-03-01: Silos make more sense in TD where you can spend cash quickly with some builds. If I wanted to make silos useful in RA I think I'd allow building structures off them , that's how they're used in vanilla RA
+* SirCake: Make the silos give 10% interest per minute on stored ore
+* bete: Silo gives additional build radius in newest release or BI balance in ORA
+
+### Production bonus
+
+* bete - 2024-11-15: for example, 2nd factory around 75%, 3rd 50% 4th 25%. Ik scouting is hard in ORA but I guess this would force more active early game, more variation and adaptation to opponent's BOs, more light vehicles re-produced
+* MlemandPurrs: this is very imbalanced
+
+### Starting cash
+
+* bete - 2024-11-15: Add starting money to $7-10k [to make more build order variations]
+* .won: I think upping the money would result in more ALL-Ins. I dont think that is a postive outcome
+* Mint: I think 6k starting money might be a little interesting if you want a larger early game, and possibly make wf first slightly more viable.
+* .won: the money thing is a thought although i think i would encourage more turtle play
+* anjew - 2024-11-16: Early on it might be but you still need expansions with the maps we play
+* MlemandPurrs: it should by all means be 10k
+* Pun: In CnC games the standard is 10k. If you go there prices will need adjustment
+* anjew - 2024-11-17: I don’t think more money will contribute positively. I don’t think it did in TD when 7.5k was made ‘standard’
+* dang_shot - 2024-12-30: starting eco to 10k we have tried before, it doesnt really add much in ra especially with how the economy works now, it just adds more spam early gmae. i do think an eco increase can help with some builds, but i dont think increasing it to 10k has ever been proven to really add anything interesting to ra with how it currently plays
+
+### Harvester cost
+
+* Mint - 2024-11-15: If you want more LV action early game wf first needs to be more viable. One way to do this would make harvesters slightly cheaper/faster to produce and/or refs more expensive, because a typical wf first build has you building 2 refs + 3 harvs vs 3 refs + 2 harvs. A typical wf first build takes about 6-7 minutes to catch an equivalent double ref build in army value, so I think the eco shift described above might help bring that time down.
+* dang_shot - 2024-12-30: the increase to refinery and harvester [proposed in bete's GO2025] is a doubleedged sword, because it is going to increase snowballing (harder/slower to recover from losing refinery and/or harvester) especially since ra does not feature multiqueue (so it works better in td and so on)
+
+### Rifle damage
+
+* Orb - 2024-11-15: nerfing infantry is tricky. Functionally their effective DPS has gone up, so I'd probably look into nerfing that. Rifle DPS vs light armor would be a relatively harmless one that would help a ton
+* bete: isn't my change of starting cash + wf production bonus kinda what you want? Theoretically, idk how realistic, you can go wf 1st into 2 WF and kill opponent with vehicles?
+* Orb: Light vehicles don't trade with infantry well anymore, so it doesn't matter if you buff WF. At best you'll just get people spamming light tanks and crushing. Oh also I would buff ranger range a little bit
+* Pun: ranger did get a health buff
+
+### Radar changes
+
+* dang_shot - 2025-01-04: i have been thinking about this idea but not sure if it is even possible. but what if we did so radar increased vision of infantry? that way we can keep early vision play with dogs and so on that people like, but then reduce it a bit later plus also give a radar bonus. what it will do is a) reduce vision starvation, b) in fights where armor dies off dps is not reduced which can be a big factor and c) it will also buff rifle scouts which for passive scouting may or may not be ideal with big resolutions
+* bete: Just to share that we had some chat recently and when someone suggested increase vision of infantry, someone else complained that it's kinda buff to infantry which is already dominant. (I don't say I am against that just sharing discussions)
+* .won: The radar idea isn’t bad tbh. Could lead to earlier radar because you would have an advantage with a smaller blob
+
+### Tesla tanks
+
+* dang_shot - 2024-12-11: shockies (64% win) and tesla tanks (71% win) still have a very strong record compared to russia win ratio, so i really think its player preferences at play here (which could definitely be caused by the tesla tank nerf)
+* Unano - 2024-12-12: Yea tesla tanks are useless now
+* dang_shot: yes the use is really low and i have seen a lot finding them to be pretty irrelevant, so i think we should explore a different change than the removing the turret
+* Fazzz: Yh you literally never even see them in TGs anymore, let alone 1v1s. I don't think they were that OP before, maybe I'm wrong tho
+* .won: they were op before I would agree, but only in mass. I think they are useless now so there should be somewhere in between
+* Blackened: Sure I'm down to explore other changes/suggestions but I feel like we're very limited with alternatives. Especially if the point is to keep them unique
+* Mint: I think their range should be balanced with making them a slower or less agile unit. Which you kinda did but I’d go more so like .1 said.  Less speed, turn radius, etc. maybe a bit lower hp to make easier to kill
+* Blackened: They do quite well because they are faster than a MT. Reducing their speed makes them an anti soviet vehicle only.
+Ukraine doesn't need to be bullied anymore and allies don't need more indirect buffs
+* Fazzz: A bunch of players still think the Ttank is actually bugged because of how it currently is 😅 That just can't be right
+* tux 2024-12-13: Again Just remove opp fire on teslas By giving them 360degree facing tolerance So u still have to stutterstep them
+* Blackened: if i remember right facing tolerance only works for tracking weapons
+* bete: I will never understand issue with TTs. But last few times I massed them (5-10 in 1v1) i was wiped out by air units and was left without actaul armor. I actually never saw example of them being OP in 1v1s...
+* bete - 2024-12-14: Out of all games where TTs were used for Masters matches, in last 3 seasons. I found 3 matches where opponents were similar skills: [Blackened beat creo with TT rush. Mint beat anjew because anjew had the wrong composition. creo beat Mint but he already had way more assets]
+* tux - 2024-12-15: One idea ive seen before is remove crushing + remove inf targeting
+* .won: Nah. Lame. Reduce hp, reduce speed
+* Unano: Only attacking one unit type is clunky. Tanya is bad enough for that imo
+* Orb - 2025-02-13: I used them. They suck
+
+### Migs
+
+* dang_shot - 2024-12-11: i see migs use increased a bit and has a 88% win ratio. i think it might be affected a lot by some players like i think inno used them a lot and he won most of his games, but still a really high win ratio
+* bete - 2024-12-12: In one of [Inno's] games, he has made 3 Migs, killed like 1-2 Harvs and 1 Tanks. Or something like that. If we consider damage dealt and received in cash, it wasn't worth. Ofc, I am aware that it's not always about money - sometimes you cause damage by forcing opponent to build something that he doesn't want or to move army out of position, etc. Also, not only that trades were not good, but I think he also spends a loooot APM on babbysitting them, so other parts of gameplay suffered. So, I don't think i ever saw them used and traded well when opponents are equally skilled and in  time of game when none of players has advantage.
+* .won: MiGs are high risk high reward. I don’t think inno used them well, but also I think most ppl know not to build them. Unless you are far ahead
+* dang_shot: inno used them well overall actually. yes in some of the games they did not end up trading that well, but then in another game he had like 3 vetted migs. overall he definitely traded up with them in ragl, but there were some games where they did not accomplish anything. they are risky. also for what it is worth in my opinion trading a mig for a harvester isnt the worst trade, you need to take mining time + rebuild into account too. still not a great trade though
+* Mint: Migs take awhile to pay off since your probably want 2 for harv hunting. One can be good in engagements though especially if army values are getting small
+* .won: migs arent the worse unit in the game but definitely near the top
+* TTTPPP - 2024-12-13: I rewatched some of my games with migs in. I think it was a mistake every time I built them - I didn't have the skill to use them well
+
+### Parabombs
+
+* .won - 2024-12-12: i think parabombs are kinda weak at this point however, they used to be a great value( prob too good)
+* Sigil: they used to be insane, I think they're fine now
+* (Not) New 2024-12-13: demo trucks and parabombs need a buff, ukraine the faction of demolition, never does any demolition
+
+### Demo truck
+
+* (Not) New - 2024-12-13: demo trucks and parabombs need a buff, ukraine the faction of demolition, never does any demolition
+* tux: Demo is good currently
+* anjew: you saw the winrate, demo sucks, buff that fucker [...] make it speedier
+
+### MCV
+
+* inno - 2024-12-27: this is probably based on very limited knowledge, but if i were to make a suggestion for ra it would be to remove requirement for mcv. ive started to use 2nd and even 3rd mcv a little, but i think if u want to go fast radar u have a little down period where u need to expand and stop building queue, i think being allowed to build an expansion mcv while doing this would help this build flow considerably better. could just be me messing up, but at least that is what has turned me off from the fast tech builds a little
+* bete: Yeah, down period+risk to lose mcv forever. Remove SD as prerequisite for MCV was what Ganon suggested as well.
+* dang_shot - 2024-12-30: removal of sd is worth testing and has been suggested a lot of times. the cost increase im not really sure about, you dont want to turn it into a td or sp mcv. not new referred to inno and fazzar and they were in favour of using multiple mcvs, but just removing the requirement, but if you also increase the cost (and especially the increase the wf production time), players will just skip it. does not solve the issues raised.
+
+
+## Redux 2
+
+# Gren Removed buff against heavy, lowered damage against light to +40%
+
+Previously was +20% against heavy and +60% against light in Redux 1.
+
+# Flamethrower lowered buff against none to +10%
+
+Previously was +15% in Redux 1.
+
+# Harvesting rate (delay) 5 (up from 4)
+
+This is an increase in delay, and so a decrease in harvesting speed.
+
+* bete - 2025-03-01: Also what you say so far for harv. capacity change? Eco is weird now... You can go mcv with 4 harvs... And at some point you float and few secs. later you are broke. Or it's about players, which must be case... It's good you can make more light veh. so I guess that was goal actually....
+* Orb: I mean if you do the exact same builds then yes, you'll have more money. But I'm still tweaking it. also running out of money is partially a map design problem as well. though I do think too many maps are too cookie cutter with starting eco, there was a greater variety in the past
+
+# V2 damage against None 100 (up from 90)
+
+# Tesla Tank Health 35000 (up from 40000)
+
+* Orb - 2025-03-01: I will note I made the balance change to tesla tanks without considering the turreted aspect.
+* bete: yeah remove that imho. People already complain about TT nerf.
+
+
+## Redux 1
+
+The aim of the balance changes was to improve build order variety, and in particular to buff war factory first build.
+
+* Pun - 2025-01-21: Overall seems like fun changes. Addressees many of the key weirdnesses
+* TTTPPP - 2025-01-23: Shifting the balance from 2ref to more WF first builds would be good
+* bete - 2025-01-24: wf 1st is definitely more viable, it looks like you can go even with 2 Rangers and to not be broken
+
+### Harvester Cost 1100 -> 1000, +50% Capacity
+
+Also made corresponding cost change to refinery.
+
+* SirCake - 2025-01-22: The harvester change sounds insane^^ Float city.  As if econ wasn't easy enough already. (In theory; didn't play).
+* bete - 2025-01-24: I watched some 1v1 replays but it's hard to spot things for me... Just notice People made so many Harvs despite knowing they are buffed significantly and kinda floated like 10k mid game. you can expand with 4 harvs (from wf 1st opener). you need to be more proactive with eco slides late game as patches mine out faster. ref position is less critical. bigger capacity have bigger jumps from being broke up to "floating" comparing to the current balance, it's "weird", but I don't think it's wrong. It's about our habits which shouldn't be limiting factor in my opinion.
+
+### Rifle Damage against light 30 (down from 40)
+
+### Rocket Reload Delay 55 (up from 50)
+
+### All Cannons +33% Projectile Speed
+
+### Thief Moved to Tech Center, +20% Movement, 8000 health
+
+* Pun - 2025-01-21: Thief moved to TC feels incredibly shuehorned
+* Orb: I didn't think it was that shoehorned
+* TTTPPP - 2025-01-23: From the change log my suggestion is that the thief change will result in even fewer of them (they're rare in RAGL at +6% Movement, 8000 health on radar)
+* Orb: Thiefs used to be OP at this speed, but on SD tech without the health boost. Speed is a compounding advantage for thiefs, so its an extremely strong buff. But won't know until we test.
+
+### Grenadier One shot infantry, +20% damage against Heavy, +60% damage against Light, 1/2 Inaccuracy
+
+### Flamethrower +15% damage against None
+
+* TTTPPP - 2025-01-23: the flamethrower change looks very strong (some players are already spamming them). This is the flamethrower post I did following RAGL: https://forum.openra.net/viewtopic.php?p=315891&sid=b0f5a69dbd859a6484aa106859fc8918#p315891
+* Orb: They still don't one volley rifleman (made sure of that), so I don't think they'll be OP. People might be building them just to spice things up, as you can see in your data some players don't even build them
+
+### Kennel Cost 100 (down from 200)
+
+### Medic/Mechanic Vision 4 (up from 3), +0.75 Range, +25% repair
+
+This unifies the vision of medics and mechanics with most other infantry
+
+### V2 Reload 220 (down from 240), Damage against Heavy 50 (up from 40)
+
+### Arti Damage against None 65 (up from 60), Damage against Heavy 30 (up from 25)
+
+### Mammoth Tusks Range 7 (up from 6.5)
+
+### Chronosphere Power -150 (down from -200)
+
+### Veterancy Overhaul
+
+Old:
+* +5% (200) Speed/DmgReduction/Damage/Firerate
+* +10% (400) Speed/DmgReduction/Damage/Firerate
+* +15% (800) Speed/DmgReduction/Damage/Firerate
+* +20% (1600) Speed/DmgReduction/Damage/Firerate, healing out of combat
+
+New:
+* Vet 1 (200): 10% Health, 10% Dmg
+* Vet 2 (400): 20% Health, 20% Dmg
+* Vet 3 (800): 50% Health, 20% Dmg, 100% firerate, healing in combat
+
+
+## 4.4.1
+
+Exactly the same as 4.4, but for the playtest.
+
+
 ## 4.4
 
 ### Missile Silo charge 7 minutes (down from 9 minutes), power 200 (up from 150)
@@ -18,6 +375,9 @@ This is an increase from BI-4.2/BI-4.3 in which the stats were 8 from ref, 7 fro
 * KAlION - 2024-08-31: Also it would reasonable to have missile subs anti air like a Sam site. i.e not submerging every time to reload. Also give it a higher reload rate similar to destroyers at least
 * Blackened: I'm not opposed to making msub aa more robust. [...] Just a quicker reload and less damage with maybe a turrted aa could do wonders.
 * .won: faster reload on missle subs would be good
+* .won - 2025-03-14: they time to dive on mis subs is broken on bi 4.4. with micro they  cant be killed with yaks
+* Blackened: If its bi force fire should be able to hit and reveal subs
+
 
 ## 4.3
 
@@ -80,6 +440,7 @@ Allies no longer have the ability to dictate when a fight happens as they can co
 * tux: You gta micro it lmao. Also use yaks. For the record, allied navy dont auto target unsubmerged subs now
 * Blackened: the last i heard was the untracked torpedoes were actually OP
 * .won: soviet navy is for defense really. which is kinda dumb
+* Therapist - 2024-03-20: in BI-4.4 soviets have the slight advantage in naval battles. I think if torpedoes were slightly nerfed. A slight decrease to damage dealt or make them slightly slower. This one subtle change would make it pretty close in balance again imo
 
 ### Naval transport speed 115 (down from 128)
 
@@ -126,6 +487,8 @@ Now only slightly slower than infantry. Allows for quicker retreats/traversing b
 * Mint: I thought mammoths were in a decent spot tbh. But if they are still slower than inf it might not be a huge buff for them.
 * Moods: I think the turret speed needs a slight increase maybe not speed i donno thats my opinion
 * tux - 2024-07-30: very slight [speed buff] but makes them easier to use, you can feel it
+* (Not) New - 2025-07-25: The Mammoth speed buff from a while ago could be reverted. Feedback before the change was mostly against it, and in my own experience, they’re hard to catch over short distances, especially with them having the ability to self-heal.
+* dang_shot - 2025-07-26: the feedback before the change is not as relevant as the feedback after the change and i havent heard much of it here at least. they dont seem to be overperforming based on what i can see but i dont play
 
 ### MGG creates shroud 7c0 (up from 6c0)
 

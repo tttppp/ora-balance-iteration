@@ -1,7 +1,60 @@
 ^Infantry:
 	DetectCloaked:
 		DetectionTypes: Underwater, Cloak
-		Range: 1c512
+
+^GainsExperience:
+	GrantCondition@RANK-ELITE:
+		RequiresCondition: rank-veteran >= 3
+	DamageMultiplier@RANK-1:
+		Modifier: 91
+	DamageMultiplier@RANK-2:
+		Modifier: 83
+	-DamageMultiplier@RANK-3:
+	DamageMultiplier@RANK-ELITE:
+		Modifier: 67
+	FirepowerMultiplier@RANK-1:
+		Modifier: 110
+	FirepowerMultiplier@RANK-2:
+		Modifier: 120
+	-FirepowerMultiplier@RANK-3:
+	FirepowerMultiplier@RANK-ELITE:
+		Modifier: 120
+	-SpeedMultiplier@RANK-1:
+	-SpeedMultiplier@RANK-2:
+	-SpeedMultiplier@RANK-3:
+	-SpeedMultiplier@RANK-ELITE:
+	-ReloadDelayMultiplier@RANK-1:
+	-ReloadDelayMultiplier@RANK-2:
+	-ReloadDelayMultiplier@RANK-3:
+	ReloadDelayMultiplier@RANK-ELITE:
+		Modifier: 50
+	ChangesHealth@ELITE:
+		Delay: 75
+		DamageCooldown: 0
+	-WithDecoration@RANK-3:
+
+^GainsExperienceInfantry:
+	Inherits@GainsExperience: ^GainsExperience
+	DamageMultiplier@RANK-1:
+		Modifier: 95
+	DamageMultiplier@RANK-2:
+		Modifier: 91
+	DamageMultiplier@RANK-ELITE:
+		Modifier: 87
+	FirepowerMultiplier@RANK-1:
+		Modifier: 105
+	FirepowerMultiplier@RANK-2:
+		Modifier: 110
+	FirepowerMultiplier@RANK-ELITE:
+		Modifier: 115
+	-ReloadDelayMultiplier@RANK-ELITE:
+	-ChangesHealth@ELITE:
+
+^Infantry:
+	Inherits@2: ^GainsExperienceInfantry
+
+^InfantryExperienceHospitalOverrides:
+	-WithDecoration@RANK-3:
 
 ^CommandoSkull:
 	WithDecoration@COMMANDOSKULL:
@@ -13,8 +66,6 @@
 
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
-	Valued:
-		Cost: 1800
 
 SPY:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
@@ -32,22 +83,17 @@ MGG:
 	GrantConditionOnDeploy:
 		DeployedCondition: undeployed
 
+MIG:
+	Health:
+		HP: 10000
+
 TSLA:
 	DetectCloaked:
 		DetectionTypes: Cloak, Underwater
-	Power:
-		Amount: -80
 
 PBOX:
 	DetectCloaked:
 		DetectionTypes: Cloak, Underwater
-	Cargo:
-		PassengerConditions:
-			e3: RocketSoldier
-	WithRangeCircle@ROCKETSOLDIER:
-		Color: FFFF0080
-		Range: 5c0
-		RequiresCondition: RocketSoldier
 
 HBOX:
 	DetectCloaked:
@@ -59,7 +105,6 @@ GUN:
 
 FTUR:
 	DetectCloaked:
-		Range: 5c0
 		DetectionTypes: Cloak, Underwater
 
 AFLD:
@@ -75,17 +120,6 @@ AFLD:
 		Types: SPY.England.Infiltrate
 	Targetable:
 		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
-
-IRON:
-	Inherits@shape: ^2x2Shape
-	Valued:
-		Cost: 2000
-	Building:
-		Footprint: xx xx
-		Dimensions: 2,2
-	Selectable:
-		Bounds: 2048, 2133, 0, -170
-		-DecorationBounds: 2133, 2133, 0, -512
 
 STEK:
 	InfiltrateForSupportPower:
@@ -283,17 +317,11 @@ CA:
 		Type: Steel
 
 LST:
-	Valued:
-		Cost: 500
-	Health:
-		HP: 40000
 	Armor:
 		Type: Steel
 	Cargo:
 		Types: Infantry, Vehicle
 		MaxWeight: 10
-	Mobile:
-		Speed: 115
 
 PT:
 	Armor:
@@ -312,8 +340,6 @@ SPEN:
 	InfiltrateForSupportPower:
 		Proxy: powerproxy.sonarpulse
 		Types: SpyInfiltrate, SPY.England.Infiltrate
-	Power:
-		Amount: -20
 	Targetable:
 		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
 
@@ -327,8 +353,6 @@ SYRD:
 	InfiltrateForSupportPower:
 		Proxy: powerproxy.sonarpulse
 		Types: SpyInfiltrate, SPY.England.Infiltrate
-	Power:
-		Amount: -20
 	Targetable:
 		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
 
@@ -354,7 +378,6 @@ powerproxy.sonarpulse:
 	AlwaysVisible:
 	SpawnActorPower:
 		ChargeInterval: 3250
-		LifeTime: 250
 
 SONAR:
 	Inherits: camera.spyplane
@@ -376,34 +399,28 @@ SONAR:
 		FacingTolerance: 0
 	WithInfantryBody:
 
-E3:
-	Armament@GARRISONED:
-		Name: garrisoned
-		Weapon: RedEye
-	Armament@GARRISONEDSECONDARY:
-		Name: garrisoned
-		Weapon: Dragon
-
 1TNK:
-	Health:
-		HP: 23000
 	Mobile:
 		Speed: 103
+	SpawnActorOnDeath:
+		Actor: 1TNK.Husk
 
-3TNK:
-	Mobile:
-		Speed: 64
+1TNK.Husk:
+	Inherits: ^Husk
+	Tooltip:
+		Name: Husk (Light Tank)
+	ThrowsParticle@turret:
+		Anim: turret
+	TransformOnCapture:
+		IntoActor: 1tnk
+	InfiltrateForTransform:
+		IntoActor: 1tnk
+	RenderSprites:
+		Image: 1tnk.destroyed
 
 HARV:
 	Harvester:
 		SearchFromProcRadius: 9
-		SearchFromHarvesterRadius: 8
-
-THF:
-	Health:
-		HP: 8000
-	Mobile:
-		Speed: 72
 
 TTNK:
 	Mobile:
@@ -411,23 +428,15 @@ TTNK:
 	-AttackTurreted:
 	-Turreted:
 	AttackFrontal:
-		FacingTolerance: 0
+		FacingTolerance: 512
 	RevealsShroud:
 		MinRange: 5c0
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 
-E2:
-	Valued:
-		Cost: 150
-
 4TNK:
 	Mobile:
 		Speed: 50
-
-MGG:
-	CreatesShroud:
-		Range: 7c0
 
 SPY.England:
 	Valued:

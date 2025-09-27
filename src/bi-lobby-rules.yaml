@@ -31,10 +31,10 @@ Player:
 		FogCheckboxEnabled: true
 	LobbyPrerequisiteCheckbox@GLOBALBOUNTY:
 		Enabled: true
-		Locked: false
+		Locked: true
 	LobbyPrerequisiteCheckbox@REUSABLEENGINEERS:
 		Enabled: true
-		Locked: false
+		Locked: true
 	LobbyPrerequisiteCheckbox@GLOBALFACTUNDEPLOY:
 		Enabled: true
 		Locked: true
