@@ -115,7 +115,7 @@ AFLD:
 		ExitCell: 0,0
 		Facing: 256
 	AirstrikePower@spyplane:
-		Description: Reveals an area of the map and submarines.
+		Description: actor-afld-airstrikepower-spyplane-description
 	InfiltrateForSupportPower:
 		Types: SPY.England.Infiltrate
 	Targetable:
@@ -138,8 +138,8 @@ ATEK:
 		StartFullyCharged: True
 		RequiresActiveRadar: True
 	ProduceActorPower@powergps:
-		Name: GPS Satellite
-		Description: Reveals map terrain and provides tactical\ninformation.
+		Name: actor-atek.produceactorpower-powergps-name
+		Description: actor-atek.produceactorpower-powergps-description
 		Icon: gps
 		PauseOnCondition: disabled
 		Actors: gpsactivenoise
@@ -153,8 +153,8 @@ ATEK:
 		EndChargeSpeechNotification: SatelliteReady
 		RequiresCondition: !gpsactivated
 	ProduceActorPower@gpsactivesign:
-		Name: GPS Active Timer
-		Description: Displays the amount of time the satellite is still active.
+		Name: actor-atek.produceactorpower-gpsactivesign-name
+		Description: actor-atek.produceactorpower-gpsactivesign-description
 		Icon: gpsactive
 		Actors: e1
 		Type: Infantry
@@ -179,8 +179,7 @@ ATEK:
 gpsactivenoise:
 	Interactable:
 	EditorOnlyTooltip:
-		Name: (GPS Active Noise Dummy)
-	AlwaysVisible:
+		Name: actor-gpsactivenoise.editoronlytooltipname
 	Aircraft:
 		Repulsable: False
 	BodyOrientation:
@@ -210,13 +209,12 @@ gpsactivenoise:
 		Queue: Infantry
 		Prerequisites: ~disabled
 	Tooltip:
-		Name: "Actor to play GPS noises"
+		Name: actor-gpsactivenoise.tooltipname
 
 powergps:
 	Interactable:
 	EditorOnlyTooltip:
-		Name: (GPS Power Dummy)
-	AlwaysVisible:
+		Name: actor-powergps-name
 	Aircraft:
 		Repulsable: False
 	BodyOrientation:
@@ -357,7 +355,6 @@ SYRD:
 		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
 
 ships.upgraded:
-	AlwaysVisible:
 	ProvidesPrerequisite:
 
 SYRF:
@@ -375,7 +372,6 @@ camera.spyplane:
 		Range: 10c0
 
 powerproxy.sonarpulse:
-	AlwaysVisible:
 	SpawnActorPower:
 		ChargeInterval: 3250
 
@@ -408,7 +404,7 @@ SONAR:
 1TNK.Husk:
 	Inherits: ^Husk
 	Tooltip:
-		Name: Husk (Light Tank)
+		Name: actor-1tnk-husk-name
 	ThrowsParticle@turret:
 		Anim: turret
 	TransformOnCapture:

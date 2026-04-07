@@ -15,6 +15,10 @@ sir - 2025-11-22: we might needa do something about missile subs. they disapear 
 tux: the dichotomy is they are way too vulnerable to air without the changes. but now nothing can touch them if u dont build a navy yourself
 .won: I think the newest bi for naval is broken. Whatever blackened did should be reversed. I also dont like how you can attack submerged subs
 
+## 4.6.1
+
+Identical balance to BI-4.6, but updated to be compatible with playtest-20260222.
+
 ## 4.6
 
 ### Veterancy Overhaul for Infantry

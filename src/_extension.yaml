@@ -7,3 +7,5 @@ Sequences: bi-sequences.yaml
 Notifications: bi-notifications.yaml
 
 Voices: bi-voices.yaml
+
+FluentMessages: bi.ftl
