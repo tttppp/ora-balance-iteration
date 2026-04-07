@@ -3,6 +3,18 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+## Changes leading to 4.7
+
+### Production Scaling
+
+goat - 2025-11-16: faster production would not improve openra, but perhaps infinite (or longer scaling than now) would be good. faster units would work I think
+
+### Missile Subs
+
+sir - 2025-11-22: we might needa do something about missile subs. they disapear way too quick now
+tux: the dichotomy is they are way too vulnerable to air without the changes. but now nothing can touch them if u dont build a navy yourself
+.won: I think the newest bi for naval is broken. Whatever blackened did should be reversed. I also dont like how you can attack submerged subs
+
 ## 4.6
 
 ### Veterancy Overhaul for Infantry
@@ -54,6 +66,12 @@ Feedback:
 when I played RAEL it honestly felt more annoying than anything—APM should go to real gameplay, not dealing with extra hassle.
 * anjew: I fail to see how any of the solutions will make it not worthwhile to queue up 100’s of infantry. I’m against the current limits. But I’m pro limits. 300 is too much and with the way infantry currently is, 100 ‘could’ be too little
 * dang_shot: i dont disagree with [adding more build diversity being a better solution], but we havent managed to do this yet and like anjew said i just dont see how
+* tux - 2025-11-16: I think its okay tbh. Ngl i think inf queue could be capped even more. I have never noticed it
+* Happy: I’m quite enjoying the extra difficulty even if I’m sucking
+* Ruckus: It's okay because the queue limit is at a place that's large enough to be outside of where most people monitor their queues. I'm probably not going to build 20 medium tanks without needing to click into my vehicle tab at some point. I'll need to p-queue something. ... The people who don't like this, which seems to be a decent chunk of the players, feel more strongly. Why introduce a dividing issue and barrier to entry?
+* Happy: [We are] needing ongoing macro checks, making strong macro players distinguishable from sloppy ones, greater differentiation between the skill levels, higher skill ceiling and retain players since they plataeu later, allows some counterplay and making your oppenant mess up their macro
+* Fazzz: Tbh I really agree with this
+* goat: to me macro should be a distraction/investment from other aspects of the game, especially when micro is quite limited here too
 
 
 ## Discussions leading to 4.6
