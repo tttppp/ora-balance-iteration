@@ -138,8 +138,8 @@ ATEK:
 		StartFullyCharged: True
 		RequiresActiveRadar: True
 	ProduceActorPower@powergps:
-		Name: actor-atek.produceactorpower-powergps-name
-		Description: actor-atek.produceactorpower-powergps-description
+		Name: actor-atek.gpspower-name
+		Description: actor-atek.gpspower-description
 		Icon: gps
 		PauseOnCondition: disabled
 		Actors: gpsactivenoise
@@ -263,12 +263,8 @@ SS:
 	Mobile:
 		TurnSpeed: 24
 		Speed: 85
-	Targetable:
-		TargetTypes: WaterActor, Ship, Submarine, Repair
-		RequiresCondition: !underwater
 	Targetable@UNDERWATER:
 		TargetTypes: WaterActor, Ship, Submarine, Repair
-		RequiresCondition: underwater
 	Cloak:
 		CloakDelay: 20
 		UncloakOn: Attack, Unload, Dock, Damage, Heal
@@ -286,12 +282,8 @@ MSUB:
 		Type: Steel
 	Mobile:
 		TurnSpeed: 16
-	Targetable:
-		TargetTypes: WaterActor, Ship, Submarine, Repair
-		RequiresCondition: !underwater
 	Targetable@UNDERWATER:
 		TargetTypes: WaterActor, Ship, Submarine, Repair
-		RequiresCondition: underwater
 	Cloak:
 		CloakDelay: 20
 		UncloakOn: Attack, Unload, Dock, Damage, Heal
@@ -303,8 +295,6 @@ DD:
 		Type: Steel
 	Mobile:
 		TurnSpeed: 24
-	RevealsShroud@GAPGEN:
-		Range: 4c0
 	Armament@SECONDARY:
 		Weapon: DDDepthCharge
 	DetectCloaked:
@@ -318,7 +308,6 @@ LST:
 	Armor:
 		Type: Steel
 	Cargo:
-		Types: Infantry, Vehicle
 		MaxWeight: 10
 
 PT:
@@ -336,7 +325,6 @@ SPEN:
 	DetectCloaked:
 		Range: 6c0
 	InfiltrateForSupportPower:
-		Proxy: powerproxy.sonarpulse
 		Types: SpyInfiltrate, SPY.England.Infiltrate
 	Targetable:
 		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
@@ -349,7 +337,6 @@ SYRD:
 	DetectCloaked:
 		Range: 6c0
 	InfiltrateForSupportPower:
-		Proxy: powerproxy.sonarpulse
 		Types: SpyInfiltrate, SPY.England.Infiltrate
 	Targetable:
 		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
@@ -366,7 +353,6 @@ SPEF:
 		Cost: 60
 
 camera.spyplane:
-	Inherits: CAMERA
 	DetectCloaked:
 		DetectionTypes: Underwater
 		Range: 10c0
@@ -376,24 +362,9 @@ powerproxy.sonarpulse:
 		ChargeInterval: 3250
 
 SONAR:
-	Inherits: camera.spyplane
 	RevealsShroud:
 		Range: 10c0
 		Type: CenterPosition
-	DetectCloaked:
-		DetectionTypes: Underwater
-		Range: 10c0
-
-^ArmedCivilian:
-	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
-	Armament:
-		Weapon: Pistol
-	Armament@GARRISONED:
-		Name: garrisoned
-		Weapon: Pistol
-	AttackFrontal:
-		FacingTolerance: 0
-	WithInfantryBody:
 
 1TNK:
 	Mobile:

@@ -109,18 +109,15 @@ Grenade:
 			Steel: 25
 
 DepthCharge:
-	Inherits: ^Artillery
 	ReloadDelay: 100
 	Range: 6c0
 	ValidTargets: Underwater, Submarine
 	Projectile: Bullet
 		Speed: 148
-		Image: BOMB
 		Inaccuracy: 1c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 256
 		Damage: 6000
-		ValidTargets: Submarine
 		Versus:
 			Steel: 100
 
@@ -144,7 +141,6 @@ Stinger:
 		Damage: 2500
 		Versus:
 			Wood: 66
-			Light: 66
 			Heavy: 100
 			Steel: 100
 	InvalidTargets: Submarine
@@ -153,7 +149,6 @@ Stinger:
 StingerAA:
 	Warhead@1Dam: SpreadDamage
 		Damage: 1450
-	Range: 7c512
 
 TorpTube:
 	Projectile: Missile

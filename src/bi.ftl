@@ -2,16 +2,12 @@
 actor-afld-airstrikepower-spyplane-description = Reveals an area of the map and submarines.
 
 actor-atek =
-    .produceactorpower-powergps-name = GPS Satellite
-    .produceactorpower-powergps-description =
-    Reveals map terrain and provides tactical
-    information.
     .produceactorpower-gpsactivesign-name = GPS Active Timer
     .produceactorpower-gpsactivesign-description = Displays the amount of time the satellite is still active.
 
 actor-gpsactivenoise =
     .editoronlytooltipname = \(GPS Active Noise Dummy\)
-    .tooltipname = "Actor to play GPS noises"
+    .tooltipname = Actor to play GPS noises
 
 actor-powergps-name = \(GPS Power Dummy\)
 actor-1tnk-husk-name = Husk (Light Tank)
