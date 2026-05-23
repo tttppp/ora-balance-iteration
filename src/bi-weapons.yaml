@@ -103,6 +103,18 @@ ChainGun.Yak:
 	Projectile: Bullet
 		Speed: 215
 
+TurretGunFrance:
+	Inherits: TurretGun
+	ReloadDelay: 45
+	Range: 9c0
+	Warhead@1Dam: SpreadDamage
+		Damage: 12000
+
+RepairGermany:
+	Inherits: Repair
+	Warhead@2Dam: SpreadDamage
+		Damage: -4000
+
 Grenade:
 	Warhead@1Dam: SpreadDamage
 		Versus:
@@ -179,9 +191,16 @@ Flamer:
 		Versus:
 			Steel: 20
 
+RussianTeslaZap:
+	Inherits: TeslaZap
+	Warhead@1Dam: SpreadDamage
+		Damage: 5000
+
 PortaTesla:
+	ReloadDelay: 100
 	Warhead@1Dam: SpreadDamage
 		Versus:
+			Heavy: 70
 			Steel: 60
 
 Claw:
@@ -198,3 +217,48 @@ AntFireball:
 	Warhead@1Dam: SpreadDamage
 		Versus:
 			Steel: 20
+
+MADTankThump:
+	Report: madexplo.aud
+	InvalidTargets: Trees
+	Warhead@2Dam: HealthPercentageDamage
+		Spread: 1c0
+		Damage: 2
+		ValidTargets: MADTank
+		ValidRelationships: Ally
+		AffectsParent: True
+	Warhead@1Dam: HealthPercentageDamage
+		Spread: 14c0
+		Damage: 2
+	Warhead@DamInf1: SpreadDamage
+		Spread: 7c0
+		Damage: 2
+		ValidTargets: Infantry
+		Versus:
+			None: 100
+			Light: 100
+		DamageTypes: TriggerProne, BulletDeath
+		ValidRelationships: Ally, Neutral, Enemy
+	Warhead@DamInf2: SpreadDamage
+		Spread: 7c0
+		Damage: -2
+		ValidTargets: Infantry
+		Versus:
+			None: 100
+			Light: 100
+		DamageTypes: TriggerProne
+		ValidRelationships: Ally, Neutral, Enemy
+
+MADTankDetonate2:
+	ValidTargets: GroundActor, WaterActor
+	InvalidTargets: MADTank, Infantry
+	Warhead@2Smu: LeaveSmudge
+		SmudgeType: Crater
+		Size: 7,6
+
+MGGDummyGun:
+	ValidTargets: Infantry, Vehicle, AirborneActor, WaterActor, Structure
+	Range: 6c0
+	Projectile: InstantHit
+	Warhead@1Dam: TargetDamage
+		ValidTargets: Infantry, Vehicle, AirborneActor, WaterActor, Structure

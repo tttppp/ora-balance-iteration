@@ -3,6 +3,100 @@
 The rationale behind the changes in each release is given in this file, along with
 comments from players to back it up.
 
+
+## 5.0
+
+More experimental changes - in particular providing a three tier faction bonus system and buffing several lesser-used units. Also split out queue limits into a separate RAGL balance, along with viewport limit.
+
+### Faction Bonuses
+
+Faction bonuses now have a three tier system to differentiate the feel of each from nearer the start of the game.
+
+| Subfaction | Tier 1 | Tier 2 | Tier 3 |
+| --- | --- | --- | --- |
+| England | Camo Pillbox | British Spy | MGG |
+| France | Fakes | French Turret | Phase Transport |
+| Germany | German Mechanic | Tank Drop | Chrono Tank |
+| Russia | Russian Teslacoil | Shock Troopers | Tesla Tank |
+| Ukraine | Ukrainian Dog | Parabombs | Demo Truck |
+
+#### Camo Pillbox to England only, cost 600 (down from 750)
+
+Previously tested in [PBA](camo-pillbox-to-england-only-england-cant-build-normal-pillbox-700-from-750--30-power-from--20-power-reload-speed-45-from-30).
+
+#### MGG automatically deploys shroud when "attacking"
+
+A buff to make MGG easier to use by automatically deploying the shroud via a dummy weapon with range 6c0.
+
+#### French Turret range 9c0 (up from 6c512), damage 15000 (up from 6000), reload delay 45 (up from 30)
+
+The turret for France is moved to radar tech with longer range, higher damage, but longer reload delay. Before T2 then France can still garison rocket soldiers in pillboxes for defence against heavy armour. Inspired by the Grand Cannon.
+
+#### German Mechanic repairs 4000 (up from 2000)
+
+Mechanics are often used for recovering husks, but by buffing the repair amount hopefully they will be more common in German armies.
+
+#### Tank Drop
+
+Germany gets a support power of two light tanks, dropped from a badger, unlocked by helipad.
+
+#### Advanced Chronoshift replaces Chronoshift for all Allies
+
+#### Russian Teslacoil zaps 6 infantry (up from 3)
+
+The standard teslacoil is weak to infantry - this is a buff without making it strong against infantry.
+
+#### Shockies unlocked by radar dome and teslacoil, reload delay 100 (up from 70), damage vs heavy 70 (up from 60)
+
+Last time this was tried, the feedback was that Shockies on T2 were too weak against heavy tanks (see [PBA notes](#shock-troopers-requires-radar-dome-rather-than-tech-center-and-teslacoil-400-from-350)).
+
+#### Ukrainian Dog has detonate option
+
+Inspired by anti-tank dogs from WW2 and the unit from Combined Arms.
+
+### Unit Rework
+
+#### MAD Tank can be redeployed, removed chronoshift, iron curtain and ability to load into transport
+
+MAD Tank has a significant damage and range buff and can be redeployed. It can no longer be rushed into bases via transport ships or chronoshift.
+
+#### Supply Truck can carry six passengers
+
+This aims to give a purpose to the supply truck.
+
+#### Missile Silo charge 6 minutes (down from 9 minutes in release, and 7 minutes in BI-4.6)
+
+Despite the buff in RAGL S15, there were still very few missile silos in RAGL S17, and no nukes fired at all.
+
+### Ranger health 16000 (up from 15000)
+
+Increase rifle shots it takes from 38 to 40. We tried a larger increase in BI-4.0, but it got mixed reviews.
+
+### Mig health 11000 (up from 8000 in release, up from 10000 in BI-4.6)
+
+Increase mig health in response to feedback that they still die too quickly.
+
+### Missile Sub health 50000 (up from 40000)
+
+Increase torpedo hits it takes from 4 to 5.
+
+### RAGL Changes
+
+These changes are split off into a separate file with the intention that they will only be used in competitions.
+
+#### Queue Limits
+
+Same as previously but split out into separate file.
+
+* Buildings/Defences: 5
+* Infantry: 100
+* Vehicles/Air/Naval: 20
+
+#### Viewport Limit
+
+Viewport limit of 35 cells vertically to try to level the playing field between different monitors.
+
+
 ## Changes leading to 5.0
 
 ### Production Scaling
@@ -106,8 +200,11 @@ Pinkthoth: Yes, sounds good. What about the second functionality of delivering c
 
 Pinkthoth - 2026-05-09: I'd lock Demo Trucks behind Missile Silo too
 Cecil - 2026-05-13: Tbf I think this is good if it gets people to build more nukes. We clearly underrate nukes.
+anjew: I just think you’ll see less demos
 
 ### Subfaction Bonuses
+
+Previous balancing efforts were attempted in [PBA](#pba-v20220103)
 
 #### Russia
 
@@ -630,7 +727,7 @@ Now only slightly slower than infantry. Allows for quicker retreats/traversing b
 
 * Unano - 2024-04-10: Mammy buf might make them a bit OP. As a prolific mammy spammer I think they are in a good place already personally
 * despro: mammoths seem fine to me as well
-* ZxGanno - 2024-04-11: stat changes are hard to judge. just play them. faster mammoths sounds neat
+* ZxGanon - 2024-04-11: stat changes are hard to judge. just play them. faster mammoths sounds neat
 * .won: yeah not sold on that mammoths are already pretty damn good
 * Blackened: Mammoths are good in tight quarters. But can easily fail when you need to rotate with them. Mammoths on big maps are a liability. You're better off just going with more ht
 * Mint: I thought mammoths were in a decent spot tbh. But if they are still slower than inf it might not be a huge buff for them.
@@ -1332,6 +1429,7 @@ Against:
 
 * .won - 2022-05-22: I’m not a huge fan of it. Yah it’s good for a v a but not good for a v s
 
+
 ## PBA v20220103
 
 ### Shock Troopers further reduced to $300 (from $400 release/$350 v20211230), reload delay 60 (from 70), damage vs heavy 50 (from 60)
@@ -1348,6 +1446,7 @@ Against:
 
 ### Parabombs reverted to Ukraine only and requires Airfield
 
+
 ## PBA (Project Balance Allies) - v20211230
 
 Trying to rework the faction specials and reduce spamming of static defences.
@@ -1360,6 +1459,7 @@ Feedback:
 * Kaution - 2021-12-29: Makes a bo less viable imo which makes it less diverse and shouldn't be the case imho
 * Gacius - 2021-12-29: I love \[the changes\]. Now every faction has identity, unit variety has been increased for all factions and Allies in late game feels awesome with MGG's, MRJ, Tanya and rest of the arsenal. Shockies and Flamers now will be seen even moree often and will be part of every soviet army
 * .won - 2021-12-29: wf first is dead if we do these changes and removing camo Pills removes anyways to deal with arty, and your buffing t2
+* Goremented - 2021-12-29: This looks pretty spicy TBH I loved every change
 
 ### Advanced Chronosphere to all Allies
 
@@ -1369,7 +1469,18 @@ Feedback:
 
 ### Pillbox $700 (from $600), -30 power (from -20 power), reload speed 45 (from 30)
 
+* Kaution - 2021-12-28: I didn't know the power increase was going to be implemented and I dont think it's a good idea since it will mess up BOs
+* Pun: As for wf first, rax + ref + wf consumes 80 power, so indeed you'd go low power, same with rax + ref + ref. I'm not sure if it is great, perhaps without the light vehicle buffs it doesn't turn out well. People sell the defence relatively quick after it has been useful anyway, so maybe that's fine
+* Bain - 2021-12-29: I'm really not sure about the adding the power nerf it seems a bit over kill and I'm concerned about how this would effect opening build orders and players openings
+* DukeBones: The only problem I have with the Power is it kinda screws WF first up. Any lp is crippling
+* dang: imo i dont think we will learn anything from discussing this now when we can just test it, i think you might be right of course but i think its best we just test it now. i dont think the power increase is going to hurt wf first as much as cost increase though because you usually end up selling it pretty much right away anyway if you end up placing it
+* Kaution: Did anyone even see 3h stream test I did with punsho changes?? Cus I'm starting to believe nobody actually did
+* dang: i did watch them and ilm is right that objectively you can spam less, its just math but im not sure it is enough
+
 ### Camo Pillbox to England only (England can't build normal Pillbox), $700 (from $750), -30 power (from -20 power), reload speed 45 (from 30)
+
+* .won - 2021-12-29: removing camo Pills removes anyways to deal with arty, and your buffing t2 arty/v2
+* Unano: yea tbh i always spam camo pills if im getting arty pushed too. easiest way to stall it
 
 ### Flame Tower $700 (from $600), -30 power (from -20 power), reload delay 75 (from 65), burst delay 25 (from 20)
 
@@ -1381,15 +1492,22 @@ Feedback:
 
 ### Tank Drop to Germany, requires Radar Dome, two Medium Tanks
 
+* ilm - 2021-12-29: Have to say I still think two medium tanks is too much
+* Kaution: It is. Should be 1 lt 1 mt or just 2 lt
+
 ### Mobile Gap Generator to Germany only, $800 (from $1000)
 
 ### Flamethrower to Ukraine only, requires Radar Dome (rather than Flame Tower), $250 (from $300), health 5000 (from 4000), vision 5 cells (from 4 cells), projectile speed 250 (from 170)
+
+* goat - 2022-12-28: initial thoughts are flamers look pretty strong but curious to see them
+* ZxGanon: flamers got boosts to compensate for them being T2 now. grens are cheesy T1. so flamers should be stable T2 inf option
 
 ### Shock Troopers requires Radar Dome (rather than Tech Center and Teslacoil), $400 (from $350)
 
 Feedback:
 
 * .won - 2021-12-29: I think shockies should go back to t3 with a buff. they are kinda a trap unit in t2
+* wippie - 2021-12-29: I remember the shocky/flak combo being OP a long time ago. Carefull with upping dmg vs heavy armor
 * Unano - 2021-12-29: yea in general shockies suck. i guess there's prob a good way to use them, but its really hard
 * Pun - 2021-12-29: RA already has a ton of trap units, i don't thing it's a problem
 * Kaution - 2021-12-29: i watched ganons stream. shockies were just shooting HT, tickling it
@@ -1398,6 +1516,9 @@ Feedback:
 right now they just take up the slot of rocket soldiers
 
 ### Spy Plane requires Radar Dome (rather than Airfield)
+
+* Pun - 2021-12-28: There are quite a few advantages to having it on radar. The purple charge bar doesn't support multiple support powers, so having only one per building is beneficial. Another advantage is having it consistent with allies, we add support powers on radar for them. Having spyplane on radar also gives incentive to not shut it down at the moment of building it
+* dang: ok thx for explaining, i think that makes a lot of sense
 
 ### GPS global timer removed, global notification when launched, charge time 3 minutes (previously 4 minutes in BI 3.1), reveals for 30 seconds (previously 1 minute in BI 3.1)
 
@@ -1433,6 +1554,7 @@ Phase Transport uncloaks on load as well as unload.
 ### Bug Fixes
 
 * Spies disguised as Tanya now have the skull icon.
+
 
 ## 3.1
 

@@ -9,3 +9,7 @@ GPSVoice:
 		Build: satellite_initialized_delay2s
 		Kill: gotit1,lefty1
 		Demolish: keepem1,tuffguy1
+
+DogVoice:
+	Voices:
+		Action: dogy1

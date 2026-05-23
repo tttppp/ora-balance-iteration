@@ -11,3 +11,7 @@ Player:
 		ItemLimit: 20
 	ClassicProductionQueue@Aircraft:
 		ItemLimit: 20
+
+World:
+	MapOptions:
+		ViewportHeight: 35c0

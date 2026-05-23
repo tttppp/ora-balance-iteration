@@ -64,6 +64,12 @@
 		Position: TopLeft
 		ValidRelationships: Ally, Enemy, Neutral
 
+E6:
+	Infiltrates:
+		Types: Husk
+		ValidRelationships: Ally
+		EnterCursor: goldwrench
+
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
 
@@ -76,32 +82,93 @@ SPY:
 			e7: tanyadisguise
 
 MGG:
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
 	WithIdleOverlay@SPINNER:
-		PauseOnCondition: undeployed
+		PauseOnCondition: !deployed && !attacking
 	CreatesShroud:
-		RequiresCondition: !undeployed
+		RequiresCondition: deployed || attacking
 	GrantConditionOnDeploy:
-		DeployedCondition: undeployed
+		DeployedCondition: deployed
+	AttackTurreted:
+		TargetLineColor: 00FFFF80
+	Turreted:
+	Armament:
+		Weapon: MGGDummyGun
+		Cursor: ability
+		OutsideRangeCursor: ability
+	GrantConditionOnAttack:
+		Condition: attacking
+		RevokeDelay: 125
+	RenderShroudCircle:
+		RequiresCondition: deployed || attacking
 
 MIG:
 	Health:
-		HP: 10000
+		HP: 11000
 
 TSLA:
+	Buildable:
+		Prerequisites: ~!structures.russia, weap, ~structures.soviet, ~techlevel.medium
 	DetectCloaked:
 		DetectionTypes: Cloak, Underwater
 
+TSLA.Russia:
+	Inherits: TSLA
+	Buildable:
+		Prerequisites: ~structures.russia, weap, ~structures.soviet, ~techlevel.medium
+		Description: actor-tsla-russia.description
+	Tooltip:
+		Name: actor-tsla-russia.name
+	Armament:
+		Weapon: RussianTeslaZap
+		LocalOffset: 0,0,896
+	AttackTesla:
+		MaxCharges: 6
+	RenderSprites:
+		Image: tsla
+	ProvidesPrerequisite@tsla:
+		Prerequisite: tsla
+
 PBOX:
+	Buildable:
+		Prerequisites: ~!structures.england, tent, ~structures.allies, ~techlevel.low
 	DetectCloaked:
 		DetectionTypes: Cloak, Underwater
 
 HBOX:
+	Buildable:
+		Prerequisites: ~structures.england, tent, ~structures.allies, ~techlevel.low
+	DetectCloaked:
+		DetectionTypes: Cloak, Underwater
+	Valued:
+		Cost: 600
+	CustomSellValue:
+		Value: 400
+	Cargo:
+		PassengerConditions:
+			e3: RocketSoldier
+	WithRangeCircle@ROCKETSOLDIER:
+		Color: FFFF0080
+		Range: 5c0
+		RequiresCondition: RocketSoldier
+
+GUN:
+	Buildable:
+		Prerequisites: ~!structures.france, tent, ~structures.allies, ~techlevel.medium
 	DetectCloaked:
 		DetectionTypes: Cloak, Underwater
 
-GUN:
-	DetectCloaked:
-		DetectionTypes: Cloak, Underwater
+GUN.France:
+	Inherits: GUN
+	Buildable:
+		Prerequisites: ~structures.france, tent, dome, ~structures.allies, ~techlevel.medium
+		Description: actor-gun-france.description
+	Tooltip:
+		Name: actor-gun-france.name
+	Armament:
+		Weapon: TurretGunFrance
+	RenderSprites:
+		Image: gun
 
 FTUR:
 	DetectCloaked:
@@ -249,9 +316,14 @@ powergps:
 	KillsSelf:
 		RequiresCondition: !uplinkexists
 
+PDOX:
+	-ChronoshiftPower@chronoshift:
+	ChronoshiftPower@advancedchronoshift:
+		-Prerequisites:
+
 MSLO:
 	NukePower:
-		ChargeInterval: 10500
+		ChargeInterval: 9000
 	Power:
 		Amount: -200
 
@@ -278,6 +350,8 @@ SS:
 MSUB:
 	Buildable:
 		Prerequisites: ~spen, dome, ~techlevel.high
+	Health:
+		HP: 50000
 	Armor:
 		Type: Steel
 	Mobile:
@@ -366,9 +440,15 @@ SONAR:
 		Range: 10c0
 		Type: CenterPosition
 
+JEEP:
+	Health:
+		HP: 16000
+
 1TNK:
 	Mobile:
 		Speed: 103
+	Armament:
+		PauseOnCondition: parachute
 	SpawnActorOnDeath:
 		Actor: 1TNK.Husk
 
@@ -390,6 +470,8 @@ HARV:
 		SearchFromProcRadius: 9
 
 TTNK:
+	Buildable:
+		Prerequisites: ~tsla, stek, ~vehicles.russia, ~techlevel.high
 	Mobile:
 		TurnSpeed: 35
 	-AttackTurreted:
@@ -411,6 +493,53 @@ SPY.England:
 	Infiltrates:
 		Types: SPY.England.Infiltrate, SpyInfiltrate
 
+MECH:
+	Buildable:
+		Prerequisites: ~!infantry.germany, ~tent, fix, ~techlevel.medium
+
+MECH.Germany:
+	Inherits: MECH
+	Buildable:
+		Prerequisites: ~infantry.germany, ~tent, fix, ~techlevel.medium
+		Description: actor-mech-germany.description
+	Tooltip:
+		Name: actor-mech-germany.name
+	Armament:
+		Weapon: RepairGermany
+	RenderSprites:
+		Image: mech
+
+SHOK:
+	Buildable:
+		Prerequisites: ~barr, dome, ~tsla, ~infantry.russia, ~techlevel.medium
+
+KENN:
+	ProvidesPrerequisite@ukraine:
+		Factions: ukraine
+		Prerequisite: dogs.ukraine
+
+DOG:
+	Buildable:
+		Prerequisites: ~!dogs.ukraine, ~kenn, ~techlevel.infonly
+
+DOG.Ukraine:
+	Inherits: DOG
+	Buildable:
+		Prerequisites: ~dogs.ukraine, ~kenn, ~techlevel.infonly
+		Description: actor-dog-ukraine.description
+	Tooltip:
+		Name: actor-dog-ukraine.name
+	GrantConditionOnDeploy:
+		DeployedCondition: triggered
+	KillsSelf:
+		RequiresCondition: triggered
+	FireWarheadsOnDeath:
+		Weapon: UnitExplodeHeli
+		EmptyWeapon: UnitExplodeHeli
+		DamageSource: Killer
+	RenderSprites:
+		Image: dog
+
 WEAP:
 	InfiltrateForSupportPower:
 		Types: SPY.England.Infiltrate
@@ -422,6 +551,29 @@ HPAD:
 		Types: SPY.England.Infiltrate
 	Targetable:
 		TargetTypes: GroundActor, C4, DetonateAttack, Structure, SPY.England.Infiltrate
+	ParatroopersPower@tankdrop:
+		OrderName: TankDrop
+		Prerequisites: aircraft.germany
+		Icon: paratroopers
+		ChargeInterval: 7500
+		Name: actor-hpad.paratrooperspower-tankdrop-name
+		Description: actor-hpad.paratrooperspower-tankdrop-description
+		DropItems: 1TNK, 1TNK
+		ReinforcementsArrivedSpeechNotification: ReinforcementsArrived
+		SelectTargetSpeechNotification: SelectTarget
+		ReinforcementsArrivedTextNotification: notification-reinforcements-have-arrived
+		SelectTargetTextNotification: notification-select-target
+		AllowImpassableCells: false
+		QuantizedFacings: 8
+		CameraActor: camera.paradrop
+		DisplayBeacon: true
+		BeaconPoster: pinficon
+		ArrowSequence: arrow
+		ClockSequence: clock
+		CircleSequence: circles
+		UseDirectionalTarget: True
+		DirectionArrowAnimation: paradirection
+		SupportPowerPaletteOrder: 50
 
 AFLD.Ukraine:
 	InfiltrateForSupportPower:
@@ -444,3 +596,51 @@ TENT:
 SILO:
 	GivesBuildableArea:
 		AreaTypes: building, fake
+
+TRUK:
+	Inherits@CARGOPIPS: ^CargoPips
+	Inherits@selection: ^SelectableCombatUnit
+	Health:
+		HP: 17000
+	Cargo:
+		Types: Infantry
+		MaxWeight: 6
+		LoadingCondition: notmobile
+	Mobile:
+		PauseOnCondition: notmobile || being-captured
+
+QTNK:
+	WithColoredOverlay@IRONCURTAIN:
+		RequiresCondition: invulnerability && !deployed
+	DamageMultiplier@IRONCURTAIN:
+		RequiresCondition: invulnerability && !deployed
+	TimedConditionBar:
+		Condition: invulnerability && !deployed
+	ExternalCondition@INVULNERABILITY:
+		RequiresCondition: !deployed
+	-Chronoshiftable:
+	FireWarheads:
+		Weapons: MADTankThump
+		Interval: 25
+		StartCooldown: 5
+		RequiresCondition: deployed
+	FireWarheads@2:
+		Weapons: MADTankDetonate2
+		Interval: 64
+		StartCooldown: 5
+		RequiresCondition: deployed
+	Mobile:
+		PauseOnCondition: deployed
+	-Passenger:
+	-MadTank:
+	GrantConditionOnDeploy:
+		DeployedCondition: deployed
+	WithFacingSpriteBody:
+		RequiresCondition: !deployed
+	WithFacingSpriteBody@deployed:
+		RequiresCondition: deployed
+		Sequence: piston
+		Name: body2
+	SpawnActorOnDeath:
+		Actor: e1
+		RequiresCondition: deployed

@@ -14,3 +14,7 @@ camera:
 lst:
 	Defaults:
 		Scale: 1.25
+
+qtnk:
+	piston:
+		Tick: 130
