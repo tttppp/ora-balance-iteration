@@ -22,6 +22,16 @@ World:
 		SeparateTeamSpawnsCheckboxLocked: false
 	TimeLimitManager:
 		TimeLimitLocked: True
+	Faction@england:
+		Description: faction-england-override.description
+	Faction@france:
+		Description: faction-france-override.description
+	Faction@germany:
+		Description: faction-germany-override.description
+	Faction@russia:
+		Description: faction-russia-override.description
+	Faction@ukraine:
+		Description: faction-ukraine-override.description
 
 Player:
 	Shroud:
