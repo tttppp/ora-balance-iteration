@@ -65,6 +65,8 @@
 		ValidRelationships: Ally, Enemy, Neutral
 
 E6:
+	Buildable:
+		Description: actor-e6-override.description
 	Infiltrates:
 		Types: Husk
 		ValidRelationships: Ally
@@ -610,14 +612,10 @@ TRUK:
 		PauseOnCondition: notmobile || being-captured
 
 QTNK:
-	WithColoredOverlay@IRONCURTAIN:
-		RequiresCondition: invulnerability && !deployed
-	DamageMultiplier@IRONCURTAIN:
-		RequiresCondition: invulnerability && !deployed
-	TimedConditionBar:
-		Condition: invulnerability && !deployed
-	ExternalCondition@INVULNERABILITY:
-		RequiresCondition: !deployed
+	-WithColoredOverlay@IRONCURTAIN:
+	-DamageMultiplier@IRONCURTAIN:
+	-TimedConditionBar:
+	-ExternalCondition@INVULNERABILITY:
 	-Chronoshiftable:
 	FireWarheads:
 		Weapons: MADTankThump
@@ -630,7 +628,7 @@ QTNK:
 		StartCooldown: 5
 		RequiresCondition: deployed
 	Mobile:
-		PauseOnCondition: deployed
+		PauseOnCondition: deployed || being-captured
 	-Passenger:
 	-MadTank:
 	GrantConditionOnDeploy:

@@ -17,7 +17,7 @@ actor-hpad =
     .paratrooperspower-tankdrop-description = A Badger drops two light tanks
     at the selected location.
 
-actor-e6 =
+actor-e6-override =
     .description =
     Captures enemy structures and
     infiltrates allied husks to
@@ -57,31 +57,31 @@ actor-dog-ukraine =
       Strong vs Infantry
       Weak vs Vehicles and Aircraft
 
-faction-england =
+faction-england-override =
     .description = England: Counterintelligence
      Special Unit: Camo Pillbox
      Special Unit: British Spy
      Special Unit: Mobile Gap Generator
 
-faction-france =
+faction-france-override =
     .description = France: Deception
      Special Ability: Can build fake structures
      Special Unit: French Turret
      Special Unit: Phase Transport
 
-faction-germany =
+faction-germany-override =
     .description = Germany: Chronoshift Technology
      Special Unit: German Mechanic
      Special Ability: Tank Drop
      Special Unit: Chrono Tank
 
-faction-russia =
+faction-russia-override =
     .description = Russia: Tesla Weapons
      Special Unit: Russian Teslacoil
      Special Unit: Shock Trooper
      Special Unit: Tesla Tank
 
-faction-ukraine =
+faction-ukraine-override =
     .description = Ukraine: Demolitions
      Special Unit: Ukrainian Dog
      Special Ability: Parabombs
