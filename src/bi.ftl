@@ -89,11 +89,12 @@ faction-ukraine =
 
 ## bi-briefing-rules.yaml
 briefing =
-    ••• Balance Iteration 5.0 •••
+    ••• Balance Iteration 5.0R •••
 
     - Credits for various things: The Combined Arms Mod, Blackened, FRenzy, Orb, Pinkthoth, Punsho, TTTPPP, Widow and probably many others
     - Custom BI 5.0 balance:
       • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
+      • RAGL viewport and queue limits
 
       • Tanya got a skull icon
       • Spy added skull icon when disguised as Tanya
