@@ -6,6 +6,14 @@ pips:
 icon:
 	gpsactive:
 		Filename: gpssactiveicon.shp
+	paratank:
+		Filename: tankdropicon.shp
+
+beacon:
+	paratank:
+		Filename: tankdropbeacon.shp
+		Length: *
+		Offset: 0, -42
 
 camera:
 	icon:
