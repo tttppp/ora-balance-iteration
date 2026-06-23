@@ -576,7 +576,7 @@ HPAD:
 	ParatroopersPower@tankdrop:
 		OrderName: TankDrop
 		Prerequisites: aircraft.germany
-		Icon: paratroopers
+		Icon: paratank
 		ChargeInterval: 6000
 		Name: actor-hpad.paratrooperspower-tankdrop-name
 		Description: actor-hpad.paratrooperspower-tankdrop-description
@@ -589,7 +589,7 @@ HPAD:
 		QuantizedFacings: 8
 		CameraActor: camera.paradrop
 		DisplayBeacon: true
-		BeaconPoster: pinficon
+		BeaconPoster: paratank
 		ArrowSequence: arrow
 		ClockSequence: clock
 		CircleSequence: circles
@@ -693,3 +693,11 @@ E4:
 THF:
 	Valued:
 		Cost: 250
+
+MH60:
+	Aircraft:
+		Speed: 113
+
+HIND:
+	Aircraft:
+		Speed: 113
