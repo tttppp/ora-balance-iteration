@@ -1,6 +1,40 @@
 ^Infantry:
+	ExternalCondition@MGGSLOWED:
+		Condition: mgg-slowed
 	DetectCloaked:
 		DetectionTypes: Underwater, Cloak
+	SpeedMultiplier:
+		Modifier: 55
+		RequiresCondition: mgg-slowed
+
+^Vehicle:
+	ExternalCondition@MGGSLOWED:
+		Condition: mgg-slowed
+	Mobile:
+		PauseOnCondition: being-captured
+	SpeedMultiplier:
+		Modifier: 55
+		RequiresCondition: mgg-slowed
+
+^Plane:
+	ExternalCondition@MGGSLOWED:
+		Condition: mgg-slowed
+	SpeedMultiplier:
+		Modifier: 55
+		RequiresCondition: mgg-slowed
+
+^Ship:
+	ExternalCondition@MGGSLOWED:
+		Condition: mgg-slowed
+	SpeedMultiplier:
+		Modifier: 55
+		RequiresCondition: mgg-slowed
+
+^FakeBuilding:
+	FireWarheadsOnDeath:
+		DamageThreshold: 50
+	RevealsShroud:
+		Range: 4c0
 
 ^GainsExperience:
 	GrantCondition@RANK-ELITE:
@@ -64,14 +98,6 @@
 		Position: TopLeft
 		ValidRelationships: Ally, Enemy, Neutral
 
-E6:
-	Buildable:
-		Description: actor-e6-override.description
-	Infiltrates:
-		Types: Husk
-		ValidRelationships: Ally
-		EnterCursor: goldwrench
-
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
 
@@ -84,29 +110,27 @@ SPY:
 			e7: tanyadisguise
 
 MGG:
-	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
-	WithIdleOverlay@SPINNER:
-		PauseOnCondition: !deployed && !attacking
-	CreatesShroud:
-		RequiresCondition: deployed || attacking
+	Valued:
+		Cost: 900
 	GrantConditionOnDeploy:
 		DeployedCondition: deployed
-	AttackTurreted:
-		TargetLineColor: 00FFFF80
-	Turreted:
-	Armament:
-		Weapon: MGGDummyGun
-		Cursor: ability
-		OutsideRangeCursor: ability
-	GrantConditionOnAttack:
-		Condition: attacking
-		RevokeDelay: 125
+	WithIdleOverlay@SPINNER:
+		PauseOnCondition: !deployed
+	CreatesShroud:
+		RequiresCondition: deployed
 	RenderShroudCircle:
-		RequiresCondition: deployed || attacking
+		RequiresCondition: deployed
+	ProximityExternalCondition:
+		Range: 7c0
+		Condition: mgg-slowed
+		ValidRelationships: Enemy
+		RequiresCondition: deployed
 
-MIG:
-	Health:
-		HP: 11000
+GAP:
+	ProximityExternalCondition:
+		Range: 7c0
+		Condition: mgg-slowed
+		ValidRelationships: Enemy
 
 TSLA:
 	Buildable:
@@ -167,8 +191,14 @@ GUN.France:
 		Description: actor-gun-france.description
 	Tooltip:
 		Name: actor-gun-france.name
+	Valued:
+		Cost: 1000
+	Power:
+		Amount: -60
 	Armament:
 		Weapon: TurretGunFrance
+	Turreted:
+		TurnSpeed: 12
 	RenderSprites:
 		Image: gun
 
@@ -447,8 +477,6 @@ JEEP:
 		HP: 16000
 
 1TNK:
-	Mobile:
-		Speed: 103
 	Armament:
 		PauseOnCondition: parachute
 	SpawnActorOnDeath:
@@ -471,20 +499,6 @@ HARV:
 	Harvester:
 		SearchFromProcRadius: 9
 
-TTNK:
-	Buildable:
-		Prerequisites: ~tsla, stek, ~vehicles.russia, ~techlevel.high
-	Mobile:
-		TurnSpeed: 35
-	-AttackTurreted:
-	-Turreted:
-	AttackFrontal:
-		FacingTolerance: 512
-	RevealsShroud:
-		MinRange: 5c0
-	RevealsShroud@GAPGEN:
-		Range: 5c0
-
 4TNK:
 	Mobile:
 		Speed: 50
@@ -498,6 +512,12 @@ SPY.England:
 MECH:
 	Buildable:
 		Prerequisites: ~!infantry.germany, ~tent, fix, ~techlevel.medium
+		Description: actor-mech-override.description
+	Valued:
+		Cost: 250
+	-Infiltrates:
+	-CaptureManager:
+	-Captures:
 
 MECH.Germany:
 	Inherits: MECH
@@ -506,41 +526,20 @@ MECH.Germany:
 		Description: actor-mech-germany.description
 	Tooltip:
 		Name: actor-mech-germany.name
-	Armament:
-		Weapon: RepairGermany
+	CaptureManager:
+	Captures:
+		CaptureTypes: husk
+		PlayerExperience: 10
+	Infiltrates:
+		Types: Husk
+		ValidRelationships: Ally
+		EnterCursor: goldwrench
 	RenderSprites:
 		Image: mech
 
 SHOK:
 	Buildable:
-		Prerequisites: ~barr, dome, ~tsla, ~infantry.russia, ~techlevel.medium
-
-KENN:
-	ProvidesPrerequisite@ukraine:
-		Factions: ukraine
-		Prerequisite: dogs.ukraine
-
-DOG:
-	Buildable:
-		Prerequisites: ~!dogs.ukraine, ~kenn, ~techlevel.infonly
-
-DOG.Ukraine:
-	Inherits: DOG
-	Buildable:
-		Prerequisites: ~dogs.ukraine, ~kenn, ~techlevel.infonly
-		Description: actor-dog-ukraine.description
-	Tooltip:
-		Name: actor-dog-ukraine.name
-	GrantConditionOnDeploy:
-		DeployedCondition: triggered
-	KillsSelf:
-		RequiresCondition: triggered
-	FireWarheadsOnDeath:
-		Weapon: UnitExplodeHeli
-		EmptyWeapon: UnitExplodeHeli
-		DamageSource: Killer
-	RenderSprites:
-		Image: dog
+		Prerequisites: ~barr, dome, tsla, ~infantry.russia, ~techlevel.medium
 
 WEAP:
 	InfiltrateForSupportPower:
@@ -556,8 +555,8 @@ HPAD:
 	ParatroopersPower@tankdrop:
 		OrderName: TankDrop
 		Prerequisites: aircraft.germany
-		Icon: paratroopers
-		ChargeInterval: 7500
+		Icon: paratank
+		ChargeInterval: 6000
 		Name: actor-hpad.paratrooperspower-tankdrop-name
 		Description: actor-hpad.paratrooperspower-tankdrop-description
 		DropItems: 1TNK, 1TNK
@@ -569,13 +568,19 @@ HPAD:
 		QuantizedFacings: 8
 		CameraActor: camera.paradrop
 		DisplayBeacon: true
-		BeaconPoster: pinficon
+		BeaconPoster: paratank
 		ArrowSequence: arrow
 		ClockSequence: clock
 		CircleSequence: circles
 		UseDirectionalTarget: True
 		DirectionArrowAnimation: paradirection
 		SupportPowerPaletteOrder: 50
+
+AFLD:
+	ParatroopersPower@paratroopers:
+		ChargeInterval: 6000
+	AirstrikePower@parabombs:
+		ChargeInterval: 6000
 
 AFLD.Ukraine:
 	InfiltrateForSupportPower:
@@ -611,15 +616,41 @@ TRUK:
 	Mobile:
 		PauseOnCondition: notmobile || being-captured
 
+CTNK:
+	Inherits@AUTOTARGET: ^AutoTargetAll
+	Mobile:
+		Locomotor: wheeled
+		TurnSpeed: 30
+	PortableChrono:
+		ChargeDelay: 180
+		MaxDistance: 14
+
+TTNK:
+	Buildable:
+		Prerequisites: ~tsla, stek, ~vehicles.russia, ~techlevel.high
+	Mobile:
+		Locomotor: wheeled
+		Speed: 112
+		TurnSpeed: 36
+	Health:
+		HP: 30000
+	RevealsShroud:
+		MinRange: 5c0
+	RevealsShroud@GAPGEN:
+		Range: 5c0
+
+STNK:
+	Inherits@AUTOTARGET: ^AutoTargetAll
+
 QTNK:
-	-WithColoredOverlay@IRONCURTAIN:
-	-DamageMultiplier@IRONCURTAIN:
-	-TimedConditionBar:
-	-ExternalCondition@INVULNERABILITY:
-	-Chronoshiftable:
+	Valued:
+		Cost: 1750
+	Mobile:
+		Speed: 56
+		PauseOnCondition: deployed || being-captured
 	FireWarheads:
 		Weapons: MADTankThump
-		Interval: 25
+		Interval: 15
 		StartCooldown: 5
 		RequiresCondition: deployed
 	FireWarheads@2:
@@ -627,8 +658,6 @@ QTNK:
 		Interval: 64
 		StartCooldown: 5
 		RequiresCondition: deployed
-	Mobile:
-		PauseOnCondition: deployed || being-captured
 	-Passenger:
 	-MadTank:
 	GrantConditionOnDeploy:
@@ -639,6 +668,29 @@ QTNK:
 		RequiresCondition: deployed
 		Sequence: piston
 		Name: body2
+	WithRangeCircle:
+		Color: FFFF0080
+		Range: 9c0
 	SpawnActorOnDeath:
 		Actor: e1
 		RequiresCondition: deployed
+
+E4:
+	Buildable:
+		Prerequisites: ~structures.ukraine, ~barr, ftur, ~techlevel.low
+	Valued:
+		Cost: 250
+	Health:
+		HP: 5000
+
+THF:
+	Valued:
+		Cost: 250
+
+MH60:
+	Aircraft:
+		Speed: 113
+
+MIG:
+	Health:
+		HP: 11000

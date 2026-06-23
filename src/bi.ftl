@@ -14,14 +14,12 @@ actor-1tnk-husk-name = Husk (Light Tank)
 
 actor-hpad =
     .paratrooperspower-tankdrop-name = Tank Drop
-    .paratrooperspower-tankdrop-description = A Badger drops two light tanks
+    .paratrooperspower-tankdrop-description = A Badger drops two Light Tanks
     at the selected location.
 
 actor-e6-override =
     .description =
-    Captures enemy structures and
-    infiltrates allied husks to
-    recover them.
+    Infiltrates and captures enemy structures.
       Unarmed
 
 actor-gun-france =
@@ -32,10 +30,15 @@ actor-gun-france =
       Strong vs Vehicles
       Weak vs Infantry and Aircraft
 
+actor-mech-override =
+    .description =
+    Repairs nearby vehicles.
+      Unarmed
+
 actor-mech-germany =
     .name = German Mechanic
     .description =
-    Quickly repairs nearby vehicles and restores husks
+    Repairs nearby vehicles and restores husks
     to working condition by capturing them.
       Unarmed
 
@@ -48,14 +51,6 @@ actor-tsla-russia =
     Can detect cloaked units.
       Strong vs Vehicles and Infantry
       Weak vs Aircraft
-
-actor-dog-ukraine =
-    .name = Ukrainian Attack Dog
-    .description =
-    Anti-infantry unit which can be deployed to detonate.
-    Can detect spies.
-      Strong vs Infantry
-      Weak vs Vehicles and Aircraft
 
 faction-england-override =
     .description = England: Counterintelligence
@@ -70,77 +65,86 @@ faction-france-override =
      Special Unit: Phase Transport
 
 faction-germany-override =
-    .description = Germany: Chronoshift Technology
+    .description = Germany: Advanced Technology
      Special Unit: German Mechanic
      Special Ability: Tank Drop
      Special Unit: Chrono Tank
 
 faction-russia-override =
     .description = Russia: Tesla Weapons
-     Special Unit: Russian Teslacoil
+     Special Unit: Russian Tesla Coil
      Special Unit: Shock Trooper
      Special Unit: Tesla Tank
 
 faction-ukraine-override =
     .description = Ukraine: Demolitions
-     Special Unit: Ukrainian Dog
+     Special Unit: Flamethrower
      Special Ability: Parabombs
      Special Unit: Demolition Truck
 
 ## bi-briefing-rules.yaml
-briefing =
-    ••• Balance Iteration 5.0R •••
+briefing = ### Balance Iteration 5.1 ###
+    - Credits for various assets: The Combined Arms Mod, Blackened, FRenzy, Orb, Pinkthoth, Punsho, TTTPPP, Widow and probably many others
 
-    - Credits for various things: The Combined Arms Mod, Blackened, FRenzy, Orb, Pinkthoth, Punsho, TTTPPP, Widow and probably many others
-    - Custom BI 5.0 balance:
-      • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
-      • RAGL viewport and queue limits
+    - Custom BI 5.1 balance:
+      • General changes
+        • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
+        • Viewport size limited to 35c0 height (down from unrestricted)
+        • Veterancy is now a 3-tier system with no speed bonuses
+        • Harvester scanning radius 9c0 from ref (down from 15c0 from ref)
 
-      • Tanya got a skull icon
-      • Spy added skull icon when disguised as Tanya
-      • Only British spy can get veterancy from infiltrations and it's limited to 3 mins
-      • GPS charge time 3 mins (down from 8 mins), when fired units revealed for 1 min, then 3 mins to recharge, global timer only when used
-      • Parabomb wood damage 50 (down from 60)
-      • Naval have steel armour type (Tank/infantry damage down, missile/artillery damage up)
-      • Sonar pulse available on tech center infiltration
-      • Sonar pulse reveals shroud 10c0, detects subs, must be targetted on water
-      • Infantry and ground defences have sub detection
-      • Subs can be damaged while underwater, surface upon taking damage
-      • Spyplane reveals subs
-      • Ships only autotarget subs if they have torpedoes or depthcharges.
-      • Subs cost 750 (down from 950), have turreted attack, Turnspeed 24 (up from 16), Speed 85 (up from 78), Cloak delay 20 (down from 50)
-      • Torpedoes no longer seek. Speed 140 (up from 85), spread 320 (down from 426), wood damage 35 (down from 75), Steel damage 65
-      • Missile Sub tier 2 (down from tier 3), Turnspeed 16 (up from 12), cloak delay 20 (down from 100), Detect Cloak 7c0 (up from 4c0), HP 50000 (up from 40000)
-      • Missile Sub Missile reload delay 250 (down from 300), none damage 80 (up from 40), light damage 48 (up from 30), heavy damage 38 (up from 30), steel damage 48, speed 215 (up from 162)
-      • Gunboat speed 128 (down from 142), turnspeed 24 (down from 28)
-      • 2inch damage 3500 (up from 2500), steel damage 105, speed 682 (up from 426), range 5c0 (up from 4c768)
-      • Gunboat Depthcharge reload delay 100 (up from 60), range 6c0 (up from 5c0), speed 148 (up from 125), inaccuracy 1c0 (up from 0c128)
-      • Destroyer turnspeed 24 (down from 28), detect cloak 3c0 (down from 4c0)
-      • Stinger wood damage 66 (down from 88), light damage 66 (down from 88), heavy damage 100 (down from 120), steel damage 100, range 8c0 (up from 7c512)
-      • StingerAA damage 1450 (down from 2500)
-      • Destroyer depth charge burst 3 (up from 1), reload delay 150 (up from 60)
-      • 8inch none damage 100 (up from 60), light damage 75 (up from 35), heavy damage 35 (up from 25), steel damage 40, speed 215 (up from 204)
-      • Transport capacity 10 (up from 5), •••no weight restrictions•••
-      • Sub pen/Shipyard cost 600 (down from 800/1000), health 75000 (down from 100000)
-      • Fake Sub pen/Shipyard cost 60 (down from 80/100)
-      • Harvester scanning to 9 from ref, 8 from harv (down from 15 from ref, 8 from harv)
-      • Tesla tank turn speed 35 (up from 20), only fire when stopped, gap gen vision 5c0 (down from 6c0)
-      • Silo now has build radius
-      • Mammoth speed 50 (up from 43)
-      • Missile Silo charge 6 minutes (down from 9 minutes), power 200 (up from 150)
-      • Mig HP 11000 (up from 8000)
-      • Ranger HP 16000 (up from 15000)
-      • Light tank speed 103 (down from 113), husk left on death
-      • Veterancy overhaul - three levels (down from four), speed no longer affected, infantry affected much less than other units
-      • MGG can be turned off and has dummy weapon to prevent diving
-      • Supply Truck can carry six units
-      • Engineer can recover husks of own team
-      • MAD Tank can't be iron curtained, chronoshifted or transported, can be redeployed and has a damage and range increase
-      • All Allies get Advanced Chronoshift
-      • England has camo pillbox rather than regular pillbox as a faction bonus, cost 600 (down from 750)
-      • French Turret requires radar dome, range 9c0 (up from 6c512), damage 15000 (up from 6000), reload delay 45 (up from 30)
-      • German Mechanic repairs 4000 (up from 2000)
-      • German tank drop support power with helipad
-      • Russia has an improved teslacoil that can zap 6 infantry in a row
-      • Shock Trooper moved to Radar tech with reload delay of 100 (up from 70), damage vs heavy 70 (up from 60)
-      • Ukrainian Dog has a detonate option
+      • Blackend's Naval Balance:
+        • Naval units have steel armour type (tank/infantry damage down, missile/artillery damage up)
+        • Sonar pulse available on tech center infiltration
+        • Sonar pulse reveals shroud 10c0, detects subs, must be targetted on water
+        • Infantry and ground defences have sub detection
+        • Subs can be damaged while underwater, surface upon taking damage
+        • Spy Plane reveals subs
+        • Ships only autotarget subs if they have torpedoes or depthcharges.
+        • Subs cost 750 (down from 950), have turreted attack, Turnspeed 24 (up from 16), Speed 85 (up from 78), Cloak delay 20 (down from 50)
+        • Torpedoes no longer seek. Speed 140 (up from 85), spread 320 (down from 426), wood damage 35 (down from 75), Steel damage 65
+        • Missile Sub tier 2 (down from tier 3), Turnspeed 16 (up from 12), cloak delay 20 (down from 100), Detect Cloak 7c0 (up from 4c0), HP 50000 (up from 40000)
+        • Missile Sub Missile reload delay 250 (down from 300), none damage 80 (up from 40), light damage 48 (up from 30), heavy damage 38 (up from 30), steel damage 48, speed 215 (up from 162)
+        • Gunboat speed 128 (down from 142), turnspeed 24 (down from 28)
+        • 2inch damage 3500 (up from 2500), steel damage 105, speed 682 (up from 426), range 5c0 (up from 4c768)
+        • Gunboat Depthcharge reload delay 100 (up from 60), range 6c0 (up from 5c0), speed 148 (up from 125), inaccuracy 1c0 (up from 0c128)
+        • Destroyer turnspeed 24 (down from 28), detect cloak 3c0 (down from 4c0)
+        • Stinger wood damage 66 (down from 88), light damage 66 (down from 88), heavy damage 100 (down from 120), steel damage 100, range 8c0 (up from 7c512)
+        • StingerAA damage 1450 (down from 2500)
+        • Destroyer depth charge burst 3 (up from 1), reload delay 150 (up from 60)
+        • 8inch none damage 100 (up from 60), light damage 75 (up from 35), heavy damage 35 (up from 25), steel damage 40, speed 215 (up from 204)
+        • Transport capacity 10 (up from 5)
+        • Sub pen/Shipyard cost 600 (down from 800/1000), health 75000 (down from 100000)
+        • Fake Sub pen/Shipyard cost 60 (down from 80/100)
+      
+      • T1 changes:
+        • Rifleman light damage 30 (down from 40)
+        • Technician light damage 30 (down from 40)
+        • Silo has build radius
+        • Fake buildings health 50% of original (up from 30%), vision 4c0 (up from 1c0)
+        • Mechanic cost 250 (down from 500), can no longer capture husks
+        • German Mechanic same as Mechanic, can capture husks, repairs at same rate as standard mechanic
+        • Flamethrower built only by Ukraine, cost 250 (down from 300), health 5000 (up from 4000)
+
+      • T2 changes
+        • Spy can no loger get veterancy from infiltrations
+        • British Spy cost 500 (up from 250)
+        • Blackhawk speed 113 (up from 112)
+        • French Turret same as Turret, cost 1000 (up from 800), power 60 (up from 40), damage 23000 (up from 4000), spread 256 (up from 128), falloff [100, 51, 37, 14, 5, 0] (from [100, 37, 14, 5, 0]), range 7c0 (up from 6c512), turn speed 12 (down from 48), reload delay 75 (up from 30), bullet speed 300 (down from 682)
+        • German Tank Drop cooldown 4min (down from 5min in BI-5.0)
+        • Paradrop cooldown 4min (down from 5min)
+        • Parabomb cooldown 4min (down from 5min), wood damage 50 (down from 60)
+        • Thief cost 250 (down from 500)
+        • Shock Trooper damage 2000 (down from 4500), 2 bursts with delay 6 (up from 1 burst), reload delay 160 (up from 70)
+      
+      • T3 changes
+        • Tanya has a skull icon
+        • Gap Generator slows all enemy units in shroud to 55%
+        • GPS no longer permanent, recharge time 3min (down from 8min), can be activiated for 1min, has globally-visibile timer only when used
+        • Longbow anti-ground reload delay 28 (down from 30)
+        • Mobile Gap Generator cost 900 (down from 1000), slows enemy units in shroud to 55%
+        • Phase Transport can target air, burst 2 (up from 1), reload delay 160 (from 100), light damage 50 (up from 34), missile speed 348 (up from 298), missile turn rate 57 (up from 40)
+        • Chrono Tank can target air, turn speed 30 (up from 20), chronoshift cooldown 180 (down from 240), chronoshift range 14 (up from 12), light damage 50 (up from 34), cannot crush infantry, missile speed 348 (up from 298), missile turn rate 57 (up from 40)
+        • Mammoth speed 50 (up from 43)
+        • MAD Tank cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)
+        • Tesla Tank speed 112 (up from 92), turn speed 36 (up from 20 in release, 35 in BI-4.6), health 30000 (down from 40000), heavy damage 150 (up from 100), cannot crush infantry, not affected by facing tolerance, vision in Gap Generator shroud 5c0 (down from 6c0)

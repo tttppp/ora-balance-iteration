@@ -6,6 +6,7 @@
 ^LightMG:
 	Warhead@1Dam: SpreadDamage
 		Versus:
+			Light: 30
 			Steel: 10
 
 ^Artillery:
@@ -105,15 +106,14 @@ ChainGun.Yak:
 
 TurretGunFrance:
 	Inherits: TurretGun
-	ReloadDelay: 45
-	Range: 9c0
+	ReloadDelay: 75
+	Range: 7c0
 	Warhead@1Dam: SpreadDamage
-		Damage: 12000
-
-RepairGermany:
-	Inherits: Repair
-	Warhead@2Dam: SpreadDamage
-		Damage: -4000
+		Spread: 0c256
+		Falloff: 100, 51, 37, 14, 5, 0
+		Damage: 23000
+	Projectile: Bullet
+		Speed: 300
 
 Grenade:
 	Warhead@1Dam: SpreadDamage
@@ -144,6 +144,7 @@ Maverick:
 			Steel: 115
 
 HellfireAG:
+	ReloadDelay: 28
 	Warhead@1Dam: SpreadDamage
 		Versus:
 			Steel: 105
@@ -197,11 +198,11 @@ RussianTeslaZap:
 		Damage: 5000
 
 PortaTesla:
-	ReloadDelay: 100
+	ReloadDelay: 160
+	Burst: 2
+	BurstDelays: 6
 	Warhead@1Dam: SpreadDamage
-		Versus:
-			Heavy: 70
-			Steel: 60
+		Damage: 2000
 
 Claw:
 	Warhead@1Dam: SpreadDamage
@@ -226,12 +227,18 @@ MADTankThump:
 		Damage: 2
 		ValidTargets: MADTank
 		ValidRelationships: Ally
-		AffectsParent: True
-	Warhead@1Dam: HealthPercentageDamage
-		Spread: 14c0
-		Damage: 2
+		AffectsParent: true
+	Warhead@1Dam: SpreadDamage
+		Damage: 4000
+		Range: 8c1023, 9c0, 9c1
+		Falloff: 100, 100, 0
+		Versus:
+			None: 0
+			Wood: 25
+			Light: 100
+			Heavy: 100
 	Warhead@DamInf1: SpreadDamage
-		Spread: 7c0
+		Spread: 9c0
 		Damage: 2
 		ValidTargets: Infantry
 		Versus:
@@ -240,7 +247,7 @@ MADTankThump:
 		DamageTypes: TriggerProne, BulletDeath
 		ValidRelationships: Ally, Neutral, Enemy
 	Warhead@DamInf2: SpreadDamage
-		Spread: 7c0
+		Spread: 9c0
 		Damage: -2
 		ValidTargets: Infantry
 		Versus:
@@ -254,11 +261,38 @@ MADTankDetonate2:
 	InvalidTargets: MADTank, Infantry
 	Warhead@2Smu: LeaveSmudge
 		SmudgeType: Crater
-		Size: 7,6
+		Size: 8, 7
 
-MGGDummyGun:
-	ValidTargets: Infantry, Vehicle, AirborneActor, WaterActor, Structure
-	Range: 6c0
+MGGSlowdown:
+	ValidTargets: Infantry, Vehicle, WaterActor
+	CanTargetSelf: true
+	ReloadDelay: 1
+	Range: 0c1
 	Projectile: InstantHit
-	Warhead@1Dam: TargetDamage
-		ValidTargets: Infantry, Vehicle, AirborneActor, WaterActor, Structure
+	Warhead@1Slow: GrantExternalCondition
+		Condition: mgg-slowed
+		Duration: 1
+		Range: 7c0
+		ValidRelationships: Enemy, Ally
+		ValidTargets: Infantry, Vehicle, WaterActor
+
+TTankZap:
+	Warhead@1Dam: SpreadDamage
+		Versus:
+			Heavy: 150
+
+APTusk:
+	ValidTargets: Ground, Water, GroundActor, WaterActor, AirborneActor
+	Warhead@1Dam: SpreadDamage
+		ValidTargets: Ground, Water, GroundActor, WaterActor, AirborneActor
+		Versus:
+			Light: 50
+	Projectile: Missile
+		Speed: 348
+		HorizontalRateOfTurn: 57
+
+APTusk.stnk:
+	Inherits: APTusk
+	ReloadDelay: 160
+	Burst: 2
+	BurstDelays: 10
