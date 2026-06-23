@@ -290,7 +290,6 @@ APTusk:
 		HorizontalRateOfTurn: 57
 
 APTusk.stnk:
-	Inherits: APTusk
 	ReloadDelay: 160
 	Burst: 2
 	BurstDelays: 10
