@@ -10,8 +10,6 @@
 ^Vehicle:
 	ExternalCondition@MGGSLOWED:
 		Condition: mgg-slowed
-	Mobile:
-		PauseOnCondition: being-captured
 	SpeedMultiplier:
 		Modifier: 55
 		RequiresCondition: mgg-slowed
@@ -676,7 +674,6 @@ QTNK:
 		Sequence: piston
 		Name: body2
 	WithRangeCircle:
-		Color: FFFF0080
 		Range: 9c0
 	SpawnActorOnDeath:
 		Actor: e1
