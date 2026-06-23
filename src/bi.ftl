@@ -121,8 +121,9 @@ briefing = ### Balance Iteration 5.1 ###
         • Rifleman light damage 30 (down from 40)
         • Technician light damage 30 (down from 40)
         • Silo has build radius
-        • Fake buildings health 50% of original (up from 30%), vision 4c0 (up from 1c0)
         • Mechanic cost 250 (down from 500), can no longer capture husks
+        • Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
+        • Fake buildings health 50% of original (up from 30%), vision 4c0 (up from 1c0)
         • German Mechanic same as Mechanic, can capture husks, repairs at same rate as standard mechanic
         • Flamethrower built only by Ukraine, cost 250 (down from 300), health 5000 (up from 4000)
 
