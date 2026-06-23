@@ -20,6 +20,22 @@ Another goal is to make subfactions more distinct, which will again lead to
 more diverse compositions. To aid in this we have carved out three bonuses
 per faction, one at each tier.
 
+#### General changes
+##### Viewport limit 35 (down from unrestricted)
+There have been complaints regarding an unfair advantage for players with
+large screens. This attempts to fix that.
+##### Queue limits removed
+Given the sharply negative responses to the tighter queue limits introduced in
+RAEL1, they were nerfed to the point where they no longer present a mechanical
+issue save to the most careless of players. In response to further philosophical
+concerns, they have now been phased out.
+##### Veterancy is now a 3-tier system with no speed bonuses
+Reducing requirements for the highest veterancy tier is motivated by the
+difficulty of getting there. Speed differences in infantry cause many of
+them to run ahead and ruin a surprise attack or die early, thus the speed
+buff was removed. It remains however very useful for vehicles, aircraft,
+and naval units, so they may be added back for those in the future.
+
 #### T1 changes
 ##### Rifleman light damage 30 (down from 40)
 Tesla Tanks and espeically Chrono Tanks have been made nearly useless against
@@ -40,10 +56,11 @@ pillbox. We have taken the opportunity to grant it to England since it fits
 with their theme of counterintelligence. This is genuinely useful as now it
 is harder to tell apart fortified positions from weak ones at a glance.
 ##### Fake buildings health 50% of original (up from 30%), vision 4c0 (up from 1c0)
-There exists two camps of people, one of them arguing for the strength of
-spamming fake power plants as a viable defence, and those who never build
-them. The former camp consists of exactly one person. This change is an
-attempt to make them worth the effort of clicking on the icon to build them.
+There exists two camps of people, one of which recognises fake structures
+as without much purpose and does not utilise them, while the other argues
+for the spamming of fakes as a viable defence and vision wall. The latter
+camp consists of exactly one person. This change is an attempt to make
+them worth the effort of clicking on the icon to build them.
 ##### German Mechanic same as Mechanic, can capture husks
 Husk recovery is a fun and very useful mechanic. As they now come for only
 $250, it seems fair to make them a faction special.
@@ -52,7 +69,7 @@ Flamethrowers are not a bad unit in theory at all, but they are extremely
 under-used in RAGL. Reducing cost, as well as buffing ther health so they are
 in line with other standard infantry should make them slightly more appealing.
 
-##### T2 changes
+#### T2 changes
 ##### Blackhawk speed 113 (up from 112)
 This is a bugfix; it was always meant to have the same speed as Flak Trucks
 and Light Tanks, until an engine change prompted a speed refactor. See
@@ -77,7 +94,7 @@ against unprotected infantry, but even worse in the presence of armour.
 This makes them particularly suited for defence, and should encourage earlier
 T2 transitions for Russia (and as a result across the board).
 
-##### T3 changes
+#### T3 changes
 ##### Gap Generator slows all enemy units in shroud to 55%
 Formerly useless structure might be a little broken now.
 ##### Longbow anti-ground reload delay 28 (down from 30)
