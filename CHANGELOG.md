@@ -1,8 +1,107 @@
 # Change Log
 
-The rationale behind the changes in each release is given in this file, along with
-comments from players to back it up.
+The rationale behind the changes in each release is given in this file,
+along with comments from players to back it up.
 
+## 5.1
+This has been such a large overhaul, with so many aspects differing from BI5.0,
+that we will discuss this release with respect to BI4.6 instead. With that in
+mind, the changes here are in the spirit of BI5.0, that is chiefly to make a
+larger variety of unit compositions possible, as well to remove some units
+from the "meme tier" (such as MAD Tanks). In the current version they may
+be slightly overtuned, but care has been taken to always allow for counterplay.
+
+> Everyone complain about Tier 1.5 but then always makes changes assuming
+> T1.5 is always meta the entire game. Something is "unbalanced" if it kills
+> T1.5
+> —Orb
+
+Another goal is to make subfactions more distinct, which will again lead to
+more diverse compositions. To aid in this we have carved out three bonuses
+per faction, one at each tier.
+
+#### T1 changes
+##### Rifleman light damage 30 (down from 40)
+Tesla Tanks and espeically Chrono Tanks have been made nearly useless against
+infantry; this should be helpful in making them slightly less vulnerable. It
+is possible that the ranger is now a little too strong.
+##### Technician light damage 30 (down from 40)
+Technical detail.
+##### Mechanic cost 250 (down from 500), can no longer capture husks
+Mechanics, cost a hefty sum and are very fragile; they take very long to build
+especially before 7 barracks, they are usually not built for healing vehicles
+as the SD can also repair vehicles cheaply and don't die very easily. Halving
+the cost to a bit over that of a medic should provide incentive to build
+them. However, being able to this cheaply recover vehicles is a little broken,
+especially if all allies can do it while soviets cannot.
+##### Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
+Another underused defense, the cost reduction brings it on par with a regular
+pillbox. We have taken the opportunity to grant it to England since it fits
+with their theme of counterintelligence. This is genuinely useful as now it
+is harder to tell apart fortified positions from weak ones at a glance.
+##### Fake buildings health 50% of original (up from 30%), vision 4c0 (up from 1c0)
+There exists two camps of people, one of them arguing for the strength of
+spamming fake power plants as a viable defence, and those who never build
+them. The former camp consists of exactly one person. This change is an
+attempt to make them worth the effort of clicking on the icon to build them.
+##### German Mechanic same as Mechanic, can capture husks
+Husk recovery is a fun and very useful mechanic. As they now come for only
+$250, it seems fair to make them a faction special.
+##### Flamethrower built only by Ukraine, cost 250 (down from 300), health 5000 (up from 4000)
+Flamethrowers are not a bad unit in theory at all, but they are extremely
+under-used in RAGL. Reducing cost, as well as buffing ther health so they are
+in line with other standard infantry should make them slightly more appealing.
+
+##### T2 changes
+##### Blackhawk speed 113 (up from 112)
+This is a bugfix; it was always meant to have the same speed as Flak Trucks
+and Light Tanks, until an engine change prompted a speed refactor. See
+[this issue](https://github.com/OpenRA/OpenRA/issues/16682).
+##### French Turret same as Turret, cost 1000 (up from 800), power 60 (up from 40), damage 23000 (up from 4000), spread 256 (up from 128), falloff [100, 51, 37, 14, 5, 0] (from [100, 37, 14, 5, 0]), range 7c0 (up from 6c512), turn speed 12 (down from 48), reload delay 75 (up from 30), bullet speed 300 (down from 682)
+Honestly this was probably just a fun addition to fulfil France's T2
+speciality. However, paired with fakes, this significantly enhances
+France's basepushing capabilities.
+##### German Tank Drop cooldown 4min (down from 5min in BI-5.0)
+This was discussed and tested in PBA, where it seemed fairly uncontroversial.
+##### Paradrop cooldown 4min (down from 5min)
+See below.
+##### Parabomb cooldown 4min (down from 5min), wood damage 50 (down from 60)
+There have been multiple calls to un-nerf parabombs from much
+earlier. Additionally, being just one minute faster than a missile silo
+seemed a little silly.
+##### Thief cost 250 (down from 500)
+No one builds them. This might be broken. We will see.
+##### Shock Trooper damage 2000 (down from 4500), 2 bursts with delay 6 (up from 1 burst), reload delay 160 (up from 70)
+After moving them to T2, this change overall makes them much more lethal
+against unprotected infantry, but even worse in the presence of armour.
+This makes them particularly suited for defence, and should encourage earlier
+T2 transitions for Russia (and as a result across the board).
+
+##### T3 changes
+##### Gap Generator slows all enemy units in shroud to 55%
+Formerly useless structure might be a little broken now.
+##### Longbow anti-ground reload delay 28 (down from 30)
+This is purely to make them trade 1-1 with the new AA Chrono Tanks.  Previously
+they would die halfway through a volley leaving the tank on a sliver of health.
+##### Mobile Gap Generator cost 900 (down from 1000), slows enemy units in shroud to 55%
+Formerly useless unit might be a little broken now.
+##### Phase Transport can target air, burst 2 (up from 1), reload delay 160 (from 100), light damage 50 (up from 34), missile speed 348 (up from 298), missile turn rate 57 (up from 40)
+This is to give them a slight possibility for usage as a stealth tank; three
+of them can two-shot a harvester. They have been given anti-air mostly for
+consistency with Chrono Tanks.
+##### Chrono Tank can target air, turn speed 30 (up from 20), chronoshift cooldown 180 (down from 240), chronoshift range 14 (up from 12), light damage 50 (up from 34), cannot crush infantry, missile speed 348 (up from 298), missile turn rate 57 (up from 40)
+AA Chrono Tanks have been discussed for a long time; their usage for harrassment
+has traditinally been severly limited by getting hardcountered by any air
+units. As compensation, chrono-crushing has been removed. To further their
+harrassment capibilities their mobility has also been increased.
+##### MAD Tank cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)
+Formerly useless unit might be a little broken now.
+##### Tesla Tank speed 112 (up from 92), turn speed 36 (up from 20 in release, 35 in BI-4.6), health 30000 (down from 40000), heavy damage 150 (up from 100), cannot crush infantry
+The most annoying issue with Tesla Tanks has always been iron-curtained
+Tesla-Flak balls being unstoppable. The intent of removing crushing is to make
+them into more of a specialised hit-and-run harrassment unit, facilitated
+by greatly increased mobility. Health has been nerfed as compensation. It
+remains to be seen if they are too impractical in the face of enemy air units.
 
 ## 5.0
 
