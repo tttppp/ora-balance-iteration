@@ -50,8 +50,8 @@ They used to get really low even picking off random rifles.
 ##### Light Tank leaves husk
 This nerfs light tank spam builds.
 ##### Mechanic cost 250 (down from 500), can no longer capture husks
-Mechanics, cost a hefty sum and are very fragile; they take very long to build
-especially before 7 barracks, they are usually not built for healing vehicles
+Mechanics cost a hefty sum and are very fragile; they take very long to build
+especially before 7 barracks, and are usually not built for healing vehicles
 as the SD can also repair vehicles cheaply and don't die very easily. Halving
 the cost to a bit over that of a medic should provide incentive to build
 them. However, being able to this cheaply recover vehicles is a little broken,
