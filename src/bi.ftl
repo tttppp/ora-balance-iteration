@@ -1,4 +1,3 @@
-## bi-balance-rules.yaml
 actor-afld-airstrikepower-spyplane-description = Reveals an area of the map and submarines.
 
 actor-atek =
@@ -31,6 +30,11 @@ actor-gun-france =
     Can detect cloaked units.
       Strong vs Vehicles
       Weak vs Infantry and Aircraft
+
+actor-mech-override =
+    .description =
+    Repairs nearby vehicles.
+      Unarmed
 
 actor-mech-germany =
     .name = German Mechanic
@@ -87,7 +91,6 @@ faction-ukraine-override =
      Special Ability: Parabombs
      Special Unit: Demolition Truck
 
-## bi-briefing-rules.yaml
 briefing =
     ••• Balance Iteration 5.0 •••
 
@@ -137,9 +140,9 @@ briefing =
       • MAD Tank can't be iron curtained, chronoshifted or transported, can be redeployed and has a damage and range increase
       • All Allies get Advanced Chronoshift
       • England has camo pillbox rather than regular pillbox as a faction bonus, cost 600 (down from 750)
-      • French Turret requires radar dome, range 9c0 (up from 6c512), damage 15000 (up from 6000), reload delay 45 (up from 30)
+      • French Turret requires radar dome, damage 22000 (up from 6000), reload delay 67 (up from 30), spread 256 (up from 0), projectile speed 285 (down from 642), turn speed 8 (down from 48), cost 1000 (up from 800), power 60 (up from 40)
       • German Mechanic repairs 4000 (up from 2000)
       • German tank drop support power with helipad
-      • Russia has an improved teslacoil that can zap 6 infantry in a row
+      • Russia has an improved teslacoil that can zap 6 times in a row
       • Shock Trooper moved to Radar tech with reload delay of 100 (up from 70), damage vs heavy 70 (up from 60)
       • Ukrainian Dog has a detonate option
