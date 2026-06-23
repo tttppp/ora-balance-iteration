@@ -691,6 +691,10 @@ MH60:
 	Aircraft:
 		Speed: 113
 
+HIND:
+	Aircraft:
+		Speed: 113
+
 MIG:
 	Health:
 		HP: 11000
