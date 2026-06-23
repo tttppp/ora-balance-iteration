@@ -1,7 +1,297 @@
 # Change Log
 
-The rationale behind the changes in each release is given in this file, along with
-comments from players to back it up.
+The rationale behind the changes in each release is given in this file,
+along with comments from players to back it up.
+
+## 5.1
+This has been such a large overhaul, with so many aspects differing from BI5.0,
+that we will discuss this release with respect to BI4.6 instead. With that in
+mind, the changes here are in the spirit of BI5.0, that is chiefly to make a
+larger variety of unit compositions possible, as well to remove some units
+from the "meme tier" (such as MAD Tanks). In the current version they may
+be slightly overtuned, but care has been taken to always allow for counterplay.
+
+> Everyone complain about Tier 1.5 but then always makes changes assuming
+> T1.5 is always meta the entire game. Something is "unbalanced" if it kills
+> T1.5
+> —Orb
+
+Another goal is to make subfactions more distinct, which will again lead to
+more diverse compositions. To aid in this we have carved out three bonuses
+per faction, one at each tier.
+
+#### General changes
+##### Viewport limit 35 (down from unrestricted)
+There have been complaints regarding an unfair advantage for players with
+large screens. This attempts to fix that.
+##### Queue limits removed
+Given the sharply negative responses to the tighter queue limits introduced
+in RAEL1, they were nerfed to the point where they no longer presented a
+mechanical challenge to anyone save for the most careless of players. In
+response to further philosophical concerns, they have now been phased out.
+##### Veterancy is now a 3-tier system with no speed bonuses
+Reducing requirements for the highest veterancy tier is motivated by the
+difficulty of getting there. Speed differences in infantry cause many of
+them to run ahead and ruin a surprise attack or die early, thus the speed
+buff was removed. It remains however very useful for vehicles, aircraft,
+and naval units, so they may be added back for those in the future.
+
+#### T1 changes
+##### Rifleman light damage 30 (down from 40)
+Tesla Tanks and especially Chrono Tanks have been made nearly useless against
+infantry; this should be helpful in making them slightly less vulnerable. It
+is possible that the ranger is now a little too strong.
+##### Technician light damage 30 (down from 40)
+Technical detail.
+##### Supply Truck can carry 6 passengers
+An attept to give a use to a useless unit in 1v1. Needs much more.
+##### Ranger health 16000 (up from 15000)
+They used to get really low even picking off random rifles.
+##### Light Tank leaves husk
+This nerfs light tank spam builds.
+##### Mechanic cost 250 (down from 500), can no longer capture husks
+Mechanics cost a hefty sum and are very fragile; they take very long to build
+especially before 7 barracks, and are usually not built for healing vehicles
+as the SD can also repair vehicles cheaply and don't die very easily. Halving
+the cost to a bit over that of a medic should provide incentive to build
+them. However, being able to this cheaply recover vehicles is a little broken,
+especially if all allies can do it while soviets cannot.
+##### Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
+Another underused defence, the cost reduction brings it on par with a regular
+pillbox. We have taken the opportunity to grant it to England since it fits
+with their theme of counterintelligence. This is genuinely useful as now it
+is harder to tell apart fortified positions from weak ones at a glance.
+##### Fake buildings health 50% of original (up from 30%), vision 4c0 (up from 1c0)
+There exist two camps of people, one of which recognises fake structures as
+without much purpose and does not utilise them, while the other argues for
+the spamming of fakes as a viable defence and vision wall. The latter camp
+consists of exactly one person. This change is an attempt to make them worth
+the effort of clicking on the icon to build them.
+##### German Mechanic same as Mechanic, can capture husks
+Husk recovery is a fun and very useful mechanic. As they now come for only
+$250, it seems fair to make them a faction special.
+##### Russian Tesla Coil same as Tesla Coil, replaces Tesla Coil for Russia, burst 6 (up from 3), damage 5000 (down from 10000)
+This makes them less susceptible to infantry.
+##### Flamethrower built only by Ukraine, cost 250 (down from 300), health 5000 (up from 4000)
+Flamethrowers are not a bad unit in theory at all, but they are extremely
+under-used in RAGL. Reducing cost, as well as buffing their health so they are
+in line with other standard infantry should make them slightly more appealing.
+
+#### T2 changes
+##### Blackhawk speed 113 (up from 112)
+This is a bugfix; it was always meant to have the same speed as Flak Trucks
+and Light Tanks, until an engine change prompted a speed refactor. See
+[this issue](https://github.com/OpenRA/OpenRA/issues/16682).
+##### French Turret same as Turret, cost 1000 (up from 800), power 60 (up from 40), damage 23000 (up from 4000), spread 256 (up from 128), falloff [100, 51, 37, 14, 5, 0] (from [100, 37, 14, 5, 0]), range 7c0 (up from 6c512), turn speed 12 (down from 48), reload delay 75 (up from 30), bullet speed 300 (down from 682)
+Honestly this was probably just a fun addition to fulfil France's T2
+speciality. However, paired with fakes, this significantly enhances
+France's basepushing capabilities.
+##### German Tank Drop accessible to Germany from Helipad, cooldown 4min
+This was discussed and tested in PBA, where it seemed fairly uncontroversial.
+##### Thief cost 250 (down from 500)
+No one builds them. This might be broken. We will see.
+##### Paradrop cooldown 4min (down from 5min)
+See comments on parabombs.
+##### Shock Trooper requires Radar Dome and Tesla Coil (instead of Soviet Tech Center and Tesla Coil), damage 2000 (down from 4500), 2 bursts with delay 6 (up from 1 burst), reload delay 160 (up from 70)
+After moving them to T2, this change overall makes them much more lethal
+against unprotected infantry, but even worse in the presence of armour.
+This makes them particularly suited for defence, and should encourage earlier
+T2 transitions for Russia (and as a result across the board).
+##### Parabombs cooldown 4min (down from 5min), wood damage 50 (down from 60)
+There have been multiple calls to un-nerf parabombs from much
+earlier. Additionally, being just one minute faster than a missile silo
+seemed a little silly.
+
+#### T3 changes
+##### Missile Silo charge 6min (down from 9min)
+Despite previous reductions in charge time, they are still hardly seen in RAGL.
+##### Gap Generator slows all enemy units in shroud to 55%
+Formerly useless structure might be a little broken now.
+##### Advanced chronosphere replaces Chronosphere for all Allies
+The normal chronosphere has always lacked punch; this was previously tested
+and received positively in PBA.
+##### Longbow anti-ground reload delay 28 (down from 30)
+This is purely to make them trade 1-1 with the new AA Chrono Tanks. Previously
+they would die halfway through a volley leaving the tank on a sliver of health.
+##### Mobile Gap Generator cost 900 (down from 1000), slows enemy units in shroud to 55%
+Formerly useless unit might be a little broken now.
+##### Phase Transport can target air, burst 2 (up from 1), reload delay 160 (from 100), light damage 50 (up from 34), missile speed 348 (up from 298), missile turn rate 57 (up from 40)
+This is to give them a slight possibility for usage as a stealth tank; three
+of them can two-shot a harvester. They have been given anti-air mostly for
+consistency with Chrono Tanks.
+##### Chrono Tank can target air, turn speed 30 (up from 20), chronoshift cooldown 180 (down from 240), chronoshift range 14 (up from 12), light damage 50 (up from 34), cannot crush infantry, missile speed 348 (up from 298), missile turn rate 57 (up from 40)
+AA Chrono Tanks have been discussed for a long time; their usage for harassment
+has traditionally been severely limited by getting hardcountered by any air
+units. As compensation, chrono-crushing has been removed. To further their
+harassment capabilities their mobility has also been increased.
+##### MAD Tank can be undeployed and redeployed, cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)
+Formerly useless unit might be a little broken now.
+##### Mig health 11000 (up from 8000)
+They were never bad units, however tended to die way too easily at the slightest
+misstep. For units that cost $2000 they should be a little more sturdy.
+##### Missile Sub health 50000 (up from 40000)
+Increases torpedo hits it takes from 4 to 5.
+##### Tesla Tank speed 112 (up from 92), turn speed 36 (up from 20 in release, 35 in BI-4.6), health 30000 (down from 40000), heavy damage 150 (up from 100), cannot crush infantry
+The most annoying issue with Tesla Tanks has always been iron-curtained
+Tesla-Flak balls being unstoppable. The intent of removing crushing is to make
+them into more of a specialised hit-and-run harassment unit, facilitated
+by greatly increased mobility. Health has been nerfed as compensation. It
+remains to be seen if they are too impractical in the face of enemy air units.
+
+## Discussions leading to 5.1
+
+### Full proposed changelog from tux
+
+So what we want with this balance is chiefly to make a larger variety of unit compositions possible, as well to remove some units from the meme tier.
+This can be done by making them slightly broken at first, but counterplay must always exist. ie braindead spam of an OP unit should not win you the game. This will make macro more involved.
+Currently, t1.5 braindead spam is too strong compared to other options.
+
+Another goal is to make subfactions more distinct, which will again lead to more diverse compositions.
+
+5.1-rc7 CHANGELOG
+
+General changes
+Viewport limit 35 (down from unrestricted) (unimplemented on release)
+Queue limits50 infantry  (down from 100)
+Veterancy is now a 3-tier system with no speed bonuses
+
+T1 changes
+Supply Truck can carry 6 passengers
+Ranger health 16000 (up from 15000)
+Mechanic cost 250 (down from 500), can no longer capture husks
+Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
+Fake buildings death threshold 50% up from 10%, vision 3c0 (up from 1c0)
+German Mechanic can capture husks
+Russian Tesla Coil burst 6 (up from 3), damage 5000 (down from 10000)
+Flamethrower built only by Ukraine, cost 250 (down from 300), health 5000 (up from 4000)
+
+T2 changes
+French Turret built only by France, replaces Turret, requires Radar Dome, cost 1000 (up from 800), power 60 (up from 40), damage 23000 (up from 4000), spread 256 (up from 128), falloff [100, 51, 37, 14, 5, 0], range 7c0 (up from 6c512), turn speed 12 (down from 48), reload delay 75 (up from 30), bullet speed 300 (down from 682)
+German Tank Drop accessible to Germany from Helipad, drops 2x Light Tank from a badger, cooldown 5min
+Shock Trooper requires Radar Dome and Tesla Coil (instead of Soviet Tech Center and Tesla Coil), damage 2000 (down from 4500), burst 2 (up from 1), reload delay 160 (up from 70)
+
+T3 changes
+Missile Silo charge 6 minutes (down from 9 minutes)
+Gap Generator slows all ground units in shroud to 55%
+Advanced chronosphere replaces Chronosphere for all Allies
+Mobile Gap Generator cost 900 (down from 1000), slows all ground units in shroud to 55%
+Phase Transport can target air, burst 2 (up from 1), reload delay to 160 (from 100)
+Chrono Tank can target air, turn speed 30 (up from 20), chronoshift cooldown 180 (down from 240), chronoshift range 14 (up from 12), cannot crush infantry
+MAD Tank can be undeployed and redeployed, cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)
+Missile Sub health 50000 (up from 40000)
+Tesla Tank speed 112 (up from 92), turn speed 36 (up from 20), health 30000 (down from 40000), heavy damage 150 (up from 100), cannot crush infantry
+
+### Parabombs
+
+* Cecile - 2026-06-11: Btw what happened to the triple badger. I miss it.
+* tttppp: It's been single badger since BI-3.0 - so about five years!
+* moods: Yup and after 5 years i still think the new parabombs are ass. Compared to the ol blob eraser. There cuda been a lot of different ways to tone em down without completly changing them. Less bombs per drop. Explosion radius toned down. Increase timer. Make bombs better vs inf and not good vs vehicles or opposite.
+* tux: Personally the only issues ive had with paras is the badger getting shot down by 2/3 aa guns in tgs lol
+* .won: Yea [the intension was to make it easier to] dodge since they could be game changing free power
+* tux: perhaps a health increase on that thing would be good. And making it move a bit faster
+* .won: No
+* Unano: I think they were really crappy after the initial nerf but since then I feel that engine changes have made their AoE better
+
+### Chronotanks
+
+* .won - 2026-06-12: soviet tier 3 is hard to stop you need allies full arsenal to stop
+* tux: yeah but it would be nice if e.g. chrono tanks were made a little more viable. those are good vs mammoths atm, i proposed just making them a bit more mobile
+* .won: C-tanks are good as they are now, you could maybe maybe them a bit less expensive
+* tux: but they feel annoying to use because of the turn rate, when they get caught off recharge its hard to get away
+* moods: One thing ill say about c tanks is they need some more resistance vs bullets man. They die way to fast. Hawks and yaks Eradicate them way to fast
+* tux - 2026-06-13: how about AA ctanks. i think the problem with ctanks is that its just not possible to run away from air atm
+* goat: Same logic [as having AA phase tanks - would be good to test]
+* moods: Ye i think chrono should get AA to . But i dont think it should do the same damage as they do to armor.. where as phases weapon is weak so it could have its damage be universal
+* Orb - 2026-06-21: Chronotanks can't shoot air, its already been tried (by me). well, I guess if they can't crush infantry. hm, it might be fine actually
+* Cecile: I'm sad about no crush ctanks. Were they that strong in testing?
+
+### Phase Transports
+
+* moods - 2026-06-12: While your trying ambitious changes throw AA on phase tanks and see how that goes too fuck it .l. I always said it would be OP but maybe it would make them used more
+* goat - 2026-06-13: It’s something I always thought about too,  but the main concern would just be that it could effectively become really hard to counter them. On the other hand if they stay as tanky as they are now it might be okay having to do these trades
+* moods: Yeah cuz there main counter is air forsure.. other then that its hard to properly counter. But jus like chronotanks, hawks and yaks evaporate them . So i think even with AA they would be balanced still
+* goat: Yes, that’s what I was trying to say with the trading might being fair (a little similar to air into flaks as an example). So… I think it could be good to test
+* mrtbsc - 2026-06-16: phasetank has little offensive use (like harvester hunting with 3 or 4 of them) other than very specific tanyadrop or engineer if the opponent is sleeping
+* bete: I also don't know why Phase is so trash tbh
+* anjew: Phase is trash because it’s original use was insanely overpowered. The stealth mechanics changes moved it from an unstoppable crusher to utility. What to do with its turret is debated in circles so it’s not really changed. They have never been an equivalent to stealth tank, the ability to carry a Tanya is the main argument against them being similar
+You would have to remove that for them to be considered like a stealth tank
+* Orb: They weren't detectable by infantry, so they crushed htem. There were some odd ball detectors like mammoth tanks IIRC. I tried to make it so the phase transport could still crush infantry...sometimes...but I probably made it a bit too weak at that
+* anjew: [Mammoth tank detection] was added as a counter. It used to be really just dogs and spies. As well as some structures
+* bete: [If crushing was removed then] remove detection from infantry and add to specfiic units (dogs, spies, static def, radar, and eventually few others)
+* mrtbsc: for stealthtanks that would be ok if their role is shiftet torwards sniping
+
+### Thieves
+
+* Mechanicat - 2026-06-16: what if the Thief had the ability to run faster when under fire ? it would help it getting into Vehicles. in the schwerpunkt mod have seen this on a Infantry unit that uses the TakeCover trait in a reverse way. so that it becomes faster when being shot at
+
+### Allied Mobile AA
+
+* Mechanicat - 2026-06-17: so, on the topic of adding mobile aa for the allies what would you think of this one [Proposed new unit]
+* tux: I am strongly against the idea of allied mobile aa, but that's just me
+* Pun: it's so much harder to add vehicles to allies as well. They already had APC removed
+* mrtbsc: i would be for allied mobile AA, but i am not sure  if it should be an armored tank ..... or at the very least if it is an armored vehicle it should be only as resilient as the light tank, not as fast
+* Pinkthoth: I am strongly in favour of allies getting a vehicular aa. The fact that they don't have on restricts allied gameplay a lot. I know it probably won't happen, but it would do good to gameplay if they had one ... vehicular aa shouldn't be heavy armour in regular ra imo
+* bete - 2026-06-18: They already have OP AA Gun which makes 2 main factions more assymetric - isn't that good thing? If you add mobile flak and nerf AA Gun, then Allies basepush with AA guns and artilery, in theory, is weaker and discouraged.
+* Pinkthoth: But as it is currently, you have to move into base pushing with allies, which I think is bad
+* tux - 2026-06-21: What do u think of AA blackhawks
+* Pinkthoth: I do think it should be a seperate unit, wouldn't want to make BH spam too good either. But I can respect the fact that new units will not be added, so I suppose BH is a good candidate. LT might me better though.
+* Orb: No, longbows already exist. If you want an AA LT, you could give it an autocannon. Though I don't really think you should add an AA vehicle amongst all these other changes.
+* Ruckus - 2026-06-22: The solution to an allied lack of AA has always been to weaponize the MCV and push AA guns
+
+### Economy
+
+* tux - 2026-06-21: Queue limits unrestricted (up from 5 buildings, 5 defences, 100 infantry, 20 vehicles, 20 ships, 20 aircraft). Costs paid upfront (instead of trickling) (progress bar bug should be fixed in playtest)
+* Orb: You should not change the economy (costs up front) while making many other changes. For example you have killed whatever wf-1st builds are left
+* tux: Thats true, safety pillbox becomes pretty untenable
+* Sigil: the early game depends on spending the income as it's earned. doesn't work too well with  structures that costs 2k
+* Creo: i kind of agree with this actually! i like up front, but i think you may need to change the game a bit for it to work with this = ) as in it could become difficult to test all the changes properly as some might be impacted differently depending on whether it's pay up front or not i think
+* tux: lol just had an actual game. i removed the upfront payment
+
+### Mechanics
+
+* tux - 2026-06-21: Mechanic cost 250 (down from 500), can no longer capture husks
+* Orb: Also, I would reduce the mechanics health if you're making them cheaper
+
+### Camo Pillboxes
+
+* tux - 2026-06-21: Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
+* Orb: I would not do cheap Camo Pillboxes, they used to be cheap and obnoxious
+* tux: Thing about cano pills is they basically reveal themselves in shroud after the first firing. So i honestly don't think they are op; I've also had quite a few games with them and no one has complained yet
+* Orb: when camos used to cloak their ghost disappeared IIRC ... It might have been you couldn't target the ghosts
+* tux: I was thinking about adding [disappearing ghosts] lol
+
+### French Turret
+
+* tux - 2026-06-21: French Turret built only by France, replaces Turret, requires Radar Dome, cost 1000 (up from 800), power 60 (up from 40), damage 23000 (up from 4000), spread 256 (up from 128), falloff [100, 51, 37, 14, 5, 0], range 7c0 (up from 6c512), turn speed 12 (down from 48), reload delay 75 (up from 30), bullet speed 300 (down from 682)
+* Orb: French turret has too much range
+* tux: French turret is the same as tesla btw. In testing, it peforms worse vs infantry than a tesla, and a fair bit better against armour, but is on t2. Tesla is 7c0. French turret also
+* Orb: oh, it was reduced again? Forgot that (or maybe it was a more recent change...). But yeah that's fine then
+
+### Missile Silo
+
+* tux - 2026-06-21: Missile Silo charge 6 minutes (down from 9 minutes)
+* Orb: I don't really think Missile Silo needs any changes - you especially hurt team games.
+
+### Tesla Tanks
+
+* tux - 2026-06-21: Tesla Tank speed 112 (up from 92), turn speed 36 (up from 20), health 30000 (down from 40000), heavy damage 150 (up from 100), cannot crush infantry
+* Orb: I hated that [tesla tanks aren't turreted], for reference
+* tux: No one liked it but blackends tt rush was too strong. After removing crushing it might be ok tho
+* creo: i'm inclined to agree with orb, tesla tanks aren't really for harassing(at least not used to be), but they the flak tesla comp could get even scarier with these at least
+
+### Grenadiers
+
+* Orb - 2026-06-21: I did like my grenadier changes. I made their grenades one shot infantry. it wasn't too strong or anything, but made some fun micro moments
+* tux: Just sound like really bad flamers then. I'll look over them tomorrow and I'll discuss with the other two on merging some of it xD
+
+### British Spy
+
+* Pinkthoth - 2026-06-21: Also had an idea for the British Spy. How about if it gave an additional permanent bonus, like if you infiltrate a Radar Dome it scrambles the enemy's map, but it also increasea the vision range of your buildings by like 25-50%, or if you infiltrate a Barracks it slowly globally heals your infantry like the hospital, same for Warfactory, but it repairs your vehicles.
+
+### Gap Generator and MGG
+
+* tux - 2026-06-21: Gap Generator slows all ground units in shroud to 55%
+* Ruckus - 2026-06-22: The slow-field proposed by 5.1 is interesting, but I'm concerned it might be too oppressive. The role MGG should fill IMO is as protection for artillery/Tanya/undeployed-MCV against air.
 
 
 ## 5.0
@@ -20,6 +310,11 @@ Faction bonuses now have a three tier system to differentiate the feel of each f
 | Russia | Russian Teslacoil | Shock Troopers | Tesla Tank |
 | Ukraine | Ukrainian Dog | Parabombs | Demo Truck |
 
+* .won - 2026-06-07: wtf did I just miss the whole discussion on all of this, Russian Tesla, French turrent where did all of that come from lol
+* Pun - 2026-06-08: Special units with such massive changes warrant visual alterations. You can't just have two unit that have different behaviors look the same. [British spy change from BI-4.2] is also crazy. It was fine when british spy was just cheaper
+* tttppp: Those are just ideas to fill out the subfaction bonuses as attempted previously in PBA. Turrets, teslacoils and camo-pbs see a lot less use than PBs and flametowers
+* .won: I’m not opposed to the changes, well I don’t even know what they do, just surprised given the fact I never even saw them discussed
+
 #### Camo Pillbox to England only, cost 600 (down from 750)
 
 Previously tested in [PBA](camo-pillbox-to-england-only-england-cant-build-normal-pillbox-700-from-750--30-power-from--20-power-reload-speed-45-from-30).
@@ -28,23 +323,44 @@ Previously tested in [PBA](camo-pillbox-to-england-only-england-cant-build-norma
 
 A buff to make MGG easier to use by automatically deploying the shroud via a dummy weapon with range 6c0.
 
+* tux - 2026-06-12: also i implemented mgg slowdowns
+
 #### French Turret range 9c0 (up from 6c512), damage 15000 (up from 6000), reload delay 45 (up from 30)
 
 The turret for France is moved to radar tech with longer range, higher damage, but longer reload delay. Before T2 then France can still garison rocket soldiers in pillboxes for defence against heavy armour. Inspired by the Grand Cannon.
+
+* Unano - 2026-06-08: French should always have the best turrent
+* .won: That’s ra2
+* dang_shot: france not having turret before radar (even with rocket in pb) could maybe be a problem but i think its better to just have it tested
+* Amelza: Explosive dogs and French mega turret feel odd
+* tux: french mega turret has a lot of precedent in the ra universe
+* tux - 2026-06-11: some feedback on 5.0: french turrets are even worse than the ganon teslas...
+* .won: the reason why we nerfed tesla was it was just so easy to push an ore patch and camp it
+* Unano - 2026-06-13: Maybe it should be french turrets are normal, then when you have a radar, they get a mega range increase. Then they can v2 your radar to cripple your turrets
 
 #### German Mechanic repairs 4000 (up from 2000)
 
 Mechanics are often used for recovering husks, but by buffing the repair amount hopefully they will be more common in German armies.
 
+* tux - 2026-06-12: i was thinking maybe restrict husk capture to germany
+
 #### Tank Drop
 
 Germany gets a support power of two light tanks, dropped from a badger, unlocked by helipad.
 
+* creo - 2026-06-08: would've liked to see tank drop for england though
+* tux - 2026-06-11: perhaps german lt drop could be vetted up just to match soviet paradrop behaviour. additionally would be fun if they came from a chinook instead; not sure if it's possible tohugh
+* tttppp: I did originally plan this, but then I thought it would be confusing, since the chinook is a real unit!
+
 #### Advanced Chronoshift replaces Chronoshift for all Allies
+
+This has been proposed before, and could make chronosphere more appealing by reducing misclicks.
 
 #### Russian Teslacoil zaps 6 infantry (up from 3)
 
 The standard teslacoil is weak to infantry - this is a buff without making it strong against infantry.
+
+* tux - 2026-06-07: Zapping 6 inf abit op ah
 
 #### Shockies unlocked by radar dome and teslacoil, reload delay 100 (up from 70), damage vs heavy 70 (up from 60)
 
@@ -54,15 +370,44 @@ Last time this was tried, the feedback was that Shockies on T2 were too weak aga
 
 Inspired by anti-tank dogs from WW2 and the unit from Combined Arms.
 
+* Kalion - 2026-06-08: How many Ukraine dogs can kill tank. It may change tank harassment meta
+* tttppp: It's currently a lot. 7 for a light tank. They're more effective against power plants - 3 take down a power plant. Rifles take them out though, so I'm not sure if they'll see much use at the moment
+* Mechanicat: one thing i cant get is why you want demo dogs to become a thing. that is not the purpose of that unit. i do not understand what makes you want it to become able to attack vehicles. besides the 'i have seen it in CA mod and thought that be cool'
+* Amelza: Explosive dogs and French mega turret feel odd
+* tux: Dxploding dogs are a bit far. it feels hard to balance and feels quite random
+* Pinkthoth: Soviets did it in ww2 🤷‍♀️
+* tux: Or u could load them into an apc and 1shot a tech structure. Short of killing the apc before it gets there u really can't stop it
+* Creo: this isn't a bad thing. it's already difficult to get in and in an actual game flamer drops (and even tanya) are very similar, you get little reaction time if the drop actually gets there. it's also a costly drop to make
+* tux - 2026-06-11: some feedback on 5.0: demo dogs are worse than useless atm, they have a good chance of blowing your own army up, and are useless against armour. would recommend greatly reducing dmg vs none and increasing dmg vs heavy (maybe 5/6 dogs kill a tank?)
+
 ### Unit Rework
 
 #### MAD Tank can be redeployed, removed chronoshift, iron curtain and ability to load into transport
 
 MAD Tank has a significant damage and range buff and can be redeployed. It can no longer be rushed into bases via transport ships or chronoshift.
 
+* Moods - 2026-06-08: fwiw if this balance ever goes more mainstream u gotta revert the madtanks transport thing.. i dont think anyones complained about that.. its just chrono Mad. Sovs should have that options to push islands on water maps.
+* Pinkthoth - 2026-06-16: I did some testing, and I think it would be possible to have the MAD Tank have this kind of a line attack armament in regular RA. Obviously change the weapon to something else, maybe something effective vs. buildings and not much else?
+* tux: idt theres anything wrong with the current circle attack tho
+* .won: i like that madd tank. would make it actually useable for something
+* anjew - 2026-06-17: I like the idea behind that but it will need to be worth more than having the equivalent cost in V2’s. If it only hits buildings, it may need to be significantly better than something that can also kill blobs. I think there biggest benefit right now is the health and armour
+* Pinkthoth - 2026-06-18: Unfortunately this is the best I could do. You have to force fire on the ground in the general direction, it can't attack on it's own because two weapons can't function if one has a minimum range that is higher than another weapon's maximum range.
+* Unano: Looks cool
+* J MegaTank: This is great news really, would be cool to see them used more in RA (also in 1v1 as a late game unit)
+Iron curtain M.A.D Tanks
+
 #### Supply Truck can carry six passengers
 
 This aims to give a purpose to the supply truck.
+
+* anjew - 2026-06-07: I’m gunna assume it can still be refunded via a building. It’s a weird change but I like it. Does it still drop a crate?
+* tux: Id like to see sply truck with 10 passengers instead. Just to distinguish it more from apc. But with a significant speed nerf. Because irl tonners are pretty slow too
+* tttppp: Yep - currently it still drops a crate. I figured that was a bit weird, but a unique feature of the unit, so it would be worth trying it that way and then removing the crate if it's somehow broken
+
+#### Engineer can recover husks
+
+* tux - 2026-06-11: fwiw i heavily heavily disagree with engi recovering husks
+* .won - 2026-06-12: soviets can cap husks? dumb
 
 #### Missile Silo charge 6 minutes (down from 9 minutes in release, and 7 minutes in BI-4.6)
 
@@ -76,11 +421,24 @@ Increase rifle shots it takes from 38 to 40. We tried a larger increase in BI-4.
 
 Increase mig health in response to feedback that they still die too quickly.
 
+* Unano - 2026-06-08: FWIW i don't think increasing mig hp will make it more usable. That thing is just too easy to lose and too useless. You could double its hp and it will still not turn a game that isnt already over. To make it better it needs to be slower and have more damage / range imo. More range might just make it OP
+* moods: Migs useless lol. 4 migs can take out enough armor to where an enemy has to retreat and replenish armor easily without taking a scratch. Im all for the health buff and thats the only thing they need.. should have never been changed to begin with
+* dang_shot: it would be good to get someone like inno to play with this change as he was kind of the mig man in recent times
+* .won - 2026-06-09: I would say migs are pretty useless. They are a fun unit people only really build when they are ahead
+* sir: nah migs are rly good. even making just one can put pressure on opponents eco
+* Pinkthoth: You need an APM of 100 in order to manage to use them in an effective manner
+* tux: I always build them vs mammoths. They hardcounter the tank then kite and slowly regen playstyle so well
+* moods - 2026-06-10: U really dont need 100 apm. You jus play a temporary passive playstyle while microing the mig squad
+* Amelza: That’s true, although they do feel exhausting to use. Also the sheer fact of having one gives you an actual spy plane with no cooldown
+* bete - 2026-06-21: These Migs are discussion for years. I heard same as you said about them, but I never saw them in action. It's always meme unit when someone has big advantage or someone try to be fancy and lose them by random flak truck or aa gun. At best they kill 1 tank and that's it. And in same time it soaks all APM player have and disables you to do other things
+* Orb: EIther way that Mig got annihilated, so I think it could be fine. I wasn't actually a super fan of the HP reduction at the time, anyway
+* tux: I still tend to think they shouldnt be as tanky as blackhawks
+
 ### Missile Sub health 50000 (up from 40000)
 
 Increase torpedo hits it takes from 4 to 5.
 
-### RAGL Changes
+### RAGL Changes (Additions for BI-5.0R)
 
 These changes are split off into a separate file with the intention that they will only be used in competitions.
 
@@ -92,6 +450,9 @@ Same as previously but split out into separate file.
 * Infantry: 100
 * Vehicles/Air/Naval: 20
 
+* Moods - 2026-06-08: i hope im not the only one that thinks que limits are dumb af. There must be better ways to widen the gap between player skills without being so restrictive and silly
+* tux: actually while we're at it, we could just do away with q limits entirely. Replace it with upfront cash commit. PayUpFront = true in the ProductionQueue trait
+
 #### Viewport Limit
 
 Viewport limit of 35 cells vertically to try to level the playing field between different monitors.
@@ -101,106 +462,106 @@ Viewport limit of 35 cells vertically to try to level the playing field between 
 
 ### Production Scaling
 
-goat - 2025-11-16: faster production would not improve openra, but perhaps infinite (or longer scaling than now) would be good. faster units would work I think
-Upps - 2026-05-17: 3 instead 4 WF for max production speed.
+* goat - 2025-11-16: faster production would not improve openra, but perhaps infinite (or longer scaling than now) would be good. faster units would work I think
+* Upps - 2026-05-17: 3 instead 4 WF for max production speed.
 
 ### Missile Subs
 
-sir - 2025-11-22: we might needa do something about missile subs. they disapear way too quick now
-tux: the dichotomy is they are way too vulnerable to air without the changes. but now nothing can touch them if u dont build a navy yourself
-.won: I think the newest bi for naval is broken. Whatever blackened did should be reversed. I also dont like how you can attack submerged subs
+* sir - 2025-11-22: we might needa do something about missile subs. they disapear way too quick now
+* tux: the dichotomy is they are way too vulnerable to air without the changes. but now nothing can touch them if u dont build a navy yourself
+* .won: I think the newest bi for naval is broken. Whatever blackened did should be reversed. I also dont like how you can attack submerged subs
 
 ### Queue Limits
 
-N.N - 2026-04-24: I really dont like items/queue limits. One of the main goals of this project is to modernize UI and control so they are no obstacle. Its the same dumb argument as SC1 is better that SC2 because it allows you select just 12 units.
-JuiceBox: It was introduced to add an extra layer of depth to the macro side of the game rather than the set and forget. If you don’t pay enough attention you can find yourself having to Q at the most inconvenient times of the game. I came back after it was introduced and hated it at first but I have come to understand the reasoning and now find myself stopping at the 100 inf limit on maps that don’t require it
-bete: ORA RA need to add complexity somewhere if you want to make it more "dynamic". At least early/mid game. I think late game is fine. For example adding more units and make factions more asymetric would help. ... Idk why they merged to RAGL... it was just experiment... and ofc 100 limit is pointless
-xaxl: But with this max. 100 queue, soviets have it easier because they can spread it with flamers and with Russian also with shock troopers.
-tux: The queue limits are wonderful ... i think inf queue limit should be hardened to 30 :) Tanks to 10
-milkman: Queue limits were softened to the point where it was a non issue for all players after 5 games. That's why no one resisted them going into ragl balance which made including them pointless after all 🤓  i think no ragl masters game was in any way different with these limits from what it would have been without them
-creo: the most fun i had in ra was with the initial queue limits in bete's tournament. i could totally understand why some would find them too overwhelming, but i thought game felt way more engaging
+* N.N - 2026-04-24: I really dont like items/queue limits. One of the main goals of this project is to modernize UI and control so they are no obstacle. Its the same dumb argument as SC1 is better that SC2 because it allows you select just 12 units.
+* JuiceBox: It was introduced to add an extra layer of depth to the macro side of the game rather than the set and forget. If you don’t pay enough attention you can find yourself having to Q at the most inconvenient times of the game. I came back after it was introduced and hated it at first but I have come to understand the reasoning and now find myself stopping at the 100 inf limit on maps that don’t require it
+* bete: ORA RA need to add complexity somewhere if you want to make it more "dynamic". At least early/mid game. I think late game is fine. For example adding more units and make factions more asymetric would help. ... Idk why they merged to RAGL... it was just experiment... and ofc 100 limit is pointless
+* xaxl: But with this max. 100 queue, soviets have it easier because they can spread it with flamers and with Russian also with shock troopers.
+* tux: The queue limits are wonderful ... i think inf queue limit should be hardened to 30 :) Tanks to 10
+* milkman: Queue limits were softened to the point where it was a non issue for all players after 5 games. That's why no one resisted them going into ragl balance which made including them pointless after all 🤓  i think no ragl masters game was in any way different with these limits from what it would have been without them
+* creo: the most fun i had in ra was with the initial queue limits in bete's tournament. i could totally understand why some would find them too overwhelming, but i thought game felt way more engaging
 
 ### Minelayers
 
-bete - 2026-04-24: I think it's better to invest energy into add new units and make existing ones that are underused more viable (minelayer, supply truck, mad tank, ORE silo, etc.)
-tux: Minelayer Is very viable fwiw. It's just most players incl myself are too slow to use them ... i meant hard to use tacticslly
-creo: minelayers are easy to use, i used htem quite a lot when i was new, but i think they have a negative effect on gameplay
-bete: they would be great if we make them like vultures in Starcraft (less but stronger mines that gives vision. And eventually give Minelayer some weak weapon that require a lot micro)
-creo: yes, that makes them more dynamic. currently they just hinder the game flow too much
+* bete - 2026-04-24: I think it's better to invest energy into add new units and make existing ones that are underused more viable (minelayer, supply truck, mad tank, ORE silo, etc.)
+* tux: Minelayer Is very viable fwiw. It's just most players incl myself are too slow to use them ... i meant hard to use tacticslly
+* creo: minelayers are easy to use, i used htem quite a lot when i was new, but i think they have a negative effect on gameplay
+* bete: they would be great if we make them like vultures in Starcraft (less but stronger mines that gives vision. And eventually give Minelayer some weak weapon that require a lot micro)
+* creo: yes, that makes them more dynamic. currently they just hinder the game flow too much
 
 ### Migs
 
-tux - 2026-04-24: most players incl myself are too slow to use [migs]. Recently I've been using them a ton vs dark. And they are absolutely broken in the right scenario
-creo: haha, not sold on migs. unless you're maybe inno
-bete: I mean i don't see reason to not give small buff to Migs as well. When you notice they become OP and when you "adict" people to use them, just nerf them/adapt properties
-tux: I think they just need a bit more hp lol
-Yara: Migs are pretty useless imo, but beafing them up is probably not a good idea as late-game soviet seem to have an advantage already
+* tux - 2026-04-24: most players incl myself are too slow to use [migs]. Recently I've been using them a ton vs dark. And they are absolutely broken in the right scenario
+* creo: haha, not sold on migs. unless you're maybe inno
+* bete: I mean i don't see reason to not give small buff to Migs as well. When you notice they become OP and when you "adict" people to use them, just nerf them/adapt properties
+* tux: I think they just need a bit more hp lol
+* Yara: Migs are pretty useless imo, but beafing them up is probably not a good idea as late-game soviet seem to have an advantage already
 
 ### Chronosphere
 
-Yara - 2026-04-24: Is the Chronophaere really that useless btw? I am thinking about choosing Allies just to give it a shot. Only Upps seems to ever use Chrono shift in games.
-tux: U can crush an inf blob ig. But u stand to lose like 5 tanks. I guess harv hunting is ok. Idk if makmoth hunting is viable with chrono. Usually they are near an inf blob so u risk losing a lot of tanks
-Yara: I see nobody rushing Chrono though, I think they could be a pleasent suprise in games
-sir - 2026-04-26: i mean yea [Chronosphere is good as it is]. but it would be nice to have a thing like CA so u cant miss. defenitely do not do take the CA chonosphere tho. the chronosphere in CA automatically teleports ur stuff back if they get too low health. even if time isnt up. i think that sucks
-Upps - 2026-05-17: Better Chrono usablity (bigger footprint)
-Pinkthoth: 3x3 chrono with an xxx xxx xxx footprint for everyone would be nice
+* Yara - 2026-04-24: Is the Chronophaere really that useless btw? I am thinking about choosing Allies just to give it a shot. Only Upps seems to ever use Chrono shift in games.
+* tux: U can crush an inf blob ig. But u stand to lose like 5 tanks. I guess harv hunting is ok. Idk if makmoth hunting is viable with chrono. Usually they are near an inf blob so u risk losing a lot of tanks
+* Yara: I see nobody rushing Chrono though, I think they could be a pleasent suprise in games
+* sir - 2026-04-26: i mean yea [Chronosphere is good as it is]. but it would be nice to have a thing like CA so u cant miss. defenitely do not do take the CA chonosphere tho. the chronosphere in CA automatically teleports ur stuff back if they get too low health. even if time isnt up. i think that sucks
+* Upps - 2026-05-17: Better Chrono usablity (bigger footprint)
+* Pinkthoth: 3x3 chrono with an xxx xxx xxx footprint for everyone would be nice
 
 ### Chronotanks
 
-Ruckus - 2026-04-24: Chrono tanks are a hard one because I want to like them. They're theoretically really good. ... I feel like Chrono tanks randomly sidling around the map just get spotted and swept by yaks
-tux: Ctank is not strong cos of chrono. It's strong cos it has great anti armour
-Yara: yes, that's why it might be a good idea to give Chrono tanks also an AA ability. If Mammoths get it, why not also chrono tanks 🙂 Overall, Allies not having enough mobile AA is something which has bothered since I am playing this game tbh. They are more forced than soviets to base-walk to gain ground which is kinda sad
-Ruckus: I actually kind of like the asymmetry of allies not having [mobile] AA.
-tux - 2026-05-09: what do you think of aa ctanks
-Pinkthoth: It's t3, I would rather see [Allied anti-air on] t1.5 or t2
-tux: i'm thinking of a decent buff to ctanks. aa-missiles + slightly larger blink radius + 20% hp buff. but locked behind chronosphere
+* Ruckus - 2026-04-24: Chrono tanks are a hard one because I want to like them. They're theoretically really good. ... I feel like Chrono tanks randomly sidling around the map just get spotted and swept by yaks
+* tux: Ctank is not strong cos of chrono. It's strong cos it has great anti armour
+* Yara: yes, that's why it might be a good idea to give Chrono tanks also an AA ability. If Mammoths get it, why not also chrono tanks 🙂 Overall, Allies not having enough mobile AA is something which has bothered since I am playing this game tbh. They are more forced than soviets to base-walk to gain ground which is kinda sad
+* Ruckus: I actually kind of like the asymmetry of allies not having [mobile] AA.
+* tux - 2026-05-09: what do you think of aa ctanks
+* Pinkthoth: It's t3, I would rather see [Allied anti-air on] t1.5 or t2
+* tux: i'm thinking of a decent buff to ctanks. aa-missiles + slightly larger blink radius + 20% hp buff. but locked behind chronosphere
 
 ### Yaks
 
-Ruckus - 2026-04-24: the thing that kind of sucks is that yaks are actually good enough at clearing up tanks that they can defensively counter eco raids
-Yara: Do they? I rarely waste my yaks on full-health enemy tanks
-tux: Bh and yak have the exact same dmg to tanks. Which is shit
+* Ruckus - 2026-04-24: the thing that kind of sucks is that yaks are actually good enough at clearing up tanks that they can defensively counter eco raids
+* Yara: Do they? I rarely waste my yaks on full-health enemy tanks
+* tux: Bh and yak have the exact same dmg to tanks. Which is shit
 
 ### MGGs
 
-tux - 2026-04-24: Fake gap [meaning MGG] is decent. But i do think shld be buffed
-Ruckus: Feels like the only real use of it is to keep Tanya alive
-Pinkthoth - 2026-05-04: What do you guys think of this change to MGG. When it is undeployed it does not generate shroud, but when it is deployed it generates shroud like it does atm. The change is that when it is undeployed it has a dummy weapon, upon firing of which it starts generating shroud around itself. [video demonstration]
-tttppp: I think this looks great. I'm still not sure it's enough to see it used in 1v1s, but it's much easier to use than the existing mgg
+* tux - 2026-04-24: Fake gap [meaning MGG] is decent. But i do think shld be buffed
+* Ruckus: Feels like the only real use of it is to keep Tanya alive
+* Pinkthoth - 2026-05-04: What do you guys think of this change to MGG. When it is undeployed it does not generate shroud, but when it is deployed it generates shroud like it does atm. The change is that when it is undeployed it has a dummy weapon, upon firing of which it starts generating shroud around itself. [video demonstration]
+* tttppp: I think this looks great. I'm still not sure it's enough to see it used in 1v1s, but it's much easier to use than the existing mgg
 
 ### MAD Tanks
 
-Unano - 2026-04-29: [Reusable area-of-effect MAD Tank idea]
-.won: thats interesting but I dunno... i think madd tanks are strange because they are slow, no weapons so they would just get destroyed. maybe we could give them to Ukraine only but do more, give them more of a mammoth tank role, but less with a special weapon like russia has TT and shockies
-Unano: Well if the time it takes to blow up is increased or its armour (as well as vision), you could get into an engagement, and use it as your tanking power and enemy tank destruction. I guess the trouble is then you wreck your own tanks too :p And just paid like 8k for 4 MADs
-tttppp: If it didn't affect inf then you could use it without your tanks near, or to destroy more assets from the opponent than yourself. IMO the current issues are that it's really hard work to get into a useful position and it doesn't actually destroy anything (it just knocks 33% of health off lots of things). The area is pretty small too - you can see how close it needs to be to a base to work in your gif
-tux - 2026-04-30: I would increase range to 8c512 [to make the MAD tank harder to destroy by opposing forces and to allow you to clean up a retreating army]. also makes logical sense
-.won: its almost impossible to get a madd tank to work because you cant get it into bas
-Unano: its also, when you do it's kinda lame. chrono mad is OP becuase you send 5
-moods: Make em deploy and have a gps effect within a radius. Lol
-Pinkthoth - 2026-05-05: Would be nice to see underused units be made useful. Supply Truck, MAD Tank and Mobile Gap Generator are basically never used.
-Upps: I think there is a good example of Madtanks in CA which are still underused, but very cool.  It slowly selfdestruct with every "earthquake, Bump or however you want to call it" On full health it takes 10 Bumbs until it dies, it takes 6 to destroy a building. With half it hp it shouldnt kill a building, worth to look at. Also does damage to vehicle
-Unano: They should have a french grand cannon on top. So then they become amazing at long range and when they get into an enemy base but are otherwise naff
-moods: Just keep them the same and buff there damage . Nothing else will feel proper lol. 2 should do the same amount of  damage to buildings as a nuke
-Pinkthoth - 2026-05-18: Added a cooldown to it being deployed and redeployed. (It's needed so that the sound and the last thump work properly)
-.won: i mean at the end of the day this is still useless. how are you going to get the madd tank into the base. madd tank should have some kinda weapon with the thump being the alt
-tttppp: I think the area of effect just needs to be larger. Getting it near the base should be cost effective, getting it in should be devastating
-Pinkthoth: You could do like I said, and have buildings within 5 cells be completely destroyed, within 10 cells lose 50% health and within 15 cells lose 25% health or something similiar
-moods: Make em garrisonable lol
-tux: I still think mad tanks should do constant dmg instead of percentage based. Gives significantly wider aoe. It should take a bit longer than a v2 to kill a pillbox
+* Unano - 2026-04-29: [Reusable area-of-effect MAD Tank idea]
+* .won: thats interesting but I dunno... i think madd tanks are strange because they are slow, no weapons so they would just get destroyed. maybe we could give them to Ukraine only but do more, give them more of a mammoth tank role, but less with a special weapon like russia has TT and shockies
+* Unano: Well if the time it takes to blow up is increased or its armour (as well as vision), you could get into an engagement, and use it as your tanking power and enemy tank destruction. I guess the trouble is then you wreck your own tanks too :p And just paid like 8k for 4 MADs
+* tttppp: If it didn't affect inf then you could use it without your tanks near, or to destroy more assets from the opponent than yourself. IMO the current issues are that it's really hard work to get into a useful position and it doesn't actually destroy anything (it just knocks 33% of health off lots of things). The area is pretty small too - you can see how close it needs to be to a base to work in your gif
+* tux - 2026-04-30: I would increase range to 8c512 [to make the MAD tank harder to destroy by opposing forces and to allow you to clean up a retreating army]. also makes logical sense
+* .won: its almost impossible to get a madd tank to work because you cant get it into bas
+* Unano: its also, when you do it's kinda lame. chrono mad is OP becuase you send 5
+* moods: Make em deploy and have a gps effect within a radius. Lol
+* Pinkthoth - 2026-05-05: Would be nice to see underused units be made useful. Supply Truck, MAD Tank and Mobile Gap Generator are basically never used.
+* Upps: I think there is a good example of Madtanks in CA which are still underused, but very cool.  It slowly selfdestruct with every "earthquake, Bump or however you want to call it" On full health it takes 10 Bumbs until it dies, it takes 6 to destroy a building. With half it hp it shouldnt kill a building, worth to look at. Also does damage to vehicle
+* Unano: They should have a french grand cannon on top. So then they become amazing at long range and when they get into an enemy base but are otherwise naff
+* moods: Just keep them the same and buff there damage . Nothing else will feel proper lol. 2 should do the same amount of  damage to buildings as a nuke
+* Pinkthoth - 2026-05-18: Added a cooldown to it being deployed and redeployed. (It's needed so that the sound and the last thump work properly)
+* .won: i mean at the end of the day this is still useless. how are you going to get the madd tank into the base. madd tank should have some kinda weapon with the thump being the alt
+* tttppp: I think the area of effect just needs to be larger. Getting it near the base should be cost effective, getting it in should be devastating
+* Pinkthoth: You could do like I said, and have buildings within 5 cells be completely destroyed, within 10 cells lose 50% health and within 15 cells lose 25% health or something similiar
+* moods: Make em garrisonable lol
+* tux: I still think mad tanks should do constant dmg instead of percentage based. Gives significantly wider aoe. It should take a bit longer than a v2 to kill a pillbox
 
 ### Supply Truck
 
-Pinkthoth - 2026-05-01: Bete had the great idea of turning Supply Trucks into infantry transporters. I would support this idea 1000%. There's even precedent in the RA campaign, I think.
-.won: I like the supply truck idea. but maybe give them more speed a bit more armor and make them like a super fast transport no weapons not much armor
-Pinkthoth: Yes, sounds good. What about the second functionality of delivering cash. Three choices imo: 1. Keep it. 2. Remove it. 3. Remove it if there has been troops inside. I would remove the crate it drops.
-.won: i would remove it. I think we can leave if no troops inside we can have it delivery cash like currently but no crate
+* Pinkthoth - 2026-05-01: Bete had the great idea of turning Supply Trucks into infantry transporters. I would support this idea 1000%. There's even precedent in the RA campaign, I think.
+* .won: I like the supply truck idea. but maybe give them more speed a bit more armor and make them like a super fast transport no weapons not much armor
+* Pinkthoth: Yes, sounds good. What about the second functionality of delivering cash. Three choices imo: 1. Keep it. 2. Remove it. 3. Remove it if there has been troops inside. I would remove the crate it drops.
+* .won: i would remove it. I think we can leave if no troops inside we can have it delivery cash like currently but no crate
 
 ### Demo Truck
 
-Pinkthoth - 2026-05-09: I'd lock Demo Trucks behind Missile Silo too
-Cecil - 2026-05-13: Tbf I think this is good if it gets people to build more nukes. We clearly underrate nukes.
-anjew: I just think you’ll see less demos
+* Pinkthoth - 2026-05-09: I'd lock Demo Trucks behind Missile Silo too
+* Cecil - 2026-05-13: Tbf I think this is good if it gets people to build more nukes. We clearly underrate nukes.
+* anjew: I just think you’ll see less demos
 
 ### Subfaction Bonuses
 
@@ -208,35 +569,35 @@ Previous balancing efforts were attempted in [PBA](#pba-v20220103)
 
 #### Russia
 
-Kalion - 2026-05-17: Maybe like make tesla coil faster and cheaper to build for Russia
-tux: Fuck no. Theres a reason they were nerfed
-tttppp: I think teslacoils could be buffed against inf without making them OP. They have a three shot attack, which I think can be varied
+* Kalion - 2026-05-17: Maybe like make tesla coil faster and cheaper to build for Russia
+* tux: Fuck no. Theres a reason they were nerfed
+* tttppp: I think teslacoils could be buffed against inf without making them OP. They have a three shot attack, which I think can be varied
 
 #### Ukraine
 
-Kalion - 2026-05-17: Like a cheaper grenadiers and flamethrowers for Ukraine. Just to make t1 armies and strategies a little bit different
-Pinkthoth: MAD Tank for Ukraine, Demo Trucks for everyone, but you need a Missile Silo. Hind for Ukraine, but give it a multiple missile weapon similiar to RA2 IFV
-Pinkthoth: Maybe Grens could have a fire bomb weapon instead for Ukraine
-tttppp: I'd say grens and dogs are the obvious soviet units to mess with, since they're only seen in the early game atm
-Pinkthoth: Exploding dogs for Ukraine?
+* Kalion - 2026-05-17: Like a cheaper grenadiers and flamethrowers for Ukraine. Just to make t1 armies and strategies a little bit different
+* Pinkthoth: MAD Tank for Ukraine, Demo Trucks for everyone, but you need a Missile Silo. Hind for Ukraine, but give it a multiple missile weapon similiar to RA2 IFV
+* Pinkthoth: Maybe Grens could have a fire bomb weapon instead for Ukraine
+* tttppp: I'd say grens and dogs are the obvious soviet units to mess with, since they're only seen in the early game atm
+* Pinkthoth: Exploding dogs for Ukraine?
 
 #### England
 
-Pinkthoth - 2026-05-17: Give similiar stealth that Thief has to British spy
-tux: Honestly what would spy stealth do tho. Theres never rly a reason for them to ever be standing still right
+* Pinkthoth - 2026-05-17: Give similiar stealth that Thief has to British spy
+* tux: Honestly what would spy stealth do tho. Theres never rly a reason for them to ever be standing still right
 
 #### France
 
-Pinkthoth - 2026-05-17: Chinook delivered paratroopers for some allied subfaction
-tux: Has been discussed with 2x medium tank drop instead
+* Pinkthoth - 2026-05-17: Chinook delivered paratroopers for some allied subfaction
+* tux: Has been discussed with 2x medium tank drop instead
 
 ### Light Tank
 
-Pinkthoth - 2026-05-17: Missile weapon for Light Tank (Furthermore I think Allies should have a mobile AA)
+* Pinkthoth - 2026-05-17: Missile weapon for Light Tank (Furthermore I think Allies should have a mobile AA)
 
 ### Engineers
 
-Pinkthoth - 2026-05-17: Engineers can repair husks
+* Pinkthoth - 2026-05-17: Engineers can repair husks
 
 
 ## 4.6.1
