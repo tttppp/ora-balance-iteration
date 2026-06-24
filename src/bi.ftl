@@ -120,7 +120,7 @@ briefing =
         • Technician light damage 30 (down from 40)
         • Silo has build radius
         • Dog is not slowed by gg/mgg
-        • Supply Truck can carry 6 passengers
+        • Supply Truck can carry 10 passengers, speed 90 (down from 113)
         • Ranger health 16000 (up from 15000)
         • Light Tank leaves husk
         • Mechanic cost 250 (down from 500), can no longer capture husks

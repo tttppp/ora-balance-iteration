@@ -630,9 +630,10 @@ TRUK:
 		HP: 17000
 	Cargo:
 		Types: Infantry
-		MaxWeight: 6
+		MaxWeight: 10
 		LoadingCondition: notmobile
 	Mobile:
+		Speed: 90
 		PauseOnCondition: notmobile || being-captured
 
 CTNK:
