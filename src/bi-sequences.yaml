@@ -23,6 +23,10 @@ lst:
 	Defaults:
 		Scale: 1.25
 
+truk:
+	Defaults:
+		Scale: 1.3
+
 qtnk:
 	piston:
 		Tick: 130

@@ -96,6 +96,9 @@
 		Position: TopLeft
 		ValidRelationships: Ally, Enemy, Neutral
 
+DOG:
+	-ExternalCondition@MGGSLOWED:
+
 E7:
 	Inherits@COMMANDOSKULL: ^CommandoSkull
 
@@ -279,7 +282,6 @@ ATEK:
 
 gpsactivenoise:
 	Interactable:
-	AlwaysVisible:
 	EditorOnlyTooltip:
 		Name: actor-gpsactivenoise.editoronlytooltipname
 	Aircraft:
@@ -315,7 +317,6 @@ gpsactivenoise:
 
 powergps:
 	Interactable:
-	AlwaysVisible:
 	EditorOnlyTooltip:
 		Name: actor-powergps-name
 	Aircraft:
@@ -452,7 +453,6 @@ SYRD:
 		TargetTypes: WaterActor, Structure, C4, DetonateAttack, SPY.England.Infiltrate, SpyInfiltrate
 
 ships.upgraded:
-	AlwaysVisible:
 	ProvidesPrerequisite:
 
 SYRF:
@@ -630,9 +630,10 @@ TRUK:
 		HP: 17000
 	Cargo:
 		Types: Infantry
-		MaxWeight: 6
+		MaxWeight: 10
 		LoadingCondition: notmobile
 	Mobile:
+		Speed: 90
 		PauseOnCondition: notmobile || being-captured
 
 CTNK:

@@ -21,14 +21,6 @@ more diverse compositions. To aid in this we have carved out three bonuses
 per faction, one at each tier.
 
 #### General changes
-##### Viewport limit 35 (down from unrestricted)
-There have been complaints regarding an unfair advantage for players with
-large screens. This attempts to fix that.
-##### Queue limits removed
-Given the sharply negative responses to the tighter queue limits introduced
-in RAEL1, they were nerfed to the point where they no longer presented a
-mechanical challenge to anyone save for the most careless of players. In
-response to further philosophical concerns, they have now been phased out.
 ##### Veterancy is now a 3-tier system with no speed bonuses
 Reducing requirements for the highest veterancy tier is motivated by the
 difficulty of getting there. Speed differences in infantry cause many of
@@ -43,7 +35,7 @@ infantry; this should be helpful in making them slightly less vulnerable. It
 is possible that the ranger is now a little too strong.
 ##### Technician light damage 30 (down from 40)
 Technical detail.
-##### Supply Truck can carry 6 passengers
+##### Supply Truck can carry 10 passengers, speed 90 (down from 113)
 An attept to give a use to a useless unit in 1v1. Needs much more.
 ##### Ranger health 16000 (up from 15000)
 They used to get really low even picking off random rifles.

@@ -121,21 +121,22 @@ briefing =
         • Rifleman light damage 30 (down from 40)
         • Technician light damage 30 (down from 40)
         • Silo has build radius
-        • Supply Truck can carry 6 passengers
+        • Dog is not slowed by gg/mgg
+        • Supply Truck can carry 10 passengers, speed 90 (down from 113)
         • Ranger health 16000 (up from 15000)
         • Light Tank leaves husk
         • Mechanic cost 250 (down from 500), can no longer capture husks
         • Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
         • Fake buildings health 50% of original (up from 30%), vision 4c0 (up from 1c0)
-        • German Mechanic replaces Mechanic for Germany, can capture husks, repairs at same rate as standard mechanic
-        • Russian Tesla Coil replaces Tesla Coil for Russia, burst 6 (up from 3), damage 5000 (down from 10000)
+        • German Mechanic based on Mechanic, Germany only, can capture husks
+        • Russian Tesla Coil based on Tesla Coil, Russia only, burst 6 (up from 3), damage 5000 (down from 10000)
         • Flamethrower built only by Ukraine, cost 250 (down from 300), health 5000 (up from 4000)
 
       • T2 changes
         • Spy can no longer get veterancy from infiltrations
         • British Spy cost 500 (up from 250)
         • Blackhawk speed 113 (up from 112)
-        • French Turret replaces Turret for France, cost 1000 (up from 800), power 60 (up from 40), damage 23000 (up from 4000), spread 256 (up from 128), falloff [100, 51, 37, 14, 5, 0] (from [100, 37, 14, 5, 0]), range 7c0 (up from 6c512), turn speed 12 (down from 48), reload delay 75 (up from 30), bullet speed 300 (down from 682)
+        • French Turret based on Turret, France only, cost 1000 (up from 800), power 60 (up from 40), damage 23000 (up from 4000), spread 256 (up from 128), falloff [100, 51, 37, 14, 5, 0] (from [100, 37, 14, 5, 0]), range 7c0 (up from 6c512), turn speed 12 (down from 48), reload delay 75 (up from 30), bullet speed 300 (down from 682)
         • German Tank Drop cooldown 4min (down from 5min in BI-5.0)
         • Thief cost 250 (down from 500)
         • Paradrop cooldown 4min (down from 5min)
