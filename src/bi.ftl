@@ -123,7 +123,7 @@ briefing =
         • Supply Truck can carry 10 passengers, speed 90 (down from 113)
         • Ranger health 16000 (up from 15000)
         • Light Tank leaves husk
-        • Mechanic cost 250 (down from 500), can no longer capture husks
+        • Mechanic cost 250 (down from 500), health 6000 (down from 8000), can no longer capture husks
         • Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
         • Fake buildings health 50% of original (up from 30%), vision 4c0 (up from 1c0)
         • German Mechanic based on Mechanic, Germany only, can capture husks
