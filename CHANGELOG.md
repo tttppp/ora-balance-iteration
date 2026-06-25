@@ -148,7 +148,6 @@ Veterancy is now a 3-tier system with no speed bonuses
 
 T1 changes
 Supply Truck can carry 6 passengers
-Ranger health 16000 (up from 15000)
 Mechanic cost 250 (down from 500), can no longer capture husks
 Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
 Fake buildings death threshold 50% up from 10%, vision 3c0 (up from 1c0)
