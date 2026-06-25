@@ -31,23 +31,22 @@ and naval units, so they may be added back for those in the future.
 #### T1 changes
 ##### Rifleman light damage 30 (down from 40)
 Tesla Tanks and especially Chrono Tanks have been made nearly useless against
-infantry; this should be helpful in making them slightly less vulnerable. It
-is possible that the ranger is now a little too strong.
+infantry; this should be helpful in making them slightly less vulnerable.
+This also buffs rangers and flak trucks.
 ##### Technician light damage 30 (down from 40)
 Technical detail.
 ##### Supply Truck can carry 10 passengers, speed 90 (down from 113)
 An attept to give a use to a useless unit in 1v1. Needs much more.
-##### Ranger health 16000 (up from 15000)
-They used to get really low even picking off random rifles.
 ##### Light Tank leaves husk
 This nerfs light tank spam builds.
-##### Mechanic cost 250 (down from 500), can no longer capture husks
+##### Mechanic cost 250 (down from 500), health 6000 (down from 8000), can no longer capture husks
 Mechanics cost a hefty sum and are very fragile; they take very long to build
 especially before 7 barracks, and are usually not built for healing vehicles
 as the SD can also repair vehicles cheaply and don't die very easily. Halving
 the cost to a bit over that of a medic should provide incentive to build
 them. However, being able to this cheaply recover vehicles is a little broken,
-especially if all allies can do it while soviets cannot.
+especially if all allies can do it while soviets cannot. The HP nerf is due
+to the cost nerf; they were insanely tanky for $250.
 ##### Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
 Another underused defence, the cost reduction brings it on par with a regular
 pillbox. We have taken the opportunity to grant it to England since it fits
@@ -149,7 +148,6 @@ Veterancy is now a 3-tier system with no speed bonuses
 
 T1 changes
 Supply Truck can carry 6 passengers
-Ranger health 16000 (up from 15000)
 Mechanic cost 250 (down from 500), can no longer capture husks
 Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
 Fake buildings death threshold 50% up from 10%, vision 3c0 (up from 1c0)

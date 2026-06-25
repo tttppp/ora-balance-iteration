@@ -477,10 +477,6 @@ SONAR:
 		Range: 10c0
 		Type: CenterPosition
 
-JEEP:
-	Health:
-		HP: 16000
-
 1TNK:
 	Armament:
 		PauseOnCondition: parachute
@@ -505,8 +501,6 @@ HARV:
 		SearchFromProcRadius: 9
 
 TTNK:
-	Buildable:
-		Prerequisites: ~tsla, stek, ~vehicles.russia, ~techlevel.high
 	Mobile:
 		Locomotor: wheeled
 		Speed: 112
@@ -534,6 +528,8 @@ MECH:
 		Description: actor-mech-override.description
 	Valued:
 		Cost: 250
+	Health:
+		HP: 6000
 	-Infiltrates:
 	-CaptureManager:
 	-Captures:
