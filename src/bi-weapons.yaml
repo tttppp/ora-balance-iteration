@@ -113,7 +113,7 @@ TurretGunFrance:
 		Falloff: 100, 51, 37, 14, 5, 0
 		Damage: 23000
 	Projectile: Bullet
-		Speed: 300
+		Speed: 468
 
 Grenade:
 	Warhead@1Dam: SpreadDamage
@@ -195,7 +195,7 @@ Flamer:
 RussianTeslaZap:
 	Inherits: TeslaZap
 	Warhead@1Dam: SpreadDamage
-		Damage: 5000
+		Damage: 6000
 
 PortaTesla:
 	ReloadDelay: 160
@@ -274,11 +274,6 @@ MGGSlowdown:
 		ValidRelationships: Enemy, Ally
 		ValidTargets: Infantry, Vehicle, WaterActor
 
-TTankZap:
-	Warhead@1Dam: SpreadDamage
-		Versus:
-			Heavy: 150
-
 APTusk:
 	ValidTargets: Ground, Water, GroundActor, WaterActor, AirborneActor
 	Warhead@1Dam: SpreadDamage
@@ -293,3 +288,16 @@ APTusk.stnk:
 	ReloadDelay: 160
 	Burst: 2
 	BurstDelays: 10
+
+ParaBomb:
+	Range: 3c0
+	Projectile: GravityBomb
+		Velocity: 0, 0, -40
+	Warhead@1Dam: SpreadDamage
+		Spread: 768
+		Versus:
+			None: 30
+			Wood: 30
+			Light: 75
+			Concrete: 25
+		DamageTypes: Prone50Percent, TriggerProne, ExplosionDeath

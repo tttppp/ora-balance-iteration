@@ -51,10 +51,7 @@
 	-FirepowerMultiplier@RANK-3:
 	FirepowerMultiplier@RANK-ELITE:
 		Modifier: 120
-	-SpeedMultiplier@RANK-1:
-	-SpeedMultiplier@RANK-2:
 	-SpeedMultiplier@RANK-3:
-	-SpeedMultiplier@RANK-ELITE:
 	-ReloadDelayMultiplier@RANK-1:
 	-ReloadDelayMultiplier@RANK-2:
 	-ReloadDelayMultiplier@RANK-3:
@@ -80,6 +77,9 @@
 	FirepowerMultiplier@RANK-ELITE:
 		Modifier: 115
 	-ReloadDelayMultiplier@RANK-ELITE:
+	-SpeedMultiplier@RANK-1:
+	-SpeedMultiplier@RANK-2:
+	-SpeedMultiplier@RANK-ELITE:
 	-ChangesHealth@ELITE:
 
 ^Infantry:
@@ -154,7 +154,7 @@ TSLA.Russia:
 		Weapon: RussianTeslaZap
 		LocalOffset: 0,0,896
 	AttackTesla:
-		MaxCharges: 6
+		MaxCharges: 5
 	RenderSprites:
 		Image: tsla
 	ProvidesPrerequisite@tsla:
@@ -196,8 +196,6 @@ GUN.France:
 		Description: actor-gun-france.description
 	Tooltip:
 		Name: actor-gun-france.name
-	Valued:
-		Cost: 1000
 	Power:
 		Amount: -60
 	Armament:
@@ -504,7 +502,7 @@ TTNK:
 	Mobile:
 		Locomotor: wheeled
 		Speed: 112
-		TurnSpeed: 36
+		TurnSpeed: 32
 	Health:
 		HP: 30000
 	RevealsShroud:
@@ -595,6 +593,8 @@ AFLD:
 	ParatroopersPower@paratroopers:
 		ChargeInterval: 6000
 	AirstrikePower@parabombs:
+		SquadSize: 3
+		Cordon: 8c0
 		ChargeInterval: 6000
 
 AFLD.Ukraine:
@@ -686,7 +686,7 @@ E4:
 
 THF:
 	Valued:
-		Cost: 250
+		Cost: 300
 
 MH60:
 	Aircraft:
@@ -695,3 +695,7 @@ MH60:
 HIND:
 	Aircraft:
 		Speed: 113
+
+BADR.Bomber:
+	AmmoPool:
+		Ammo: 5

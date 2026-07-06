@@ -82,10 +82,10 @@ faction-ukraine-override =
      Special Unit: Demolition Truck
 
 briefing =
-    ••• Balance Iteration 5.1R •••
+    ••• Balance Iteration 5.2.0R •••
     - Credits for various assets: The Combined Arms Mod, Blackened, FRenzy, Orb, Pinkthoth, Punsho, TTTPPP, tux, Widow and probably many others
 
-    - Custom BI 5.1 balance:
+    - Custom BI 5.2.0R balance:
       • General changes
         • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
         • RAGL viewport 35c0 height
@@ -128,19 +128,19 @@ briefing =
         • Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
         • Fake buildings health 50% of original (up from 30%), vision 4c0 (up from 1c0)
         • German Mechanic based on Mechanic, Germany only, can capture husks
-        • Russian Tesla Coil based on Tesla Coil, Russia only, burst 6 (up from 3), damage 5000 (down from 10000)
+        • Russian Tesla Coil based on Tesla Coil, Russia only, burst 5 (up from 3), damage 6000 (down from 10000)
         • Flamethrower built only by Ukraine, cost 250 (down from 300), health 5000 (up from 4000)
 
       • T2 changes
         • Spy can no longer get veterancy from infiltrations
         • British Spy cost 500 (up from 250)
         • Blackhawk speed 113 (up from 112)
-        • French Turret based on Turret, France only, cost 1000 (up from 800), power 60 (up from 40), damage 23000 (up from 4000), spread 256 (up from 128), falloff [100, 51, 37, 14, 5, 0] (from [100, 37, 14, 5, 0]), range 7c0 (up from 6c512), turn speed 12 (down from 48), reload delay 75 (up from 30), bullet speed 300 (down from 682)
+        • French Turret based on Turret, France only, power 60 (up from 40), damage 23000 (up from 4000), spread 256 (up from 128), falloff [100, 51, 37, 14, 5, 0] (from [100, 37, 14, 5, 0]), range 7c0 (up from 6c512), turn speed 12 (down from 48), reload delay 75 (up from 30), bullet speed 468 (down from 682)
         • German Tank Drop cooldown 4min (down from 5min in BI-5.0)
-        • Thief cost 250 (down from 500)
+        • Thief cost 300 (down from 500)
         • Paradrop cooldown 4min (down from 5min)
         • Shock Trooper damage 2000 (down from 4500), 2 bursts with delay 6 (up from 1 burst), reload delay 160 (up from 70)
-        • Parabomb cooldown 4min (down from 5min), wood damage 50 (down from 60)
+        • Parabomb cooldown 4min (down from 5min), badger squad 3 (up from 1), fall speed 40 (down from 50), spread 786 (down from 1000), damage versus None: 30, Wood: 30 (from 40, 60), cordon 8c0 (up from 5c0)
 
       • T3 changes
         • Tanya has a skull icon
@@ -156,4 +156,4 @@ briefing =
         • MAD Tank can be undeployed and redeployed, cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)
         • Mig health 11000 (up from 8000)
         • Missile Sub health 50000 (up from 40000)
-        • Tesla Tank speed 112 (up from 92), turn speed 36 (up from 20 in release, 35 in BI-4.6), health 30000 (down from 40000), heavy damage 150 (up from 100), cannot crush infantry, vision in Gap Generator shroud 5c0 (down from 6c0)
+        • Tesla Tank speed 112 (up from 92), turn speed 32 (up from 20 in release, down from 35 in BI-4.6), health 30000 (down from 40000), cannot crush infantry, facing tolerance 512, vision in Gap Generator shroud 5c0 (down from 6c0)
