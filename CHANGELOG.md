@@ -3,7 +3,7 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
-## 5.1.2
+## 5.2.0
 ##### Non-infantry units are faster on higher ranks
 The speed boost is almost always desirable for them and is also the most
 visible aspect of veterancy.

@@ -82,10 +82,10 @@ faction-ukraine-override =
      Special Unit: Demolition Truck
 
 briefing =
-    ••• Balance Iteration 5.1 •••
+    ••• Balance Iteration 5.2.0 •••
     - Credits for various assets: The Combined Arms Mod, Blackened, FRenzy, Orb, Pinkthoth, Punsho, TTTPPP, tux, Widow and probably many others
 
-    - Custom BI 5.1 balance:
+    - Custom BI 5.2.0 balance:
       • General changes
         • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
         • Veterancy is now a 3-tier system with no speed bonuses
