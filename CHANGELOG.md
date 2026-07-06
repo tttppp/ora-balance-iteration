@@ -17,13 +17,35 @@ With its range, it shut down infantry flanks way too easily.
 They were really underperforming vs moving targets.
 ##### Parabomb badger squad 3 (up from 1), bombs per badger 5 (down from 9), fall speed 40 (down from 50), spread 786 (down from 1000), damage versus None: 30, Wood: 30 (from 40, 60), cordon 8c0 (up from 5c0)
 This change brought to you buy the MPGA (Make Parabombs Great Again movement).
+
+* tux - 2026-07-06: No one really liked the new parabombs. Since im buffing everyone else may as well buff ukraine. It was the weakest faction in 5.1.1
+* Dark: ?? free damage with single production here is insanely strong. ukraine still feels strong to me. i think this is a bad idea. i already said the flamethrower buff was probably too much because i think they are really strong and parabombs were already imo one of the best things in the game and the reason i play ukraine
+* Orb: My idea was to bring back 3 parabombs, since I think it can work, and readjust the other stats. The first idea was to increase the cordon (which Tux did). Could also fiddle with the cooldown. Maybe next version make them 6 minute cooldown, like nuke? If they prove to be pretty strong. I also always disliked all the soviet support powers have the same cooldown, so it'd help with that, too
+* Fazzz: I think we should see more games first
+
 ##### Thief cost 300 (up from 250)
 $250 was insanely cheap for what they can do.
 ##### Tesla Tank turn speed 32 (down from 36), heavy damage 100 (down from 150)
 They were way overperforming and outkiting light tanks. Soviets also had no
 easy counter once some flaks were up.
 
+## Changes leading to 5.2
+
+##### Walls
+
+* Amelza - 2026-06-05: walls from 300 to 150. we might see some clutch wall play against early game rushes who knows. We need a counter for mad tank and supply truck spam
+* bete: i wanted to write something like that last night...
+* Orb: concrete was way more common on smaller maps, not as conducive on these huge maps. used to wall off enemy pillboxes...
+
+##### Yaks
+
+* Orb - 2026-07-05: By the way, for Yaks vs Migs....I think Migs seem weak now cause Yaks got buffed. I wonder if Yaks should get nerfed, they're really strong now 🤔
+* Wolffang: Yaks always seemed really strong imo
+* Dark: to me yaks seem a bit better than blackhawks but i dont have much experience with blackhawks to be honest. im not good with migs but tux and sir always use them against me where they seem very good
+* bete: Yaks are strong once massed but very situational again and it's very late to game.... if you suround infantry with tank from 2-3 sides Yaks can't do anything/waste ammo for example.
+
 ## 5.1.1
+
 This has been such a large overhaul, with so many aspects differing from BI5.0,
 that we will discuss this release with respect to BI4.6 instead. With that in
 mind, the changes here are in the spirit of BI5.0, that is chiefly to make a
@@ -135,19 +157,45 @@ AA Chrono Tanks have been discussed for a long time; their usage for harassment
 has traditionally been severely limited by getting hardcountered by any air
 units. As compensation, chrono-crushing has been removed. To further their
 harassment capabilities their mobility has also been increased.
+
+* bete - 2026-06-30: Cronotanks pretty cool unit now. Assuming you know how to use them , unlike me
+* Orb - 2026-07-05: Chrono tanks are kind of mid. Give them +50%/+100% none damage
+
 ##### MAD Tank can be undeployed and redeployed, cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)
 Formerly useless unit might be a little broken now.
+
 ##### Mig health 11000 (up from 8000)
 They were never bad units, however tended to die way too easily at the slightest
 misstep. For units that cost $2000 they should be a little more sturdy.
+
+* Amelza - 2026-07-04: Migs are so good. They just never die. (Until the inevitable micro mistake of course 😅)
+* tux: they do suck up attention tho. I try to use them during downtime periods. one mig can take out a harv in a single pass. Longbows cannot do that! U need 2 minimum. Which is already double the cost
+* bete: idk why you put Longbow as reference? It's also underused. and need buffs
+* Cecile: Longbows are good. Did you guys not watch Upps v Fazzz? Those longbows paid for themselves. multiple times over
+* Fazzz: You know I rarely talk about balance, but honestly im not a fan of migs.. just think money is better spent on mammoths or other things. I like longbows though, they offer decent value- upps is someone who uses them very well and tux too I think. Personally I just prefer to get more blackhawks or yaks.
+* tux: I agree migs could be buffed. Though I'm not really sure how
+* Fazzz: Agreed, they need something to be a little more cost effective
+* creo: i think they are the most fun unit in the game design wise, i don't mind some units being harder having a higher skill floor and ceiling = )
+* Orb: if you want to lower the micro requirement reduce their payload to two bombs, and set the range to like 0c5 or something. But to be clear, I don't really think the Mig necessarilly needs to be changed
+
 ##### Missile Sub health 50000 (up from 40000)
 Increases torpedo hits it takes from 4 to 5.
-##### Tesla Tank speed 112 (up from 92), turn speed 36 (up from 20 in release, 35 in BI-4.6), health 30000 (down from 40000), heavy damage 150 (up from 100), cannot crush infantry
+
+##### Tesla Tank speed 112 (up from 92), turn speed 36 (up from 20 in release, 35 in BI-4.6), health 30000 (down from 40000),
+heavy damage 150 (up from 100), cannot crush infantry
 The most annoying issue with Tesla Tanks has always been iron-curtained
 Tesla-Flak balls being unstoppable. The intent of removing crushing is to make
 them into more of a specialised hit-and-run harassment unit, facilitated
 by greatly increased mobility. Health has been nerfed as compensation. It
 remains to be seen if they are too impractical in the face of enemy air units.
+
+* Orb - 2026-07-04: These Tesla tanks got to change. You can't kill them with ground units, they outrange/outspeed them. Also the extra heavy damage means tanks melt to them, too. This makes tesla-flak more unstoppable, not less
+* bete: And i guess TTs are bad against Turrets/Teslas?
+* Orb: Not with the +50% heavy buff they aren't, lol
+* bete: Also TTs health is nerfed, you should be able to kill them with Flaks/LTs? tho LTs are also heavy armor
+* tux: i re-added turreted to tt. I am inclined to agree they are way too strong rn. I was thinking of keeping the damage buff and making them same hp as flak
+* Orb: I mean hear me out, just add the turret back in (you already did that), but keep the mobility stats the same as old. You can't buff these mobility stats. Also double turn speed is crazy. I'm not saying revert them completely - I'm saying they're overtuned at the moment
+* Orb - 2026-07-05: Also after playing quite a few more matches, TTs aren't quite as strong as I thought they were - reduce their turn rate, but I think the speed is probably fine? The speed was originally reduced because of crushing anyway
 
 ## Discussions leading to 5.1
 
@@ -214,6 +262,7 @@ Tesla Tank speed 112 (up from 92), turn speed 36 (up from 20), health 30000 (dow
 * moods: Ye i think chrono should get AA to . But i dont think it should do the same damage as they do to armor.. where as phases weapon is weak so it could have its damage be universal
 * Orb - 2026-06-21: Chronotanks can't shoot air, its already been tried (by me). well, I guess if they can't crush infantry. hm, it might be fine actually
 * Cecile: I'm sad about no crush ctanks. Were they that strong in testing?
+* Ruckus - 2026-06-22: I think phase transports and chrono tanks getting AA missiles is fine
 
 ### Phase Transports
 
@@ -229,6 +278,7 @@ You would have to remove that for them to be considered like a stealth tank
 * anjew: [Mammoth tank detection] was added as a counter. It used to be really just dogs and spies. As well as some structures
 * bete: [If crushing was removed then] remove detection from infantry and add to specfiic units (dogs, spies, static def, radar, and eventually few others)
 * mrtbsc: for stealthtanks that would be ok if their role is shiftet torwards sniping
+* Ruckus - 2026-06-22: I think phase transports and chrono tanks getting AA missiles is fine
 
 ### Thieves
 
@@ -256,11 +306,21 @@ You would have to remove that for them to be considered like a stealth tank
 * Sigil: the early game depends on spending the income as it's earned. doesn't work too well with  structures that costs 2k
 * Creo: i kind of agree with this actually! i like up front, but i think you may need to change the game a bit for it to work with this = ) as in it could become difficult to test all the changes properly as some might be impacted differently depending on whether it's pay up front or not i think
 * tux: lol just had an actual game. i removed the upfront payment
+* Ruckus - 2026-06-22: Economic macro in OpenRA is straightforward, but I've yet to hear anyone make a good argument for why that 's a bad thing. The player can easily act on their intention to convert money into army, and I don't know what depth is added to the game by sabotaging the UI to make that artificially more difficult. There are plenty of unexplored spaces for skill expression in Open RA. There's no need to raise the ceiling in an area of the game that's not intended to be challenging or interesting.
+* bete: Yes queues are literary braindead as you can queue 1000/500 infantry and 500 tanks and never touch it again and still win game in current Masters division. Economy is also kinda linear due to single-queue. And macro in general is not braindead but pretty easy comparing to other games.
+* Fazzz - 2026-06-23: Fwiw I thought queue limits was a great idea, granted I havent played since last ragl.. shame they got removed
+* bete: I voted also to remove them (although queue limits are kinda my idea 😆 ). There's no UI or sound indication that you reached limit. And we want players to focus on new factions and units. Queue limits would turn focus from that.
+* Creo: aw, they got removed? 🙁 just seconding this! i played that last test tournament which had very strict queue limits and i thought it was the most fun and enjoyable games i've played in openra, so this is rather disappointing
+* Fazzz: I didnt even realise they existed in the last ragl, so its hardly a distraction imo
 
 ### Mechanics
 
 * tux - 2026-06-21: Mechanic cost 250 (down from 500), can no longer capture husks
 * Orb: Also, I would reduce the mechanics health if you're making them cheaper
+* Ruckus - 2026-06-22: I vehemently disagree that non-German mechanics should lose the ability to rez husks. Mechanic abuse is IMO one of the biggest unexplored areas of skill expression in competitive RA. Being able to salvage mammoths is also fundamental to the T3 Allied v. Sov balance.
+* xaxl: And get the mcv husks back is so good. Maybe change back to normal but make the mechanic cheaper for Germans?
+* tux - 2026-06-23: As one of the prime mechanic abusers, i can tell you how good they can be. So good that it deserves to be a faction special. Otherwise all allies having it while soviets don't is quite silly
+* Ruckus: ...I have to believe husk management is also a skill ceiling we want to preserve. I get there's a goal of making subfactions more distinct, but I feel like this erodes the faction identity of Allies more than it gives Germany an identity.
 
 ### Camo Pillboxes
 
@@ -281,6 +341,8 @@ You would have to remove that for them to be considered like a stealth tank
 
 * tux - 2026-06-21: Missile Silo charge 6 minutes (down from 9 minutes)
 * Orb: I don't really think Missile Silo needs any changes - you especially hurt team games.
+* tux - 2026-06-25: Mslo change was purely motivated by ragl iirc. Tript was pushing for it and i do think they kinda suck in most 1v1s
+* Orb: I'm worried Missile Silo/MAD tank changes will adversely effect large team games without much benefit for 1vs1s
 
 ### Tesla Tanks
 
@@ -301,7 +363,7 @@ You would have to remove that for them to be considered like a stealth tank
 ### Gap Generator and MGG
 
 * tux - 2026-06-21: Gap Generator slows all ground units in shroud to 55%
-* Ruckus - 2026-06-22: The slow-field proposed by 5.1 is interesting, but I'm concerned it might be too oppressive. The role MGG should fill IMO is as protection for artillery/Tanya/undeployed-MCV against air.
+* Ruckus - 2026-06-22: The slow-field proposed by 5.1 is interesting, but I'm concerned it might be too oppressive. The role MGG should fill IMO is as protection for artillery/Tanya/undeployed-MCV against air. ... I think MGG's getting some love is interesting
 
 
 ## 5.0
@@ -405,6 +467,8 @@ MAD Tank has a significant damage and range buff and can be redeployed. It can n
 * Unano: Looks cool
 * J MegaTank: This is great news really, would be cool to see them used more in RA (also in 1v1 as a late game unit)
 Iron curtain M.A.D Tanks
+* Ruckus - 2026-06-22: I think MAD tanks getting a boost is fine though I'm uncertain what it offers over what Sovs can already do with V2's
+* bete: As i saw, Mad tanks damage all Tanks in radius of N cells so it's kinda very interesting and useful. Idk if they changed it in last revisions. V2s are only more for infantry and buildins
 
 #### Supply Truck can carry six passengers
 
