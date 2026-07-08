@@ -29,7 +29,7 @@ $250 was insanely cheap for what they can do.
 They were way overperforming and outkiting light tanks. Soviets also had no
 easy counter once some flaks were up.
 
-## Changes leading to 5.2
+## Discussion preceding 5.2
 
 ##### Walls
 
