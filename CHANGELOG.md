@@ -3,6 +3,10 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
+## 5.3.0
+##### Parabomb fall speed 35 (down from 50), spread 648 (down from 1000)
+They were way too strong as expected.
+
 ## 5.2.0
 ##### Non-infantry units are faster on higher ranks
 The speed boost is almost always desirable for them and is also the most
@@ -11,7 +15,7 @@ visible aspect of veterancy.
 With its range, it shut down infantry flanks way too easily.
 ##### French Turret projectile speed 468 (up from 300), cost 800 (down from 1000)
 They were really underperforming vs moving targets.
-##### Parabomb badger squad 3 (up from 1), fall speed 40 (down from 50), spread 786 (down from 1000), damage versus None: 30, Wood: 30 (from 40, 60), cordon 8c0 (up from 5c0)
+##### Parabomb badger squad 3 (up from 1), bombs per badger 5 (down from 9), fall speed 40 (down from 50), spread 786 (down from 1000), damage versus None: 30, Wood: 30 (from 40, 60), cordon 8c0 (up from 5c0)
 This change brought to you buy the MPGA (Make Parabombs Great Again movement).
 ##### Thief cost 300 (up from 250)
 $250 was insanely cheap for what they can do.
