@@ -22,6 +22,7 @@ This change brought to you buy the MPGA (Make Parabombs Great Again movement).
 * Dark: ?? free damage with single production here is insanely strong. ukraine still feels strong to me. i think this is a bad idea. i already said the flamethrower buff was probably too much because i think they are really strong and parabombs were already imo one of the best things in the game and the reason i play ukraine
 * Orb: My idea was to bring back 3 parabombs, since I think it can work, and readjust the other stats. The first idea was to increase the cordon (which Tux did). Could also fiddle with the cooldown. Maybe next version make them 6 minute cooldown, like nuke? If they prove to be pretty strong. I also always disliked all the soviet support powers have the same cooldown, so it'd help with that, too
 * Fazzz: I think we should see more games first
+* Sigil - 2026-07-12: parabombs are a little polarizing, they feel pretty useless outside the edge of the map and turn the map edge into a complete no-go zone for an opponent. live balance \[(BI-4.6)\] is something like that and less extreme on both ends of it
 
 ##### Thief cost 300 (up from 250)
 $250 was insanely cheap for what they can do.
