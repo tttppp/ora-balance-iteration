@@ -11,7 +11,34 @@ Player:
 		ItemLimit: 20
 	ClassicProductionQueue@Aircraft:
 		ItemLimit: 20
+	Shroud:
+		ExploredMapCheckboxLocked: true
+		FogCheckboxLocked: true
+	LobbyPrerequisiteCheckbox@GLOBALBOUNTY:
+		Locked: true
+	LobbyPrerequisiteCheckbox@REUSABLEENGINEERS:
+		Locked: true
+	LobbyPrerequisiteCheckbox@GLOBALFACTUNDEPLOY:
+		Locked: true
+	DeveloperMode:
+		CheckboxLocked: true
+	PlayerResources:
+		DefaultCashDropdownLocked: true
 
 World:
 	MapOptions:
 		ViewportHeight: 40c0
+		TechLevelDropdownLocked: true
+		ShortGameCheckboxLocked: true
+		GameSpeedDropdownLocked: true
+	CrateSpawner:
+		CheckboxLocked: true
+	MapBuildRadius:
+		AllyBuildRadiusCheckboxLocked: true
+		BuildRadiusCheckboxLocked: true
+	SpawnStartingUnits:
+		DropdownLocked: true
+	MapStartingLocations:
+		SeparateTeamSpawnsCheckboxLocked: true
+	TimeLimitManager:
+		TimeLimitLocked: True
