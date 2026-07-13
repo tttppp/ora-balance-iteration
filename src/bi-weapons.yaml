@@ -292,9 +292,9 @@ APTusk.stnk:
 ParaBomb:
 	Range: 3c0
 	Projectile: GravityBomb
-		Velocity: 0, 0, -40
+		Velocity: 0, 0, -35
 	Warhead@1Dam: SpreadDamage
-		Spread: 768
+		Spread: 648
 		Versus:
 			None: 30
 			Wood: 30

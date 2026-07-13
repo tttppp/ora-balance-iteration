@@ -140,7 +140,7 @@ briefing =
         • Thief cost 300 (down from 500)
         • Paradrop cooldown 4min (down from 5min)
         • Shock Trooper damage 2000 (down from 4500), 2 bursts with delay 6 (up from 1 burst), reload delay 160 (up from 70)
-        • Parabomb cooldown 4min (down from 5min), badger squad 3 (up from 1), fall speed 40 (down from 50), spread 786 (down from 1000), damage versus None: 30, Wood: 30 (from 40, 60), cordon 8c0 (up from 5c0)
+        • Parabomb badger squad 3 (up from 1), bombs per badger 5 (down from 9) fall speed 35 (down from 50), spread 648 (down from 1000), damage versus None: 30, Wood: 30 (from 40, 60), cordon 8c0 (up from 5c0)
 
       • T3 changes
         • Tanya has a skull icon
@@ -156,4 +156,4 @@ briefing =
         • MAD Tank can be undeployed and redeployed, cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)
         • Mig health 11000 (up from 8000)
         • Missile Sub health 50000 (up from 40000)
-        • Tesla Tank speed 112 (up from 92), turn speed 32 (up from 20 in release, down from 35 in BI-4.6), health 30000 (down from 40000), cannot crush infantry, facing tolerance 512, vision in Gap Generator shroud 5c0 (down from 6c0)
+        • Tesla Tank speed 112 (up from 92), turn speed 32 (up from 20 in release, down from 35 in BI-4.6), health 30000 (down from 40000), cannot crush infantry, vision in Gap Generator shroud 5c0 (down from 6c0)
