@@ -7,6 +7,16 @@ along with comments from players to back it up.
 ##### Parabomb fall speed 35 (down from 50), spread 648 (down from 1000)
 They were way too strong as expected.
 
+## 5.3.0R
+##### Viewport limit 40c0 (up from 35c0)
+Based on a lot of feedback that it was way too close for most people to
+play comfortably.
+
+* Amelza - 2026-07-13: 40 is good. 35 felt a bit oppresive. 45 might be perfect but I never tried .. [then later a suggestion to go to 50c]
+* tux: yea i am having much less of an issue
+* Orb - 2026-07-14: If you keep increasing the viewport size - you'll miss the entire point of restricting it in the first place. Which is to not give players an advantage with better monitors. I had a 920p monitor until a couple weeks ago, I don't think it was at 50c
+* xaxl: i can only go to Medium 35c, so i am for that xD
+
 ## 5.2.0
 ##### Non-infantry units are faster on higher ranks
 The speed boost is almost always desirable for them and is also the most
@@ -161,6 +171,14 @@ harassment capabilities their mobility has also been increased.
 
 * bete - 2026-06-30: Cronotanks pretty cool unit now. Assuming you know how to use them , unlike me
 * Orb - 2026-07-05: Chrono tanks are kind of mid. Give them +50%/+100% none damage
+* Amelza - 2026-07-13: AA ctanks just feel very weird, they 2 shot longbows and basically if there's nothing to stop it, the longbow is dead, so I guess it pressures air units a lot. I doubt it would be as strong against the faster soviet air units. I'd love to see some CT rush (as TT rushes exist after all) but I don't remember how the gps timer is being revealed
+* Orb: btw chronotanks two shotting longbows seems off to me
+* tux: the main problem is that i want them to be able to  win a blackhawk 1v1
+* Amelza: no AA unit does that, even a flak. I mean, head to head DPS
+* tux: you have a point, but also ctanks cost double. currently they lose to longbows 1v1 fwiw
+* Orb: you could adjust the damage so they still 2 shot yaks, but push up the shot count for blackhawks/longbows. right now they two shot both yaks and blackhawks, which isn't quite right imo. I'd like to see their none damage increased as well
+* bete: None damage is almost irrelevant... But what's point your point then about design - that they should not have so strong aa?? They are light armor right? How'd you solve fact they are almost cleared with air units?
+* Orb: I had a thought one time to give every faction the chrono tank. This would give all of the allies subfactions a combat T3 vehicles, and could solve weirdness with only some of the subfactions getting an AA vehicle.
 
 ##### MAD Tank can be undeployed and redeployed, cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)
 Formerly useless unit might be a little broken now.
