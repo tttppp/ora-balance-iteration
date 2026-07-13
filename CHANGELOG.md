@@ -6,8 +6,6 @@ along with comments from players to back it up.
 ## 5.3.0
 ##### Parabomb fall speed 35 (down from 50), spread 648 (down from 1000)
 They were way too strong as expected.
-
-## 5.2.0
 ##### Viewport limit 40c0 (up from 35c0)
 Based on a lot of feedback that it was way too close for most people to
 play comfortably.
