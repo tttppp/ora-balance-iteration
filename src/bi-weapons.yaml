@@ -298,6 +298,3 @@ ParaBomb:
 		Versus:
 			None: 30
 			Wood: 30
-			Light: 75
-			Concrete: 25
-		DamageTypes: Prone50Percent, TriggerProne, ExplosionDeath
