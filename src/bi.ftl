@@ -88,7 +88,7 @@ briefing =
     - Custom BI 5.4.0R balance:
       • General changes
         • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
-        • RAGL viewport 40c0 height
+        • RAGL viewport 38c0 height
         • RAGL queue limits 5 structures, 5 defences, 100 infantry, 20 vehicles, 20 navy, 20 ships
         • Veterancy is now a 3-tier system with no speed bonuses
         • Harvester scanning radius 9c0 from ref (down from 15c0 from ref)

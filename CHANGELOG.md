@@ -11,6 +11,8 @@ the french turret and fake building spam; thus the further nerfs here.
 ##### Gap Generator can be undeployed
 Mobile Gap Generators can be undeployed; there is no reason for normal Gap
 Generators not to follow suit.
+##### Viewport limit 38c0 (down from 40c0)
+40c0 just looks normal...
 
 ## 5.3.0
 ##### Parabomb fall speed 35 (down from 50), spread 648 (down from 1000)
