@@ -82,10 +82,10 @@ faction-ukraine-override =
      Special Unit: Demolition Truck
 
 briefing =
-    ••• Balance Iteration 5.2.0R •••
-    - Credits for various assets: The Combined Arms Mod, Blackened, FRenzy, Orb, Pinkthoth, Punsho, TTTPPP, tux, Widow and probably many others
+    ••• Balance Iteration 5.4.0R •••
+    - Credits for various things: The Combined Arms Mod, Blackened, FRenzy, Orb, Pinkthoth, Punsho, TTTPPP, Tux, Widow and probably many others
 
-    - Custom BI 5.2.0R balance:
+    - Custom BI 5.4.0R balance:
       • General changes
         • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
         • RAGL viewport 40c0 height
@@ -121,14 +121,14 @@ briefing =
         • Rifleman light damage 30 (down from 40)
         • Technician light damage 30 (down from 40)
         • Silo has build radius
-        • Dog is not slowed by gg/mgg
+        • Dog is not slowed by Gap Generator/Mobile Gap Generator
         • Supply Truck can carry 10 passengers, speed 90 (down from 113)
         • Light Tank leaves husk
         • Mechanic cost 250 (down from 500), health 6000 (down from 8000), can no longer capture husks
         • Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
         • Fake buildings health 50% of original (up from 30%), vision 4c0 (up from 1c0)
         • German Mechanic based on Mechanic, Germany only, can capture husks
-        • Russian Tesla Coil based on Tesla Coil, Russia only, burst 5 (up from 3), damage 6000 (down from 10000)
+        • Russian Tesla Coil based on Tesla Coil, Russia only, burst 4 (up from 3), damage 7500 (down from 10000)
         • Flamethrower built only by Ukraine, cost 250 (down from 300), health 5000 (up from 4000)
 
       • T2 changes
@@ -145,7 +145,7 @@ briefing =
       • T3 changes
         • Tanya has a skull icon
         • Missile Silo charge 6min (down from 9min), power 200 (up from 150)
-        • Gap Generator slows all enemy units in shroud to 55%
+        • Gap Generator slows all enemy units in shroud to 55%, can be undeployed
         • Advanced chronosphere replaces Chronosphere for all Allies
         • GPS no longer permanent, recharge time 3min (down from 8min), can be activiated for 1min, has globally-visibile timer only when used
         • Longbow anti-ground reload delay 28 (down from 30)

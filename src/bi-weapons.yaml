@@ -195,7 +195,7 @@ Flamer:
 RussianTeslaZap:
 	Inherits: TeslaZap
 	Warhead@1Dam: SpreadDamage
-		Damage: 6000
+		Damage: 7500
 
 PortaTesla:
 	ReloadDelay: 160
