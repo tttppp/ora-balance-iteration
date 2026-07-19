@@ -128,20 +128,10 @@ MGG:
 		RequiresCondition: deployed
 
 GAP:
-	WithIdleOverlay@SPINNER:
-		PauseOnCondition: undeployed
-	CreatesShroud:
-		RequiresCondition: deployed
-	GrantConditionOnDeploy:
-		DeployedCondition: undeployed
-		UndeployedCondition: deployed
-	RenderShroudCircle:
-		RequiresCondition: deployed
 	ProximityExternalCondition:
 		Range: 6c0
 		Condition: mgg-slowed
 		ValidRelationships: Enemy
-		RequiresCondition: deployed
 
 MIG:
 	Health:

@@ -145,7 +145,7 @@ briefing =
       • T3 changes
         • Tanya has a skull icon
         • Missile Silo charge 6min (down from 9min), power 200 (up from 150)
-        • Gap Generator slows all enemy units in shroud to 55%, can be undeployed
+        • Gap Generator slows all enemy units in shroud to 55%
         • Advanced chronosphere replaces Chronosphere for all Allies
         • GPS no longer permanent, recharge time 3min (down from 8min), can be activiated for 1min, has globally-visibile timer only when used
         • Longbow anti-ground reload delay 28 (down from 30)

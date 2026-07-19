@@ -8,9 +8,6 @@ along with comments from players to back it up.
 Tesla spam was still extremely oppressive and completely killed any sort of
 multi-pronging hit-and-run action. France is already the turtle faction with
 the french turret and fake building spam; thus the further nerfs here.
-##### Gap Generator can be undeployed
-Mobile Gap Generators can be undeployed; there is no reason for normal Gap
-Generators not to follow suit.
 ##### Viewport limit 38c0 (down from 40c0)
 40c0 just looks normal...
 
