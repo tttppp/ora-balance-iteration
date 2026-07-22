@@ -134,11 +134,11 @@ briefing =
         • British Spy cost 500 (up from 250)
         • Blackhawk speed 113 (up from 112)
         • French Turret based on Turret, France only, power 60 (up from 40), damage 23000 (up from 4000), spread 256 (up from 128), falloff [100, 51, 37, 14, 5, 0] (from [100, 37, 14, 5, 0]), range 7c0 (up from 6c512), turn speed 12 (down from 48), reload delay 75 (up from 30), bullet speed 468 (down from 682)
-        • German Tank Drop cooldown 4min (down from 5min in BI-5.0)
+        • Tank Drop available from Helipad for Germany, cooldown 4min, badger speed 260, cordon 14c0
         • Thief cost 300 (down from 500)
-        • Paradrop cooldown 4min (down from 5min)
+        • Paradrop cooldown 4min (down from 5min), badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
         • Shock Trooper damage 2000 (down from 4500), 2 bursts with delay 6 (up from 1 burst), reload delay 160 (up from 70)
-        • Parabomb badger squad 3 (up from 1), bombs per badger 5 (down from 9) fall speed 35 (down from 50), spread 648 (down from 1000), damage versus None: 30, Wood: 30 (from 40, 60), cordon 8c0 (up from 5c0)
+        • Parabomb badger squad 3 (up from 1), badger speed 260 (up from 180), bombs per badger 5 (down from 9), fall speed 40 (down from 50), spread 700 (down from 1000), damage versus None: 30, Wood: 30 (from 40, 60), cordon 14c0 (up from 5c0)
 
       • T3 changes
         • Tanya has a skull icon
@@ -148,10 +148,10 @@ briefing =
         • GPS no longer permanent, recharge time 3min (down from 8min), can be activiated for 1min, has globally-visibile timer only when used
         • Longbow anti-ground reload delay 28 (down from 30)
         • Mobile Gap Generator cost 900 (down from 1000), slows enemy units in shroud to 55%
-        • Phase Transport can target air, burst 2 (up from 1), reload delay 160 (from 100), light damage 50 (up from 34), missile speed 348 (up from 298), missile turn rate 57 (up from 40)
+        • Phase Transport can target air, burst 3 with delay 15 (up from 1), reload delay 160 (from 100), light damage 50 (up from 34), missile speed 348 (up from 298), missile turn rate 57 (up from 40)
         • Chrono Tank can target air, turn speed 30 (up from 20), chronoshift cooldown 180 (down from 240), chronoshift range 14 (up from 12), light damage 50 (up from 34), cannot crush infantry, missile speed 348 (up from 298), missile turn rate 57 (up from 40)
         • Mammoth speed 50 (up from 43)
         • MAD Tank can be undeployed and redeployed, cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)
         • Mig health 11000 (up from 8000)
         • Missile Sub health 50000 (up from 40000)
-        • Tesla Tank speed 112 (up from 92), turn speed 32 (up from 20 in release, down from 35 in BI-4.6), health 30000 (down from 40000), cannot crush infantry, vision in Gap Generator shroud 5c0 (down from 6c0)
+        • Tesla Tank speed 112 (up from 92), turn speed 32 (up from 20 in release, down from 35 in BI-4.6), cannot crush infantry, vision in Gap Generator shroud 5c0 (down from 6c0)

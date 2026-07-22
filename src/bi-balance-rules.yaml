@@ -503,8 +503,6 @@ TTNK:
 		Locomotor: wheeled
 		Speed: 112
 		TurnSpeed: 32
-	Health:
-		HP: 30000
 	RevealsShroud:
 		MinRange: 5c0
 	RevealsShroud@GAPGEN:
@@ -579,6 +577,7 @@ HPAD:
 		SelectTargetTextNotification: notification-select-target
 		AllowImpassableCells: false
 		QuantizedFacings: 8
+		Cordon: 14c0
 		CameraActor: camera.paradrop
 		DisplayBeacon: true
 		BeaconPoster: paratank
@@ -592,9 +591,10 @@ HPAD:
 AFLD:
 	ParatroopersPower@paratroopers:
 		ChargeInterval: 6000
+		Cordon: 14c0
 	AirstrikePower@parabombs:
 		SquadSize: 3
-		Cordon: 8c0
+		Cordon: 14c0
 		ChargeInterval: 6000
 
 AFLD.Ukraine:
@@ -695,6 +695,10 @@ MH60:
 HIND:
 	Aircraft:
 		Speed: 113
+
+BADR:
+	Aircraft:
+		Speed: 260
 
 BADR.Bomber:
 	AmmoPool:

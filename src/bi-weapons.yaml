@@ -286,15 +286,16 @@ APTusk:
 
 APTusk.stnk:
 	ReloadDelay: 160
-	Burst: 2
-	BurstDelays: 10
+	Burst: 3
+	BurstDelays: 15
 
 ParaBomb:
-	Range: 3c0
+	Range: 3c512
+	ReloadDelay: 6
 	Projectile: GravityBomb
-		Velocity: 0, 0, -35
+		Velocity: 0, 0, -40
 	Warhead@1Dam: SpreadDamage
-		Spread: 648
+		Spread: 700
 		Versus:
 			None: 30
 			Wood: 30
