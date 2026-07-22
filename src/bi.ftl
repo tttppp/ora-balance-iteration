@@ -82,10 +82,10 @@ faction-ukraine-override =
      Special Unit: Demolition Truck
 
 briefing =
-    ••• Balance Iteration 5.4.0R •••
+    ••• Balance Iteration 5.5.0R •••
     - Credits for various things: The Combined Arms Mod, Blackened, FRenzy, Orb, Pinkthoth, Punsho, TTTPPP, Tux, Widow and probably many others
 
-    - Custom BI 5.4.0R balance:
+    - Custom BI 5.5.0R balance:
       • General changes
         • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
         • RAGL viewport 38c0 height
