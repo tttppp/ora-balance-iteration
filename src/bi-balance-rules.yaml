@@ -593,7 +593,6 @@ AFLD:
 		ChargeInterval: 6000
 		Cordon: 14c0
 	AirstrikePower@parabombs:
-		SquadSize: 3
 		Cordon: 14c0
 		ChargeInterval: 6000
 
@@ -702,4 +701,4 @@ BADR:
 
 BADR.Bomber:
 	AmmoPool:
-		Ammo: 5
+		Ammo: 9

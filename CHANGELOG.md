@@ -4,7 +4,7 @@ The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
 ## 5.5.0
-##### Parabomb fall speed 40 (up from 35), badger speed 260 (up from 180), spread 700 (up from 648), cordon 14c0 (up from 5c0), range 3c512 (up from 3c0), reload delay 6 (down from 8)
+##### Parabombs reverted to vanilla, cooldown 4min (down from 5min), badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
 These were over-reactively nerfed. The reduced spread (compared to even
 the old parabombs) should make them alright. Spread was increased a little
 because they old one was embarrasingly untested; it couldn't even kill

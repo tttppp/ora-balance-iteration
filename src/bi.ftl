@@ -140,7 +140,7 @@ briefing =
         • Thief cost 300 (down from 500)
         • Paradrop cooldown 4min (down from 5min), badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
         • Shock Trooper damage 2000 (down from 4500), 2 bursts with delay 6 (up from 1 burst), reload delay 160 (up from 70)
-        • Parabomb badger squad 3 (up from 1), badger speed 260 (up from 180), bombs per badger 5 (down from 9), fall speed 40 (down from 50), spread 700 (down from 1000), damage versus None: 30, Wood: 30 (from 40, 60), cordon 14c0 (up from 5c0)
+        • Parabomb badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
 
       • T3 changes
         • Tanya has a skull icon
