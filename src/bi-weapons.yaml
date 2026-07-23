@@ -290,15 +290,5 @@ APTusk.stnk:
 	BurstDelays: 15
 
 ParaBomb:
-	Range: 3c512
+	Range: 6c512
 	ReloadDelay: 6
-	Projectile: GravityBomb
-		Velocity: 0, 0, -40
-	Warhead@1Dam: SpreadDamage
-		Spread: 700
-		Versus:
-			None: 30
-			Wood: 30
-			Light: 75
-			Concrete: 25
-		DamageTypes: Prone50Percent, TriggerProne, ExplosionDeath
