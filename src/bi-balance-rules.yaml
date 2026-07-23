@@ -128,10 +128,20 @@ MGG:
 		RequiresCondition: deployed
 
 GAP:
+	WithIdleOverlay@SPINNER:
+		PauseOnCondition: undeployed
+	CreatesShroud:
+		RequiresCondition: deployed
+	GrantConditionOnDeploy:
+		DeployedCondition: undeployed
+		UndeployedCondition: deployed
+	RenderShroudCircle:
+		RequiresCondition: deployed
 	ProximityExternalCondition:
-		Range: 7c0
+		Range: 6c0
 		Condition: mgg-slowed
 		ValidRelationships: Enemy
+		RequiresCondition: deployed
 
 MIG:
 	Health:
@@ -154,7 +164,7 @@ TSLA.Russia:
 		Weapon: RussianTeslaZap
 		LocalOffset: 0,0,896
 	AttackTesla:
-		MaxCharges: 5
+		MaxCharges: 4
 	RenderSprites:
 		Image: tsla
 	ProvidesPrerequisite@tsla:

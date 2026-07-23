@@ -3,6 +3,15 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
+## 5.4.0
+##### Russian Tesla Coil burst 4 (down from 5), damage 7500 (up from 6000)
+Tesla spam was still extremely oppressive and completely killed any sort of
+multi-pronging hit-and-run action. France is already the turtle faction with
+the french turret and fake building spam; thus the further nerfs here.
+##### Gap Generator can be undeployed
+Mobile Gap Generators can be undeployed; there is no reason for normal Gap
+Generators not to follow suit.
+
 ## 5.3.0
 ##### Parabomb fall speed 35 (down from 50), spread 648 (down from 1000)
 They were way too strong as expected.
