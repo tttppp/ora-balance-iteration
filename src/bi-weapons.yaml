@@ -286,10 +286,11 @@ APTusk:
 
 APTusk.stnk:
 	ReloadDelay: 160
-	Burst: 2
-	BurstDelays: 10
+	Burst: 3
+	BurstDelays: 15
 
 ParaBomb:
+<<<<<<< HEAD
 	Range: 3c0
 	Projectile: GravityBomb
 		Velocity: 0, 0, -35
@@ -298,3 +299,7 @@ ParaBomb:
 		Versus:
 			None: 30
 			Wood: 30
+=======
+	Range: 6c512
+	ReloadDelay: 6
+>>>>>>> tux/master
