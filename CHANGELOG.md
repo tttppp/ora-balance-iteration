@@ -39,10 +39,13 @@ potent. Thus it feels appropriate to revert their health as well.
 Tesla spam was still extremely oppressive and completely killed any sort of
 multi-pronging hit-and-run action. France is already the turtle faction with
 the French Turret and fake building spam; thus the further nerfs here.
+##### Viewport limit 38c0 (down from 40c0)
+40c0 just looks normal...
 
 ## 5.3.0
 ##### Parabomb fall speed 35 (down from 50), spread 648 (down from 1000)
 They were way too strong as expected.
+
 ##### Viewport limit 40c0 (up from 35c0)
 Based on a lot of feedback that it was way too close for most people to
 play comfortably.
