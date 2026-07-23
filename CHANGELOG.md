@@ -3,6 +3,19 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
+## Discussion preceding 5.5
+##### Demo Trucks
+
+* Orb - 2026-07-20: [Demos] kept getting nerfed instead of a rework or something. Nerfed until they're no longer built and therefore not a balance problem anymore!
+* tux: they seem fairly balanced now. theyre still built for sure. but usually only when you are behind
+* Orb: I just remember demo's being more exciting/fun, I guess. I never thought they were OP, but the nerfs happened when I stopped playing. Though I think at one point people were just rallying them across the map and making it work so maybe it was justified. actually I wonder if it could work if we removed them hitting air. 1500 dollar air unit for a 2k vehicle? [blackhawk]
+* tux: Do you think yaks should be increased to match. They got huge buffs from engine changes
+* anjew: A stat for the percentage of games with Ukraine a demo is built would be interesting. I really don’t think it’s significant. Especially considering a bad one could be exponential worse for whoever builds it
+
+##### Phase Transports
+
+* Amelza - 2026-07-23: it feels like some units that fit a very specific role (I'm thinking about the ranger & phase transport) are being modified to fit a more generic role: they now have ok HP, ok damage, ok speed, etc... On the other hand, what makes them special (cost, speed, vision radius, cloak) gets less and less relevant. thus here's a suggestion: phase transport: price to 850 (down to 1000), stats back to normal. now blocking refineries or just getting some vision is more affordable, there would be less pressure to find value out of it
+
 ## 5.4.0
 ##### Russian Tesla Coil burst 4 (down from 5), damage 7500 (up from 6000)
 Tesla spam was still extremely oppressive and completely killed any sort of
