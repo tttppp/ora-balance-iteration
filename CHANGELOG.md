@@ -3,6 +3,24 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
+## 5.5.0
+##### Parabombs reverted to vanilla, cooldown 4min (down from 5min), badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
+These were over-reactively nerfed. The reduced spread (compared to even
+the old parabombs) should make them alright. Spread was increased a little
+because they old one was embarrasingly untested; it couldn't even kill
+infantry directly under. Cordon + speed changes attempt to make them more
+useable away from the edges while making them less broken there.
+##### Paradrop badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
+To match parabombs.
+##### Tank drop badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
+To match parabombs.
+##### Phase Transport burst 3 (up from 2), burst delay 15 (up from 10)
+The intention was to make them viable harrass units, but they just had
+way too little DPS to kill anything.
+##### Tesla Tank HP 40000 (up from 30000)
+After reverting their damage they have become significantly less
+potent. Thus it feels appropriate to revert their health as well.
+
 ## Discussion preceding 5.5
 ##### Demo Trucks
 
@@ -20,10 +38,7 @@ along with comments from players to back it up.
 ##### Russian Tesla Coil burst 4 (down from 5), damage 7500 (up from 6000)
 Tesla spam was still extremely oppressive and completely killed any sort of
 multi-pronging hit-and-run action. France is already the turtle faction with
-the french turret and fake building spam; thus the further nerfs here.
-##### Gap Generator can be undeployed
-Mobile Gap Generators can be undeployed; there is no reason for normal Gap
-Generators not to follow suit.
+the French Turret and fake building spam; thus the further nerfs here.
 
 ## 5.3.0
 ##### Parabomb fall speed 35 (down from 50), spread 648 (down from 1000)
