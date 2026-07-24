@@ -14,12 +14,17 @@ useable away from the edges while making them less broken there.
 To match parabombs.
 ##### Tank drop badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
 To match parabombs.
-##### Phase Transport burst 3 (up from 2), burst delay 15 (up from 10)
-The intention was to make them viable harrass units, but they just had
-way too little DPS to kill anything.
+##### Phase Transport burst 3 (up from 2), damage 4286 (down from 5000), damage vs light 45 (down from 50), reload delay 145 (down from 160), missile speed 388 (up from 248), missile turn rate 62 (up from 57)
+The intention was to make them viable harrass units, but they just had way
+too little DPS to kill anything.
+##### Chrono Tank damage 4286 (down from 5000), damage vs light 45 (down from 50), reload delay 50 (down from 60), missile speed 388 (up from 248), missile turn rate 62 (up from 57)
+This keeps DPS nearly the same, but AA interactions are now nerfed;
+they either draw with or narrowly lose to a Blackhawk in 1v1. The very slight
+DPS increase was so that they can exactly 7-shot harvesters. Missile changes
+were because it was pretty much impossible to hit migs with them before.
 ##### Tesla Tank HP 40000 (up from 30000)
-After reverting their damage they have become significantly less
-potent. Thus it feels appropriate to revert their health as well.
+After reverting their damage they have become significantly less potent. Thus
+it feels appropriate to revert their health as well.
 
 ## Discussion preceding 5.5
 ##### Demo Trucks
