@@ -275,14 +275,16 @@ MGGSlowdown:
 		ValidTargets: Infantry, Vehicle, WaterActor
 
 APTusk:
+	ReloadDelay: 50
 	ValidTargets: Ground, Water, GroundActor, WaterActor, AirborneActor
 	Warhead@1Dam: SpreadDamage
-		ValidTargets: Ground, Water, GroundActor, WaterActor, AirborneActor
+		ValidTargets: GroundActor, WaterActor, AirborneActor
+		Damage: 4286
 		Versus:
-			Light: 50
+			Light: 45
 	Projectile: Missile
-		Speed: 348
-		HorizontalRateOfTurn: 57
+		Speed: 388
+		HorizontalRateOfTurn: 62
 
 APTusk.stnk:
 	ReloadDelay: 160
