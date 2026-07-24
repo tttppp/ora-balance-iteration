@@ -156,4 +156,4 @@ briefing =
         • MAD Tank can be undeployed and redeployed, cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)
         • Mig health 11000 (up from 8000)
         • Missile Sub health 50000 (up from 40000)
-        • Tesla Tank speed 112 (up from 92), turn speed 32 (up from 20 in release, down from 35 in BI-4.6), cannot crush infantry, HP 30000 (down from 40000), range 8c0 (up from 7c0), vision 8c0 (up from 7c0), vision in Gap Generator shroud 4c0 (down from 6c0)
+        • Tesla Tank speed 112 (up from 92), turn speed 32 (up from 20), cannot crush infantry, damage vs heavy 120 (up from 100), HP 30000 (down from 40000), vision in Gap Generator shroud 4c0 (down from 6c0)
