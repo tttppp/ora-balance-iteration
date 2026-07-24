@@ -204,6 +204,9 @@ PortaTesla:
 	Warhead@1Dam: SpreadDamage
 		Damage: 2000
 
+TTankZap:
+	Range: 8c0
+
 Claw:
 	Warhead@1Dam: SpreadDamage
 		Versus:
