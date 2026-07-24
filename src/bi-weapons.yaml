@@ -287,9 +287,9 @@ APTusk:
 		HorizontalRateOfTurn: 62
 
 APTusk.stnk:
-	ReloadDelay: 160
+	ReloadDelay: 145
 	Burst: 3
-	BurstDelays: 15
+	BurstDelays: 10
 
 ParaBomb:
 	Range: 6c512
