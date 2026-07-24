@@ -505,7 +505,6 @@ TTNK:
 		TurnSpeed: 32
 	RevealsShroud:
 		MinRange: 4c0
-		Range: 8c0
 	RevealsShroud@GAPGEN:
 		Range: 4c0
 	Health:

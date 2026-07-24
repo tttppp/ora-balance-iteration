@@ -20,12 +20,9 @@ This keeps DPS nearly the same, but AA interactions are now nerfed;
 they either draw with or narrowly lose to a Blackhawk in 1v1. The very slight
 DPS increase was so that they can exactly 7-shot harvesters. Missile changes
 were because it was pretty much impossible to hit migs with them before.
-##### Tesla Tank vision 8c0 (up from 7c0), range 8c0 (up from 7c0), vision under Gap Generator 4c0 (down from 5c0)
-After reverting their damage they have become significantly less potent.
-Instead of just reverting their health, this is an attempt to capitalise on
-their harassment capabilities. Changing the range instead just seemed like a
-fun addition I wanted to test; for that I offer neither excuse nor apology. The
-Gap Generator vision change is to make it consistent with other vehicles.
+##### Tesla Tank damage vs heavy 120 (up from 100), vision under Gap Generator 4c0 (down from 5c0)
+They were way overnerfed; now they 5-shot harvesters. The Gap Generator
+vision change is to make it consistent with other vehicles.
 
 
 ## 5.4.0
