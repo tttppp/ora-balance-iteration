@@ -292,16 +292,5 @@ APTusk.stnk:
 	BurstDelays: 10
 
 ParaBomb:
-<<<<<<< HEAD
-	Range: 3c0
-	Projectile: GravityBomb
-		Velocity: 0, 0, -35
-	Warhead@1Dam: SpreadDamage
-		Spread: 648
-		Versus:
-			None: 30
-			Wood: 30
-=======
 	Range: 6c512
 	ReloadDelay: 6
->>>>>>> tux/master
