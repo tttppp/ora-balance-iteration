@@ -18,8 +18,8 @@ To match parabombs.
 The intention was to make them viable harrass units, but they just had
 way too little DPS to kill anything.
 ##### Tesla Tank HP 40000 (up from 30000)
-After reverting their damage they have become significantly less
-potent. Thus it feels appropriate to revert their health as well.
+After reverting their damage they have become significantly less potent. Thus
+it feels appropriate to revert their health as well.
 
 
 ## 5.4.0
