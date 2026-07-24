@@ -5,10 +5,8 @@ along with comments from players to back it up.
 
 ## 5.5.0
 ##### Parabombs reverted to vanilla, cooldown 4min (down from 5min), badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
-These were over-reactively nerfed. The reduced spread (compared to even
-the old parabombs) should make them alright. Spread was increased a little
-because they old one was embarrasingly untested; it couldn't even kill
-infantry directly under. Cordon + speed changes attempt to make them more
+Efforts to have three badgers while not being broken or just unfun were
+largely unsuccessful. Cordon + speed changes attempt to make them more
 useable away from the edges while making them less broken there.
 ##### Paradrop badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
 To match parabombs.
