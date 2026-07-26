@@ -504,9 +504,11 @@ TTNK:
 		Speed: 112
 		TurnSpeed: 32
 	RevealsShroud:
-		MinRange: 5c0
+		MinRange: 4c0
 	RevealsShroud@GAPGEN:
-		Range: 5c0
+		Range: 4c0
+	Health:
+		HP: 30000
 
 4TNK:
 	Mobile:

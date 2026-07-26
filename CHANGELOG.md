@@ -5,21 +5,24 @@ along with comments from players to back it up.
 
 ## 5.5.0
 ##### Parabombs reverted to vanilla, cooldown 4min (down from 5min), badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
-These were over-reactively nerfed. The reduced spread (compared to even
-the old parabombs) should make them alright. Spread was increased a little
-because they old one was embarrasingly untested; it couldn't even kill
-infantry directly under. Cordon + speed changes attempt to make them more
+Efforts to have three badgers while not being broken or just unfun were
+largely unsuccessful. Cordon + speed changes attempt to make them more
 useable away from the edges while making them less broken there.
 ##### Paradrop badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
 To match parabombs.
 ##### Tank drop badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
 To match parabombs.
-##### Phase Transport burst 3 (up from 2), burst delay 15 (up from 10)
-The intention was to make them viable harrass units, but they just had
-way too little DPS to kill anything.
-##### Tesla Tank HP 40000 (up from 30000)
-After reverting their damage they have become significantly less
-potent. Thus it feels appropriate to revert their health as well.
+##### Phase Transport burst 3 (up from 2), damage 4286 (down from 5000), damage vs light 45 (down from 50), reload delay 145 (down from 160), missile speed 388 (up from 248), missile turn rate 62 (up from 57)
+The intention was to make them viable harrass units, but they just had way
+too little DPS to kill anything.
+##### Chrono Tank damage 4286 (down from 5000), damage vs light 45 (down from 50), reload delay 50 (down from 60), missile speed 388 (up from 248), missile turn rate 62 (up from 57)
+This keeps DPS nearly the same, but AA interactions are now nerfed;
+they either draw with or narrowly lose to a Blackhawk in 1v1. The very slight
+DPS increase was so that they can exactly 7-shot harvesters. Missile changes
+were because it was pretty much impossible to hit migs with them before.
+##### Tesla Tank damage vs heavy 120 (up from 100), vision under Gap Generator 4c0 (down from 5c0)
+They were way overnerfed; now they 5-shot harvesters. The Gap Generator
+vision change is to make it consistent with other vehicles.
 
 ## Discussion preceding 5.5
 ##### Demo Trucks
