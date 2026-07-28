@@ -12,6 +12,9 @@ useable away from the edges while making them less broken there.
 To match parabombs.
 ##### Tank drop badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
 To match parabombs.
+* Cecile - 2026-07-26: I mean 2lt drop is nothing. 2lts can't deal that much damage can it?
+* tux: Not rly. Its free units tho. They can defo kill a harv if ur not paying attention
+* xaxl: I like the light tank drop.
 ##### Phase Transport burst 3 (up from 2), damage 4286 (down from 5000), damage vs light 45 (down from 50), reload delay 145 (down from 160), missile speed 388 (up from 248), missile turn rate 62 (up from 57)
 The intention was to make them viable harrass units, but they just had way
 too little DPS to kill anything.
@@ -26,7 +29,6 @@ vision change is to make it consistent with other vehicles.
 
 ## Discussion preceding 5.5
 ##### Demo Trucks
-
 * Orb - 2026-07-20: [Demos] kept getting nerfed instead of a rework or something. Nerfed until they're no longer built and therefore not a balance problem anymore!
 * tux: they seem fairly balanced now. theyre still built for sure. but usually only when you are behind
 * Orb: I just remember demo's being more exciting/fun, I guess. I never thought they were OP, but the nerfs happened when I stopped playing. Though I think at one point people were just rallying them across the map and making it work so maybe it was justified. actually I wonder if it could work if we removed them hitting air. 1500 dollar air unit for a 2k vehicle? [blackhawk]
@@ -34,14 +36,34 @@ vision change is to make it consistent with other vehicles.
 * anjew: A stat for the percentage of games with Ukraine a demo is built would be interesting. I really don’t think it’s significant. Especially considering a bad one could be exponential worse for whoever builds it
 
 ##### Phase Transports
-
 * Amelza - 2026-07-23: it feels like some units that fit a very specific role (I'm thinking about the ranger & phase transport) are being modified to fit a more generic role: they now have ok HP, ok damage, ok speed, etc... On the other hand, what makes them special (cost, speed, vision radius, cloak) gets less and less relevant. thus here's a suggestion: phase transport: price to 850 (down to 1000), stats back to normal. now blocking refineries or just getting some vision is more affordable, there would be less pressure to find value out of it
+* Orb: You can chrono phase transports. For crushing, it seems really strong
+* Amelza - 2026-07-24: But [ranger is] such a specific support unit, as well as the phase transport, that using it offensively feels wrong
+* tux: Ah yes phase transport. Whose only use is transporting tanya. Idk that feels so lame honestly
+* sir: and blockinf refs
+
+##### Ranger
+* tux - 2026-07-24: Rangers used to be really strong fwiw. They got over-nerfed both by us and engine changes. I slightly mitigated that by reducing rifle light dmg
+* Amelza: They should lose to 5 rifles no? It’s not a flak truck that pokes indefinitely, it’s a fast unit that snipes rockets and engies
+* tux: It didn't use to lose to 5 rifles. You only say that because in bi4.6 they did
+
+##### Chronotanks
+* sir - 2026-07-24: fwiw i think chronotanks should still crush inf
+* Amelza: It’s not as if they were dominant rn
+* tux: It was pretty fun but they can't be anti-everything
+* Amelza: Well, they could be weak to air who knows
+* Cecile: They're still not omega strong against air. Allies can use mrj and soviet yaks can kill
+* tux: I still want to nerf the AA a bit
+* Orb: tbh I'm not a huge fan of the new mobile AA units tbh, but maybe I need to play with them more. But when chronos were used against me I was like...what do I even do to counter this
 
 ## 5.4.0
 ##### Russian Tesla Coil burst 4 (down from 5), damage 7500 (up from 6000)
 Tesla spam was still extremely oppressive and completely killed any sort of
 multi-pronging hit-and-run action. France is already the turtle faction with
 the French Turret and fake building spam; thus the further nerfs here.
+##### Viewport limit 38c0 (down from 40c0)
+40c0 just looks normal...
+* Amelza - 2026-07-24: The work on viewport is nice tho
 
 ## 5.3.0
 ##### Parabomb fall speed 35 (down from 50), spread 648 (down from 1000)
@@ -126,6 +148,8 @@ and naval units, so they may be added back for those in the future.
 Tesla Tanks and especially Chrono Tanks have been made nearly useless against
 infantry; this should be helpful in making them slightly less vulnerable.
 This also buffs rangers and flak trucks.
+* tux - 2026-07-26: Do you know what one of the biggest chamges seems to be? Imo, rifle light 40->30
+* Orb: I think this is the best change, as well
 ##### Technician light damage 30 (down from 40)
 Technical detail.
 ##### Supply Truck can carry 10 passengers, speed 90 (down from 113)
