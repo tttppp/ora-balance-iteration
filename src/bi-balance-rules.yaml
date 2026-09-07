@@ -159,6 +159,12 @@ TSLA.Russia:
 		Image: tsla
 	ProvidesPrerequisite@tsla:
 		Prerequisite: tsla
+	WithDecoration@SUBFACTION:
+		Image: flags
+		Sequence: flag-rus
+		Palette: effect
+		Position: TopRight
+		ValidRelationships: Ally, Enemy, Neutral
 
 PBOX:
 	Buildable:
@@ -204,6 +210,12 @@ GUN.France:
 		TurnSpeed: 12
 	RenderSprites:
 		Image: gun
+	WithDecoration@SUBFACTION:
+		Image: flags
+		Sequence: flag-fra
+		Palette: effect
+		Position: TopRight
+		ValidRelationships: Ally, Enemy, Neutral
 
 FTUR:
 	DetectCloaked:
@@ -519,6 +531,19 @@ SPY.England:
 		Cost: 500
 	Infiltrates:
 		Types: SPY.England.Infiltrate, SpyInfiltrate
+	WithDecoration@SUBFACTION:
+		Image: flags
+		Sequence: flag-eng
+		Palette: effect
+		Position: TopRight
+		ValidRelationships: Ally, Neutral
+	WithDecoration@SUBFACTION_ENEMY:
+		Image: flags
+		Sequence: flag-eng
+		Palette: effect
+		Position: TopRight
+		ValidRelationships: Enemy
+		RequiresCondition: !disguise
 
 MECH:
 	Buildable:
@@ -549,6 +574,12 @@ MECH.Germany:
 		EnterCursor: goldwrench
 	RenderSprites:
 		Image: mech
+	WithDecoration@SUBFACTION:
+		Image: flags
+		Sequence: flag-ger
+		Palette: effect
+		Position: TopRight
+		ValidRelationships: Ally, Enemy, Neutral
 
 SHOK:
 	Buildable:
