@@ -3,6 +3,10 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
+## 5.6.0
+##### Country flags added
+To distinguish between normal and special variants of units.
+
 ## Discussions preceding 5.6
 ##### Queue limit
 * Orb - 2026-07-29: Viewport restriction is a common mechanic in RTS games. Queue limits are not, unless you count the 1 unit queue limit of the original RA *shiver*. I think queue limits is a silly way to add macro complexity to RA. If you truely desire it - you either need to promote more build order variety, or the nuclear option, go multi-queue. But I think part of the reason RA has been so successful as a mod is its simplicity in macro/gameplay.
