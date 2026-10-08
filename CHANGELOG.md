@@ -3,6 +3,25 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
+## Discussions preceding 5.6
+##### Queue limit
+* Orb - 2026-07-29: Viewport restriction is a common mechanic in RTS games. Queue limits are not, unless you count the 1 unit queue limit of the original RA *shiver*. I think queue limits is a silly way to add macro complexity to RA. If you truely desire it - you either need to promote more build order variety, or the nuclear option, go multi-queue. But I think part of the reason RA has been so successful as a mod is its simplicity in macro/gameplay.
+* dark: i dont agree or disagree i dont have strong opinion on the limits tbh. i think you are right its possible to make macro more interesting, multiqueue sounds good to me
+* Medium Tank: Queue limits make sense. But I think it takes APM away from other things that are much more fun and engaging. ... I don’t want to play games for 8 minutes and because someone forget to queue I stomp them or vice versa. It’s not fun to win/lose like that
+* happy: Where ild challenge this is keeping your oppenant so busy that they forget queues is a legitimate way to win
+* Medium Tank: Which does make sense and I agree. I also know the limits aren’t so far down that it would be a substantial difference iirc. Gut reaction, I don’t think it really needs to be touched. But just my opinion.
+##### Migs
+* Amelza - 2026-08-28: Btw we don’t talk about migs vs buildings. It’s surprisingly ok. 1 payload kills a power plant, I don’t think any other air unit can do that. And crashing migs do a lot of damage as well iirc
+* Yara: Not if you immediately start repairing it after the first shot. I think Migs should be beefed up tbh. They have on paper more firepower, but it takes too long to "drop" it all. Yaks are better as they can use their entire firepower immediately and disappear before the enemy can react.
+* Orb - 2026-08-29: I did suggest to change migs to have shorter range but a stronger payload
+* mo: Yaks are for buildings and infantry, Migs are for heavy vehicles. Each have their utility. But the problem with Migs is they’re hyper specific. So their only use comes out in high tech low eco games where every unit matters. But you won’t see this type of game in 1v1 and with the types of maps we have on the roster.
+* bete: [shorter range but a stronger payload] means more cheesy unit b/c it can snipe faster as surprise, less time to react. And less useful if opponent make AA gun. Shouldn;t it be opposite? Make it more tanky but weaker weapon so you need to micro to get damage.
+* Orb: no, the main problem is Migs are too micro heavy. And they're OP if micro'd. You can not make them any stronger without making them broken
+* Kalion: isnt that kinda the point for most tech units
+* Orb: Hm, not really, at least in RA. At the very least there's no counterplay for Migs
+* tux: I think the issue is yaks are too strong. But its kinda fun and also effective usage kinda takes skill. So id be hesitant to nerf
+* Kalion - 2026-08-30: lwk should just buff t3 aircraft dmg to buildings. doesnt make sense that t2 aircraft is better at destroying buldings than t3 air
+
 ## 5.5.0
 ##### Parabombs reverted to vanilla, cooldown 4min (down from 5min), badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
 Efforts to have three badgers while not being broken or just unfun were
@@ -12,6 +31,9 @@ useable away from the edges while making them less broken there.
 To match parabombs.
 ##### Tank drop badger speed 260 (up from 180), cordon 14c0 (up from 5c0)
 To match parabombs.
+* Cecile - 2026-07-26: I mean 2lt drop is nothing. 2lts can't deal that much damage can it?
+* tux: Not rly. Its free units tho. They can defo kill a harv if ur not paying attention
+* xaxl: I like the light tank drop.
 ##### Phase Transport burst 3 (up from 2), damage 4286 (down from 5000), damage vs light 45 (down from 50), reload delay 145 (down from 160), missile speed 388 (up from 248), missile turn rate 62 (up from 57)
 The intention was to make them viable harrass units, but they just had way
 too little DPS to kill anything.
@@ -23,10 +45,10 @@ were because it was pretty much impossible to hit migs with them before.
 ##### Tesla Tank damage vs heavy 120 (up from 100), vision under Gap Generator 4c0 (down from 5c0)
 They were way overnerfed; now they 5-shot harvesters. The Gap Generator
 vision change is to make it consistent with other vehicles.
+* Orb - 2026-07-31: I'd like the tesla tank heavy attack back but reduce their maneuverability, so they can harass better
 
 ## Discussion preceding 5.5
 ##### Demo Trucks
-
 * Orb - 2026-07-20: [Demos] kept getting nerfed instead of a rework or something. Nerfed until they're no longer built and therefore not a balance problem anymore!
 * tux: they seem fairly balanced now. theyre still built for sure. but usually only when you are behind
 * Orb: I just remember demo's being more exciting/fun, I guess. I never thought they were OP, but the nerfs happened when I stopped playing. Though I think at one point people were just rallying them across the map and making it work so maybe it was justified. actually I wonder if it could work if we removed them hitting air. 1500 dollar air unit for a 2k vehicle? [blackhawk]
@@ -34,8 +56,25 @@ vision change is to make it consistent with other vehicles.
 * anjew: A stat for the percentage of games with Ukraine a demo is built would be interesting. I really don’t think it’s significant. Especially considering a bad one could be exponential worse for whoever builds it
 
 ##### Phase Transports
-
 * Amelza - 2026-07-23: it feels like some units that fit a very specific role (I'm thinking about the ranger & phase transport) are being modified to fit a more generic role: they now have ok HP, ok damage, ok speed, etc... On the other hand, what makes them special (cost, speed, vision radius, cloak) gets less and less relevant. thus here's a suggestion: phase transport: price to 850 (down to 1000), stats back to normal. now blocking refineries or just getting some vision is more affordable, there would be less pressure to find value out of it
+* Orb: You can chrono phase transports. For crushing, it seems really strong
+* Amelza - 2026-07-24: But [ranger is] such a specific support unit, as well as the phase transport, that using it offensively feels wrong
+* tux: Ah yes phase transport. Whose only use is transporting tanya. Idk that feels so lame honestly
+* sir: and blockinf refs
+
+##### Ranger
+* tux - 2026-07-24: Rangers used to be really strong fwiw. They got over-nerfed both by us and engine changes. I slightly mitigated that by reducing rifle light dmg
+* Amelza: They should lose to 5 rifles no? It’s not a flak truck that pokes indefinitely, it’s a fast unit that snipes rockets and engies
+* tux: It didn't use to lose to 5 rifles. You only say that because in bi4.6 they did
+
+##### Chronotanks
+* sir - 2026-07-24: fwiw i think chronotanks should still crush inf
+* Amelza: It’s not as if they were dominant rn
+* tux: It was pretty fun but they can't be anti-everything
+* Amelza: Well, they could be weak to air who knows
+* Cecile: They're still not omega strong against air. Allies can use mrj and soviet yaks can kill
+* tux: I still want to nerf the AA a bit
+* Orb: tbh I'm not a huge fan of the new mobile AA units tbh, but maybe I need to play with them more. But when chronos were used against me I was like...what do I even do to counter this
 
 ## 5.4.0
 ##### Russian Tesla Coil burst 4 (down from 5), damage 7500 (up from 6000)
@@ -44,6 +83,10 @@ multi-pronging hit-and-run action. France is already the turtle faction with
 the French Turret and fake building spam; thus the further nerfs here.
 ##### Viewport limit 38c0 (down from 40c0)
 40c0 just looks normal...
+* Amelza - 2026-07-24: The work on viewport is nice tho
+* sir - 2026-07-29: i dont like this. i thought when people were talking about viewport it would be to make smaller screens be able to zoom out. not the other way around
+* Medium Tank: grain of salt, I haven’t played on playtest yet. I think limiting viewport from what it is now is bad. It  allows the player to process more information and that alone separates skill sets. Newer players won’t be able to handle that or will struggle. I’ll try to play a game soon and give a better opinion tho.
+* Mo: I actually found limiting viewport makes radar dome even more important because that allows you to navigate more easily over larger distances to see things happening too
 
 ## 5.3.0
 ##### Parabomb fall speed 35 (down from 50), spread 648 (down from 1000)
@@ -132,6 +175,8 @@ and naval units, so they may be added back for those in the future.
 Tesla Tanks and especially Chrono Tanks have been made nearly useless against
 infantry; this should be helpful in making them slightly less vulnerable.
 This also buffs rangers and flak trucks.
+* tux - 2026-07-26: Do you know what one of the biggest chamges seems to be? Imo, rifle light 40->30
+* Orb: I think this is the best change, as well
 ##### Technician light damage 30 (down from 40)
 Technical detail.
 ##### Supply Truck can carry 10 passengers, speed 90 (down from 113)

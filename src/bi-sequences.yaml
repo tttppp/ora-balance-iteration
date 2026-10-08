@@ -3,6 +3,23 @@ pips:
 		Filename: pip-skull.shp
 		Offset: -2, 0
 
+flags:
+	flag-eng:
+		Filename: bi-flag-eng.shp
+		Offset: 2, 2
+	flag-fra:
+		Filename: bi-flag-fra.shp
+		Offset: -2, 6
+	flag-ger:
+		Filename: bi-flag-ger.shp
+		Offset: 2, 2
+	flag-rus:
+		Filename: bi-flag-rus.shp
+		Offset: -2, 6
+	flag-ukr:
+		Filename: bi-flag-ukr.shp
+		Offset: -2, 6
+
 icon:
 	gpsactive:
 		Filename: gpssactiveicon.shp
