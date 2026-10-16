@@ -8,6 +8,90 @@ along with comments from players to back it up.
 The change did not net any positive results during testing.
 ##### Assault move restored for Chrono Tank and Phase Transport
 This was unintentionally removed as a bug previously; it has now been restored.
+##### Viewport limit 39c0 (up from 38c0) - 5.7.0R
+There have been some rather large maps in the RAGL map contest, and on average
+it seems that the RAEL map pool had smaller maps on average.
+* Unano - 2026-10-20: got to say, this camera zoom is really nice
+
+## Reaction to 5.6
+##### Rangers
+* sir - 2026-10-12: from one game ive played rangers are too good
+* tux: I mean they are good early game in mass. But a ranger ball will die to any blobs im midgame
+* moods - 2026-10-15: a 3-5 ranger opener tho cud be deadly. U pick off all those early rifles and few rockets
+* Fazzz: Yo, i dunno, even 3-5 would prob be overkill, youre gonna fall behind in harv/tanks so unless you get insane value doesnt seem worth to me. I guess getting 2, and going on rocket snipes with them being abit tankier could be cool.
+##### Mechanics
+* Tailix - 2026-10-14: Mechanics can't recover husks.
+* sir - 2026-10-15: I gotta say, I dont like that mechanics dont recover husks anymore
+* .won: yeah, again removing something that is fun
+* tux: U can go germany for that
+* sir: also mechanics played a big role in being able to stop tier 3 soviets. being able to recover mammoths
+* tux: the current state is they cost $500 and most ppl dont build em except to recover husks
+* despro: cnt believe sir tried to argue mechanics were the way allies dealt with sov t3. theres like one or two players who do that every 10th game
+* .won: I don’t recover husks often I think mech have better value at repairing. But an mcv recover is valuable for sure
+##### Spies
+* Tailix - 2026-10-14: Spys don't gain vet for infiltrations. British spy cost 500. (its absiclly a spy).
+* tux - 2026-10-15: only british spies can get vet. That change was actually from a couple balance patches back
+* sir: i dont see any other reason to make a spy [other than vet]. except for tanya
+* tux: I agree though [that removing the spy change would be good]
+##### Flamers
+* Tailix - 2026-10-14: No flamers for russia.
+##### Supply Truck
+* Tailix - 2026-10-14: Supply truck drops crate, not needed for 1v1. Supply truck descrition dosent sat 10 passanagers.
+* sir - 2026-10-15: what does making 10 people fit into a supply truck accomplish?
+* tux: Nothing. I just never removed it
+* sir: please remove it. if allies want a transport they have the air thing
+* tttppp: I'm not opposed to removing the supply truck change
+##### Flag decals
+* Tailix - 2026-10-14: Faction unit/towers need new art to distingish from normal
+##### Shockies
+* Tailix - 2026-10-14: Shockies on T2?
+* .won: why on earth would there be shockies t2
+* Moods: That sounds utterly broken. Even if there nerfed. If they still oneshot inf, they would need a range nerf.. then they might become to shitty
+* Amelza: Armor damage is terrible though, but I guess they replace 3-4 rifles, if not more. I agree it is dubious
+* Dark: shockies were the things me and tux discussed the most. u dont need to make up hypotheticals, we already played with these. shockie spam was not very good, but there were some other builds that seemed strong to me. and rushing shockies were overall very bad in most of the games
+* tux: They do [one shot inf]. But averagre rate of fire is reduced. I gave them burst of 2 but slightly more than double reload time. So spamming them really, really sucks
+* sir: going back to the shockies discussion, I played one game with them. they were really good. I had already a tier 1.5 army, made like 10-15 of them. they shredded. once the armor got popped, the infantry doesnt stand a chance
+* tux: I mean, if they dont have tanks, their army is likely toast anyway though? I guess it might be quite snowbally though
+* sir: i mean like the first 2 tanks that are in front. by the time the other tanks get in front its too late
+* tux: Bad positioning will get u killed ig. But yeah maybe the 2x burst was a bit overtuned
+* MegaTank - 2026-10-15: a bit more feedback on the balance I watched fiveaces cast of Tux vs Orb and liked the gameplay of seeing Tesla Tanks & shockies used in a 1v1
+##### Tank drop
+* Moods - 2026-10-15: Think about it its almost like a parabomb lol.. you know your about to  get in an engagement, you send the tank drop on a vector where the badger will fly and tank some rocket shots.. while dropping 2 tanks?
+* tux: Its only 2 LT, enough to harass a harv if you arent paying attention
+* Moods: Ohh thought it mt. Still tho something to consider.. still very good
+##### Gap Generator and Mobile Gap Generator
+* sir - 2026-10-15: has there been any gameplay with [GG slow down]?
+* tux: Yes. Although mostly from me
+* .won: sounds utterly awful
+* Unano: Oh wow: Mobile Gap Generator cost 900 (down from 1000), slows enemy units in shroud to 55%. Dude that so OP. I'm maining england for ragl
+##### Mammoth
+* .won - 2026-10-15: Mammoth speed up, wtf
+* sir: the mammoth speed increase feels strong
+* tux: Holy fuck you are an idiot. That has been there for years. Including bi4.4 on tg maps
+##### Chronosphere
+* sir - 2026-10-15: I like the chronosphere change though. german chorno for everyone. it actually makes it useful for other allied factions
+* .won: i dont love that but its whatever
+* Upps: advanced Chrono for Allies! I always wanted that!
+##### Parabombs
+* tux - 2026-10-15: Exactly the same as past ragl but badger is a bit faster. But takes a bit longer to come in
+* sir: so not much of a change then?
+* .won: but cooldown is less. dont love that
+* tux: Yeah might have to nerf that back
+##### Chronotanks
+* .won - 2026-10-15: also c tnaks dont crush is lame
+* Upps: Chrono tank AA is probably something which will brake the game. Chrono tank dont attack buildings when control attack move throw bases (probably has something to do with the rocket maybe the same for phase transport?
+##### Viewport Limit
+* sir - 2026-10-15: is the viewport size gonna the one that on the ladder maps currently? cant zoom out a bit more ?
+* Dark: imo a good argument for doing this is that to me it seems the map at least in the contest on average are pretty big compared to the ones it was tested at in rael
+##### Tesla Tank
+* sir - 2026-10-15: and tesla tanks got their turret shot back?
+* tux: I buffed their zapping attack generally but removed crushing
+##### Phase Tank
+* Unano - 2026-10-15: Oh crap the stank changes are pretty epic
+##### Silo
+* Upps - 2026-10-15: Silos provide build radius idk about that, its kinda cool but it also messes with maps around like they never were planed to play to, I loved to create maps with some MCV movement earlie on.
+##### Turret
+* Upps - 2026-10-15: it is fatal to leave france without a turret until T2!
 
 ## 5.6.0
 ##### Country flags added
