@@ -1,33 +1,32 @@
 World:
 	MapOptions:
-		TechLevelDropdownLocked: true
 		TechLevel: unrestricted
 		ShortGameCheckboxEnabled: true
-		ShortGameCheckboxLocked: true
-		GameSpeedDropdownLocked: true
 		GameSpeed: default
 	CrateSpawner:
 		CheckboxEnabled: false
-		CheckboxLocked: true
 	MapBuildRadius:
 		AllyBuildRadiusCheckboxEnabled: true
-		AllyBuildRadiusCheckboxLocked: true
 		BuildRadiusCheckboxEnabled: true
-		BuildRadiusCheckboxLocked: true
 	SpawnStartingUnits:
-		DropdownLocked: true
 		StartingUnitsClass: none
 	MapStartingLocations:
 		SeparateTeamSpawnsCheckboxEnabled: false
-		SeparateTeamSpawnsCheckboxLocked: true
 	TimeLimitManager:
-		TimeLimitLocked: True
+	Faction@england:
+		Description: faction-england-override.description
+	Faction@france:
+		Description: faction-france-override.description
+	Faction@germany:
+		Description: faction-germany-override.description
+	Faction@russia:
+		Description: faction-russia-override.description
+	Faction@ukraine:
+		Description: faction-ukraine-override.description
 
 Player:
 	Shroud:
 		ExploredMapCheckboxEnabled: true
-		ExploredMapCheckboxLocked: true
-		FogCheckboxLocked: true
 		FogCheckboxEnabled: true
 	LobbyPrerequisiteCheckbox@GLOBALBOUNTY:
 		Enabled: true
@@ -41,4 +40,3 @@ Player:
 	PlayerResources:
 		SelectableCash: 2500, 5000, 7500, 10000
 		DefaultCash: 5000
-		DefaultCashDropdownLocked: true
