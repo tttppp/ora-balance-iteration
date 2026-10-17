@@ -120,7 +120,6 @@ briefing =
         • Technician light damage 30 (down from 40)
         • Silo has build radius
         • Dog is not slowed by Gap Generator/Mobile Gap Generator
-        • Supply Truck can carry 10 passengers, speed 90 (down from 113)
         • Light Tank leaves husk
         • Mechanic cost 250 (down from 500), health 6000 (down from 8000), can no longer capture husks
         • Camo pillbox built only by England, replaces Pillbox, cost 600 (down from 750)
