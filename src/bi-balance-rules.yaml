@@ -651,21 +651,8 @@ SILO:
 	GivesBuildableArea:
 		AreaTypes: building, fake
 
-TRUK:
-	Inherits@CARGOPIPS: ^CargoPips
-	Inherits@selection: ^SelectableCombatUnit
-	Health:
-		HP: 17000
-	Cargo:
-		Types: Infantry
-		MaxWeight: 10
-		LoadingCondition: notmobile
-	Mobile:
-		Speed: 90
-		PauseOnCondition: notmobile || being-captured
-
 CTNK:
-	Inherits@AUTOTARGET: ^AutoTargetAll
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
 	Mobile:
 		Locomotor: wheeled
 		TurnSpeed: 30
@@ -674,7 +661,7 @@ CTNK:
 		MaxDistance: 14
 
 STNK:
-	Inherits@AUTOTARGET: ^AutoTargetAll
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
 
 QTNK:
 	Valued:

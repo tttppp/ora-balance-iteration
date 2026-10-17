@@ -3,6 +3,12 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
+## 5.7.0
+##### Supply truck reverted to vanilla
+The change did not net any positive results during testing.
+##### Assault move restored for Chrono Tank and Phase Transport
+This was unintentionally removed as a bug previously; it has now been restored.
+
 ## 5.6.0
 ##### Country flags added
 To distinguish between normal and special variants of units.
