@@ -3,6 +3,11 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
+## 5.7.0R
+##### Viewport limit 39c0 (up from 38c0)
+There have been some rather large maps in the RAGL map contest, and on average
+it seems that the RAEL map pool had smaller maps on average.
+
 ## 5.7.0
 ##### Supply truck reverted to vanilla
 The change did not net any positive results during testing.

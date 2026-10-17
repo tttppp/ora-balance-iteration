@@ -27,7 +27,7 @@ Player:
 
 World:
 	MapOptions:
-		ViewportHeight: 38c0
+		ViewportHeight: 39c0
 		TechLevelDropdownLocked: true
 		ShortGameCheckboxLocked: true
 		GameSpeedDropdownLocked: true
