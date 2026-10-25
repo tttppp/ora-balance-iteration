@@ -3,6 +3,10 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
+## 5.8.0
+##### Flamers no longer require a conyard to be deployed
+Fix a bug where flamers relied on a Ukrainian conyard being deployed.
+
 ## 5.7.0
 ##### Supply truck reverted to vanilla
 The change did not net any positive results during testing.
