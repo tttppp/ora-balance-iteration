@@ -35,6 +35,9 @@
 		Range: 4c0
 
 ^GainsExperience:
+	GainsExperience:
+		Conditions:
+			-1600:
 	GrantCondition@RANK-ELITE:
 		RequiresCondition: rank-veteran >= 3
 	DamageMultiplier@RANK-1:
@@ -51,7 +54,10 @@
 	-FirepowerMultiplier@RANK-3:
 	FirepowerMultiplier@RANK-ELITE:
 		Modifier: 120
+	-SpeedMultiplier@RANK-1:
+	-SpeedMultiplier@RANK-2:
 	-SpeedMultiplier@RANK-3:
+	-SpeedMultiplier@RANK-ELITE:
 	-ReloadDelayMultiplier@RANK-1:
 	-ReloadDelayMultiplier@RANK-2:
 	-ReloadDelayMultiplier@RANK-3:
@@ -132,6 +138,7 @@ GAP:
 		Range: 6c0
 		Condition: mgg-slowed
 		ValidRelationships: Enemy
+		RequiresCondition: !disabled
 
 MIG:
 	Health:
