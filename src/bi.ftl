@@ -85,7 +85,7 @@ briefing =
     ••• RAGL Season 18 •••
     - Credits for various things: The Combined Arms Mod, Blackened, FRenzy, Orb, Pinkthoth, Punsho, TTTPPP, Tux, Widow and probably many others
 
-    - Custom BI 5.7.0R balance:
+    - Custom BI 5.8.0R balance:
       • General changes
         • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
         • RAGL viewport 39c0 height
