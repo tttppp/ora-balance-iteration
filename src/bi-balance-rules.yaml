@@ -697,7 +697,7 @@ QTNK:
 
 E4:
 	Buildable:
-		Prerequisites: ~structures.ukraine, ~barr, ftur, ~techlevel.low
+		Prerequisites: ~infantry.ukraine, ~barr, ftur, ~techlevel.low
 	Valued:
 		Cost: 250
 	Health:
