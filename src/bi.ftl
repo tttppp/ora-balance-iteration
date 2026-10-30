@@ -85,12 +85,12 @@ briefing =
     ••• RAGL Season 18 •••
     - Credits for various things: The Combined Arms Mod, Blackened, FRenzy, Orb, Pinkthoth, Punsho, TTTPPP, Tux, Widow and probably many others
 
-    - Custom BI 5.8.0R balance:
+    - Custom BI 5.9.0R balance:
       • General changes
         • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
         • RAGL viewport 39c0 height
         • RAGL queue limits 5 structures, 5 defences, 100 infantry, 20 vehicles, 20 navy, 20 ships
-        • Veterancy is now a 3-tier system with no speed bonuses
+        • Veterancy is now a 3-tier system with no speed bonuses for infantry
         • Harvester scanning radius 9c0 from ref (down from 15c0 from ref)
 
       • BI-4 Naval Balance:
@@ -149,7 +149,7 @@ briefing =
         • GPS no longer permanent, recharge time 3min (down from 8min), can be activiated for 1min, has globally-visibile timer only when used
         • Longbow anti-ground reload delay 28 (down from 30)
         • Mobile Gap Generator cost 900 (down from 1000), slows enemy units in shroud to 55%
-        • Phase Transport can target air, burst 3 with delay 15 (up from 1), damage 4286 (down from 5000), light damage 45 (up from 34), reload delay 160 (from 100), missile speed 388 (up from 298), missile turn rate 62 (up from 40)
+        • Phase Transport can target air, burst 3 with delay 10 (up from 1), damage 4286 (down from 5000), light damage 45 (up from 34), reload delay 145 (from 100), missile speed 388 (up from 298), missile turn rate 62 (up from 40)
         • Chrono Tank can target air, turn speed 30 (up from 20), chronoshift cooldown 180 (down from 240), chronoshift range 14 (up from 12), damage 4286 (down from 5000), light damage 45 (up from 34), reload delay 50 (down from 60), missile speed 388 (up from 298), missile turn rate 62 (up from 40), cannot crush infantry
         • Mammoth speed 50 (up from 43)
         • MAD Tank can be undeployed and redeployed, cost 1750 (down from 2000), speed 56 (up from 46), damage 4000 (none: 0, wood: 25) (instead of percentage), prones infantry in range, range 9c0 (up from 7c0)

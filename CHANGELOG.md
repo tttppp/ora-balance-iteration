@@ -3,6 +3,12 @@
 The rationale behind the changes in each release is given in this file,
 along with comments from players to back it up.
 
+## 5.9.0
+##### Gap Generators no longer slow units when unpowered
+Fix a bug where gap generators slowed units regardless of power.
+##### Veterancy speed bonus was documented incorrectly
+Infantry don't get speed bonus, everything else gets vanilla (105, 110, 140 at the three veterancies).
+
 ## 5.8.0
 ##### Flamers no longer require a conyard to be deployed
 Fix a bug where flamers relied on a Ukrainian conyard being deployed.
