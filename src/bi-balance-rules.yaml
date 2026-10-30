@@ -54,10 +54,7 @@
 	-FirepowerMultiplier@RANK-3:
 	FirepowerMultiplier@RANK-ELITE:
 		Modifier: 120
-	-SpeedMultiplier@RANK-1:
-	-SpeedMultiplier@RANK-2:
 	-SpeedMultiplier@RANK-3:
-	-SpeedMultiplier@RANK-ELITE:
 	-ReloadDelayMultiplier@RANK-1:
 	-ReloadDelayMultiplier@RANK-2:
 	-ReloadDelayMultiplier@RANK-3:

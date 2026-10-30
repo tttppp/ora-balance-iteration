@@ -88,7 +88,7 @@ briefing =
     - Custom BI 5.8.0 balance:
       • General changes
         • ERCC refinery 2.1, BCC rax 1.1, ACC airfield 1.0
-        • Veterancy is now a 3-tier system with no speed bonuses
+        • Veterancy is now a 3-tier system with no speed bonuses for infantry
         • Harvester scanning radius 9c0 from ref (down from 15c0 from ref)
 
       • BI-4 Naval Balance:
